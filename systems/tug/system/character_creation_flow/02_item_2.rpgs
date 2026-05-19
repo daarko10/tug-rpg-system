@@ -1,0 +1,113 @@
+import "../macros/system_common.rpgs";
+
+character_creation_page edit_starter_pack_title() =
+  characterCreationPage(
+    title = displayableData(id = "edit_starter_pack_title", name = "Starter Pack"),
+    view = list(
+      id = "edit_starter_pack",
+      padding = 32,
+      subviews = [
+        text(
+          id = "edit_sp_subheader",
+          text = "Starter Pack — Choose 4 options total",
+          style = "subhead",
+        ),
+        composite(
+          id = "edit_sp_remaining_comp",
+          margin_bottom = 8,
+          subviews = [
+            text(
+              id = "edit_sp_remaining_label",
+              text = "Selections remaining: ",
+              style = "text",
+              bold = true,
+            ),
+            text(
+              id = "edit_sp_remaining_value",
+              text = concat(["", sp_remaining_selections]),
+              style = "text",
+              bold = true,
+            ),
+          ],
+        ),
+        section(
+          id = "edit_sp_section",
+          header = [],
+          show_divider = false,
+          content_item_min_width = 1,
+          collapsible = false,
+          content = [
+            stat(
+              id = "edit_sp_skill",
+              stat = "sp_skill_proficiency_count",
+              override_label = "+1 Skill Proficiency (max 2)",
+              style = "list",
+              min_value_allowed = 0,
+              max_value_allowed = 2,
+            ),
+            stat(
+              id = "edit_sp_tool",
+              stat = "sp_tool_proficiency_count",
+              override_label = "+1 Tool/Kit Proficiency (max 2)",
+              style = "list",
+              min_value_allowed = 0,
+              max_value_allowed = 2,
+            ),
+            stat(
+              id = "edit_sp_instrument",
+              stat = "sp_instrument_count",
+              override_label = "+2 Instrument & Game Proficiencies",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+            stat(
+              id = "edit_sp_vehicle",
+              stat = "sp_vehicle_count",
+              override_label = "+1 Vehicle Proficiency",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+            stat(
+              id = "edit_sp_language",
+              stat = "sp_language_count",
+              override_label = "+1 Extra Language",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+            stat(
+              id = "edit_sp_kit",
+              stat = "sp_kit_count",
+              override_label = "+2 Kits",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+            stat(
+              id = "edit_sp_tool_set",
+              stat = "sp_tool_set_count",
+              override_label = "+2 Sets of Tools",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+            stat(
+              id = "edit_sp_gold",
+              stat = "sp_gold_count",
+              override_label = "+50 Gold Pieces",
+              style = "list",
+              min_value_allowed = 0,
+            ),
+          ],
+        ),
+      ],
+    ),
+    post_edit = sequence(
+      effects = [
+        when {
+          sp_gold_count > 0 -> addToStat(
+            stat = "gold_pieces",
+            value = sp_gold_count * 50,
+            aggregation_type = "set",
+          ),
+        },
+      ],
+    ),
+  );

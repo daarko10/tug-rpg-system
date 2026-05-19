@@ -1,0 +1,21 @@
+{
+  "resource_id": "pact_entry",
+  "stats": {
+    "id": "2eed11c8-3369-470e-b482-7ed09a8b7115",
+    "pact_id": {
+      "value": "limitless"
+    },
+    "pact_name": {
+      "value": "Limitless"
+    },
+    "chosen_score": {
+      "value": ""
+    },
+    "primordial_damage_type": {
+      "value": ""
+    },
+    "name": {
+      "value": "Limitless"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "37caca09-63a1-4a0a-9109-d37438ca3a83",
+    "name": {
+      "value": "Perfect Ratio"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "physical_augmentation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        "Black Flash"
+      ]
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "Gain advantage on your next attack."
+    },
+    "con_description": {
+      "value": "Must spend a hit dice to do so."
+    }
+  }
+}

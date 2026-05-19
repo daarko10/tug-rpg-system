@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Sanguine Strings" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "blood_manipulation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "When reduced to 0 HP: choose to fail a death save and take one action that turn." },
+    "con_description": { "value": "Failed saves from this ability persist until a short or long rest." },
+    "id": "ed5d5443-ca30-4535-b395-41c9d80c833c"
+  }
+}

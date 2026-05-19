@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "9055924e-f3fb-426a-92e5-109380a9c2d6",
+    "name": {
+      "value": "Physical"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "While your domain is active, any time you make an attack roll you can add 1 to the result for every point spent in this node. Additionally, the number you need to roll to get a critical hit is reduced by one, for every point spent in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

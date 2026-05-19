@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "f6fc68d1-e845-4178-9296-e61af2541e6d",
+    "name": {
+      "value": "Malevolent Shrine"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "If you make an attack roll while your domain is active, you can target 2 other targets within your domain with that same attack roll. The number of creatures that you can target with this ability increases by 2 for every point invested in this node. Additionally, you can increase the result of attack rolls made with this ability by 1 for every point invested in this node. If you invest 5 points into this node, you instead target every creature of your choosing within this domain with your attack, whenever you make an attack roll."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

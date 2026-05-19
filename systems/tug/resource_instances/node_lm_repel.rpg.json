@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Repel (Red)" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "limitless" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Action: All creatures/objects within 15ft of a visible point are pushed 25ft from center, taking 2×PB d10 force damage. Not considered blind just before using." },
+    "con_description": { "value": "After use: INT save DC 12. Fail = INT -2 and gain 1 temporary madness. INT 0 = death. Returns after Long Rest." },
+    "id": "726048c9-eaad-4d9d-a992-a5f710bbb719"
+  }
+}

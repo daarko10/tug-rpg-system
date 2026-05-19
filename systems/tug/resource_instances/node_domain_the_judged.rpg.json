@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "The Judged" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: +10 to skill checks proving guilt. Pull only 1 creature. No damage while domain active except via Domain abilities. Each turn: skill check reduces target HP. Target defends each turn. After 3 rounds: if HP < 50%, target can only simple melee attack until Long Rest." },
+    "con_description": { "value": "" },
+    "id": "77452213-ccc8-412f-81f8-97e03a73766e"
+  }
+}

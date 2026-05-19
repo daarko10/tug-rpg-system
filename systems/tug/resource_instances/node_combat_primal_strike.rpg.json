@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Primal Strike" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Unleash a powerful raw strike." },
+    "con_description": { "value": "" },
+    "id": "4399ae2f-b32d-492c-8d05-493bc3ffafae"
+  }
+}

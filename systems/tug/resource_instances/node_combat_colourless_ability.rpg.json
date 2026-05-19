@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Colourless Ability" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Central combat hub ability. Access your cursed energy to fuel combat techniques." },
+    "con_description": { "value": "Using this ability deals 5 damage to yourself." },
+    "id": "27b4a1c6-6d3e-4141-bcdf-7cb9f827c2d7"
+  }
+}

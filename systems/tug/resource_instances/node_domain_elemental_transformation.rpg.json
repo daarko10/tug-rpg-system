@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Elemental Transformation" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point while domain active: +10 temp HP, +10ft flying speed, +1 size stage, +1 additional damage die on melee, +5 elemental damage. Choose damage type: gain immunity and immune to non-magical attacks." },
+    "con_description": { "value": "" },
+    "id": "37412607-fb39-4db0-b02d-8082178c5785"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Esper" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Gain a psychic or mental ability." },
+    "con_description": { "value": "" },
+    "id": "58d72e8e-af25-4eb5-ae71-d9c95f91a52b"
+  }
+}

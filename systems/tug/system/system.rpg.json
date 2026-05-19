@@ -1,0 +1,326 @@
+{
+  "id": "tug",
+  "name": "TUG — The Ugly Goblin",
+  "abbreviation": "TUG",
+  "version": "0.1.0",
+  "min_app_version": "1.2.0",
+  "character_indexed_stats": [
+    "name",
+    "created_at_display",
+    "description"
+  ],
+  "progression_systems": {
+    "experience_levelling_system": {
+      "level_up_view_title": {
+        "type": "concat",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "constant",
+              "value": "Level Up to ",
+              "value_type": "string"
+            },
+            {
+              "type": "add",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "level"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 1,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "level_up_button_text": "Level Up",
+      "level_up_icon": "ic_progression",
+      "level_up_icon_color": "#FFB300",
+      "level_up_view": {
+        "id": "level_up",
+        "type": "list",
+        "padding": 16,
+        "subviews": [
+          {
+            "id": "level_up_pp_label",
+            "type": "text",
+            "text": {
+              "type": "constant",
+              "value": "You gain 1 Pact Point to spend in any skill tree.",
+              "value_type": "string"
+            },
+            "style": "subhead",
+            "margin_bottom": 8
+          },
+          {
+            "id": "level_up_pp_total_comp",
+            "type": "composite",
+            "subviews": [
+              {
+                "id": "level_up_pp_total_label",
+                "type": "text",
+                "text": {
+                  "type": "constant",
+                  "value": "Pact Points after level up: ",
+                  "value_type": "string"
+                },
+                "style": "text"
+              },
+              {
+                "id": "level_up_pp_total_value",
+                "type": "text",
+                "text": {
+                  "type": "add",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "pact_points_total"
+                      },
+                      {
+                        "type": "constant",
+                        "value": 1,
+                        "value_type": "integer"
+                      }
+                    ]
+                  }
+                },
+                "style": "text",
+                "bold": true
+              }
+            ]
+          },
+          {
+            "id": "level_up_pp_available_comp",
+            "type": "composite",
+            "subviews": [
+              {
+                "id": "level_up_pp_available_label",
+                "type": "text",
+                "text": {
+                  "type": "constant",
+                  "value": "Available Pact Points: ",
+                  "value_type": "string"
+                },
+                "style": "text"
+              },
+              {
+                "id": "level_up_pp_available_value",
+                "type": "text",
+                "text": {
+                  "type": "add",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "pact_points_available"
+                      },
+                      {
+                        "type": "constant",
+                        "value": 1,
+                        "value_type": "integer"
+                      }
+                    ]
+                  }
+                },
+                "style": "text",
+                "bold": true
+              }
+            ]
+          }
+        ]
+      },
+      "on_level_up_confirm": {
+        "type": "sequence",
+        "effects": [
+          {
+            "type": "addToStat",
+            "stat": "level",
+            "value": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "addToStat",
+            "stat": "base_hp",
+            "value": {
+              "type": "constant",
+              "value": 5,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "addToStat",
+            "stat": "current_hp",
+            "value": {
+              "type": "constant",
+              "value": 5,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "addToStat",
+            "stat": "max_d8_hit_dice",
+            "value": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "addToStat",
+            "stat": "current_d8_hit_dice",
+            "value": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "showPopUp",
+            "pop_up_view": {
+              "id": "level_up_notice",
+              "type": "list",
+              "padding": 16,
+              "subviews": [
+                {
+                  "id": "level_up_notice_text",
+                  "type": "text",
+                  "text": {
+                    "type": "constant",
+                    "value": "HP +5 (average d8). CON modifier applies automatically. You also gained 1 Pact Point — spend it in your skill trees.",
+                    "value_type": "string"
+                  },
+                  "style": "text"
+                }
+              ]
+            },
+            "pop_up_type": "alert",
+            "pop_up_title": {
+              "type": "constant",
+              "value": "Level Up!",
+              "value_type": "string"
+            },
+            "cancel_text": {
+              "type": "constant",
+              "value": "OK",
+              "value_type": "string"
+            }
+          }
+        ]
+      },
+      "experience_name": "experience",
+      "experience_abbreviation": "exp",
+      "level_stat_name": "level",
+      "milestones_system_name": "Milestones",
+      "tables": [
+        {
+          "id": "default",
+          "name": "Default",
+          "experience_to_level_table": {
+            "-999999999": 1,
+            "0": 1,
+            "300": 2,
+            "900": 3,
+            "2700": 4,
+            "6500": 5,
+            "14000": 6,
+            "23000": 7,
+            "34000": 8,
+            "48000": 9,
+            "64000": 10,
+            "85000": 11,
+            "100000": 12,
+            "120000": 13,
+            "140000": 14,
+            "165000": 15,
+            "195000": 16,
+            "225000": 17,
+            "265000": 18,
+            "305000": 19,
+            "355000": 20
+          }
+        }
+      ]
+    }
+  },
+  "currencies": [
+    {
+      "id": "currencies_platinum_pieces",
+      "name": "Platinum Piece",
+      "plural": "Platinum Pieces",
+      "abbreviation": "PP",
+      "conversion": {
+        "currencies_gold_pieces": 10,
+        "currencies_electrum_pieces": 20,
+        "currencies_silver_pieces": 100,
+        "currencies_copper_pieces": 1000
+      }
+    },
+    {
+      "id": "currencies_gold_pieces",
+      "name": "Gold Piece",
+      "plural": "Gold Pieces",
+      "abbreviation": "GP",
+      "conversion": {
+        "currencies_platinum_pieces": 0.1,
+        "currencies_electrum_pieces": 2,
+        "currencies_silver_pieces": 10,
+        "currencies_copper_pieces": 100
+      }
+    },
+    {
+      "id": "currencies_electrum_pieces",
+      "name": "Electrum Piece",
+      "plural": "Electrum Pieces",
+      "abbreviation": "EP",
+      "conversion": {
+        "currencies_platinum_pieces": 0.05,
+        "currencies_gold_pieces": 0.5,
+        "currencies_silver_pieces": 5,
+        "currencies_copper_pieces": 50
+      }
+    },
+    {
+      "id": "currencies_silver_pieces",
+      "name": "Silver Piece",
+      "plural": "Silver Pieces",
+      "abbreviation": "SP",
+      "conversion": {
+        "currencies_platinum_pieces": 0.01,
+        "currencies_gold_pieces": 0.1,
+        "currencies_electrum_pieces": 0.2,
+        "currencies_copper_pieces": 10
+      }
+    },
+    {
+      "id": "currencies_copper_pieces",
+      "name": "Copper Piece",
+      "plural": "Copper Pieces",
+      "abbreviation": "CP",
+      "conversion": {
+        "currencies_platinum_pieces": 0.001,
+        "currencies_gold_pieces": 0.01,
+        "currencies_electrum_pieces": 0.02,
+        "currencies_silver_pieces": 0.1
+      }
+    }
+  ]
+}

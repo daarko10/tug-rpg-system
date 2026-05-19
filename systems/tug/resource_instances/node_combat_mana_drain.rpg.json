@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Mana Drain" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Drain an enemy's magical resources." },
+    "con_description": { "value": "" },
+    "id": "305d58ce-5007-4c6b-bd09-3023a920f5e6"
+  }
+}

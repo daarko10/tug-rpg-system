@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Gamble" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: max gamble = points × 20, +1 to attack roll of gambled attacks. Before attacking: choose a number (1 to max). Hit: deal that as extra damage. Miss: take that as damage to yourself." },
+    "con_description": { "value": "" },
+    "id": "a1b313df-dd81-4b13-8c85-897da22f3142"
+  }
+}

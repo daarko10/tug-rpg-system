@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Perfect Ratio" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "physical_augmentation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Gain Advantage on your next attack." },
+    "con_description": { "value": "Must spend a hit die to use this ability." },
+    "id": "a5553cce-a2dc-443f-aa94-d4def539404d"
+  }
+}

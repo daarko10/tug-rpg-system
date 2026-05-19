@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "b043aa5e-6a88-419c-aa0a-6aed48d0c684",
+    "name": {
+      "value": "Elemental Blight"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "primordial_pact"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "After dealing Pact Damage to a creature, that creature becomes vulnerable to that damage until the start of their next turn. Any creatures affected by this who have immunity to this damage, are treated as though they only have resistance to it instead."
+    },
+    "con_description": {
+      "value": "If you are dealt damage by either of your Pact's Counterparts, all Pact damage you deal is halved until the end of your next turn."
+    }
+  }
+}

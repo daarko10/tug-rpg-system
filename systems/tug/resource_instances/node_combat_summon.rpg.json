@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Summon" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Summon a creature to fight alongside you." },
+    "con_description": { "value": "" },
+    "id": "a5859df4-315b-49de-9d00-ef94f74de248"
+  }
+}

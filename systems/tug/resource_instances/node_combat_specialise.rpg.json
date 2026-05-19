@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Specialise" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Specialise in a weapon type for bonus effects." },
+    "con_description": { "value": "" },
+    "id": "a58c7867-3b7a-4ea1-af41-dd676317792e"
+  }
+}

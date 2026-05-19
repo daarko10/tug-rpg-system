@@ -1,0 +1,63 @@
+view skill_tree_node_display() =
+  list(
+    id = "skill_tree_node_display",
+    padding = 16,
+    alignment = "start",
+    subviews = [
+      composite(
+        id = "skill_tree_node_display_header",
+        subviews = [
+          text(
+            id = "skill_tree_node_display_name",
+            text = name,
+            style = "title",
+            bold = true,
+          ),
+          text(
+            id = "skill_tree_node_display_cost",
+            text = concat([" — ", pp_cost, " PP"]),
+            style = "text",
+          ),
+        ],
+      ),
+      text(
+        id = "skill_tree_node_display_tree",
+        text = concat(["Tree: ", tree, (if isEmpty(pact) then "" else concat([" / ", pact]))]),
+        style = "caption",
+      ),
+      text(
+        id = "skill_tree_node_display_pro_label",
+        text = "Pro:",
+        style = "text",
+        bold = true,
+        is_visible = !isEmpty(pro_description),
+      ),
+      text(
+        id = "skill_tree_node_display_pro",
+        text = pro_description,
+        style = "text",
+        markdown = true,
+        is_visible = !isEmpty(pro_description),
+      ),
+      text(
+        id = "skill_tree_node_display_con_label",
+        text = "Con:",
+        style = "text",
+        bold = true,
+        is_visible = !isEmpty(con_description),
+      ),
+      text(
+        id = "skill_tree_node_display_con",
+        text = con_description,
+        style = "text",
+        markdown = true,
+        is_visible = !isEmpty(con_description),
+      ),
+      text(
+        id = "skill_tree_node_display_prereqs",
+        text = concat(["Prerequisites: ", joinToString(prerequisites, separator = ", ")]),
+        style = "caption",
+        is_visible = !isEmpty(prerequisites),
+      ),
+    ],
+  );

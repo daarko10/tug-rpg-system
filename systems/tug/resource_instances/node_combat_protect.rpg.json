@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Protect" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain the ability to protect a nearby ally." },
+    "con_description": { "value": "" },
+    "id": "c63d3017-6529-44ab-bb35-91f5047e0b1e"
+  }
+}

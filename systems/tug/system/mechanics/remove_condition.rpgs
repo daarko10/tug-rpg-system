@@ -1,0 +1,18 @@
+mechanic remove_condition(event_names = "remove_condition") =
+  when {
+    $event.condition == "blinded" -> setStat(stat = "blinded", new_value = false, aggregation_type = "set"),
+    $event.condition == "charmed" -> setStat(stat = "charmed", new_value = false, aggregation_type = "set"),
+    $event.condition == "deafened" -> setStat(stat = "deafened", new_value = false, aggregation_type = "set"),
+    $event.condition == "frightened" -> setStat(stat = "frightened", new_value = false, aggregation_type = "set"),
+    $event.condition == "grappled" -> setStat(stat = "grappled", new_value = false, aggregation_type = "set"),
+    $event.condition == "incapacitated" -> setStat(stat = "incapacitated", new_value = false, aggregation_type = "set"),
+    $event.condition == "invisible" -> setStat(stat = "invisible", new_value = false, aggregation_type = "set"),
+    $event.condition == "paralyzed" -> setStat(stat = "paralyzed", new_value = false, aggregation_type = "set"),
+    $event.condition == "petrified" -> setStat(stat = "petrified", new_value = false, aggregation_type = "set"),
+    $event.condition == "poisoned" -> setStat(stat = "poisoned", new_value = false, aggregation_type = "set"),
+    $event.condition == "prone" -> setStat(stat = "prone", new_value = false, aggregation_type = "set"),
+    $event.condition == "restrained" -> setStat(stat = "restrained", new_value = false, aggregation_type = "set"),
+    $event.condition == "stunned" -> setStat(stat = "stunned", new_value = false, aggregation_type = "set"),
+    $event.condition == "unconscious" -> setStat(stat = "unconscious", new_value = false, aggregation_type = "set"),
+    $event.condition == "exhausted" -> setStat(stat = "exhausted", new_value = false, aggregation_type = "set"),
+  };

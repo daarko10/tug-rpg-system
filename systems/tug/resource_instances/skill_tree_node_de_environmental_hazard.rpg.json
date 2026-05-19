@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "554f0667-0402-4ab4-b570-52e3908d565e",
+    "name": {
+      "value": "Environmental Hazard"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "While your domain is active, choose a damage type from the list: fire, cold, lighting, thunder, acid, poison, psychic, radiant or necrotic. At the start of any other creature's turn, they take 5 points of the chosen damage type. This damage increases by 5 for every point invested in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

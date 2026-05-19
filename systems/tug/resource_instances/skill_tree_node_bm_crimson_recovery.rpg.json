@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "7c74cdd5-61d7-4deb-92f0-c27c850046b8",
+    "name": {
+      "value": "Crimson Recovery"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Bonus Action) Regain a Spell Slot based on the cost spent."
+    },
+    "con_description": {
+      "value": "Cost: See 'Level of Spell Slot' column on the Blood Cost Table (5/10/15/20/25 for levels 1-5)."
+    }
+  }
+}

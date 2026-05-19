@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Mental" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: +1 to your Domain DC and +2 to your Concentration Checks during Domain Clashes (unaffected by clash nullification)." },
+    "con_description": { "value": "" },
+    "id": "48b0d783-f8a5-4218-a918-2bf6e7e2e48b"
+  }
+}

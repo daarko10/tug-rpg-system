@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Spell Expertise" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "arcane_affinity" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Double your Proficiency Bonus when calculating spell attack rolls." },
+    "con_description": { "value": "Can no longer add PB to weapon attack rolls." },
+    "id": "e5ed7db7-4ec0-49d8-8637-5022d2024c6e"
+  }
+}

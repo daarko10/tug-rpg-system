@@ -1,0 +1,15 @@
+view skill_tree_node_list() =
+  list(
+    id = "skill_tree_node_list",
+    subviews = [
+      listItem(
+        id = "skill_tree_node_list_data",
+        title = concat([name, " (", pp_cost, " PP)"]),
+        subtitle = concat([
+          (if isEmpty(pro_description) then "" else concat(["+ ", pro_description])),
+          (if !isEmpty(pro_description) && !isEmpty(con_description) then "\n" else ""),
+          (if isEmpty(con_description) then "" else concat(["- ", con_description])),
+        ]),
+      ),
+    ],
+  );

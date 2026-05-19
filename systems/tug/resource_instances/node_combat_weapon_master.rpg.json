@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Weapon Master" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain a weapon mastery bonus." },
+    "con_description": { "value": "" },
+    "id": "95c5d44a-2eec-45a0-b1b9-6b9acc2dec9f"
+  }
+}

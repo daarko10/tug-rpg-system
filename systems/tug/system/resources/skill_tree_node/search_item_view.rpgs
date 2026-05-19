@@ -1,0 +1,11 @@
+view skill_tree_node_search_item() =
+  listItem(
+    id = "skill_tree_node_search_item",
+    title = name,
+    subtitle = concat([
+      (if isEmpty(pact) then tree else concat([tree, " / ", pact])),
+      " — ",
+      pp_cost,
+      " PP",
+    ]),
+  );

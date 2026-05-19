@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Arcane Adaption" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "primordial_pact" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Change the damage type of your spells to your Pact Damage type." },
+    "con_description": { "value": "Cannot cast spells that deal your Counterpart damage types." },
+    "id": "9b58ad74-c5c9-4e3b-aec2-c1962f04cfd2"
+  }
+}

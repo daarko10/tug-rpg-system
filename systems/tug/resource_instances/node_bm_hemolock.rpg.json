@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Hemolock" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "blood_manipulation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "After rolling to attack but before knowing the result: spend max HP to increase the attack roll total." },
+    "con_description": { "value": "Cost per Attack Bonus Table (5 HP per +1)." },
+    "id": "ef435604-1852-4557-aabb-396c14e6f200"
+  }
+}

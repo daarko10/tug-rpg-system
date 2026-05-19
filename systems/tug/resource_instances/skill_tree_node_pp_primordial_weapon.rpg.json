@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "1d589c15-f904-48df-833a-9f5c3e4100f9",
+    "name": {
+      "value": "Primordial Weapon"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "primordial_pact"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Bonus Action) You manifest a weapon made of pure energy, made up of your Pact's Element. This weapon can take the shape of any ranged or melee weapon of your choice, and you can dismiss it as a free action. This weapon only deals Pact Damage. At 5th level or higher it is treated as a +1 weapon, at 10th level a +2 weapon, and at 15th level a +3 weapon."
+    },
+    "con_description": {
+      "value": "The more powerful this weapon grows, the more unstable and unwieldy it becomes. When you deal damage with this weapon, you take 5 Pact damage per level of enchantment the weapon holds."
+    }
+  }
+}

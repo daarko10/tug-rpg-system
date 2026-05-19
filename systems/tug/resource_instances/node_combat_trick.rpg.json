@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Trick" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain a combat trick or manoeuvre." },
+    "con_description": { "value": "" },
+    "id": "cff909c2-3baf-4b1b-9519-10b7f7c00cff"
+  }
+}

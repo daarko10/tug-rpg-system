@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Elemental Infusion" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "primordial_pact" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Free Action toggle: Weapon attacks deal additional Pact Damage equal to your level." },
+    "con_description": { "value": "You also take that additional damage each time you deal it." },
+    "id": "64417583-8333-4a48-9005-279b8224f081"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resource_id": "pact_entry",
+  "stats": {
+    "id": "50da6946-389f-43d2-a642-a4c850828ff8",
+    "pact_id": {
+      "value": "primordial_pact"
+    },
+    "pact_name": {
+      "value": "Primordial Pact"
+    },
+    "chosen_score": {
+      "value": ""
+    },
+    "primordial_damage_type": {
+      "value": "fire"
+    },
+    "name": {
+      "value": "Primordial Pact"
+    }
+  }
+}

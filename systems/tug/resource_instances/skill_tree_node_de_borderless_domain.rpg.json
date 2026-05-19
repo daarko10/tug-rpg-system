@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "2788925f-c16b-415d-8e8f-5f6f209102a3",
+    "name": {
+      "value": "Borderless Domain"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you create your domain, you can choose to instead make it a 'Borderless Domain'. If you choose to do so, there is no external radius for your domain and people are not pulled into it. Instead you use the interior radius size for your domain. Anyone within its radius are subjected to its effects. People can also leave or enter your domain by simply stepping in or out of its radius."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

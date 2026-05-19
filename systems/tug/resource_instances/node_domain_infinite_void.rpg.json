@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Infinite Void" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: +1 to the DC of this ability. When domain created, all creatures make WIS save vs Domain DC. Start of each of their turns: repeat save or be stunned until start of next turn." },
+    "con_description": { "value": "Activation and maintenance HP max reduction is doubled (-20 instead of -10)." },
+    "id": "ca1a0ab3-cb39-40f9-a5ec-ff7ce581d004"
+  }
+}

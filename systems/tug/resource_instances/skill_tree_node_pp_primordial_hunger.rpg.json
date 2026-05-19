@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "3090da78-9b1f-4a18-aa70-9a2bec2dbd9b",
+    "name": {
+      "value": "Primordial Hunger"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "primordial_pact"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "Any Pact Damage you take (eg. fire, cold etc.) from a source not created by you, heals you by half of that much instead."
+    },
+    "con_description": {
+      "value": "Taking damage from either of your Pact's Counterparts nullifies this ability, until the end of your next turn. Additionally, your movement is halved until the end of your next turn."
+    }
+  }
+}

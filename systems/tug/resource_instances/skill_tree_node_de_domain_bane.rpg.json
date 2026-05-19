@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "7ca1c970-5630-4074-a58d-5d015a9791f3",
+    "name": {
+      "value": "Domain Bane"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you activate your domain it becomes an anti-magical zone, nullifying all magical effects in the area. If you activate this domain to trigger a 'Domain Clash', you can add 5 to all of your Concentration Checks for every point invested in this node. Additionally, you can cast a number of spells per round equal to the amount of points invested in this node. This ability is unaffected by the effects of a 'Domain Clash'."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

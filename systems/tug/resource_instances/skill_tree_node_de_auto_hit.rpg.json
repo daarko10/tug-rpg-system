@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "9d247329-c392-4f75-bc86-64ea72f1f126",
+    "name": {
+      "value": "Auto Hit"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "Whenever you make an attack or cast a spell that requires an attack roll, you can choose to have it automatically hit the target instead of making the attack roll. Alternatively, if a creature must make a saving throw against a spell you cast, you can have them automatically fail. You can do this a number of times per round, equal to the amount of points spent in this node. Attacks made this way can never be a Critical Hit."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

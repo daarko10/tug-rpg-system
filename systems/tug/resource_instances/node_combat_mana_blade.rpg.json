@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Mana Blade" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Manifest a magical weapon from pure energy." },
+    "con_description": { "value": "" },
+    "id": "ac2bb964-9216-4a88-ada8-8d1cd49801ac"
+  }
+}

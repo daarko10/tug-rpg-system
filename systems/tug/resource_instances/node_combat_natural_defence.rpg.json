@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Natural Defence" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Increase your unarmoured AC." },
+    "con_description": { "value": "" },
+    "id": "539c545a-1d7a-4afb-8e15-53801b721aa5"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resource_id": "pact_entry",
+  "stats": {
+    "id": "cd50bae7-f46e-4697-beca-cc9763abde5b",
+    "pact_id": {
+      "value": "arcane_affinity"
+    },
+    "pact_name": {
+      "value": "Arcane Affinity"
+    },
+    "chosen_score": {
+      "value": ""
+    },
+    "primordial_damage_type": {
+      "value": ""
+    },
+    "name": {
+      "value": "Arcane Affinity"
+    }
+  }
+}

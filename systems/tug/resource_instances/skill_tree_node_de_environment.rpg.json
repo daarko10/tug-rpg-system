@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "5a555aaa-3513-4004-a82d-5c50b82869ff",
+    "name": {
+      "value": "Environment"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "You can choose to reduce or increase the movement speed of any creatures within this domain by 20ft for every point spent in this node. If a creature's movement speed is reduced to 0 in this way, they are considered restrained. Additionally, if any creatures make a Dexterity check or save within your domain, you can subtract 1 from the result for every point spent in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

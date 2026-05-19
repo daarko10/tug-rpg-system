@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "4136838b-fa56-49c7-9b7c-369e5b82caaf",
+    "name": {
+      "value": "Sanguine Strings"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When your hit points are reduced to 0, on your turn, instead of rolling for your death save, you can choose to fail it. If you choose to do so, you can take a single action that turn. Any death saves failed in this way, remain until you take a short or long rest."
+    },
+    "con_description": {
+      "value": "No HP Cost (Only the semi-permanent reduction of your Death Saves)."
+    }
+  }
+}

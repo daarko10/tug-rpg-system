@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "8194cb99-7007-4f3b-95b8-d37ff7315d02",
+    "name": {
+      "value": "Severance"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "primordial_pact"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Action) You still yourself for a moment in order to sever your ties to your elemental bond. Doing so temporarily removes your vulnerabilities to its Counterparts. At the start of your next turn, you can choose to maintain your Severance as a free action. However, after 1 minute the connection reforms and you regain your vulnerabilities. You cannot use this ability again until you take a short or long rest."
+    },
+    "con_description": {
+      "value": "When you decide to sever your connection, you lose access to all abilities given to you by your pact until the end of your next turn."
+    }
+  }
+}

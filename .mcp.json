@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "rpg-companion-dev-tool": {
-      "command": "/Users/blastervla/Repositories/rpg-script-code-extension/bundled_tools/darwin-arm64/mcp_dev_tool_server",
-      "cwd": "/Users/blastervla/Repositories/rpg-script-code-extension"
+      "command": "/Users/dagoaramiskogos/.vscode/extensions/blastervlaenterprisesllc.rpgscript-1.2.0/bundled_tools/darwin-arm64/mcp_dev_tool_server",
+      "cwd": "/Users/dagoaramiskogos/.vscode/extensions/blastervlaenterprisesllc.rpgscript-1.2.0"
     },
     "rpg-companion-runtime": {
       "command": "/Users/blastervla/Repositories/RPGCompanionApp/app/build/mcp/rpg_mcp_server"

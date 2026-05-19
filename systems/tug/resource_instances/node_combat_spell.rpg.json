@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Spell" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain an additional spell slot or spell known." },
+    "con_description": { "value": "" },
+    "id": "a3ef0856-591e-4ecf-85e8-c4bc79361c51"
+  }
+}

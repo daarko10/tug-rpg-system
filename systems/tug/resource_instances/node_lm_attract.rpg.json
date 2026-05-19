@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Attract (Blue)" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "limitless" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Action: Choose a visible point. All creatures/objects within 15ft are pulled toward the center, each taking PB×d10 force damage. You are not considered blind just before using." },
+    "con_description": { "value": "After use: CON save DC 10. Fail = CON score -1. CON reduced to 0 = death. Returns after Long Rest." },
+    "id": "87f82b53-a76d-4985-b66b-fb196741e889"
+  }
+}

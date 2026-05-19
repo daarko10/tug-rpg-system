@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "58ee1c97-2e55-4b3c-9ac7-adbbc3b60240",
+    "name": {
+      "value": "Hemosight"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Action) You can place a drop of your blood on a non porous surface. For the next 10 minutes you can look through this blood droplet as though it were your own eye."
+    },
+    "con_description": {
+      "value": "Cost: 1 max HP."
+    }
+  }
+}

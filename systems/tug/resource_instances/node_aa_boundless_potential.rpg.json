@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Boundless Potential" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "arcane_affinity" },
+    "pp_cost": { "value": 3 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Spell slots carried over via Surplus Potential do not disappear after 8 hours." },
+    "con_description": { "value": "All physical ability scores reduced to 5 and cannot be raised by any means short of a Wish spell. Also become vulnerable to ALL damage types except psychic." },
+    "id": "daa4bbe8-c5ff-44ed-bfea-a70fc6c6e84c"
+  }
+}

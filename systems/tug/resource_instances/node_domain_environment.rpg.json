@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Environment" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point while domain active: reduce or increase movement speed of any creature in the domain by 20ft. Speed reduced to 0 = Restrained. Subtract 1 from DEX checks or saves of chosen creatures." },
+    "con_description": { "value": "" },
+    "id": "0b714872-2d19-43f2-b341-1164a3a4d32e"
+  }
+}

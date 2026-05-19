@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Regenerate" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "limitless" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Bonus Action: For the next 1 minute, recover 5, 10, 15, or 20 HP per turn (chosen). Not considered blind while active." },
+    "con_description": { "value": "After the minute ends, gain exhaustion levels based on HP recovered per turn (5HP=1, 10HP=2, 15HP=3, 20HP=4)." },
+    "id": "4787d073-7814-4e78-ae92-91d4aea91879"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "4c23842b-dbf3-463a-a558-1f37c3f16b9b",
+    "name": {
+      "value": "Hemo-Hardening"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Reaction) Increase your AC by 1 per Cost Spent, until the start of your next turn."
+    },
+    "con_description": {
+      "value": "Cost: 5 (can be spent in multiples)."
+    }
+  }
+}

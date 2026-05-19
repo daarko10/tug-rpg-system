@@ -1,0 +1,68 @@
+view skill_tree_node_edit() =
+  list(
+    id = "skill_tree_node_edit",
+    padding = 16,
+    subviews = [
+      text(
+        id = "skill_tree_node_edit_name",
+        edit_stat = "name",
+        style = "title",
+        label = "Node name",
+      ),
+      composite(
+        id = "skill_tree_node_edit_tree_comp",
+        subviews = [
+          text(
+            id = "skill_tree_node_edit_tree_label",
+            text = "Tree: ",
+            style = "text",
+            bold = true,
+          ),
+          select(
+            id = "skill_tree_node_edit_tree_select",
+            stat = "tree",
+            options = "skill_tree_types",
+          ),
+        ],
+      ),
+      composite(
+        id = "skill_tree_node_edit_pact_comp",
+        subviews = [
+          text(
+            id = "skill_tree_node_edit_pact_label",
+            text = "Pact (if Cursed Pact): ",
+            style = "text",
+          ),
+          select(
+            id = "skill_tree_node_edit_pact_select",
+            stat = "pact",
+            options = "pact_types",
+          ),
+        ],
+        is_visible = tree == "cursed_pact",
+      ),
+      stat(
+        id = "skill_tree_node_edit_pp_cost",
+        stat = "pp_cost",
+        override_label = "PP Cost",
+        min_value_allowed = 0,
+      ),
+      text(
+        id = "skill_tree_node_edit_pro",
+        edit_stat = "pro_description",
+        style = "text",
+        label = "Pro description",
+      ),
+      text(
+        id = "skill_tree_node_edit_con",
+        edit_stat = "con_description",
+        style = "text",
+        label = "Con description",
+      ),
+      checkbox(
+        id = "skill_tree_node_edit_can_invest_multiple",
+        stat = "can_invest_multiple",
+        label = "Can invest multiple times",
+      ),
+    ],
+  );

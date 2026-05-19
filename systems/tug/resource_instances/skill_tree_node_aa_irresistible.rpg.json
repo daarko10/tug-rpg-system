@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "6cfeae3a-f42c-41a0-be85-6d57e481834e",
+    "name": {
+      "value": "Irresistible"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "arcane_affinity"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "You double your proficiency bonus when calculating your spell DC."
+    },
+    "con_description": {
+      "value": "You can only wield weapons with the Light property, and no longer add your ability modifiers to weapon damage."
+    }
+  }
+}

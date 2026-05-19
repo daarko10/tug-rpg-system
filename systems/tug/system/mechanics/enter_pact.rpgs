@@ -1,0 +1,40 @@
+mechanic enter_pact(event_names = "enter_pact") =
+  sequence(
+    effects = [
+      when {
+        $payload.pact_id == "physical_augmentation" -> setStat(
+          stat = "physical_augmentation_active",
+          new_value = true,
+          aggregation_type = "set",
+        ),
+      },
+      when {
+        $payload.pact_id == "arcane_affinity" -> setStat(
+          stat = "arcane_affinity_active",
+          new_value = true,
+          aggregation_type = "set",
+        ),
+      },
+      when {
+        $payload.pact_id == "blood_manipulation" -> setStat(
+          stat = "blood_manipulation_active",
+          new_value = true,
+          aggregation_type = "set",
+        ),
+      },
+      when {
+        $payload.pact_id == "primordial_pact" -> setStat(
+          stat = "primordial_pact_active",
+          new_value = true,
+          aggregation_type = "set",
+        ),
+      },
+      when {
+        $payload.pact_id == "limitless" -> setStat(
+          stat = "limitless_active",
+          new_value = true,
+          aggregation_type = "set",
+        ),
+      },
+    ],
+  );

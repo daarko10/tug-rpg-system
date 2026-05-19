@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1d4 Sneak Attack" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Deal +1d4 sneak attack damage when conditions are met." },
+    "con_description": { "value": "" },
+    "id": "fcc898bb-af8a-45ac-ab64-cbe4d4f22ac6"
+  }
+}

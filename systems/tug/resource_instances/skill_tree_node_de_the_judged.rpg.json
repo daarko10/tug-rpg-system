@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "8b5863c5-e563-4e00-8c2d-c364f49c13eb",
+    "name": {
+      "value": "The Judged"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you create your Domain, you can choose to make it a 'Courtroom'. If you do so, you can only choose to pull 1 creature into your domain. While your Domain is active, anyone inside cannot deal damage or bring harm to one another, except through Domain abilities. The targeted creature is now on trial for a crime you have accused them of. On each of your turns you can attempt to prove your target's guilt using skill checks (Deception, History, Insight, Intimidation, Investigation, Performance or Persuasion). You can then reduce the target's Hit Points by the total result of your skill check. At the start of each of your turns, you are given 'additional evidence' that adds 10 to each skill check you make, for every point invested in this node. After 3 rounds, if the 'accused' has less than half of their hit points, they are no longer able to take any actions apart from simple melee attacks until they take a long rest."
+    },
+    "con_description": {
+      "value": "The 'accused' can attempt to defend themself by making skill checks, using any of the same skills. If they do, they can recover hit points equal to the total result of the roll. If the target has more than half of their hit points after 3 rounds, they recover any hit points lost, and the domain expansion ends."
+    }
+  }
+}

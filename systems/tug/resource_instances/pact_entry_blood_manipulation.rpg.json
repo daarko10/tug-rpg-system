@@ -1,0 +1,21 @@
+{
+  "resource_id": "pact_entry",
+  "stats": {
+    "id": "916c8a3d-4a21-49ef-934a-8a0def35bcc5",
+    "pact_id": {
+      "value": "blood_manipulation"
+    },
+    "pact_name": {
+      "value": "Blood Manipulation"
+    },
+    "chosen_score": {
+      "value": ""
+    },
+    "primordial_damage_type": {
+      "value": ""
+    },
+    "name": {
+      "value": "Blood Manipulation"
+    }
+  }
+}

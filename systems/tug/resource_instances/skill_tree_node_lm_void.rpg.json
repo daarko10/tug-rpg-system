@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "ca742e6f-1ffe-45fc-83ef-d401f227c66b",
+    "name": {
+      "value": "Void (Hollow Purple)"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "limitless"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Action, 15ft radius sphere) You create a 15ft Sphere in a point within 30ft of you, and move that sphere 30ft in a straight line away from you. Any creatures or objects who come in contact with this sphere automatically take 50 points of force damage. If a creature or object is reduced to zero hit points in this way, they disintegrate and nothing of them is left behind. You cannot use this ability again until you take a long rest. While using this ability you are not considered blind."
+    },
+    "con_description": {
+      "value": "When you use this ability, reduce your Intelligence Score and Constitution Score by 2, you gain 2 levels of exhaustion and one permanent madness until you take a long rest."
+    }
+  }
+}

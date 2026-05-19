@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Regen" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Regenerate HP at the start of each of your turns during combat." },
+    "con_description": { "value": "" },
+    "id": "52b32b50-efcb-4885-ac8b-be5635f5137d"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Potent Sorcery" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "arcane_affinity" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "All spells you cast are treated as if cast 1 spell level higher." },
+    "con_description": { "value": "Movement speed reduced by 10ft." },
+    "id": "ddb19f5d-0e1d-4ebb-a618-cb8ac97eab81"
+  }
+}

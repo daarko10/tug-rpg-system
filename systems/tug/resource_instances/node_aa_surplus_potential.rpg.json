@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Surplus Potential" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "arcane_affinity" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "At end of day, if you have unused spell slots, choose one to carry over to the next day." },
+    "con_description": { "value": "Gain half as many HP when levelling up (applies to nodes purchased too)." },
+    "id": "9220ce68-e302-4559-9ec6-1c6fcc01168b"
+  }
+}

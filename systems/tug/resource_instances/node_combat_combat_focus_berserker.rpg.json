@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Focus" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Improve your concentration while in combat." },
+    "con_description": { "value": "" },
+    "id": "4e4bb80e-4b40-4457-bd73-c9d39ca37549"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Limit Break" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 2 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Unleash the ultimate berserker ability." },
+    "con_description": { "value": "" },
+    "id": "a435151c-ff8d-48b3-8fba-20f76ea5b340"
+  }
+}

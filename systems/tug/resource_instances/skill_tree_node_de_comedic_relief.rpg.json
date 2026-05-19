@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "34724f6b-6c43-4ecb-b18d-e64dbb8d1bb6",
+    "name": {
+      "value": "Comedic Relief"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "Whenever you or another creature in your domain makes an attack roll, casts a spell, makes a skill check or a saving throw, you or they must make a Wisdom Saving throw against your own Domain's DC, if either of you or they, fail the saving throw, you can decide if the action performed is 'Funny' or 'Not Funny'. If you decide that the action is 'Funny', you can add 5 to its result. If you deem the action to be 'Not Funny', you can subtract 5 from the result. The DC for this ability increases by 1 for every point invested in this node. Additionally, the number you can add or subtract from a result increases by 1 for every point invested in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

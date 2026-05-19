@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Grapple Move" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Unlock an additional improved grapple option." },
+    "con_description": { "value": "" },
+    "id": "74017d84-a66f-4ec1-a18b-b0aa689f6530"
+  }
+}

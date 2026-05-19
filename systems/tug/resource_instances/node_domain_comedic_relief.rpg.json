@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Comedic Relief" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: +1 to ability DC, +1 to ±modifier (base ±5). Whenever any creature in the domain acts: WIS save vs Domain DC. Fail: you decide if action is Funny (+5) or Not Funny (-5)." },
+    "con_description": { "value": "" },
+    "id": "84982f7f-6079-4336-b1c6-a8f1b2ce70e3"
+  }
+}

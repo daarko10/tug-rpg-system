@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "76d99a0c-3e38-47d2-b165-6b3470393e42",
+    "name": {
+      "value": "Space"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "You increase the external radius of your domain by 10 additional feet for every point spent in this node, which in turn effects its interior size. Additionally, while in your domain you may teleport once per turn as a free action. The number of feet you can teleport is equal to 20 times the amount of points invested in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

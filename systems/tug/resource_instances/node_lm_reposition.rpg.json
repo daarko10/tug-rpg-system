@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Reposition" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "limitless" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Move Action: Teleport to any point you can see within your base movement speed. You are not considered blind just before using." },
+    "con_description": { "value": "After use: movement speed reduced by 5ft for 1 minute." },
+    "id": "2c7ac7a0-b989-400c-8960-d37392bb6307"
+  }
+}

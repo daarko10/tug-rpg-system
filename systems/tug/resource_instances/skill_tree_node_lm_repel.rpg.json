@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "a1af2405-d85b-4b3f-a80c-808772e2842e",
+    "name": {
+      "value": "Repel (Red)"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "limitless"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "(Action, 15ft radius sphere) You choose a point you can see. Any creatures or objects within a 15ft radius of that point are all pushed 25ft from its centre towards its centre. Any creatures or objects pushed in this way take xd10 force damage, where x is equal to your two times proficiency bonus. Just before using this ability you are not considered blind."
+    },
+    "con_description": {
+      "value": "After you use this ability you must make an Intelligence Saving throw. The DC for this save is 12. If you fail this saving throw your Intelligence score is reduced by 2 and you gain one temporary madness (DMs Discretion). If your Intelligence score is reduced to 0 in this way, you die. Your Intelligence score returns to normal after you take a long rest."
+    }
+  }
+}

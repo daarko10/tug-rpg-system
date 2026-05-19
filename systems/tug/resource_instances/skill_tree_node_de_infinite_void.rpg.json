@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "58bc997d-f7d9-405c-b0b5-af81cb5ba3ef",
+    "name": {
+      "value": "Infinite Void"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you create your Domain, all other creatures must make a Wisdom Saving Throw against your Domain's DC. While in your domain all other creatures must repeat this saving throw at the start of their turns. Any creature who fails this saving throw is stunned until the start of their next turn. The DC for this ability increases by 1 for every point invested in this node."
+    },
+    "con_description": {
+      "value": "However, due to this domain's immense power, it puts a strain on your body. While activating or maintaining this domain, the amount your hit point maximum is reduced by is doubled."
+    }
+  }
+}

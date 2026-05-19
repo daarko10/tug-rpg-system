@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Domain Duration" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "+2 rounds of domain duration (or +20 seconds outside combat) and +1 additional use per Short Rest per point invested." },
+    "con_description": { "value": "" },
+    "id": "ddb05f4e-d055-416a-abaa-0c427cc3d356"
+  }
+}

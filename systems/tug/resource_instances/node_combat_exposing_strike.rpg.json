@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Exposing Strike" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Expose an enemy to your allies with a special strike." },
+    "con_description": { "value": "" },
+    "id": "5fd8f846-81fb-4994-893a-6fa2c9461a47"
+  }
+}

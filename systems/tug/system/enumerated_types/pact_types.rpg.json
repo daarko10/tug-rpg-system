@@ -1,0 +1,12 @@
+{
+  "id": "pact_types",
+  "name": "Pact type",
+  "plural": "Pact types",
+  "types": [
+    {"id": "physical_augmentation", "name": "Physical Augmentation"},
+    {"id": "arcane_affinity", "name": "Arcane Affinity"},
+    {"id": "blood_manipulation", "name": "Blood Manipulation"},
+    {"id": "primordial_pact", "name": "Primordial Pact"},
+    {"id": "limitless", "name": "Limitless"}
+  ]
+}

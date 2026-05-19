@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Malevolent Shrine" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: target 2 additional creatures with each attack roll (each additional point: +2 more). +1 to attack rolls via this ability. At 5 points: target every chosen creature in the domain." },
+    "con_description": { "value": "" },
+    "id": "d2bccb4c-245b-47fd-a9db-8cdab1fc1bd0"
+  }
+}

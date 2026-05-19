@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Brawn over Brains" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "physical_augmentation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "+2 to a physical ability score of your choice." },
+    "con_description": { "value": "-3 to a mental ability score of your choice." },
+    "id": "e8c6d988-6987-49d2-bcea-f75bac8e970b"
+  }
+}

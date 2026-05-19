@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Wound Weapon" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Apply a lasting wound on a successful hit." },
+    "con_description": { "value": "" },
+    "id": "98c99d64-7e22-4869-bb8f-ff38e1fd23fe"
+  }
+}

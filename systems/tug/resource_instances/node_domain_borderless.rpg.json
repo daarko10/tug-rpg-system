@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Borderless Domain" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "When creating your domain, choose to make it Borderless: no external barrier. Anyone within interior radius is subject to domain effects; creatures freely enter or leave." },
+    "con_description": { "value": "" },
+    "id": "f8d51eec-8b42-4d2a-9bfd-1914cb007d8b"
+  }
+}

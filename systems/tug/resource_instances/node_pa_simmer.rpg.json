@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Simmer" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "physical_augmentation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Reduce the number needed to roll a critical hit by 1." },
+    "con_description": { "value": "Increase the number needed to roll a critical fail by 1." },
+    "id": "54b5a58f-0e04-4f3a-952c-a569a18fc36c"
+  }
+}

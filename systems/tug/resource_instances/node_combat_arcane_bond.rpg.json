@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Arcane Bond" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Form a bond with your arcane focus or a familiar." },
+    "con_description": { "value": "" },
+    "id": "eb01bdca-8c5e-407e-9f24-8c9aedb4798f"
+  }
+}

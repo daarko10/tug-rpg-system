@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "57af96d1-8bca-420b-97d3-0e75d6a0fab6",
+    "name": {
+      "value": "Hemolock"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you roll to make an unarmed or weapon attack, but before you know if the result hits or misses, you can spend X amount (see cost) in order to increase the total number on the attack roll."
+    },
+    "con_description": {
+      "value": "Cost: See 'Attack Bonus' on the Blood Cost Table (5/10/15/20/25 for +1/+2/+3/+4/+5)."
+    }
+  }
+}

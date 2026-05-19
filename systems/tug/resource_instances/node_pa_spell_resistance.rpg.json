@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Spell Resistance" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "physical_augmentation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Advantage on spell saving throws." },
+    "con_description": { "value": "Magical items you use require twice as many charges as normal." },
+    "id": "93c1a5ca-7257-40b9-96c6-6fd7208ab451"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Shape Change" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain shapechange or polymorph uses." },
+    "con_description": { "value": "" },
+    "id": "010cc4d9-04e4-48b2-9fbb-722465478d98"
+  }
+}

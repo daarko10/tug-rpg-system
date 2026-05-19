@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Domain Bane" },
+    "tree": { "value": "domain" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Per point: +5 to Concentration Checks during Domain Clashes. Cast X spells per round (unaffected by clash nullification). Domain becomes anti-magical zone — all magical effects nullified." },
+    "con_description": { "value": "" },
+    "id": "6b0fa1ee-6143-4bbc-8864-5993ec425079"
+  }
+}

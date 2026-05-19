@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Speed" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Increase your movement speed by 10ft." },
+    "con_description": { "value": "" },
+    "id": "51735734-695d-4c62-8cdf-ac3d62f8de8e"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Black Flash" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "physical_augmentation" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Land a critical hit → gain Advantage on your next attack (entering 'the zone')." },
+    "con_description": { "value": "Score a critical fail → take 1d10 psychic damage." },
+    "id": "dfb314e3-b0a2-4825-8632-1733c032523f"
+  }
+}

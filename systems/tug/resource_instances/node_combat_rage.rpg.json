@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Rage" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Gain an additional Rage charge." },
+    "con_description": { "value": "" },
+    "id": "a1e5d56a-9970-4c79-b8d4-0c6c46058bcc"
+  }
+}

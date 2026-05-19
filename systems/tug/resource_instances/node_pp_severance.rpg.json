@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Severance" },
+    "tree": { "value": "cursed_pact" },
+    "pact": { "value": "primordial_pact" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Action: Temporarily sever your elemental bond — removes Counterpart vulnerabilities for up to 1 minute." },
+    "con_description": { "value": "While severed: lose access to all Primordial Pact abilities until end of your next turn." },
+    "id": "7f97f015-3d07-4ffa-95d7-6bcbf10d621a"
+  }
+}

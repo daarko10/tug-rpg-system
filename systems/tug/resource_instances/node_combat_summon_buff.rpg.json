@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Summon Buff" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Buff your summoned creature." },
+    "con_description": { "value": "" },
+    "id": "6acfbf2d-bb39-437a-9292-c52e7d76c62e"
+  }
+}

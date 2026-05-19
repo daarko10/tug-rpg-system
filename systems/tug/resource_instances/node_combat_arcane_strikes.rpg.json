@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Arcane Strikes" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "Your weapon attacks count as magical for purposes of overcoming resistance and immunity." },
+    "con_description": { "value": "" },
+    "id": "24c73ff6-5475-436c-91eb-ecf88ecb6dc9"
+  }
+}

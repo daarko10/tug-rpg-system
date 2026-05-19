@@ -1,0 +1,95 @@
+view pact_entry_display() =
+  list(
+    id = "pact_entry_display",
+    padding = 16,
+    alignment = "start",
+    subviews = [
+      text(
+        id = "pact_entry_display_name",
+        text = pact_name,
+        style = "title",
+        bold = true,
+      ),
+      text(
+        id = "pact_entry_display_description",
+        text = pact_description,
+        style = "text",
+        margin_top = 8,
+        is_visible = !isEmpty(pact_description),
+      ),
+      composite(
+        id = "pact_entry_display_chosen_score_comp",
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "pact_entry_display_chosen_score_label",
+            text = "Chosen ability score: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "pact_entry_display_chosen_score_value",
+            text = enumeratedName(enumerated_type = "ability", id = chosen_score),
+            style = "text",
+          ),
+        ],
+        is_visible = !isEmpty(chosen_score),
+      ),
+      composite(
+        id = "pact_entry_display_damage_type_comp",
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "pact_entry_display_damage_type_label",
+            text = "Pact damage type: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "pact_entry_display_damage_type_value",
+            text = primordial_damage_type,
+            style = "text",
+          ),
+        ],
+        is_visible = !isEmpty(primordial_damage_type),
+      ),
+      text(
+        id = "pact_entry_display_buffs_title",
+        text = "Pact Effects",
+        style = "subhead",
+        bold = true,
+        margin_top = 20,
+        is_visible = !isEmpty(pact_buffs_text),
+      ),
+      text(
+        id = "pact_entry_display_buffs",
+        text = pact_buffs_text,
+        style = "text",
+        margin_top = 4,
+        is_visible = !isEmpty(pact_buffs_text),
+      ),
+      text(
+        id = "pact_entry_display_notes_title",
+        text = "Notes",
+        style = "subhead",
+        bold = true,
+        margin_top = 20,
+        is_visible = !isEmpty(notes),
+      ),
+      text(
+        id = "pact_entry_display_notes",
+        text = notes,
+        style = "text",
+        markdown = true,
+        margin_top = 4,
+        is_visible = !isEmpty(notes),
+      ),
+      text(
+        id = "pact_entry_display_features_hint",
+        text = "Pact features are purchased via the Cursed Pacts section on the character sheet.",
+        style = "caption",
+        margin_top = 16,
+        is_visible = !isEmpty(pact_id),
+      ),
+    ],
+  );

@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "5d431c09-a125-43f8-80f1-74c54bed2fb5",
+    "name": {
+      "value": "Domain Duration"
+    },
+    "tree": {
+      "value": "domain"
+    },
+    "pact": {
+      "value": ""
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "Increase the duration of your domain expansion by 2 rounds (or 20 seconds outside of combat), for every point invested in this node. Additionally, you may cast your domain 1 additional time per short rest for each point invested in this node."
+    },
+    "con_description": {
+      "value": ""
+    }
+  }
+}

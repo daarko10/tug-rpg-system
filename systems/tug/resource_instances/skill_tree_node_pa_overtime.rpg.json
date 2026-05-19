@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "0e349fe6-feca-4f21-89ba-fef4db156e04",
+    "name": {
+      "value": "Overtime"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "physical_augmentation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "You add an additional (10 + half your level) points to attacks when you have no hit dice left."
+    },
+    "con_description": {
+      "value": "Your damage is reduced by 1 for every unspent hit dice you own."
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "8e313949-51a0-43a5-bd82-f682749a937c",
+    "name": {
+      "value": "Perfect Ratio +"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "physical_augmentation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        "Perfect Ratio",
+        "Spell Resistance"
+      ]
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you use perfect ratio, roll the hit dice spent and deal additional damage equal to twice the number you rolled. If you roll a natural 20 on your perception check, treat this attack as a critical hit."
+    },
+    "con_description": {
+      "value": "Must make and succeed on a perception check (free action) whenever you use your Perfect Ratio ability against the target creature DC: 8 + Creature's CR Level (min 1)."
+    }
+  }
+}

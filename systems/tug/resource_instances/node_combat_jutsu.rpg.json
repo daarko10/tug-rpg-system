@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "+1 Jutsu" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": true },
+    "pro_description": { "value": "Unlock a technique or combat form ability." },
+    "con_description": { "value": "" },
+    "id": "5eb6c562-68e1-4ecc-a4e2-5d8019369018"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "e812fe2f-7aba-40f0-8b7d-ab639c4f2080",
+    "name": {
+      "value": "Elemental Infusion"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "primordial_pact"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "As a free action you can choose to have your weapon attacks deal additional Pact Damage equal to your level."
+    },
+    "con_description": {
+      "value": "If you choose to do so, you also take this additional damage."
+    }
+  }
+}

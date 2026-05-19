@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# patch_build.sh — Run after every build_systems call.
+# Strips `core: true` and `indexed_stats` from TUG's built output so the
+# app doesn't try to fetch the library from the cloud backend (which only
+# knows about 5e). With these stripped, the app uses the bundled resource
+# instances shipped in resources.rpg / resources/ directly.
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+OUTPUT_DIR="$SCRIPT_DIR/output"
+
+SYSTEMS=("tug")
+
+for SYSTEM in "${SYSTEMS[@]}"; do
+  SYSTEM_FILE="$OUTPUT_DIR/$SYSTEM/system.rpg"
+  if [[ ! -f "$SYSTEM_FILE" ]]; then
+    echo "WARN  $SYSTEM_FILE not found — skipping $SYSTEM"
+    continue
+  fi
+
+  echo "Patching $SYSTEM/system.rpg..."
+
+  python3 - "$SYSTEM_FILE" <<'PYEOF'
+import sys, json, gzip, pathlib
+
+path = pathlib.Path(sys.argv[1])
+raw = path.read_bytes()
+d = json.loads(gzip.decompress(raw))
+
+# resources dict → list (defensive)
+if isinstance(d.get("resources"), dict):
+    d["resources"] = list(d["resources"].values())
+
+# remove phantom resource entries with no id
+d["resources"] = [r for r in d.get("resources", []) if r.get("id")]
+
+# strip ONLY core:true from all resources — keep indexed_stats intact
+# (removing indexed_stats causes a RangeError in the Flutter UI)
+stripped = 0
+for r in d.get("resources", []):
+    if isinstance(r, dict):
+        if r.pop("core", None) is not None:
+            stripped += 1
+
+path.write_bytes(gzip.compress(json.dumps(d).encode()))
+print(f"  {path.name} patched (stripped core from {stripped} resources, total={len(d.get('resources', []))})")
+PYEOF
+
+done
+
+# ── Patch system.composed.json (plain JSON, same fixes) ──────────────────
+for SYSTEM in "${SYSTEMS[@]}"; do
+  COMPOSED_FILE="$OUTPUT_DIR/$SYSTEM/system.composed.json"
+  if [[ ! -f "$COMPOSED_FILE" ]]; then
+    echo "WARN  $COMPOSED_FILE not found — skipping"
+    continue
+  fi
+
+  echo "Patching $SYSTEM/system.composed.json..."
+
+  python3 - "$COMPOSED_FILE" <<'PYEOF'
+import sys, json, pathlib
+
+path = pathlib.Path(sys.argv[1])
+d = json.loads(path.read_text())
+
+if isinstance(d.get("resources"), dict):
+    d["resources"] = list(d["resources"].values())
+
+d["resources"] = [r for r in d.get("resources", []) if r.get("id")]
+
+stripped = 0
+for r in d.get("resources", []):
+    if isinstance(r, dict):
+        if r.pop("core", None) is not None:
+            stripped += 1
+
+path.write_text(json.dumps(d))
+print(f"  {path.name} patched (stripped core from {stripped} resources, total={len(d.get('resources', []))})")
+PYEOF
+
+done
+
+echo ""
+echo "patch_build.sh complete"

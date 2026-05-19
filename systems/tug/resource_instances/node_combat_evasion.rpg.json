@@ -1,0 +1,13 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": { "value": "Evasion" },
+    "tree": { "value": "combat" },
+    "pact": { "value": "" },
+    "pp_cost": { "value": 1 },
+    "can_invest_multiple": { "value": false },
+    "pro_description": { "value": "When you succeed on a DEX save, you take no damage instead of half." },
+    "con_description": { "value": "" },
+    "id": "674c45ef-1336-45d3-ba01-e0129713a142"
+  }
+}

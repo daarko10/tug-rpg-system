@@ -1,0 +1,30 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "id": "7f33eb07-9710-4d3b-bc5c-cc7d71ada517",
+    "name": {
+      "value": "Bloodbound Blitz"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "can_invest_multiple": {
+      "value": true
+    },
+    "pro_description": {
+      "value": "When you make an unarmed or weapon attack roll to hit a creature, but before you roll to hit, you can choose to infuse your attack with a rush of manipulated blood. If the attack hits, this attack deals additional damage (slashing, bludgeoning or piercing, your choice) equal to half the Cost paid."
+    },
+    "con_description": {
+      "value": "Cost: However much you want to give. (Maximum: 10 x your level)."
+    }
+  }
+}

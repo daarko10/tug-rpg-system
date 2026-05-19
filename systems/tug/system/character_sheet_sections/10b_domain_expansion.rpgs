@@ -1,0 +1,70 @@
+character_sheet_section domain_expansion() =
+  section(
+    id = "domain_expansion_section",
+    show_divider = true,
+    content_item_min_width = 1,
+    collapsible = true,
+    header = [
+      icon(
+        id = "domain_expansion_section_icon",
+        name = "ic_whatshot",
+        size = "medium",
+        margin_left = 16,
+      ),
+      text(
+        id = "domain_expansion_section_title",
+        margin_right = 16,
+        margin_left = 16,
+        text = "Domain Expansion",
+        style = "title",
+      ),
+      spacer(id = "domain_expansion_section_header_spacer"),
+      selectResources(
+        id = "domain_tree_add_node",
+        stat = "purchased_nodes",
+        resource_id = "skill_tree_node",
+        view_type = "icon",
+        should_append = true,
+        should_save_on_selection = true,
+        filters = dict(tree = ["domain"]),
+      ),
+    ],
+    content = [
+      stat(
+        id = "domain_activate_button",
+        stat = "domain_activations_remaining",
+        change_amount = 0,
+        min_value_allowed = 0,
+        override_label = "Activate Domain",
+        edit_bottom_sheet_title = concat(["Tap to spend ", divide([level, 2], rounding_method = "up"), " HP and activate the domain"]),
+        on_tap_event = event(name = "activate_domain"),
+      ),
+      // Grouped display — one entry per unique node (name + total PP invested)
+      text(
+        id = "domain_nodes_grouped",
+        text = domain_summary_text,
+        style = "text",
+        margin_left = 16,
+        margin_right = 16,
+        margin_top = 12,
+        is_visible = !isEmpty(unique_domain_node_names),
+      ),
+      // Swipe-to-remove flat list
+      text(
+        id = "domain_nodes_remove_hint",
+        text = "Remove PP investments (swipe left):",
+        style = "caption",
+        bold = true,
+        margin_top = 16,
+        margin_left = 16,
+        is_visible = !isEmpty(domain_tree_nodes),
+      ),
+      resourceSection(
+        id = "domain_tree_nodes_list",
+        resource_id = "skill_tree_node",
+        resource_stat = "domain_tree_nodes",
+        resource_set_stat = "purchased_nodes",
+        read_only = false,
+      ),
+    ],
+  );

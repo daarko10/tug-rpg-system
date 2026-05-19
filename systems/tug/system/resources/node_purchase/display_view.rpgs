@@ -1,0 +1,38 @@
+view node_purchase_display() =
+  list(
+    id = "node_purchase_display",
+    padding = 16,
+    alignment = "start",
+    subviews = [
+      composite(
+        id = "node_purchase_display_header",
+        subviews = [
+          text(
+            id = "node_purchase_display_name",
+            text = name,
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "node_purchase_display_cost",
+            text = concat([" (", pp_cost, " PP)"]),
+            style = "caption",
+          ),
+        ],
+      ),
+      text(
+        id = "node_purchase_display_pro",
+        text = node?.pro_description? ?? "",
+        style = "text",
+        markdown = true,
+        is_visible = !isEmpty(node?.pro_description? ?? ""),
+      ),
+      text(
+        id = "node_purchase_display_con",
+        text = concat(["Con: ", (node?.con_description? ?? "")]),
+        style = "text",
+        markdown = true,
+        is_visible = !isEmpty(node?.con_description? ?? ""),
+      ),
+    ],
+  );
