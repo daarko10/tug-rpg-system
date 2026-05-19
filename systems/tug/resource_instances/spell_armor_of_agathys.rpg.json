@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_armor_of_agathys",
+    "id": "tug_spell_armor_of_agathys",
     "name": {
       "value": "Armor of Agathys"
     },

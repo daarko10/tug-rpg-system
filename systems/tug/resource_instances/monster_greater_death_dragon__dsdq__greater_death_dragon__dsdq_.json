@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_greater_death_dragon__dsdq_",
+    "id": "tug_monster_greater_death_dragon__dsdq_",
     "name": {
       "value": "Greater Death Dragon"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_distort_value",
+    "id": "tug_spell_distort_value",
     "name": {
       "value": "Distort Value"
     },

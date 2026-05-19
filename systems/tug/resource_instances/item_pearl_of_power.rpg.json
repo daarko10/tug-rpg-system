@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_pearl_of_power",
+    "id": "tug_item_pearl_of_power",
     "name": {
       "value": "Pearl of Power"
     },

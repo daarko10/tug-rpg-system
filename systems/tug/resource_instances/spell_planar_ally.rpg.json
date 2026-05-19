@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_planar_ally",
+    "id": "tug_spell_planar_ally",
     "name": {
       "value": "Planar Ally"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_nathairs_mischief",
+    "id": "tug_spell_nathairs_mischief",
     "name": {
       "value": "Nathair's Mischief"
     },

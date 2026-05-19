@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_wall_of_force",
+    "id": "tug_spell_wall_of_force",
     "name": {
       "value": "Wall of Force"
     },

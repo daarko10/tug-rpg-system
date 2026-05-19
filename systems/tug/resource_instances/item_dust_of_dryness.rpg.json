@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_dust_of_dryness",
+    "id": "tug_item_dust_of_dryness",
     "name": {
       "value": "Dust of Dryness"
     },

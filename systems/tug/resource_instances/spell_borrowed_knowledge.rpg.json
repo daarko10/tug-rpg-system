@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_borrowed_knowledge",
+    "id": "tug_spell_borrowed_knowledge",
     "name": {
       "value": "Borrowed Knowledge"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_darkling_elder",
+    "id": "tug_monster_darkling_elder",
     "name": {
       "value": "Darkling Elder"
     },

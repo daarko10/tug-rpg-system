@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_telekinesis",
+    "id": "tug_spell_telekinesis",
     "name": {
       "value": "Telekinesis"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_duergar_kavalrachni",
+    "id": "tug_monster_duergar_kavalrachni",
     "name": {
       "value": "Duergar Kavalrachni"
     },

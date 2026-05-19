@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hadrosaurus",
+    "id": "tug_monster_hadrosaurus",
     "name": {
       "value": "Hadrosaurus"
     },

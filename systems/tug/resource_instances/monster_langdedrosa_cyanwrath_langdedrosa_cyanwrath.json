@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_langdedrosa_cyanwrath",
+    "id": "tug_monster_langdedrosa_cyanwrath",
     "name": {
       "value": "Langdedrosa Cyanwrath"
     },

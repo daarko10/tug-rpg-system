@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_tongues",
+    "id": "tug_spell_tongues",
     "name": {
       "value": "Tongues"
     },

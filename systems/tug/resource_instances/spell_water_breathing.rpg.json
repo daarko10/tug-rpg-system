@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_water_breathing",
+    "id": "tug_spell_water_breathing",
     "name": {
       "value": "Water Breathing"
     },

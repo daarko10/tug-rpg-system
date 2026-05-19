@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_flying_snake",
+    "id": "tug_monster_flying_snake",
     "name": {
       "value": "Flying Snake"
     },

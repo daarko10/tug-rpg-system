@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_weavers_tools",
+    "id": "tug_item_weavers_tools",
     "name": {
       "value": "Weaver's Tools"
     },

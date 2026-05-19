@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gas_spore",
+    "id": "tug_monster_gas_spore",
     "name": {
       "value": "Gas Spore"
     },

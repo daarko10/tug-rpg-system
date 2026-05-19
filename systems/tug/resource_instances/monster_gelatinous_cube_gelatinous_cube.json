@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gelatinous_cube",
+    "id": "tug_monster_gelatinous_cube",
     "name": {
       "value": "Gelatinous Cube"
     },

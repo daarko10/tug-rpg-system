@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_symbol",
+    "id": "tug_spell_symbol",
     "name": {
       "value": "Symbol"
     },

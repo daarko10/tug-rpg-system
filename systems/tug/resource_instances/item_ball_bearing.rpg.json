@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ball_bearing",
+    "id": "tug_item_ball_bearing",
     "name": {
       "value": "Ball Bearing"
     },

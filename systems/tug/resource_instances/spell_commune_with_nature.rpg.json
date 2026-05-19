@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_commune_with_nature",
+    "id": "tug_spell_commune_with_nature",
     "name": {
       "value": "Commune with Nature"
     },

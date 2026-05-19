@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_companion",
+    "id": "tug_monster_ancient_companion",
     "name": {
       "value": "Ancient Companion"
     },
@@ -100,7 +100,7 @@
       "value": 0
     },
     "skills": {
-      "value": " History +2 plus PB, Perception +2 plus (PB \u00d7 2)"
+      "value": " History +2 plus PB, Perception +2 plus (PB × 2)"
     },
     "vulnerabilities": {
       "value": ""
@@ -112,7 +112,7 @@
       "value": ""
     },
     "senses": {
-      "value": "passive Perception 12 + (PB \u00d7 2)"
+      "value": "passive Perception 12 + (PB × 2)"
     },
     "languages": {
       "value": "speaks and understands the languages you\nspeak"

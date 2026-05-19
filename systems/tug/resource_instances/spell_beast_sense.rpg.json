@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_beast_sense",
+    "id": "tug_spell_beast_sense",
     "name": {
       "value": "Beast Sense"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast\u2019s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.\n\nWhile perceiving through the beast\u2019s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
+      "value": "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast’s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.\n\nWhile perceiving through the beast’s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
     },
     "classes": {
       "value": [

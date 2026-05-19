@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_blade_barrier",
+    "id": "tug_spell_blade_barrier",
     "name": {
       "value": "Blade Barrier"
     },

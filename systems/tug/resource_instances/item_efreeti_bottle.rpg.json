@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_efreeti_bottle",
+    "id": "tug_item_efreeti_bottle",
     "name": {
       "value": "Efreeti Bottle"
     },

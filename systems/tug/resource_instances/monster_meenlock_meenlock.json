@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_meenlock",
+    "id": "tug_monster_meenlock",
     "name": {
       "value": "Meenlock"
     },

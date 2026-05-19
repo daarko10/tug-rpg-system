@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_carrion_stalker",
+    "id": "tug_monster_carrion_stalker",
     "name": {
       "value": "Carrion Stalker"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_strahd_zombie",
+    "id": "tug_monster_strahd_zombie",
     "name": {
       "value": "Strahd Zombie"
     },

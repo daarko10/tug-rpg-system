@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hierophant_medusa__bmt_",
+    "id": "tug_monster_hierophant_medusa__bmt_",
     "name": {
       "value": "Hierophant Medusa"
     },

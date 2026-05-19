@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_needler_pistol",
+    "id": "tug_item_needler_pistol",
     "name": {
       "value": "Needler Pistol"
     },

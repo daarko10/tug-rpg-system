@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_deck_of_illusions",
+    "id": "tug_item_deck_of_illusions",
     "name": {
       "value": "Deck of Illusions"
     },

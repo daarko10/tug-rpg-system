@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_gift_of_gab",
+    "id": "tug_spell_gift_of_gab",
     "name": {
       "value": "Gift of Gab"
     },

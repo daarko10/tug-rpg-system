@@ -7,6 +7,7 @@
     {"id": "arcane_affinity", "name": "Arcane Affinity"},
     {"id": "blood_manipulation", "name": "Blood Manipulation"},
     {"id": "primordial_pact", "name": "Primordial Pact"},
-    {"id": "limitless", "name": "Limitless"}
+    {"id": "limitless", "name": "Limitless"},
+    {"id": "domain_expansion", "name": "Domain Expansion"}
   ]
 }

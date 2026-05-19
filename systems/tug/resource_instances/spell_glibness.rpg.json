@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_glibness",
+    "id": "tug_spell_glibness",
     "name": {
       "value": "Glibness"
     },

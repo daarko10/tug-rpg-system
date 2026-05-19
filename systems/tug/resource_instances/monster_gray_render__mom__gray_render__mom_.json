@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gray_render__mom_",
+    "id": "tug_monster_gray_render__mom_",
     "name": {
       "value": "Gray Render"
     },

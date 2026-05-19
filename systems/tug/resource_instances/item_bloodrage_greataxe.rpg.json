@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bloodrage_greataxe",
+    "id": "tug_item_bloodrage_greataxe",
     "name": {
       "value": "Bloodrage Greataxe"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_butchers_bib",
+    "id": "tug_item_butchers_bib",
     "name": {
       "value": "Butcher's Bib"
     },

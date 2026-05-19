@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_drow_spore_servant",
+    "id": "tug_monster_drow_spore_servant",
     "name": {
       "value": "Drow Spore Servant"
     },

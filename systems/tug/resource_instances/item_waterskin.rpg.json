@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_waterskin",
+    "id": "tug_item_waterskin",
     "name": {
       "value": "Waterskin"
     },

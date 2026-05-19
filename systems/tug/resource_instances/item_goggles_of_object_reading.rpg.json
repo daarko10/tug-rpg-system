@@ -8,7 +8,7 @@
       "value": "egw"
     },
     "description": {
-      "value": "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.\n\nIn addition, you can cast the identify spell using the googles. Once you do so, you can\u2019t do so again until the next dawn."
+      "value": "These leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.\n\nIn addition, you can cast the identify spell using the googles. Once you do so, you can’t do so again until the next dawn."
     },
     "type": {
       "value": "wondrous"
@@ -187,6 +187,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.827340"
     },
-    "id": "tug_goggles_of_object_reading"
+    "id": "tug_item_goggles_of_object_reading"
   }
 }

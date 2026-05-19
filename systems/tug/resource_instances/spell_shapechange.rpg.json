@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_shapechange",
+    "id": "tug_spell_shapechange",
     "name": {
       "value": "Shapechange"
     },

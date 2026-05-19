@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_tensers_floating_disk",
+    "id": "tug_spell_tensers_floating_disk",
     "name": {
       "value": "Tenser's Floating Disk"
     },

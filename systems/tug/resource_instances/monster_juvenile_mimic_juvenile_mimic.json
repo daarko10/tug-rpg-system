@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_juvenile_mimic",
+    "id": "tug_monster_juvenile_mimic",
     "name": {
       "value": "Juvenile Mimic"
     },

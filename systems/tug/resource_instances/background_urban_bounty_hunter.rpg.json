@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area.\u00a0"
+                      "value": "You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.062853"
@@ -157,7 +157,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.062894"
                           },
-                          "id": "set_of_clothes_appropriate_to_your_duties\u00a0"
+                          "id": "set_of_clothes_appropriate_to_your_duties "
                         }
                       }
                     },
@@ -243,6 +243,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.062919"
     },
-    "id": "tug_urban_bounty_hunter"
+    "id": "tug_background_urban_bounty_hunter"
   }
 }

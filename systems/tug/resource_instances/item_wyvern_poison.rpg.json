@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wyvern_poison",
+    "id": "tug_item_wyvern_poison",
     "name": {
       "value": "Wyvern Poison"
     },

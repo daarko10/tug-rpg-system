@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_adult_green_dragon",
+    "id": "tug_monster_adult_green_dragon",
     "name": {
       "value": "Adult Green Dragon"
     },

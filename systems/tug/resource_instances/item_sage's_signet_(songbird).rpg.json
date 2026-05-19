@@ -130,7 +130,7 @@
                     "value": "specially marked sticks, bones, or similar tokens worth at least 25 gp"
                   },
                   "description": {
-                    "value": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u2019t especially good or bad\n\nThe spell doesn\u2019t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret."
+                    "value": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren’t especially good or bad\n\nThe spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret."
                   },
                   "classes": {
                     "value": [
@@ -367,6 +367,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.794039"
     },
-    "id": "tug_sages_signet__songbird_"
+    "id": "tug_item_sages_signet__songbird_"
   }
 }

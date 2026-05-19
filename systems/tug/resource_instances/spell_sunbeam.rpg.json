@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_sunbeam",
+    "id": "tug_spell_sunbeam",
     "name": {
       "value": "Sunbeam"
     },

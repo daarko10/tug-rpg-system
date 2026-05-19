@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_deaths_head",
+    "id": "tug_monster_deaths_head",
     "name": {
       "value": "Death's Head"
     },

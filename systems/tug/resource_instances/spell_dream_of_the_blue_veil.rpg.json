@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_dream_of_the_blue_veil",
+    "id": "tug_spell_dream_of_the_blue_veil",
     "name": {
       "value": "Dream of the Blue Veil"
     },

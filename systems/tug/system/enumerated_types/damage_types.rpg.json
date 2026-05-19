@@ -58,6 +58,10 @@
     {
       "id": "magic",
       "name": "Magic"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_animated_ballista",
+    "id": "tug_monster_animated_ballista",
     "name": {
       "value": "Animated Ballista"
     },

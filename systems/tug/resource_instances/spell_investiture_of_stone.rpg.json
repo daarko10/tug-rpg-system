@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_investiture_of_stone",
+    "id": "tug_spell_investiture_of_stone",
     "name": {
       "value": "Investiture of Stone"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "* You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\n\n* You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.\n\n* You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can\u2019t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn"
+      "value": "* You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.\n\n* You can use your action to create a small earthquake on the ground in a 15-foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.\n\n* You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it was air and without destabilizing it, but you can’t end your movement there. If you do so, you are ejected to the nearest unoccupied space, this spell ends, and you are stunned until the end of your next turn"
     },
     "classes": {
       "value": [

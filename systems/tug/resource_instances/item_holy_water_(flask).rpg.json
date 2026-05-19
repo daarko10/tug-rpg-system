@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_holy_water__flask_",
+    "id": "tug_item_holy_water__flask_",
     "name": {
       "value": "Holy Water (flask)"
     },

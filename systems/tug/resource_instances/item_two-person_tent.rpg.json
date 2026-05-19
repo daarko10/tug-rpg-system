@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_two-person_tent",
+    "id": "tug_item_two-person_tent",
     "name": {
       "value": "Two-Person Tent"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_broom_of_animated_attack",
+    "id": "tug_monster_broom_of_animated_attack",
     "name": {
       "value": "Broom of Animated Attack"
     },

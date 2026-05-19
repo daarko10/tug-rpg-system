@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_masters_amulet",
+    "id": "tug_item_masters_amulet",
     "name": {
       "value": "Master's Amulet"
     },

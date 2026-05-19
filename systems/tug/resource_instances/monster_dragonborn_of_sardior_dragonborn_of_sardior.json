@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dragonborn_of_sardior",
+    "id": "tug_monster_dragonborn_of_sardior",
     "name": {
       "value": "Dragonborn of Sardior"
     },

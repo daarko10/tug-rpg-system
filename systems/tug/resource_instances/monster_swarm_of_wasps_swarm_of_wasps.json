@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_wasps",
+    "id": "tug_monster_swarm_of_wasps",
     "name": {
       "value": "Swarm of Wasps"
     },

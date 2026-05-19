@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wand_of_magic_detection",
+    "id": "tug_item_wand_of_magic_detection",
     "name": {
       "value": "Wand of Magic Detection"
     },

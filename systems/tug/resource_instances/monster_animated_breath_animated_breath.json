@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_animated_breath",
+    "id": "tug_monster_animated_breath",
     "name": {
       "value": "Animated Breath"
     },

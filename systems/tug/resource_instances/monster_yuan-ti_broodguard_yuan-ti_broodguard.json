@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_yuan-ti_broodguard",
+    "id": "tug_monster_yuan-ti_broodguard",
     "name": {
       "value": "Yuan-ti Broodguard"
     },

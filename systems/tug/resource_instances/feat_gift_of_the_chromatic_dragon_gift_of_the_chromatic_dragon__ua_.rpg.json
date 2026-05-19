@@ -13,7 +13,7 @@
           "resource_id": "levelled_description",
           "stats": {
             "description": {
-              "value": "You\u2019ve manifested some of the power of chromatic dragons, granting you the following benefits:\n\n- As a bonus action, you can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits. After you use this ability, you can\u2019t do so again until you finish a long rest.\n\n- When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
+              "value": "You’ve manifested some of the power of chromatic dragons, granting you the following benefits:\n\n- As a bonus action, you can touch a simple or martial weapon and infuse it with one of the following damage types: acid, cold, fire, lightning, or poison. For the next minute, the weapon deals an extra 1d4 damage of the chosen type when it hits. After you use this ability, you can’t do so again until you finish a long rest.\n\n- When you take acid, cold, fire, lightning, or poison damage, you can use your reaction to give yourself resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
             },
             "updated_at": {
               "value": "2024-12-20T18:50:28.422874"
@@ -125,6 +125,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:28.422876"
     },
-    "id": "tug_gift_of_the_chromatic_dragon__ua_"
+    "id": "tug_feat_gift_of_the_chromatic_dragon__ua_"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_orb_of_skoraeus",
+    "id": "tug_item_orb_of_skoraeus",
     "name": {
       "value": "Orb of Skoraeus"
     },

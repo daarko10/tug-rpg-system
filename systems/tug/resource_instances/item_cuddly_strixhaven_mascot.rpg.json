@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cuddly_strixhaven_mascot",
+    "id": "tug_item_cuddly_strixhaven_mascot",
     "name": {
       "value": "Cuddly Strixhaven Mascot"
     },

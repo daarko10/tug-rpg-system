@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_firenewt_warrior",
+    "id": "tug_monster_firenewt_warrior",
     "name": {
       "value": "Firenewt Warrior"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_poltergeist",
+    "id": "tug_monster_poltergeist",
     "name": {
       "value": "Poltergeist"
     },

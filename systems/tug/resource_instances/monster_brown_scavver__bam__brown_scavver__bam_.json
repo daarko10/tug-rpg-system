@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_brown_scavver__bam_",
+    "id": "tug_monster_brown_scavver__bam_",
     "name": {
       "value": "Brown Scavver"
     },

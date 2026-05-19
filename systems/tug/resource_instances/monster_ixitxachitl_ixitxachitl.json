@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ixitxachitl",
+    "id": "tug_monster_ixitxachitl",
     "name": {
       "value": "Ixitxachitl"
     },

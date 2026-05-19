@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bullseye_lantern",
+    "id": "tug_item_bullseye_lantern",
     "name": {
       "value": "Bullseye Lantern"
     },

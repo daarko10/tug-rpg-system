@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_zombie_limbs",
+    "id": "tug_monster_swarm_of_zombie_limbs",
     "name": {
       "value": "Swarm of Zombie Limbs"
     },

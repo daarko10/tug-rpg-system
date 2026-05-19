@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_swift_quiver",
+    "id": "tug_spell_swift_quiver",
     "name": {
       "value": "Swift Quiver"
     },

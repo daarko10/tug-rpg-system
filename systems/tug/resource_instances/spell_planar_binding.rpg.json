@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_planar_binding",
+    "id": "tug_spell_planar_binding",
     "name": {
       "value": "Planar Binding"
     },

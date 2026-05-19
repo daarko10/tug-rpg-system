@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_spawn_of_kyuss",
+    "id": "tug_monster_spawn_of_kyuss",
     "name": {
       "value": "Spawn of Kyuss"
     },

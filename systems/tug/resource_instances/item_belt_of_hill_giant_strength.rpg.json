@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_belt_of_hill_giant_strength",
+    "id": "tug_item_belt_of_hill_giant_strength",
     "name": {
       "value": "Belt of Hill Giant Strength"
     },

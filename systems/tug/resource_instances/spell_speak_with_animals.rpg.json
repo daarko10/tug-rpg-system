@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_speak_with_animals",
+    "id": "tug_spell_speak_with_animals",
     "name": {
       "value": "Speak with Animals"
     },

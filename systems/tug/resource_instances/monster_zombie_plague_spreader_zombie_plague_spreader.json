@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_zombie_plague_spreader",
+    "id": "tug_monster_zombie_plague_spreader",
     "name": {
       "value": "Zombie Plague Spreader"
     },

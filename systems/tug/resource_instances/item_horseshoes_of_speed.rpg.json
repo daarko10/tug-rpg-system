@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_horseshoes_of_speed",
+    "id": "tug_item_horseshoes_of_speed",
     "name": {
       "value": "Horseshoes of Speed"
     },

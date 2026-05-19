@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_mirror_image",
+    "id": "tug_spell_mirror_image",
     "name": {
       "value": "Mirror Image"
     },

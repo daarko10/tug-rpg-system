@@ -21,7 +21,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Mulmaster is run by and for its aristocracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances.\u00a0"
+                      "value": "Mulmaster is run by and for its aristocracy. Every other class of citizen in the city defers to you, and even the priesthood, Soldiery, Hawks, and Cloaks treat you with deference. Other aristocrats and nobles accept you in their circles and likely know you or of you. Your connections can get you the ear of a Zor or Zora under the right circumstances. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.033394"
@@ -358,6 +358,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.033534"
     },
-    "id": "tug_mulmaster_aristocrat"
+    "id": "tug_background_mulmaster_aristocrat"
   }
 }

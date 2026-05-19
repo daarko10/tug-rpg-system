@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_goliath_giant-kin__bgg_",
+    "id": "tug_monster_goliath_giant-kin__bgg_",
     "name": {
       "value": "Goliath Giant-Kin"
     },

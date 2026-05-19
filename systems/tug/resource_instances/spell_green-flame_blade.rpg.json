@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_green-flame_blade",
+    "id": "tug_spell_green-flame_blade",
     "name": {
       "value": "Green-Flame Blade"
     },

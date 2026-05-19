@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_constructed_commoner",
+    "id": "tug_monster_constructed_commoner",
     "name": {
       "value": "Constructed Commoner"
     },

@@ -185,7 +185,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Small cast-off scale belonging to Vorgansharax \u2013 the Maimed Virulence"
+                            "value": "Small cast-off scale belonging to Vorgansharax – the Maimed Virulence"
                           },
                           "cost": {
                             "value": {
@@ -218,7 +218,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.040230"
                           },
-                          "id": "small_cast-off_scale_belonging_to_vorgansharax_\u2013_the_maimed_virulence"
+                          "id": "small_cast-off_scale_belonging_to_vorgansharax_–_the_maimed_virulence"
                         }
                       }
                     },
@@ -475,6 +475,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.040376"
     },
-    "id": "tug_dragon_casualty"
+    "id": "tug_background_dragon_casualty"
   }
 }

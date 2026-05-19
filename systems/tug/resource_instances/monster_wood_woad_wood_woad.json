@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_wood_woad",
+    "id": "tug_monster_wood_woad",
     "name": {
       "value": "Wood Woad"
     },

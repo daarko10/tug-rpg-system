@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_glass_bottle",
+    "id": "tug_item_glass_bottle",
     "name": {
       "value": "Glass Bottle"
     },
@@ -9,7 +9,7 @@
       "value": "phb"
     },
     "description": {
-      "value": "A bottle holds 1\u00bd pints of liquid."
+      "value": "A bottle holds 1½ pints of liquid."
     },
     "type": {
       "value": "adventuring_gear"

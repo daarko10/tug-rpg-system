@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_brackish_trudge",
+    "id": "tug_monster_brackish_trudge",
     "name": {
       "value": "Brackish Trudge"
     },

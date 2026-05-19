@@ -77,7 +77,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Your DM assigns a goal to you\u2014typically, one related to your character\u2019s death. The goal must be a specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain the following benefits:\n\n- If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.\n\n- If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.\n\n- You know the distance and direction between you and any creature involved in your goal, such as a person you seek vengeance against or someone you pledged to defend. This awareness fails if the creature is on another plane of existence. When your goal is complete, you finally find rest. You die and cannot be restored to life"
+                      "value": "Your DM assigns a goal to you—typically, one related to your character’s death. The goal must be a specific task you can complete, such as slaying an enemy or liberating an area and its people. Until you fulfill that goal, you gain the following benefits:\n\n- If you are below half your hit point maximum at the start of your turn, you regain 1 hit point.\n\n- If you die, you return to life 24 hours after death. If your body is destroyed, you reform within 1 mile of the place of your death at a spot determined by the DM. If your equipment was also destroyed, you do not regain it.\n\n- You know the distance and direction between you and any creature involved in your goal, such as a person you seek vengeance against or someone you pledged to defend. This awareness fails if the creature is on another plane of existence. When your goal is complete, you finally find rest. You die and cannot be restored to life"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.862650"
@@ -197,6 +197,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.862673"
     },
-    "id": "tug_human_revenant_"
+    "id": "tug_race_human_revenant_"
   }
 }

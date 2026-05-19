@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sprig_of_mistletoe",
+    "id": "tug_item_sprig_of_mistletoe",
     "name": {
       "value": "Sprig of Mistletoe"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_adult_copper_dragon",
+    "id": "tug_monster_adult_copper_dragon",
     "name": {
       "value": "Adult Copper Dragon"
     },

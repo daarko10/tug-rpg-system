@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_programmed_illusion",
+    "id": "tug_spell_programmed_illusion",
     "name": {
       "value": "Programmed Illusion"
     },

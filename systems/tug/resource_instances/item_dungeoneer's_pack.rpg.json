@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_dungeoneers_pack",
+    "id": "tug_item_dungeoneers_pack",
     "name": {
       "value": "Dungeoneer's Pack"
     },

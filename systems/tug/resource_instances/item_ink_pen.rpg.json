@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ink_pen",
+    "id": "tug_item_ink_pen",
     "name": {
       "value": "Ink Pen"
     },

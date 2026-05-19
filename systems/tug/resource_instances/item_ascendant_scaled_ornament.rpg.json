@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ascendant_scaled_ornament",
+    "id": "tug_item_ascendant_scaled_ornament",
     "name": {
       "value": "Ascendant Scaled Ornament"
     },

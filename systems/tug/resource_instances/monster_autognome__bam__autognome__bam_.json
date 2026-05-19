@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_autognome__bam_",
+    "id": "tug_monster_autognome__bam_",
     "name": {
       "value": "Autognome"
     },

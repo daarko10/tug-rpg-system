@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_lunar_dragon__bam_",
+    "id": "tug_monster_ancient_lunar_dragon__bam_",
     "name": {
       "value": "Ancient Lunar Dragon"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_frost_giant_of_evil_water__bgg_",
+    "id": "tug_monster_frost_giant_of_evil_water__bgg_",
     "name": {
       "value": "Frost Giant of Evil Water"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_deaths_head_of_bhaal",
+    "id": "tug_monster_deaths_head_of_bhaal",
     "name": {
       "value": "Death's Head of Bhaal"
     },

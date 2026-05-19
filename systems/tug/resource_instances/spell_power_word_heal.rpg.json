@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_power_word_heal",
+    "id": "tug_spell_power_word_heal",
     "name": {
       "value": "Power Word Heal"
     },

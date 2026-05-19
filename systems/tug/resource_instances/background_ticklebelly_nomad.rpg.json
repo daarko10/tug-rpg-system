@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn\u2019t shield or conceal you from scrying, mental probing, nor from threats that don\u2019t necessarily require the five senses to find you.\u00a0"
+                      "value": "The wilderness is your home and you are comfortable dwelling in it. You can find a place to hide, rest, or recuperate when out in the wild. This place of rest is secure enough to conceal you from most natural threats. Threats that are supernatural, magical, or are actively seeking you out might do so with difficulty depending on the nature of the threat (as determined by the DM). However, this feature doesn’t shield or conceal you from scrying, mental probing, nor from threats that don’t necessarily require the five senses to find you. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.073414"
@@ -445,6 +445,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.073552"
     },
-    "id": "tug_ticklebelly_nomad"
+    "id": "tug_background_ticklebelly_nomad"
   }
 }

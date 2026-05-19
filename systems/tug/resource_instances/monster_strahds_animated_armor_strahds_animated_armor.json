@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_strahds_animated_armor",
+    "id": "tug_monster_strahds_animated_armor",
     "name": {
       "value": "Strahd's Animated Armor"
     },

@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory.\u00a0"
+                      "value": "You have a special way of communicating with others who feel the same way you do about the Shade. When you enter a village or larger city you can identify contact who will give you information on those that would hinder your goals and those would help you simply because of your desire to see the Shade Enclave return in all its glory. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.008520"
@@ -381,6 +381,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.008781"
     },
-    "id": "tug_shade_fanatic"
+    "id": "tug_background_shade_fanatic"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ioun_stone,_greater_absorption",
+    "id": "tug_item_ioun_stone,_greater_absorption",
     "name": {
       "value": "Ioun Stone, Greater Absorption"
     },

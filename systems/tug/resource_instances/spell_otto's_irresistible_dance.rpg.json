@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_ottos_irresistible_dance",
+    "id": "tug_spell_ottos_irresistible_dance",
     "name": {
       "value": "Otto's Irresistible Dance"
     },

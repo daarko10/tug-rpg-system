@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_truth_serum",
+    "id": "tug_item_truth_serum",
     "name": {
       "value": "Truth Serum"
     },

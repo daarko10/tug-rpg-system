@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_freedom_of_movement",
+    "id": "tug_spell_freedom_of_movement",
     "name": {
       "value": "Freedom of Movement"
     },

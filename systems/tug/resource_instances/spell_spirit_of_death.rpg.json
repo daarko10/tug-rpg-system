@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_spirit_of_death",
+    "id": "tug_spell_spirit_of_death",
     "name": {
       "value": "Spirit of Death"
     },

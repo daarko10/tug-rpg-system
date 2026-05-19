@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_create_spelljamming_helm",
+    "id": "tug_spell_create_spelljamming_helm",
     "name": {
       "value": "Create Spelljamming Helm"
     },

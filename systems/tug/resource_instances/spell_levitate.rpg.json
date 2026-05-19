@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_levitate",
+    "id": "tug_spell_levitate",
     "name": {
       "value": "Levitate"
     },

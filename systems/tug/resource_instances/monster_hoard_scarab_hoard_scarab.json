@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hoard_scarab",
+    "id": "tug_monster_hoard_scarab",
     "name": {
       "value": "Hoard Scarab"
     },

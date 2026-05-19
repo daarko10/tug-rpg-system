@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_common_wine__pitcher_",
+    "id": "tug_item_common_wine__pitcher_",
     "name": {
       "value": "Common Wine (Pitcher)"
     },

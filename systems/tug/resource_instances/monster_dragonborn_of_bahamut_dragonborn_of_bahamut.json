@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dragonborn_of_bahamut",
+    "id": "tug_monster_dragonborn_of_bahamut",
     "name": {
       "value": "Dragonborn of Bahamut"
     },

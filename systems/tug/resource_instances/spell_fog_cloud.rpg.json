@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_fog_cloud",
+    "id": "tug_spell_fog_cloud",
     "name": {
       "value": "Fog Cloud"
     },

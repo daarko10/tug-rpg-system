@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wand_of_magic_missiles",
+    "id": "tug_item_wand_of_magic_missiles",
     "name": {
       "value": "Wand of Magic Missiles"
     },

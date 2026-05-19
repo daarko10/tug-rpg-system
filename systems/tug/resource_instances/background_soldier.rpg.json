@@ -182,7 +182,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Set\u00a0of Bone Dice"
+                            "value": "Set of Bone Dice"
                           },
                           "cost": {
                             "value": {
@@ -215,7 +215,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.075032"
                           },
-                          "id": "set\u00a0of_bone_dice"
+                          "id": "set of_bone_dice"
                         }
                       }
                     },
@@ -486,6 +486,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.075120"
     },
-    "id": "tug_soldier"
+    "id": "tug_background_soldier"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dark_tide_knight",
+    "id": "tug_monster_dark_tide_knight",
     "name": {
       "value": "Dark Tide Knight"
     },

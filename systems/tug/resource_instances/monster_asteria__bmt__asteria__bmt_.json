@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_asteria__bmt_",
+    "id": "tug_monster_asteria__bmt_",
     "name": {
       "value": "Asteria"
     },
@@ -899,7 +899,7 @@
               "value": "diamonds worth 300 gp, which the spell consumes"
             },
             "description": {
-              "value": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can\u2019t return to life a creature that has died of old age, nor can it restore any missing body parts."
+              "value": "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts."
             },
             "classes": {
               "value": [

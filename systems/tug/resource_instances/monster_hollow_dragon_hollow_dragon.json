@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hollow_dragon",
+    "id": "tug_monster_hollow_dragon",
     "name": {
       "value": "Hollow Dragon"
     },

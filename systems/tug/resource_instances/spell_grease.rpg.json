@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_grease",
+    "id": "tug_spell_grease",
     "name": {
       "value": "Grease"
     },

@@ -3745,6 +3745,15 @@
               "type": "stat",
               "stat": "$edit_mode"
             }
+          },
+          {
+            "type": "menuButton",
+            "id": "rest_menu_button",
+            "icon_name": "ic_daytime",
+            "icon_size": "medium",
+            "icon_color": "accent",
+            "margin_right": 16,
+            "options": "lifecycle_events_menu"
           }
         ],
         "content": [
@@ -5549,6 +5558,10 @@
         "show_divider": true,
         "content_item_min_width": 1,
         "collapsible": true,
+        "is_visible": {
+          "type": "stat",
+          "stat": "domain_expansion_active"
+        },
         "header": [
           {
             "type": "icon",
@@ -5576,7 +5589,7 @@
           {
             "type": "selectResources",
             "id": "domain_tree_add_node",
-            "stat": "purchased_nodes",
+            "stat": "purchased_domain_nodes",
             "resource_id": "skill_tree_node",
             "view_type": "icon",
             "should_append": true,
@@ -5648,12 +5661,115 @@
             }
           },
           {
-            "type": "resourceSection",
-            "id": "domain_tree_nodes_list",
-            "resource_id": "skill_tree_node",
-            "resource_stat": "domain_tree_nodes",
-            "resource_set_stat": "purchased_nodes",
-            "read_only": false
+            "type": "text",
+            "id": "domain_hp_debt_info",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "HP Debt: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "domain_max_hp_debt"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " (max HP reduced until long rest)",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "caption",
+            "margin_left": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "domain_max_hp_debt"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "text",
+            "id": "domain_nodes_grouped",
+            "text": {
+              "type": "stat",
+              "stat": "domain_summary_text"
+            },
+            "style": "text",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 12,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "unique_domain_node_names"
+                }
+              }
+            }
+          },
+          {
+            "type": "collapsible",
+            "id": "domain_manage_collapsible",
+            "title": {
+              "type": "constant",
+              "value": "Manage PP investments",
+              "value_type": "string"
+            },
+            "start_expanded": false,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "domain_tree_nodes"
+                }
+              }
+            },
+            "margin_top": 8,
+            "subviews": [
+              {
+                "type": "text",
+                "id": "domain_nodes_remove_hint",
+                "text": {
+                  "type": "constant",
+                  "value": "Swipe left on an entry to remove it.",
+                  "value_type": "string"
+                },
+                "style": "caption",
+                "margin_top": 8,
+                "margin_left": 16
+              },
+              {
+                "type": "resourceSection",
+                "id": "domain_tree_nodes_list",
+                "resource_id": "skill_tree_node",
+                "resource_stat": "domain_tree_nodes",
+                "resource_set_stat": "purchased_domain_nodes",
+                "read_only": false
+              }
+            ]
           }
         ]
       }
@@ -5693,7 +5809,7 @@
           {
             "type": "selectResources",
             "id": "cursed_pact_nodes_add",
-            "stat": "purchased_nodes",
+            "stat": "purchased_cursed_pact_nodes",
             "resource_id": "skill_tree_node",
             "view_type": "icon",
             "should_append": true,
@@ -6183,7 +6299,7 @@
             "id": "cursed_pacts_all_nodes_title",
             "text": {
               "type": "constant",
-              "value": "All Cursed Pact Features (swipe to remove)",
+              "value": "All Cursed Pact Features",
               "value_type": "string"
             },
             "style": "subhead",
@@ -6196,22 +6312,42 @@
                 "type": "isEmpty",
                 "components": {
                   "type": "stat",
-                  "stat": "cursed_pact_tree_nodes"
+                  "stat": "unique_cursed_node_names"
                 }
               }
             }
           },
           {
             "type": "text",
-            "id": "cursed_pacts_nodes_hint",
+            "id": "cursed_pact_nodes_grouped",
             "text": {
+              "type": "stat",
+              "stat": "cursed_pact_summary_text"
+            },
+            "style": "text",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 12,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "isEmpty",
+                "components": {
+                  "type": "stat",
+                  "stat": "unique_cursed_node_names"
+                }
+              }
+            }
+          },
+          {
+            "type": "collapsible",
+            "id": "cursed_pacts_manage_collapsible",
+            "title": {
               "type": "constant",
-              "value": "Each row = 1 PP invested. Stackable features appear once per PP spent.",
+              "value": "Manage PP investments",
               "value_type": "string"
             },
-            "style": "caption",
-            "margin_left": 16,
-            "margin_top": 2,
+            "start_expanded": false,
             "is_visible": {
               "type": "not",
               "components": {
@@ -6221,15 +6357,30 @@
                   "stat": "cursed_pact_tree_nodes"
                 }
               }
-            }
-          },
-          {
-            "type": "resourceSection",
-            "id": "cursed_pact_tree_nodes_list",
-            "resource_id": "skill_tree_node",
-            "resource_stat": "cursed_pact_tree_nodes",
-            "resource_set_stat": "purchased_nodes",
-            "read_only": false
+            },
+            "margin_top": 8,
+            "subviews": [
+              {
+                "type": "text",
+                "id": "cursed_pacts_remove_hint",
+                "text": {
+                  "type": "constant",
+                  "value": "Swipe left on an entry to remove it.",
+                  "value_type": "string"
+                },
+                "style": "caption",
+                "margin_top": 8,
+                "margin_left": 16
+              },
+              {
+                "type": "resourceSection",
+                "id": "cursed_pact_tree_nodes_list",
+                "resource_id": "skill_tree_node",
+                "resource_stat": "cursed_pact_tree_nodes",
+                "resource_set_stat": "purchased_cursed_pact_nodes",
+                "read_only": false
+              }
+            ]
           }
         ]
       }
@@ -17569,10 +17720,40 @@
       "name": "Pact Points (total)"
     },
     {
-      "id": "purchased_nodes",
+      "id": "purchased_cursed_pact_nodes",
       "type": "base",
       "value_type": "array",
       "default_value": [],
+      "sub_value_type": "resource",
+      "resource_type": "skill_tree_node",
+      "name": "Purchased cursed pact nodes"
+    },
+    {
+      "id": "purchased_domain_nodes",
+      "type": "base",
+      "value_type": "array",
+      "default_value": [],
+      "sub_value_type": "resource",
+      "resource_type": "skill_tree_node",
+      "name": "Purchased domain nodes"
+    },
+    {
+      "id": "purchased_nodes",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "flatAppend",
+        "components": [
+          {
+            "type": "stat",
+            "stat": "purchased_cursed_pact_nodes"
+          },
+          {
+            "type": "stat",
+            "stat": "purchased_domain_nodes"
+          }
+        ]
+      },
       "sub_value_type": "resource",
       "resource_type": "skill_tree_node",
       "name": "Purchased nodes"
@@ -17594,7 +17775,7 @@
             "type": "defaultIfNull",
             "components": {
               "type": "stat",
-              "stat": "$n.pp_cost?"
+              "stat": "$n.pp_cost"
             },
             "default_components": {
               "type": "constant",
@@ -18052,6 +18233,51 @@
         }
       },
       "name": "Limitless active"
+    },
+    {
+      "id": "domain_expansion_active",
+      "type": "calculated",
+      "value_type": "bool",
+      "components": {
+        "type": "not",
+        "components": {
+          "type": "isEmpty",
+          "components": {
+            "type": "filter",
+            "components": {
+              "type": "stat",
+              "stat": "purchased_nodes"
+            },
+            "filter_value_key": "$n",
+            "filter": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "$n.name"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": "",
+                      "value_type": "string"
+                    }
+                  },
+                  {
+                    "type": "constant",
+                    "value": "Domain Expansion",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "name": "Domain Expansion active"
     },
     {
       "id": "active_pact_ids",
@@ -18747,37 +18973,8 @@
       "components": {
         "type": "sortBy",
         "components": {
-          "type": "filter",
-          "components": {
-            "type": "stat",
-            "stat": "purchased_nodes"
-          },
-          "filter_value_key": "$n",
-          "filter": {
-            "type": "equals",
-            "components": {
-              "type": "list",
-              "components": [
-                {
-                  "type": "defaultIfNull",
-                  "components": {
-                    "type": "stat",
-                    "stat": "$n.tree"
-                  },
-                  "default_components": {
-                    "type": "constant",
-                    "value": "",
-                    "value_type": "string"
-                  }
-                },
-                {
-                  "type": "constant",
-                  "value": "domain",
-                  "value_type": "string"
-                }
-              ]
-            }
-          }
+          "type": "stat",
+          "stat": "purchased_domain_nodes"
         },
         "sort_by_value_key": "$n",
         "sort_by_selector": {
@@ -18804,37 +19001,8 @@
       "components": {
         "type": "sortBy",
         "components": {
-          "type": "filter",
-          "components": {
-            "type": "stat",
-            "stat": "purchased_nodes"
-          },
-          "filter_value_key": "$n",
-          "filter": {
-            "type": "equals",
-            "components": {
-              "type": "list",
-              "components": [
-                {
-                  "type": "defaultIfNull",
-                  "components": {
-                    "type": "stat",
-                    "stat": "$n.tree"
-                  },
-                  "default_components": {
-                    "type": "constant",
-                    "value": "",
-                    "value_type": "string"
-                  }
-                },
-                {
-                  "type": "constant",
-                  "value": "cursed_pact",
-                  "value_type": "string"
-                }
-              ]
-            }
-          }
+          "type": "stat",
+          "stat": "purchased_cursed_pact_nodes"
         },
         "sort_by_value_key": "$n",
         "sort_by_selector": {
@@ -18853,6 +19021,1724 @@
       "sub_value_type": "resource",
       "resource_type": "skill_tree_node",
       "name": "Cursed pact tree nodes"
+    },
+    {
+      "id": "unique_cursed_node_names",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "sortBy",
+        "components": {
+          "type": "flatAppend",
+          "components": [
+            {
+              "type": "map",
+              "components": {
+                "type": "stat",
+                "stat": "cursed_pact_tree_nodes"
+              },
+              "map_value_key": "$n",
+              "mapper": {
+                "type": "defaultIfNull",
+                "components": {
+                  "type": "stat",
+                  "stat": "$n.name"
+                },
+                "default_components": {
+                  "type": "constant",
+                  "value": "",
+                  "value_type": "string"
+                }
+              }
+            }
+          ],
+          "treat_as_set": true
+        },
+        "sort_by_value_key": "$s",
+        "sort_by_selector": {
+          "type": "stat",
+          "stat": "$s"
+        }
+      },
+      "sub_value_type": "string",
+      "name": "Unique cursed node names"
+    },
+    {
+      "id": "unique_domain_node_names",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "sortBy",
+        "components": {
+          "type": "flatAppend",
+          "components": [
+            {
+              "type": "map",
+              "components": {
+                "type": "stat",
+                "stat": "domain_tree_nodes"
+              },
+              "map_value_key": "$n",
+              "mapper": {
+                "type": "defaultIfNull",
+                "components": {
+                  "type": "stat",
+                  "stat": "$n.name"
+                },
+                "default_components": {
+                  "type": "constant",
+                  "value": "",
+                  "value_type": "string"
+                }
+              }
+            }
+          ],
+          "treat_as_set": true
+        },
+        "sort_by_value_key": "$s",
+        "sort_by_selector": {
+          "type": "stat",
+          "stat": "$s"
+        }
+      },
+      "sub_value_type": "string",
+      "name": "Unique domain node names"
+    },
+    {
+      "id": "cursed_pact_grouped_full",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "map",
+        "components": {
+          "type": "stat",
+          "stat": "unique_cursed_node_names"
+        },
+        "map_value_key": "$uname",
+        "mapper": {
+          "type": "concat",
+          "components": {
+            "type": "list",
+            "components": [
+              {
+                "type": "stat",
+                "stat": "$uname"
+              },
+              {
+                "type": "constant",
+                "value": " (",
+                "value_type": "string"
+              },
+              {
+                "type": "add",
+                "components": {
+                  "type": "map",
+                  "components": {
+                    "type": "filter",
+                    "components": {
+                      "type": "stat",
+                      "stat": "cursed_pact_tree_nodes"
+                    },
+                    "filter_value_key": "$n",
+                    "filter": {
+                      "type": "equals",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "defaultIfNull",
+                            "components": {
+                              "type": "stat",
+                              "stat": "$n.name"
+                            },
+                            "default_components": {
+                              "type": "constant",
+                              "value": "",
+                              "value_type": "string"
+                            }
+                          },
+                          {
+                            "type": "stat",
+                            "stat": "$uname"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "map_value_key": "$n",
+                  "mapper": {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "$n.pp_cost"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": 1,
+                      "value_type": "integer"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "constant",
+                "value": " PP)",
+                "value_type": "string"
+              },
+              {
+                "type": "when",
+                "clauses": [
+                  {
+                    "condition": {
+                      "type": "isEmpty",
+                      "components": {
+                        "type": "joinToString",
+                        "components": {
+                          "type": "flatAppend",
+                          "components": [
+                            {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "cursed_pact_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.pro_scale_prefix"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              }
+                            }
+                          ],
+                          "treat_as_set": true
+                        },
+                        "separator": ""
+                      }
+                    },
+                    "components": {
+                      "type": "when",
+                      "clauses": [
+                        {
+                          "condition": {
+                            "type": "isEmpty",
+                            "components": {
+                              "type": "joinToString",
+                              "components": {
+                                "type": "flatAppend",
+                                "components": [
+                                  {
+                                    "type": "map",
+                                    "components": {
+                                      "type": "filter",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "cursed_pact_tree_nodes"
+                                      },
+                                      "filter_value_key": "$n",
+                                      "filter": {
+                                        "type": "equals",
+                                        "components": {
+                                          "type": "list",
+                                          "components": [
+                                            {
+                                              "type": "defaultIfNull",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$n.name"
+                                              },
+                                              "default_components": {
+                                                "type": "constant",
+                                                "value": "",
+                                                "value_type": "string"
+                                              }
+                                            },
+                                            {
+                                              "type": "stat",
+                                              "stat": "$uname"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "map_value_key": "$n",
+                                    "mapper": {
+                                      "type": "defaultIfNull",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "$n.pro_description"
+                                      },
+                                      "default_components": {
+                                        "type": "constant",
+                                        "value": "",
+                                        "value_type": "string"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "treat_as_set": true
+                              },
+                              "separator": ""
+                            }
+                          },
+                          "components": {
+                            "type": "constant",
+                            "value": "",
+                            "value_type": "string"
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "constant",
+                            "value_type": "bool",
+                            "value": true
+                          },
+                          "components": {
+                            "type": "concat",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "constant",
+                                  "value": "\n+ ",
+                                  "value_type": "string"
+                                },
+                                {
+                                  "type": "joinToString",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "map",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "cursed_pact_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "defaultIfNull",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "$n.pro_description"
+                                          },
+                                          "default_components": {
+                                            "type": "constant",
+                                            "value": "",
+                                            "value_type": "string"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  },
+                                  "separator": ""
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "condition": {
+                      "type": "constant",
+                      "value_type": "bool",
+                      "value": true
+                    },
+                    "components": {
+                      "type": "concat",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "constant",
+                            "value": "\n+ ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "joinToString",
+                            "components": {
+                              "type": "flatAppend",
+                              "components": [
+                                {
+                                  "type": "map",
+                                  "components": {
+                                    "type": "filter",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "cursed_pact_tree_nodes"
+                                    },
+                                    "filter_value_key": "$n",
+                                    "filter": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          },
+                                          {
+                                            "type": "stat",
+                                            "stat": "$uname"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "map_value_key": "$n",
+                                  "mapper": {
+                                    "type": "defaultIfNull",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "$n.pro_scale_prefix"
+                                    },
+                                    "default_components": {
+                                      "type": "constant",
+                                      "value": "",
+                                      "value_type": "string"
+                                    }
+                                  }
+                                }
+                              ],
+                              "treat_as_set": true
+                            },
+                            "separator": ""
+                          },
+                          {
+                            "type": "constant",
+                            "value": " ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "add",
+                            "components": {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "cursed_pact_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.pro_scale_per_pp"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": 0,
+                                  "value_type": "integer"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "constant",
+                            "value": ".",
+                            "value_type": "string"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "when",
+                "clauses": [
+                  {
+                    "condition": {
+                      "type": "isEmpty",
+                      "components": {
+                        "type": "joinToString",
+                        "components": {
+                          "type": "flatAppend",
+                          "components": [
+                            {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "cursed_pact_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.con_scale_prefix"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              }
+                            }
+                          ],
+                          "treat_as_set": true
+                        },
+                        "separator": ""
+                      }
+                    },
+                    "components": {
+                      "type": "when",
+                      "clauses": [
+                        {
+                          "condition": {
+                            "type": "isEmpty",
+                            "components": {
+                              "type": "joinToString",
+                              "components": {
+                                "type": "flatAppend",
+                                "components": [
+                                  {
+                                    "type": "map",
+                                    "components": {
+                                      "type": "filter",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "cursed_pact_tree_nodes"
+                                      },
+                                      "filter_value_key": "$n",
+                                      "filter": {
+                                        "type": "equals",
+                                        "components": {
+                                          "type": "list",
+                                          "components": [
+                                            {
+                                              "type": "defaultIfNull",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$n.name"
+                                              },
+                                              "default_components": {
+                                                "type": "constant",
+                                                "value": "",
+                                                "value_type": "string"
+                                              }
+                                            },
+                                            {
+                                              "type": "stat",
+                                              "stat": "$uname"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "map_value_key": "$n",
+                                    "mapper": {
+                                      "type": "defaultIfNull",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "$n.con_description"
+                                      },
+                                      "default_components": {
+                                        "type": "constant",
+                                        "value": "",
+                                        "value_type": "string"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "treat_as_set": true
+                              },
+                              "separator": ""
+                            }
+                          },
+                          "components": {
+                            "type": "constant",
+                            "value": "",
+                            "value_type": "string"
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "constant",
+                            "value_type": "bool",
+                            "value": true
+                          },
+                          "components": {
+                            "type": "concat",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "constant",
+                                  "value": "\n- ",
+                                  "value_type": "string"
+                                },
+                                {
+                                  "type": "joinToString",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "map",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "cursed_pact_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "defaultIfNull",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "$n.con_description"
+                                          },
+                                          "default_components": {
+                                            "type": "constant",
+                                            "value": "",
+                                            "value_type": "string"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  },
+                                  "separator": ""
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "condition": {
+                      "type": "constant",
+                      "value_type": "bool",
+                      "value": true
+                    },
+                    "components": {
+                      "type": "concat",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "constant",
+                            "value": "\n- ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "joinToString",
+                            "components": {
+                              "type": "flatAppend",
+                              "components": [
+                                {
+                                  "type": "map",
+                                  "components": {
+                                    "type": "filter",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "cursed_pact_tree_nodes"
+                                    },
+                                    "filter_value_key": "$n",
+                                    "filter": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          },
+                                          {
+                                            "type": "stat",
+                                            "stat": "$uname"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "map_value_key": "$n",
+                                  "mapper": {
+                                    "type": "defaultIfNull",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "$n.con_scale_prefix"
+                                    },
+                                    "default_components": {
+                                      "type": "constant",
+                                      "value": "",
+                                      "value_type": "string"
+                                    }
+                                  }
+                                }
+                              ],
+                              "treat_as_set": true
+                            },
+                            "separator": ""
+                          },
+                          {
+                            "type": "constant",
+                            "value": " ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "add",
+                            "components": {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "cursed_pact_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.con_scale_per_pp"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": 0,
+                                  "value_type": "integer"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "constant",
+                            "value": ".",
+                            "value_type": "string"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "sub_value_type": "string",
+      "name": "Cursed pact grouped display"
+    },
+    {
+      "id": "cursed_pact_summary_text",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "joinToString",
+        "components": {
+          "type": "stat",
+          "stat": "cursed_pact_grouped_full"
+        },
+        "separator": "\n\n"
+      },
+      "name": "Cursed pact summary text"
+    },
+    {
+      "id": "domain_grouped_full",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "map",
+        "components": {
+          "type": "stat",
+          "stat": "unique_domain_node_names"
+        },
+        "map_value_key": "$uname",
+        "mapper": {
+          "type": "concat",
+          "components": {
+            "type": "list",
+            "components": [
+              {
+                "type": "stat",
+                "stat": "$uname"
+              },
+              {
+                "type": "constant",
+                "value": " (",
+                "value_type": "string"
+              },
+              {
+                "type": "add",
+                "components": {
+                  "type": "map",
+                  "components": {
+                    "type": "filter",
+                    "components": {
+                      "type": "stat",
+                      "stat": "domain_tree_nodes"
+                    },
+                    "filter_value_key": "$n",
+                    "filter": {
+                      "type": "equals",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "defaultIfNull",
+                            "components": {
+                              "type": "stat",
+                              "stat": "$n.name"
+                            },
+                            "default_components": {
+                              "type": "constant",
+                              "value": "",
+                              "value_type": "string"
+                            }
+                          },
+                          {
+                            "type": "stat",
+                            "stat": "$uname"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "map_value_key": "$n",
+                  "mapper": {
+                    "type": "defaultIfNull",
+                    "components": {
+                      "type": "stat",
+                      "stat": "$n.pp_cost"
+                    },
+                    "default_components": {
+                      "type": "constant",
+                      "value": 1,
+                      "value_type": "integer"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "constant",
+                "value": " PP)",
+                "value_type": "string"
+              },
+              {
+                "type": "when",
+                "clauses": [
+                  {
+                    "condition": {
+                      "type": "isEmpty",
+                      "components": {
+                        "type": "joinToString",
+                        "components": {
+                          "type": "flatAppend",
+                          "components": [
+                            {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "domain_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.pro_scale_prefix"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              }
+                            }
+                          ],
+                          "treat_as_set": true
+                        },
+                        "separator": ""
+                      }
+                    },
+                    "components": {
+                      "type": "when",
+                      "clauses": [
+                        {
+                          "condition": {
+                            "type": "isEmpty",
+                            "components": {
+                              "type": "joinToString",
+                              "components": {
+                                "type": "flatAppend",
+                                "components": [
+                                  {
+                                    "type": "map",
+                                    "components": {
+                                      "type": "filter",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "domain_tree_nodes"
+                                      },
+                                      "filter_value_key": "$n",
+                                      "filter": {
+                                        "type": "equals",
+                                        "components": {
+                                          "type": "list",
+                                          "components": [
+                                            {
+                                              "type": "defaultIfNull",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$n.name"
+                                              },
+                                              "default_components": {
+                                                "type": "constant",
+                                                "value": "",
+                                                "value_type": "string"
+                                              }
+                                            },
+                                            {
+                                              "type": "stat",
+                                              "stat": "$uname"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "map_value_key": "$n",
+                                    "mapper": {
+                                      "type": "defaultIfNull",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "$n.pro_description"
+                                      },
+                                      "default_components": {
+                                        "type": "constant",
+                                        "value": "",
+                                        "value_type": "string"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "treat_as_set": true
+                              },
+                              "separator": ""
+                            }
+                          },
+                          "components": {
+                            "type": "constant",
+                            "value": "",
+                            "value_type": "string"
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "constant",
+                            "value_type": "bool",
+                            "value": true
+                          },
+                          "components": {
+                            "type": "concat",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "constant",
+                                  "value": "\n+ ",
+                                  "value_type": "string"
+                                },
+                                {
+                                  "type": "joinToString",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "map",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "domain_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "defaultIfNull",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "$n.pro_description"
+                                          },
+                                          "default_components": {
+                                            "type": "constant",
+                                            "value": "",
+                                            "value_type": "string"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  },
+                                  "separator": ""
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "condition": {
+                      "type": "constant",
+                      "value_type": "bool",
+                      "value": true
+                    },
+                    "components": {
+                      "type": "concat",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "constant",
+                            "value": "\n+ ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "joinToString",
+                            "components": {
+                              "type": "flatAppend",
+                              "components": [
+                                {
+                                  "type": "map",
+                                  "components": {
+                                    "type": "filter",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "domain_tree_nodes"
+                                    },
+                                    "filter_value_key": "$n",
+                                    "filter": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          },
+                                          {
+                                            "type": "stat",
+                                            "stat": "$uname"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "map_value_key": "$n",
+                                  "mapper": {
+                                    "type": "defaultIfNull",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "$n.pro_scale_prefix"
+                                    },
+                                    "default_components": {
+                                      "type": "constant",
+                                      "value": "",
+                                      "value_type": "string"
+                                    }
+                                  }
+                                }
+                              ],
+                              "treat_as_set": true
+                            },
+                            "separator": ""
+                          },
+                          {
+                            "type": "constant",
+                            "value": " ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "add",
+                            "components": {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "domain_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.pro_scale_per_pp"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": 0,
+                                  "value_type": "integer"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "constant",
+                            "value": ".",
+                            "value_type": "string"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "when",
+                "clauses": [
+                  {
+                    "condition": {
+                      "type": "isEmpty",
+                      "components": {
+                        "type": "joinToString",
+                        "components": {
+                          "type": "flatAppend",
+                          "components": [
+                            {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "domain_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.con_scale_prefix"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              }
+                            }
+                          ],
+                          "treat_as_set": true
+                        },
+                        "separator": ""
+                      }
+                    },
+                    "components": {
+                      "type": "when",
+                      "clauses": [
+                        {
+                          "condition": {
+                            "type": "isEmpty",
+                            "components": {
+                              "type": "joinToString",
+                              "components": {
+                                "type": "flatAppend",
+                                "components": [
+                                  {
+                                    "type": "map",
+                                    "components": {
+                                      "type": "filter",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "domain_tree_nodes"
+                                      },
+                                      "filter_value_key": "$n",
+                                      "filter": {
+                                        "type": "equals",
+                                        "components": {
+                                          "type": "list",
+                                          "components": [
+                                            {
+                                              "type": "defaultIfNull",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$n.name"
+                                              },
+                                              "default_components": {
+                                                "type": "constant",
+                                                "value": "",
+                                                "value_type": "string"
+                                              }
+                                            },
+                                            {
+                                              "type": "stat",
+                                              "stat": "$uname"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    "map_value_key": "$n",
+                                    "mapper": {
+                                      "type": "defaultIfNull",
+                                      "components": {
+                                        "type": "stat",
+                                        "stat": "$n.con_description"
+                                      },
+                                      "default_components": {
+                                        "type": "constant",
+                                        "value": "",
+                                        "value_type": "string"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "treat_as_set": true
+                              },
+                              "separator": ""
+                            }
+                          },
+                          "components": {
+                            "type": "constant",
+                            "value": "",
+                            "value_type": "string"
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "constant",
+                            "value_type": "bool",
+                            "value": true
+                          },
+                          "components": {
+                            "type": "concat",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "constant",
+                                  "value": "\n- ",
+                                  "value_type": "string"
+                                },
+                                {
+                                  "type": "joinToString",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "map",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "domain_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "defaultIfNull",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "$n.con_description"
+                                          },
+                                          "default_components": {
+                                            "type": "constant",
+                                            "value": "",
+                                            "value_type": "string"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  },
+                                  "separator": ""
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "condition": {
+                      "type": "constant",
+                      "value_type": "bool",
+                      "value": true
+                    },
+                    "components": {
+                      "type": "concat",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "constant",
+                            "value": "\n- ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "joinToString",
+                            "components": {
+                              "type": "flatAppend",
+                              "components": [
+                                {
+                                  "type": "map",
+                                  "components": {
+                                    "type": "filter",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "domain_tree_nodes"
+                                    },
+                                    "filter_value_key": "$n",
+                                    "filter": {
+                                      "type": "equals",
+                                      "components": {
+                                        "type": "list",
+                                        "components": [
+                                          {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          },
+                                          {
+                                            "type": "stat",
+                                            "stat": "$uname"
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "map_value_key": "$n",
+                                  "mapper": {
+                                    "type": "defaultIfNull",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "$n.con_scale_prefix"
+                                    },
+                                    "default_components": {
+                                      "type": "constant",
+                                      "value": "",
+                                      "value_type": "string"
+                                    }
+                                  }
+                                }
+                              ],
+                              "treat_as_set": true
+                            },
+                            "separator": ""
+                          },
+                          {
+                            "type": "constant",
+                            "value": " ",
+                            "value_type": "string"
+                          },
+                          {
+                            "type": "add",
+                            "components": {
+                              "type": "map",
+                              "components": {
+                                "type": "filter",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "domain_tree_nodes"
+                                },
+                                "filter_value_key": "$n",
+                                "filter": {
+                                  "type": "equals",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "defaultIfNull",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$n.name"
+                                        },
+                                        "default_components": {
+                                          "type": "constant",
+                                          "value": "",
+                                          "value_type": "string"
+                                        }
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "$uname"
+                                      }
+                                    ]
+                                  }
+                                }
+                              },
+                              "map_value_key": "$n",
+                              "mapper": {
+                                "type": "defaultIfNull",
+                                "components": {
+                                  "type": "stat",
+                                  "stat": "$n.con_scale_per_pp"
+                                },
+                                "default_components": {
+                                  "type": "constant",
+                                  "value": 0,
+                                  "value_type": "integer"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "type": "constant",
+                            "value": ".",
+                            "value_type": "string"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "sub_value_type": "string",
+      "name": "Domain grouped display"
+    },
+    {
+      "id": "domain_summary_text",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "joinToString",
+        "components": {
+          "type": "stat",
+          "stat": "domain_grouped_full"
+        },
+        "separator": "\n\n"
+      },
+      "name": "Domain summary text"
     }
   ],
   "combat_system": {
@@ -23787,6 +25673,10 @@
         {
           "id": "limitless",
           "name": "Limitless"
+        },
+        {
+          "id": "domain_expansion",
+          "name": "Domain Expansion"
         }
       ]
     },
@@ -24893,6 +26783,36 @@
           },
           {
             "type": "setStat",
+            "stat": "blood_max_hp_debt",
+            "new_value": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "domain_max_hp_debt",
+            "new_value": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "domain_activations_remaining",
+            "new_value": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
             "stat": "current_hp",
             "new_value": {
               "type": "stat",
@@ -24957,36 +26877,6 @@
                   }
                 ]
               }
-            },
-            "aggregation_type": "set"
-          },
-          {
-            "type": "setStat",
-            "stat": "blood_max_hp_debt",
-            "new_value": {
-              "type": "constant",
-              "value": 0,
-              "value_type": "integer"
-            },
-            "aggregation_type": "set"
-          },
-          {
-            "type": "setStat",
-            "stat": "domain_max_hp_debt",
-            "new_value": {
-              "type": "constant",
-              "value": 0,
-              "value_type": "integer"
-            },
-            "aggregation_type": "set"
-          },
-          {
-            "type": "setStat",
-            "stat": "domain_activations_remaining",
-            "new_value": {
-              "type": "constant",
-              "value": 1,
-              "value_type": "integer"
             },
             "aggregation_type": "set"
           },
@@ -50332,7 +52222,7 @@
             "type": "defaultIfNull",
             "components": {
               "type": "stat",
-              "stat": "node?.name?"
+              "stat": "node?.name"
             },
             "default_components": {
               "type": "constant",
@@ -50350,7 +52240,7 @@
             "type": "defaultIfNull",
             "components": {
               "type": "stat",
-              "stat": "node?.pp_cost?"
+              "stat": "node?.pp_cost"
             },
             "default_components": {
               "type": "constant",
@@ -57797,11 +59687,39 @@
           "name": "Pro"
         },
         {
+          "id": "pro_scale_prefix",
+          "type": "base",
+          "value_type": "string",
+          "default_value": "",
+          "name": "Pro scale prefix"
+        },
+        {
+          "id": "pro_scale_per_pp",
+          "type": "base",
+          "value_type": "integer",
+          "default_value": 0,
+          "name": "Pro scale per PP"
+        },
+        {
           "id": "con_description",
           "type": "base",
           "value_type": "string",
           "default_value": "",
           "name": "Con"
+        },
+        {
+          "id": "con_scale_prefix",
+          "type": "base",
+          "value_type": "string",
+          "default_value": "",
+          "name": "Con scale prefix"
+        },
+        {
+          "id": "con_scale_per_pp",
+          "type": "base",
+          "value_type": "integer",
+          "default_value": 0,
+          "name": "Con scale per PP"
         },
         {
           "id": "description",
@@ -57811,79 +59729,6 @@
           "sub_value_type": "resource",
           "resource_type": "levelled_description",
           "name": "Descriptions"
-        },
-        {
-          "id": "stack_count",
-          "type": "calculated",
-          "value_type": "integer",
-          "components": {
-            "type": "when",
-            "clauses": [
-              {
-                "condition": {
-                  "type": "defined",
-                  "stat": "$parent.purchased_nodes"
-                },
-                "components": {
-                  "type": "add",
-                  "components": {
-                    "type": "map",
-                    "components": {
-                      "type": "filter",
-                      "components": {
-                        "type": "stat",
-                        "stat": "$parent.purchased_nodes"
-                      },
-                      "filter_value_key": "$n",
-                      "filter": {
-                        "type": "equals",
-                        "components": {
-                          "type": "list",
-                          "components": [
-                            {
-                              "type": "defaultIfNull",
-                              "components": {
-                                "type": "stat",
-                                "stat": "$n.name"
-                              },
-                              "default_components": {
-                                "type": "constant",
-                                "value": "",
-                                "value_type": "string"
-                              }
-                            },
-                            {
-                              "type": "stat",
-                              "stat": "name"
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    "map_value_key": "$n",
-                    "mapper": {
-                      "type": "constant",
-                      "value": 1,
-                      "value_type": "integer"
-                    }
-                  }
-                }
-              },
-              {
-                "condition": {
-                  "type": "constant",
-                  "value_type": "bool",
-                  "value": true
-                },
-                "components": {
-                  "type": "constant",
-                  "value": 1,
-                  "value_type": "integer"
-                }
-              }
-            ]
-          },
-          "name": "Stack count"
         }
       ]
     },

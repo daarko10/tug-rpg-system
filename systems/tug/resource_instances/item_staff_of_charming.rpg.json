@@ -360,7 +360,7 @@
                     "value": "a pinch of soot and salt"
                   },
                   "description": {
-                    "value": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u2019t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u2019t part of a written language."
+                    "value": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language."
                   },
                   "classes": {
                     "value": [
@@ -435,6 +435,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.694636"
     },
-    "id": "tug_staff_of_charming"
+    "id": "tug_item_staff_of_charming"
   }
 }

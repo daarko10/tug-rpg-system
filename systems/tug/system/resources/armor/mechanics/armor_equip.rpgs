@@ -1,5 +1,11 @@
 mechanic armor_equip(event_names = "toggle_equip") =
   when {
-    is_equipped -> setStat(meta_stat = equip_stat_name, new_value = "", aggregation_type = "set"),
-    else -> setStat(meta_stat = equip_stat_name, new_value = id, aggregation_type = "set"),
+    type == "shield" -> when {
+      is_equipped -> setStat(stat = "$character.equipped_shield_id", new_value = "", aggregation_type = "set"),
+      else -> setStat(stat = "$character.equipped_shield_id", new_value = id, aggregation_type = "set"),
+    },
+    else -> when {
+      is_equipped -> setStat(stat = "$character.equipped_armor_id", new_value = "", aggregation_type = "set"),
+      else -> setStat(stat = "$character.equipped_armor_id", new_value = id, aggregation_type = "set"),
+    },
   };

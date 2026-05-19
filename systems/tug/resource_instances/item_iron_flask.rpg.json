@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_iron_flask",
+    "id": "tug_item_iron_flask",
     "name": {
       "value": "Iron Flask"
     },

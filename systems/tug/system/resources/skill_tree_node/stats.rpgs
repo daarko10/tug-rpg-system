@@ -12,7 +12,15 @@ base bool can_invest_multiple(name = "Can invest multiple times") = false;
 
 base string pro_description(name = "Pro") = "";
 
+base string pro_scale_prefix(name = "Pro scale prefix") = "";
+
+base integer pro_scale_per_pp(name = "Pro scale per PP") = 0;
+
 base string con_description(name = "Con") = "";
+
+base string con_scale_prefix(name = "Con scale prefix") = "";
+
+base integer con_scale_per_pp(name = "Con scale per PP") = 0;
 
 base resource<levelled_description>[] description(name = "Descriptions") = [];
 

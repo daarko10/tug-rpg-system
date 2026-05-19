@@ -16,7 +16,7 @@
           "resource_id": "levelled_description",
           "stats": {
             "description": {
-              "value": "As an action, you transform the lower half of your body into a black vapor. You can float in the air and have a flying speed of 30 feet. This effect lasts for up to 10 minutes. Once you use this ability, you can\u2019t use it again until you finish a short or long rest"
+              "value": "As an action, you transform the lower half of your body into a black vapor. You can float in the air and have a flying speed of 30 feet. This effect lasts for up to 10 minutes. Once you use this ability, you can’t use it again until you finish a short or long rest"
             },
             "updated_at": {
               "value": "2024-12-20T18:50:28.424794"
@@ -67,6 +67,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:28.424796"
     },
-    "id": "tug_vampiric_exultation"
+    "id": "tug_feat_vampiric_exultation"
   }
 }

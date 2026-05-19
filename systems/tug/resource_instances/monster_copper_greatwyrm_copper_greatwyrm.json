@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_copper_greatwyrm",
+    "id": "tug_monster_copper_greatwyrm",
     "name": {
       "value": "Copper Greatwyrm"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_blink_dog",
+    "id": "tug_monster_blink_dog",
     "name": {
       "value": "Blink Dog"
     },

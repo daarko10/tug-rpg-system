@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_storm_crab__bgg_",
+    "id": "tug_monster_storm_crab__bgg_",
     "name": {
       "value": "Storm Crab"
     },

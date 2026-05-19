@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_fey_spirit",
+    "id": "tug_monster_fey_spirit",
     "name": {
       "value": "Fey Spirit"
     },

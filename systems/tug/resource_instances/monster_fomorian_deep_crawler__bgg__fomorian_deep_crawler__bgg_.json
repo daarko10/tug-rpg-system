@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_fomorian_deep_crawler__bgg_",
+    "id": "tug_monster_fomorian_deep_crawler__bgg_",
     "name": {
       "value": "Fomorian Deep Crawler"
     },

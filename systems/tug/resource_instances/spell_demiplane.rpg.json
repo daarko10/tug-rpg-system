@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_demiplane",
+    "id": "tug_spell_demiplane",
     "name": {
       "value": "Demiplane"
     },

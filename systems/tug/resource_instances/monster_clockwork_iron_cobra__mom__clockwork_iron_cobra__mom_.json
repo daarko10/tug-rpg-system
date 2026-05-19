@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_clockwork_iron_cobra__mom_",
+    "id": "tug_monster_clockwork_iron_cobra__mom_",
     "name": {
       "value": "Clockwork Iron Cobra"
     },
@@ -151,7 +151,7 @@
               "value": "Bite"
             },
             "action_description": {
-              "value": "5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random effect (roll a d6):\n\n- 1\u20132: Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.\n- 3\u20134: Paralysis: The target is paralyzed until the end of its next turn.\n- 5\u20136: Poison: The target takes 13 (3d8) poison damage."
+              "value": "5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Constitution saving throw or suffer one random effect (roll a d6):\n\n- 1–2: Confusion: On its next turn, the target must use its action to make one weapon attack against a random creature it can see within 30 feet of it, using whatever weapon it has in hand and moving beforehand if necessary to get in range. If it's holding no weapon, it makes an unarmed strike. If no creature is visible within 30 feet, it takes the Dash action, moving toward the nearest creature.\n- 3–4: Paralysis: The target is paralyzed until the end of its next turn.\n- 5–6: Poison: The target takes 13 (3d8) poison damage."
             },
             "action_type": {
               "value": "melee"

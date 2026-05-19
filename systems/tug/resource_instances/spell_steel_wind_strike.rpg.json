@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_steel_wind_strike",
+    "id": "tug_spell_steel_wind_strike",
     "name": {
       "value": "Steel Wind Strike"
     },

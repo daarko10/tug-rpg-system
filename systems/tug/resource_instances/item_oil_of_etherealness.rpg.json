@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_oil_of_etherealness",
+    "id": "tug_item_oil_of_etherealness",
     "name": {
       "value": "Oil of Etherealness"
     },

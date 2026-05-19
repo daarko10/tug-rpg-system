@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sacred_statue__mom_",
+    "id": "tug_monster_sacred_statue__mom_",
     "name": {
       "value": "Sacred Statue"
     },

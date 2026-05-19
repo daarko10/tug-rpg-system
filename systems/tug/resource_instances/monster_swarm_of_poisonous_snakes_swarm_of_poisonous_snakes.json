@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_poisonous_snakes",
+    "id": "tug_monster_swarm_of_poisonous_snakes",
     "name": {
       "value": "Swarm of Poisonous Snakes"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "background",
   "stats": {
-    "id": "tug_investigator",
+    "id": "tug_background_investigator",
     "name": {
       "value": "Investigator"
     },

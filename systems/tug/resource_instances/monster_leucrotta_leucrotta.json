@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_leucrotta",
+    "id": "tug_monster_leucrotta",
     "name": {
       "value": "Leucrotta"
     },

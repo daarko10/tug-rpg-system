@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_animal_friendship",
+    "id": "tug_spell_animal_friendship",
     "name": {
       "value": "Animal Friendship"
     },

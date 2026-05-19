@@ -32,7 +32,7 @@
       "value": true
     },
     "components": {
-      "value": "a red dragon\u2019s scale"
+      "value": "a red dragon’s scale"
     },
     "description": {
       "value": "A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose.\nEach creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one"
@@ -375,6 +375,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.687516"
     },
-    "id": "tug_aganazzars_scorcher"
+    "id": "tug_spell_aganazzars_scorcher"
   }
 }

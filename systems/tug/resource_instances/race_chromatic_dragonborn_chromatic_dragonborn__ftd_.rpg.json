@@ -254,7 +254,7 @@
                       "value": 5
                     },
                     "description": {
-                      "value": "As an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can\u2019t do so again until you finish a long rest"
+                      "value": "As an action, you can channel your draconic energies to protect yourself. For 10 minutes, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can’t do so again until you finish a long rest"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.830104"
@@ -784,6 +784,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.830369"
     },
-    "id": "tug_chromatic_dragonborn__ftd_"
+    "id": "tug_race_chromatic_dragonborn__ftd_"
   }
 }

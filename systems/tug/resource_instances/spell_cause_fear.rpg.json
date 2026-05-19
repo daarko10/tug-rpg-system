@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_cause_fear",
+    "id": "tug_spell_cause_fear",
     "name": {
       "value": "Cause Fear"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_gremishkas",
+    "id": "tug_monster_swarm_of_gremishkas",
     "name": {
       "value": "Swarm of Gremishkas"
     },

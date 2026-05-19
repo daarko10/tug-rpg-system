@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_orc_blade_of_ilneval",
+    "id": "tug_monster_orc_blade_of_ilneval",
     "name": {
       "value": "Orc Blade of Ilneval"
     },

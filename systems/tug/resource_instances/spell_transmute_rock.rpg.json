@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_transmute_rock",
+    "id": "tug_spell_transmute_rock",
     "name": {
       "value": "Transmute Rock"
     },

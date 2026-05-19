@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_hold_monster",
+    "id": "tug_spell_hold_monster",
     "name": {
       "value": "Hold Monster"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_rug_of_smothering",
+    "id": "tug_monster_rug_of_smothering",
     "name": {
       "value": "Rug of Smothering"
     },

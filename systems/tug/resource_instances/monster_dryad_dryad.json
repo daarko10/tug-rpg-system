@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dryad",
+    "id": "tug_monster_dryad",
     "name": {
       "value": "Dryad"
     },
@@ -439,7 +439,7 @@
               "value": "a handful of oak bark"
             },
             "description": {
-              "value": "You touch a willing creature. Until the spell ends, the target\u2019s skin has a rough, bark-like appearance, and the target\u2019s AC can\u2019t be less than 16, regardless of what kind of armor it is wearing."
+              "value": "You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing."
             },
             "classes": {
               "value": [
@@ -491,7 +491,7 @@
               "value": "ashes from a burned leaf of mistletoe and a sprig of spruce"
             },
             "description": {
-              "value": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u2019t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
+              "value": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
             },
             "classes": {
               "value": [

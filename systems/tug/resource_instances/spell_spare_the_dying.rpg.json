@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_spare_the_dying",
+    "id": "tug_spell_spare_the_dying",
     "name": {
       "value": "Spare the Dying"
     },

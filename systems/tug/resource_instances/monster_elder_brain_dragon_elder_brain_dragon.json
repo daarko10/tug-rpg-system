@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_elder_brain_dragon",
+    "id": "tug_monster_elder_brain_dragon",
     "name": {
       "value": "Elder Brain Dragon"
     },

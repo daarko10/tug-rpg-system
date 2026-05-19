@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_jammer_leech__bam_",
+    "id": "tug_monster_jammer_leech__bam_",
     "name": {
       "value": "Jammer Leech"
     },

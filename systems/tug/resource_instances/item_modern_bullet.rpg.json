@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_modern_bullet",
+    "id": "tug_item_modern_bullet",
     "name": {
       "value": "Modern Bullet"
     },

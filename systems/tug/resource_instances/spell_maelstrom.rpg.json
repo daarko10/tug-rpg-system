@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_maelstrom",
+    "id": "tug_spell_maelstrom",
     "name": {
       "value": "Maelstrom"
     },

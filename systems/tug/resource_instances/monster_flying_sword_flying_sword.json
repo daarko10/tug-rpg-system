@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_flying_sword",
+    "id": "tug_monster_flying_sword",
     "name": {
       "value": "Flying Sword"
     },

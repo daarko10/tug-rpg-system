@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_invisible_stalker",
+    "id": "tug_monster_invisible_stalker",
     "name": {
       "value": "Invisible Stalker"
     },

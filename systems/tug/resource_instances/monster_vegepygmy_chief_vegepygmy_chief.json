@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vegepygmy_chief",
+    "id": "tug_monster_vegepygmy_chief",
     "name": {
       "value": "Vegepygmy Chief"
     },

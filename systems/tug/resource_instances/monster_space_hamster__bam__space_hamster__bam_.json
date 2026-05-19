@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_space_hamster__bam_",
+    "id": "tug_monster_space_hamster__bam_",
     "name": {
       "value": "Space Hamster"
     },

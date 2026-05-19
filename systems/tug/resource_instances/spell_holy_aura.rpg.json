@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_holy_aura",
+    "id": "tug_spell_holy_aura",
     "name": {
       "value": "Holy Aura"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_hooded_lantern",
+    "id": "tug_item_hooded_lantern",
     "name": {
       "value": "Hooded Lantern"
     },

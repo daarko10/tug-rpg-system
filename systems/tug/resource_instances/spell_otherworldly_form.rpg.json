@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_otherworldly_form__ua_",
+    "id": "tug_spell_otherworldly_form__ua_",
     "name": {
       "value": "Otherworldly Form"
     },

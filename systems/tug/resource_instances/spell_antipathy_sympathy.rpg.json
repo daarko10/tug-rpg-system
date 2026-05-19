@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_antipathy_sympathy",
+    "id": "tug_spell_antipathy_sympathy",
     "name": {
       "value": "Antipathy/Sympathy"
     },

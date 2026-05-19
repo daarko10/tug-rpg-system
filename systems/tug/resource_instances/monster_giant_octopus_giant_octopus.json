@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_octopus",
+    "id": "tug_monster_giant_octopus",
     "name": {
       "value": "Giant Octopus"
     },

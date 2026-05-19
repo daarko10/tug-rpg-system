@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_purple_wormling",
+    "id": "tug_monster_purple_wormling",
     "name": {
       "value": "Purple Wormling"
     },

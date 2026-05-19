@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_metallic_warbler",
+    "id": "tug_monster_metallic_warbler",
     "name": {
       "value": "Metallic Warbler"
     },

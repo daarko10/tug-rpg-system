@@ -99,7 +99,7 @@ calc string full_components(name = "Full components") =
     else string_components;
 
 calc resource<class_details>[] character_spellcasting_classes(name = "Character spellcasting classes") =
-  if defined(stat = "$character")
+  if defined(stat = "$character.classes")
     then filter(
         $character.classes,
         filter = ($filterValue) => $filterValue.show_spellcasting_details,
@@ -204,16 +204,10 @@ calc bool should_show_spellcasting_source_text(name = "Should show spellcasting 
     && !should_show_spellcasting_source_select;
 
 calc bool character_spell_slots_defined(name = "Character and spell slots defined") =
-  defined(stat = "$character")
-    && defined(stat = "$character.spell_slots_1")
-    && defined(stat = "$character.spell_slots_2")
-    && defined(stat = "$character.spell_slots_3")
-    && defined(stat = "$character.spell_slots_4")
-    && defined(stat = "$character.spell_slots_5")
-    && defined(stat = "$character.spell_slots_6")
-    && defined(stat = "$character.spell_slots_7")
-    && defined(stat = "$character.spell_slots_8")
-    && defined(stat = "$character.spell_slots_9");
+  defined(stat = "$character") && defined(stat = "$character.current_spell_points");
+
+calc bool character_sp_defined(name = "Character SP defined") =
+  defined(stat = "$character") && defined(stat = "$character.current_spell_points");
 
 calc bool in_combat(name = "In combat") =
   ($parent?.in_combat? ?? false) || defined(stat = "$combatants");
@@ -227,27 +221,48 @@ calc bool should_display_cast_controls(name = "Should display cast controls") =
 calc string prepare_button_text(name = "Prepare button text") =
   if prepared then "UNPREPARE" else "PREPARE";
 
+calc integer sp_cost_for_level_n(name = "SP cost helper") =
+  when {
+    selected_cast_level >= 9 -> 13,
+    selected_cast_level == 8 -> 11,
+    selected_cast_level == 7 -> 10,
+    selected_cast_level == 6 -> 9,
+    selected_cast_level == 5 -> 7,
+    selected_cast_level == 4 -> 6,
+    selected_cast_level == 3 -> 5,
+    selected_cast_level == 2 -> 3,
+    else -> 2,
+  };
+
+calc integer sp_cost_for_cast_level(name = "SP cost for cast level") =
+  max([sp_cost_for_level_n - ($character?.efficient_sorcery_reduction ?? 0), 0]);
+
 calc integer[] available_slots_for_use(name = "Available slots for use") =
   if use_combat_free_casting
     then filter(
         [1, 2, 3, 4, 5, 6, 7, 8, 9],
         filter = ($filterValue) => ($filterValue >= (if num_level <= 1 then 1 else num_level)),
       )
-    else if character_spell_slots_defined
+    else if character_sp_defined
     then filter(
         [1, 2, 3, 4, 5, 6, 7, 8, 9],
         filter = ($filterValue) => ($filterValue >= num_level
-          && metaStat(meta_stat = concat(["$character.spell_slots_", $filterValue])) > 0),
+          && ($character.current_spell_points >= when {
+            $filterValue >= 9 -> 13,
+            $filterValue == 8 -> 11,
+            $filterValue == 7 -> 10,
+            $filterValue == 6 -> 9,
+            $filterValue == 5 -> 7,
+            $filterValue == 4 -> 6,
+            $filterValue == 3 -> 5,
+            $filterValue == 2 -> 3,
+            else -> 2,
+          } - ($character?.efficient_sorcery_reduction ?? 0))),
       )
     else [1];
 
 calc string selected_spell_slots_stat_name(name = "Selected spell slots stat name") =
-  concat(
-    [
-      "$character.spell_slots_",
-      ($view?.spell_display_cast_composite_ticker? ?? "0"),
-    ],
-  );
+  "$character.current_spell_points";
 
 calc integer selected_cast_level(name = "Selected cast level") =
   if is_cantrip && defined(stat = "$character")
@@ -257,10 +272,9 @@ calc integer selected_cast_level(name = "Selected cast level") =
           filter = ($findFirstValue) => true,
         ) ?? 1));
 
-calc integer available_selected_slots(name = "Available selected spell slots") =
-  if character_spell_slots_defined
-    && selected_spell_slots_stat_name != "$character.spell_slots_0"
-    then metaStat(meta_stat = selected_spell_slots_stat_name)
+calc integer available_selected_slots(name = "Current SP") =
+  if character_sp_defined
+    then $character.current_spell_points
     else 0;
 
 calc bool should_select_spell_slot_to_cast(name = "Should select a spell slot to cast") =
@@ -287,13 +301,17 @@ calc integer spellcasting_modifier(name = "Spellcasting modifier") =
   };
 
 calc string spell_attack_roll_formula(name = "Spell attack roll formula") =
-  concat(["1d20", toSignedString(spellcasting_modifier)]);
+  concat(["1d20", toSignedString($character?.spell_attack_bonus ?? spellcasting_modifier)]);
 
 calc bool character_is_not_wearing_inproficient_armor(name = "Character is not currently wear a piece of armor its not proficient with") =
   $character?.is_not_wearing_inproficient_armor ?? true;
 
-calc bool has_required_spell_slots_to_cast(name = "Has required spell slots to cast") =
-  use_combat_free_casting || is_cantrip || !isEmpty(available_slots_for_use);
+calc bool has_required_spell_slots_to_cast(name = "Has required SP to cast") =
+  use_combat_free_casting
+    || is_cantrip
+    || !character_sp_defined
+    || (!isEmpty(available_slots_for_use)
+      && $character.current_spell_points >= sp_cost_for_cast_level);
 
 calc bool can_cast(name = "Can cast spell") =
   character_is_not_wearing_inproficient_armor && has_required_spell_slots_to_cast;

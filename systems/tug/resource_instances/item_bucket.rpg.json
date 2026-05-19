@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bucket",
+    "id": "tug_item_bucket",
     "name": {
       "value": "Bucket"
     },
@@ -9,7 +9,7 @@
       "value": "phb"
     },
     "description": {
-      "value": "A bucket holds 3 gallons of liquid or \u00bd cubic foot of solids."
+      "value": "A bucket holds 3 gallons of liquid or ½ cubic foot of solids."
     },
     "type": {
       "value": "adventuring_gear"

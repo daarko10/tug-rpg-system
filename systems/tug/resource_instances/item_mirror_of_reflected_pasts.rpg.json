@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_mirror_of_reflected_pasts",
+    "id": "tug_item_mirror_of_reflected_pasts",
     "name": {
       "value": "Mirror of Reflected Pasts"
     },

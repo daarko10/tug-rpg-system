@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_flesh_colossus__bgg_",
+    "id": "tug_monster_flesh_colossus__bgg_",
     "name": {
       "value": "Flesh Colossus"
     },

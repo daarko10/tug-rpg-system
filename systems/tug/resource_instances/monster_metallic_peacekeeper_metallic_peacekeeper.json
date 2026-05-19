@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_metallic_peacekeeper",
+    "id": "tug_monster_metallic_peacekeeper",
     "name": {
       "value": "Metallic Peacekeeper"
     },

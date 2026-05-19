@@ -121,7 +121,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Trniket\u00a0that connects you to the life you once had before the occupation of Phlan"
+                            "value": "Trniket that connects you to the life you once had before the occupation of Phlan"
                           },
                           "cost": {
                             "value": {
@@ -154,7 +154,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.010994"
                           },
-                          "id": "trniket\u00a0that_connects_you_to_the_life_you_once_had_before_the_occupation_of_phlan"
+                          "id": "trniket that_connects_you_to_the_life_you_once_had_before_the_occupation_of_phlan"
                         }
                       }
                     },
@@ -438,6 +438,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.011162"
     },
-    "id": "tug_phlan_insurgent"
+    "id": "tug_background_phlan_insurgent"
   }
 }

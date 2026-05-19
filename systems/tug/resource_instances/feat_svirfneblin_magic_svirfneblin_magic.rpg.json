@@ -81,7 +81,7 @@
                           "value": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes"
                         },
                         "description": {
-                          "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can\u2019t be targeted by any divination magic or perceived through magical scrying sensors."
+                          "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors."
                         },
                         "classes": {
                           "value": [
@@ -247,7 +247,7 @@
                           "value": true
                         },
                         "description": {
-                          "value": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn\u2019t rely on sight, as with blindsight, or can see through illusions, as with truesight."
+                          "value": "Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn’t rely on sight, as with blindsight, or can see through illusions, as with truesight."
                         },
                         "classes": {
                           "value": [
@@ -370,6 +370,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:28.410537"
     },
-    "id": "tug_svirfneblin_magic"
+    "id": "tug_feat_svirfneblin_magic"
   }
 }

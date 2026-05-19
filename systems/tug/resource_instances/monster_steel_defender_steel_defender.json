@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_steel_defender",
+    "id": "tug_monster_steel_defender",
     "name": {
       "value": "Steel Defender"
     },

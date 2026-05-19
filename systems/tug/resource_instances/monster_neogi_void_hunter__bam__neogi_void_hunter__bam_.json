@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_neogi_void_hunter__bam_",
+    "id": "tug_monster_neogi_void_hunter__bam_",
     "name": {
       "value": "Neogi Void Hunter"
     },

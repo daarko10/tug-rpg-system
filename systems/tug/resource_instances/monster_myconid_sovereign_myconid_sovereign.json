@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_myconid_sovereign",
+    "id": "tug_monster_myconid_sovereign",
     "name": {
       "value": "Myconid Sovereign"
     },

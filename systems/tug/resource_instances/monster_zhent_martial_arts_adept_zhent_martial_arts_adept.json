@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_zhent_martial_arts_adept",
+    "id": "tug_monster_zhent_martial_arts_adept",
     "name": {
       "value": "Zhent Martial Arts Adept"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_runic_colossus__bgg_",
+    "id": "tug_monster_runic_colossus__bgg_",
     "name": {
       "value": "Runic Colossus"
     },

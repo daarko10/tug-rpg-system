@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_gate_seal",
+    "id": "tug_spell_gate_seal",
     "name": {
       "value": "Gate Seal"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_headband_of_intellect",
+    "id": "tug_item_headband_of_intellect",
     "name": {
       "value": "Headband of Intellect"
     },

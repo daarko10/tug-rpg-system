@@ -215,7 +215,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.060957"
                           },
-                          "id": "lucky_charm_such_as_a_rabbit_foot_or_a_small_stone_with_a_hole_in_the_center\u00a0"
+                          "id": "lucky_charm_such_as_a_rabbit_foot_or_a_small_stone_with_a_hole_in_the_center "
                         }
                       }
                     },
@@ -435,6 +435,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.061031"
     },
-    "id": "tug_pirate"
+    "id": "tug_background_pirate"
   }
 }

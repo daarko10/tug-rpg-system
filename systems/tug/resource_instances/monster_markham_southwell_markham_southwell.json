@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_markham_southwell",
+    "id": "tug_monster_markham_southwell",
     "name": {
       "value": "Markham Southwell"
     },

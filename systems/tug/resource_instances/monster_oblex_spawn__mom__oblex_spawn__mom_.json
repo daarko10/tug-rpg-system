@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_oblex_spawn__mom_",
+    "id": "tug_monster_oblex_spawn__mom_",
     "name": {
       "value": "Oblex Spawn"
     },

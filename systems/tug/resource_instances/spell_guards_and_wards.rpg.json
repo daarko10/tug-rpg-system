@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_guards_and_wards",
+    "id": "tug_spell_guards_and_wards",
     "name": {
       "value": "Guards and Wards"
     },

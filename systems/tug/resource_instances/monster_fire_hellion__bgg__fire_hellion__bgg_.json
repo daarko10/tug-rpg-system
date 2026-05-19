@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_fire_hellion__bgg_",
+    "id": "tug_monster_fire_hellion__bgg_",
     "name": {
       "value": "Fire Hellion"
     },

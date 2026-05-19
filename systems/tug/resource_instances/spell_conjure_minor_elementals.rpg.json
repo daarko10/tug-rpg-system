@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_conjure_minor_elementals",
+    "id": "tug_spell_conjure_minor_elementals",
     "name": {
       "value": "Conjure Minor Elementals"
     },

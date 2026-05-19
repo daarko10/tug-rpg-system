@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_pole_of_collapsing",
+    "id": "tug_item_pole_of_collapsing",
     "name": {
       "value": "Pole of Collapsing"
     },
@@ -9,7 +9,7 @@
       "value": "xge"
     },
     "description": {
-      "value": "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod for ease of storage. The pole\u2019s weight doesn\u2019t change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
+      "value": "While holding this 10-foot pole, you can use an action to speak a command word and cause it to collapse into a 1-foot-long rod for ease of storage. The pole’s weight doesn’t change. You can use an action to speak a different command word and cause the rod to revert to a pole; however, the rod will elongate only as far as the surrounding space allows."
     },
     "type": {
       "value": "wondrous"

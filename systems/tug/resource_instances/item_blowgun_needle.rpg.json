@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_blowgun_needle",
+    "id": "tug_item_blowgun_needle",
     "name": {
       "value": "Blowgun Needle"
     },

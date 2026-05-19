@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_magic_weapon",
+    "id": "tug_spell_magic_weapon",
     "name": {
       "value": "Magic Weapon"
     },

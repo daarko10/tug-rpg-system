@@ -1,7 +1,7 @@
 {
   "resource_id": "race",
   "stats": {
-    "id": "tug_metallic_dragonborn__ftd_",
+    "id": "tug_race_metallic_dragonborn__ftd_",
     "name": {
       "value": "Metallic Dragonborn"
     },
@@ -192,7 +192,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:\n\n- Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.\n\n- Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.\n\nOnce you use your Metallic Breath Weapon, you can\u2019t do so again until you finish a long rest"
+                      "value": "You gain a second breath weapon. When you take the Attack action, you can replace one of your attacks with an exhalation of a magical gas in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. When you use this ability, choose one:\n\n- Each creature in the area must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone.\n\n- Each creature in the area must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.\n\nOnce you use your Metallic Breath Weapon, you can’t do so again until you finish a long rest"
                     },
                     "level": {
                       "value": 5

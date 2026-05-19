@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_phase_spider",
+    "id": "tug_monster_phase_spider",
     "name": {
       "value": "Phase Spider"
     },

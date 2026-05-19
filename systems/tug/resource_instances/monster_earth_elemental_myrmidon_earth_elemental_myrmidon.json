@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_earth_elemental_myrmidon",
+    "id": "tug_monster_earth_elemental_myrmidon",
     "name": {
       "value": "Earth Elemental Myrmidon"
     },

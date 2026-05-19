@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_living_ship",
+    "id": "tug_item_living_ship",
     "name": {
       "value": "Living Ship"
     },

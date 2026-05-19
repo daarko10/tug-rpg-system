@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_warriors_passkey",
+    "id": "tug_item_warriors_passkey",
     "name": {
       "value": "Warrior's Passkey"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gibbering_mouther",
+    "id": "tug_monster_gibbering_mouther",
     "name": {
       "value": "Gibbering Mouther"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_awakened_rat",
+    "id": "tug_monster_awakened_rat",
     "name": {
       "value": "Awakened Rat"
     },

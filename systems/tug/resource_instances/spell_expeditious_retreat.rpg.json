@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_expeditious_retreat",
+    "id": "tug_spell_expeditious_retreat",
     "name": {
       "value": "Expeditious Retreat"
     },

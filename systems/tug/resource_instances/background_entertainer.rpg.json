@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble\u2019s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+                      "value": "You can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.042422"
@@ -121,7 +121,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "The favor of an admirer (love letter, lock of hair, or\u00a0trinket)"
+                            "value": "The favor of an admirer (love letter, lock of hair, or trinket)"
                           },
                           "cost": {
                             "value": {
@@ -154,7 +154,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.042479"
                           },
-                          "id": "the_favor_of_an_admirer__love_letter,_lock_of_hair,_or\u00a0trinket_"
+                          "id": "the_favor_of_an_admirer__love_letter,_lock_of_hair,_or trinket_"
                         }
                       }
                     },
@@ -377,6 +377,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.042570"
     },
-    "id": "tug_entertainer"
+    "id": "tug_background_entertainer"
   }
 }

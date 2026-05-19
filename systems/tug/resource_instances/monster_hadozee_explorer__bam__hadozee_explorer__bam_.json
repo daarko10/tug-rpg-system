@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hadozee_explorer__bam_",
+    "id": "tug_monster_hadozee_explorer__bam_",
     "name": {
       "value": "Hadozee Explorer"
     },

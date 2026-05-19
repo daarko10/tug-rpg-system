@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_jiangshi",
+    "id": "tug_monster_jiangshi",
     "name": {
       "value": "Jiangshi"
     },

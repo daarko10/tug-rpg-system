@@ -27,7 +27,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray"
+                      "value": "Thanks to your heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.827543"
@@ -83,7 +83,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target\u2019s hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0"
+                      "value": "You can drain blood and life energy from a willing creature, or one that is grappled by you, incapacitated, or restrained. Make a melee attack against the target. If you hit, you deal 1 piercing damage and 1d6 necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and you regain hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.827563"
@@ -485,6 +485,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.827727"
     },
-    "id": "tug_vampire"
+    "id": "tug_race_vampire"
   }
 }

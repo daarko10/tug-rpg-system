@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_shape_water",
+    "id": "tug_spell_shape_water",
     "name": {
       "value": "Shape Water"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "* You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn\u2019t have enough force to cause damage.\n\n* You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.\n\n* You change the water\u2019s color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.\n\n* You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.\n\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+      "value": "* You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn’t have enough force to cause damage.\n\n* You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.\n\n* You change the water’s color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.\n\n* You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour.\n\nIf you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
     },
     "classes": {
       "value": [

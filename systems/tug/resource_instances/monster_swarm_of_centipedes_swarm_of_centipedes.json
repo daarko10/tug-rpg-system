@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_centipedes",
+    "id": "tug_monster_swarm_of_centipedes",
     "name": {
       "value": "Swarm of Centipedes"
     },

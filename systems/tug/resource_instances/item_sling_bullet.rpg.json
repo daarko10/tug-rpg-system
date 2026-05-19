@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sling_bullet",
+    "id": "tug_item_sling_bullet",
     "name": {
       "value": "Sling Bullet"
     },

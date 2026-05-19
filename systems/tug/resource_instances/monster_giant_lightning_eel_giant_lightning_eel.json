@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_lightning_eel",
+    "id": "tug_monster_giant_lightning_eel",
     "name": {
       "value": "Giant Lightning Eel"
     },

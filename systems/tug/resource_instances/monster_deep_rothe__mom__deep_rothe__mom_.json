@@ -1,13 +1,13 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_deep_roth\u00e9__mom_",
+    "id": "tug_monster_deep_rothé__mom_",
     "name": {
-      "value": "Deep Roth\u00e9"
+      "value": "Deep Rothé"
     },
     "photo": {
       "value": {
-        "url": "https://dvmqshyfcptwg.cloudfront.net/5e2024/deep_roth\u00e9.png"
+        "url": "https://dvmqshyfcptwg.cloudfront.net/5e2024/deep_rothé.png"
       }
     },
     "source": {
@@ -117,7 +117,7 @@
               "value": "Beast of Burden"
             },
             "trait_description": {
-              "value": "The roth\u00e9 is considered to be one size larger for the purpose of determining its carrying capacity."
+              "value": "The rothé is considered to be one size larger for the purpose of determining its carrying capacity."
             },
             "id": "2bb23327-3b07-445e-8a0f-1031f3d05d1a",
             "updated_at": {
@@ -136,7 +136,7 @@
               "value": "Gore"
             },
             "action_description": {
-              "value": "6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage. If the roth\u00e9 moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6) piercing damage."
+              "value": "6 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) piercing damage. If the rothé moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 7 (2d6) piercing damage."
             },
             "action_type": {
               "value": "melee"
@@ -245,7 +245,7 @@
               "value": "Dancing Lights"
             },
             "action_description": {
-              "value": "The roth\u00e9 casts dancing lights, requiring no spell components and using Wisdom as the spellcasting ability."
+              "value": "The rothé casts dancing lights, requiring no spell components and using Wisdom as the spellcasting ability."
             },
             "action_type": {
               "value": "none"

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_unseen_servant",
+    "id": "tug_spell_unseen_servant",
     "name": {
       "value": "Unseen Servant"
     },

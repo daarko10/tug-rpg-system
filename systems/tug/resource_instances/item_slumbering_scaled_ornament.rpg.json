@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_slumbering_scaled_ornament",
+    "id": "tug_item_slumbering_scaled_ornament",
     "name": {
       "value": "Slumbering Scaled Ornament"
     },

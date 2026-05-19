@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_goodberry",
+    "id": "tug_spell_goodberry",
     "name": {
       "value": "Goodberry"
     },

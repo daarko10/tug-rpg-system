@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_magnifying_glass",
+    "id": "tug_item_magnifying_glass",
     "name": {
       "value": "Magnifying Glass"
     },

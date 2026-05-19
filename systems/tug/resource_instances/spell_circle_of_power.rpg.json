@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_circle_of_power",
+    "id": "tug_spell_circle_of_power",
     "name": {
       "value": "Circle of Power"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_avatar_of_death",
+    "id": "tug_monster_avatar_of_death",
     "name": {
       "value": "Avatar of Death"
     },

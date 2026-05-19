@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sling_of_giant_felling",
+    "id": "tug_item_sling_of_giant_felling",
     "name": {
       "value": "Sling of Giant Felling"
     },

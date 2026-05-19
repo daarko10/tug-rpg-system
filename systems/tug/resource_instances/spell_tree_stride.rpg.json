@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_tree_stride",
+    "id": "tug_spell_tree_stride",
     "name": {
       "value": "Tree Stride"
     },

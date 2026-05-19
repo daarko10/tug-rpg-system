@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_boneclaw__mom_",
+    "id": "tug_monster_boneclaw__mom_",
     "name": {
       "value": "Boneclaw"
     },

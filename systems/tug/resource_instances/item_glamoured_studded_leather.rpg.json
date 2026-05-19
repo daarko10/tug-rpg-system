@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_glamoured_studded_leather",
+    "id": "tug_item_glamoured_studded_leather",
     "name": {
       "value": "Glamoured Studded Leather"
     },

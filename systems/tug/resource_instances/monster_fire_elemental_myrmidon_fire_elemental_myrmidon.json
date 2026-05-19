@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_fire_elemental_myrmidon",
+    "id": "tug_monster_fire_elemental_myrmidon",
     "name": {
       "value": "Fire Elemental Myrmidon"
     },

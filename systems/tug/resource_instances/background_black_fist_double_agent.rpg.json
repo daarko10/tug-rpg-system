@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You have a reliable and trusty contact within the Tears of Virulence garrison in Phlan to whom you pass information and secrets. In exchange, you can get away with minor criminal offenses within the town of Phlan. In addition, your Black Fists contacts can help you secure an audience with the Lord Regent, the Lord Sage, members of the Black Fists, or deposed nobles and authority figures who are sympathetic to the Phlan refugees and insurgents.\u00a0"
+                      "value": "You have a reliable and trusty contact within the Tears of Virulence garrison in Phlan to whom you pass information and secrets. In exchange, you can get away with minor criminal offenses within the town of Phlan. In addition, your Black Fists contacts can help you secure an audience with the Lord Regent, the Lord Sage, members of the Black Fists, or deposed nobles and authority figures who are sympathetic to the Phlan refugees and insurgents. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.045417"
@@ -319,7 +319,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Set of Artisan\u2019s tools"
+                            "value": "Set of Artisan’s tools"
                           },
                           "cost": {
                             "value": {
@@ -352,7 +352,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.045539"
                           },
-                          "id": "set_of_artisan\u2019s_tools_"
+                          "id": "set_of_artisan’s_tools_"
                         }
                       }
                     },
@@ -549,7 +549,7 @@
           "resource_id": "levelled_choice_text",
           "stats": {
             "options": {
-              "value": "One type of Artisan\u2019s tools or Gaming set"
+              "value": "One type of Artisan’s tools or Gaming set"
             },
             "updated_at": {
               "value": "2024-12-20T18:50:20.045615"
@@ -562,6 +562,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.045617"
     },
-    "id": "tug_black_fist_double_agent"
+    "id": "tug_background_black_fist_double_agent"
   }
 }

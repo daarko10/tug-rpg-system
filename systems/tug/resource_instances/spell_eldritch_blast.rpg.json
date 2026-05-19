@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_eldritch_blast",
+    "id": "tug_spell_eldritch_blast",
     "name": {
       "value": "Eldritch Blast"
     },

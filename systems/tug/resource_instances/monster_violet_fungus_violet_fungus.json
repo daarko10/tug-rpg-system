@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_violet_fungus",
+    "id": "tug_monster_violet_fungus",
     "name": {
       "value": "Violet Fungus"
     },

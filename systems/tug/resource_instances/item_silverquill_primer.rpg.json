@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_silverquill_primer",
+    "id": "tug_item_silverquill_primer",
     "name": {
       "value": "Silverquill Primer"
     },

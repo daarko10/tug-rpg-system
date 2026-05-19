@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_spell_scroll__1st_level_",
+    "id": "tug_item_spell_scroll__1st_level_",
     "name": {
       "value": "Spell Scroll (1st Level)"
     },

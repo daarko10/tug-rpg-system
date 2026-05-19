@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_boots_of_speed",
+    "id": "tug_item_boots_of_speed",
     "name": {
       "value": "Boots of Speed"
     },

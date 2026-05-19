@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_find_traps",
+    "id": "tug_spell_find_traps",
     "name": {
       "value": "Find Traps"
     },

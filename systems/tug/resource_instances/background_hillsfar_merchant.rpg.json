@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Factor:\n\nAlthough you\u2019ve left the day-to-day life of a merchant behind, your family has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the family assigns you another within a few days."
+                      "value": "Factor:\n\nAlthough you’ve left the day-to-day life of a merchant behind, your family has assigned you the services of a loyal retainer from the business, a factor, husbanding agent, seafarer, caravan guard, or clerk. This individual is a commoner who can perform mundane tasks for you such as making purchases, delivering messages, and running errands. He or she will not fight for you and will not follow you into obviously dangerous areas (such as dungeons), and will leave if frequently endangered or abused. If he or she is killed, the family assigns you another within a few days."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.000588"
@@ -36,7 +36,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Trade Contact:\n\nYou and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas.\u00a0"
+                      "value": "Trade Contact:\n\nYou and your family have trade contacts such as caravan masters, shopkeepers, sailors, artisans, and farmers throughout the Moonsea region and all along the Sword Coast. Once per game session, when adventuring in either of those areas, you can use those contacts to get information about the local area or to pass a message to someone in those areas, even across the great distance between the two areas. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.000606"
@@ -389,6 +389,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.000876"
     },
-    "id": "tug_hillsfar_merchant"
+    "id": "tug_background_hillsfar_merchant"
   }
 }

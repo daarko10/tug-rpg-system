@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_thaumaturgy",
+    "id": "tug_spell_thaumaturgy",
     "name": {
       "value": "Thaumaturgy"
     },

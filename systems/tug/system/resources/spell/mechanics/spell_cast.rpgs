@@ -1,6 +1,12 @@
 mechanic spell_cast(name = "Cast spell", event_names = "castSpell") =
   sequence(
     effects = [
+      when {
+        !is_cantrip && character_sp_defined -> addToStat(
+          stat = "$character.current_spell_points",
+          value = -sp_cost_for_cast_level,
+        ),
+      },
       roll(
         rolls = [
           rollable(
@@ -9,12 +15,5 @@ mechanic spell_cast(name = "Cast spell", event_names = "castSpell") =
           ),
         ],
       ),
-      when {
-        character_spell_slots_defined && !is_cantrip -> addToStat(
-          meta_stat = selected_spell_slots_stat_name,
-          value = -1,
-          aggregation_type = "set",
-        ),
-      },
-    ]
+    ],
   );

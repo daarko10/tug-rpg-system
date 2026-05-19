@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vampirate__bam_",
+    "id": "tug_monster_vampirate__bam_",
     "name": {
       "value": "Vampirate"
     },

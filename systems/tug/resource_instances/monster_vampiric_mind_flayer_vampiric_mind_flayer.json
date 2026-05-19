@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vampiric_mind_flayer",
+    "id": "tug_monster_vampiric_mind_flayer",
     "name": {
       "value": "Vampiric Mind Flayer"
     },

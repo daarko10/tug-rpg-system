@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_portal_compass",
+    "id": "tug_item_portal_compass",
     "name": {
       "value": "Portal Compass"
     },

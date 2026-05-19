@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_hypnotic_pattern",
+    "id": "tug_spell_hypnotic_pattern",
     "name": {
       "value": "Hypnotic Pattern"
     },

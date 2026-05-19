@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_keg_of_alchemists_fire",
+    "id": "tug_item_keg_of_alchemists_fire",
     "name": {
       "value": "Keg of Alchemist's Fire"
     },

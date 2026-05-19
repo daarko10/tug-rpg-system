@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_warding_bond",
+    "id": "tug_spell_warding_bond",
     "name": {
       "value": "Warding Bond"
     },

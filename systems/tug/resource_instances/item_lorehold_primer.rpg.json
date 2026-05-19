@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_lorehold_primer",
+    "id": "tug_item_lorehold_primer",
     "name": {
       "value": "Lorehold Primer"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_copper_dragon_wyrmling",
+    "id": "tug_monster_copper_dragon_wyrmling",
     "name": {
       "value": "Copper Dragon Wyrmling"
     },

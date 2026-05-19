@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_deep_crow",
+    "id": "tug_monster_ancient_deep_crow",
     "name": {
       "value": "Ancient Deep Crow"
     },

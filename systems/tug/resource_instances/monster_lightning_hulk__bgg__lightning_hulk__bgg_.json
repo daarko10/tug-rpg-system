@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_lightning_hulk__bgg_",
+    "id": "tug_monster_lightning_hulk__bgg_",
     "name": {
       "value": "Lightning Hulk"
     },

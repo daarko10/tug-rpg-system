@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_plasmoid_boss__bam_",
+    "id": "tug_monster_plasmoid_boss__bam_",
     "name": {
       "value": "Plasmoid Boss"
     },

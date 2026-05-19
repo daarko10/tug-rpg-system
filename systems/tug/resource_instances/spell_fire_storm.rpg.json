@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_fire_storm",
+    "id": "tug_spell_fire_storm",
     "name": {
       "value": "Fire Storm"
     },

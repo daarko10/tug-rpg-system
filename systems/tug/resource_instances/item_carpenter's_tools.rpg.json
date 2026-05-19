@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_carpenters_tools",
+    "id": "tug_item_carpenters_tools",
     "name": {
       "value": "Carpenter's Tools"
     },

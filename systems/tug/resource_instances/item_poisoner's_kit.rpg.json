@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_poisoners_kit",
+    "id": "tug_item_poisoners_kit",
     "name": {
       "value": "Poisoner's Kit"
     },

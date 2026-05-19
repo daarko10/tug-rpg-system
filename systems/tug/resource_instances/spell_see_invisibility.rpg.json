@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_see_invisibility",
+    "id": "tug_spell_see_invisibility",
     "name": {
       "value": "See Invisibility"
     },

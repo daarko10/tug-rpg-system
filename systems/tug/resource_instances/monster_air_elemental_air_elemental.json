@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_air_elemental",
+    "id": "tug_monster_air_elemental",
     "name": {
       "value": "Air Elemental"
     },

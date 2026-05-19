@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_augrek_brighthelm",
+    "id": "tug_monster_augrek_brighthelm",
     "name": {
       "value": "Augrek Brighthelm"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_malice",
+    "id": "tug_item_malice",
     "name": {
       "value": "Malice"
     },

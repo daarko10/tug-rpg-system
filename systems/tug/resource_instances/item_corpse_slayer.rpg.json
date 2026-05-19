@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_corpse_slayer",
+    "id": "tug_item_corpse_slayer",
     "name": {
       "value": "Corpse Slayer"
     },

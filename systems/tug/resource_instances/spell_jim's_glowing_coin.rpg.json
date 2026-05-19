@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_jims_glowing_coin",
+    "id": "tug_spell_jims_glowing_coin",
     "name": {
       "value": "Jim's Glowing Coin"
     },

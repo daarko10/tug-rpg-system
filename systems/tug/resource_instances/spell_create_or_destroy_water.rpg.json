@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_create_or_destroy_water",
+    "id": "tug_spell_create_or_destroy_water",
     "name": {
       "value": "Create or Destroy Water"
     },

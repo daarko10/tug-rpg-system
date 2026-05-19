@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_horrid_plant__qftis_",
+    "id": "tug_monster_horrid_plant__qftis_",
     "name": {
       "value": "Horrid Plant"
     },

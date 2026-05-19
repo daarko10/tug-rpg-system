@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_earth_elemental",
+    "id": "tug_monster_earth_elemental",
     "name": {
       "value": "Earth Elemental"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_iron_defender__artificer_",
+    "id": "tug_monster_iron_defender__artificer_",
     "name": {
       "value": "Iron Defender (Artificer)"
     },

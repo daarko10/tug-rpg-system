@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_black_pudding",
+    "id": "tug_monster_black_pudding",
     "name": {
       "value": "Black Pudding"
     },

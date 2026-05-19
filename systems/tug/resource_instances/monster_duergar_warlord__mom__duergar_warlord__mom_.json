@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_duergar_warlord__mom_",
+    "id": "tug_monster_duergar_warlord__mom_",
     "name": {
       "value": "Duergar Warlord"
     },

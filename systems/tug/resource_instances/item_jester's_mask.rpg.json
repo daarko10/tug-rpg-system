@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_jesters_mask",
+    "id": "tug_item_jesters_mask",
     "name": {
       "value": "Jester's Mask"
     },

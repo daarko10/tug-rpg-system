@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_hyena",
+    "id": "tug_monster_giant_hyena",
     "name": {
       "value": "Giant Hyena"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_blasted_goggles",
+    "id": "tug_item_blasted_goggles",
     "name": {
       "value": "Blasted Goggles"
     },

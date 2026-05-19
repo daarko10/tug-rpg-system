@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_chimera",
+    "id": "tug_monster_chimera",
     "name": {
       "value": "Chimera"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_murder_comet__bam_",
+    "id": "tug_monster_murder_comet__bam_",
     "name": {
       "value": "Murder Comet"
     },

@@ -1143,7 +1143,12 @@ calc string companion_section_title(name = "Companion section title") =
 
 calc integer pact_points_total(name = "Pact Points (total)") = level;
 
-base resource<skill_tree_node>[] purchased_nodes(name = "Purchased nodes") = [];
+base resource<skill_tree_node>[] purchased_cursed_pact_nodes(name = "Purchased cursed pact nodes") = [];
+
+base resource<skill_tree_node>[] purchased_domain_nodes(name = "Purchased domain nodes") = [];
+
+calc resource<skill_tree_node>[] purchased_nodes(name = "Purchased nodes") =
+  flatAppend([purchased_cursed_pact_nodes, purchased_domain_nodes]);
 
 calc integer pact_points_spent(name = "Pact Points (spent)") =
   add(map(purchased_nodes, mapper = ($n) => ($n.pp_cost ?? 0)));
@@ -1166,7 +1171,7 @@ calc integer domain_dc(name = "Domain DC") =
     domain_dc_ability == "wisdom" -> wisdom_modifier,
     domain_dc_ability == "charisma" -> charisma_modifier,
     else -> intelligence_modifier,
-  } + proficiency_bonus;
+  } + proficiency_bonus + domain_mental_pp;
 
 base integer domain_activations_remaining(name = "Domain activations remaining") = 1;
 
@@ -1187,8 +1192,19 @@ calc bool primordial_pact_active(name = "Primordial Pact active") =
 calc bool limitless_active(name = "Limitless active") =
   !isEmpty(filter(active_pacts, filter = ($p) => ($p.pact_id ?? "") == "limitless"));
 
+calc bool domain_expansion_active(name = "Domain Expansion active") =
+  !isEmpty(filter(purchased_nodes, filter = ($n) => ($n.name ?? "") == "Domain Expansion"));
+
 calc string[] active_pact_ids(name = "Active pact IDs") =
   map(active_pacts, mapper = ($p) => $p.pact_id ?? "");
+
+// extended list used for the cursed pact node picker — includes ""
+// whenever any pact other than Physical Augmentation is active, so that
+// the Domain Expansion node (pact = "") appears for all non-PA pacts.
+// When no pacts are active, use a sentinel so the empty array doesn't become
+// "no filter" and show all nodes. Nodes with pact="" will never match "__none__".
+calc string[] extended_cursed_pact_ids(name = "Extended cursed pact IDs") =
+  if isEmpty(active_pact_ids) then ["__none__"] else active_pact_ids;
 
 // Physical Augmentation: can no longer cast spells
 calc bool can_cast_spells(name = "Can cast spells") =
@@ -1282,16 +1298,10 @@ base resource<item>[] creator_starting_equipment_choices(name = "Starting equipm
 // --- TUG: Skill tree node filters ---
 
 calc resource<skill_tree_node>[] domain_tree_nodes(name = "Domain tree nodes") =
-  sortBy(
-    filter(purchased_nodes, filter = ($n) => ($n.tree ?? "") == "domain"),
-    sort_by_selector = ($n) => $n.name ?? "",
-  );
+  sortBy(purchased_domain_nodes, sort_by_selector = ($n) => $n.name ?? "");
 
 calc resource<skill_tree_node>[] cursed_pact_tree_nodes(name = "Cursed pact tree nodes") =
-  sortBy(
-    filter(purchased_nodes, filter = ($n) => ($n.tree ?? "") == "cursed_pact"),
-    sort_by_selector = ($n) => $n.name ?? "",
-  );
+  sortBy(purchased_cursed_pact_nodes, sort_by_selector = ($n) => $n.name ?? "");
 
 // Unique node names (deduplicated string arrays for grouped display)
 calc string[] unique_cursed_node_names(name = "Unique cursed node names") =
@@ -1313,7 +1323,8 @@ calc string[] unique_domain_node_names(name = "Unique domain node names") =
   );
 
 // Pre-computed grouped display strings for cursed pact nodes
-// Each entry: "NodeName (X PP)\n+ pro\n- con"
+// Each entry: "NodeName (N PP)\n+ effect\n- drawback"
+// If pro_scale_prefix is set, the numeric value scales with purchase count.
 calc string[] cursed_pact_grouped_full(name = "Cursed pact grouped display") =
   map(unique_cursed_node_names, mapper = ($uname) =>
     concat([
@@ -1323,48 +1334,64 @@ calc string[] cursed_pact_grouped_full(name = "Cursed pact grouped display") =
         mapper = ($n) => ($n.pp_cost ?? 1),
       )),
       " PP)",
+      // Pro: scaled display if pro_scale_prefix is set, otherwise static
       (if isEmpty(joinToString(
           flatAppend(
-            [map(
-              filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.pro_description ?? ""),
-            )],
+            [map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_prefix ?? ""))],
             treat_as_set = true,
           ),
           separator = "",
         ))
-        then ""
-        else concat(["\n+ ", joinToString(
-          flatAppend(
-            [map(
-              filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.pro_description ?? ""),
-            )],
-            treat_as_set = true,
+        then (if isEmpty(joinToString(
+            flatAppend(
+              [map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_description ?? ""))],
+              treat_as_set = true,
+            ),
+            separator = "",
+          ))
+          then ""
+          else concat(["\n+ ", joinToString(
+            flatAppend([map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_description ?? ""))], treat_as_set = true),
+            separator = "",
+          )]))
+        else concat(["\n+ ",
+          joinToString(
+            flatAppend([map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_prefix ?? ""))], treat_as_set = true),
+            separator = "",
           ),
-          separator = "",
-        )])),
+          " ",
+          add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_per_pp ?? 0))),
+          ".",
+        ])),
+      // Con: scaled display if con_scale_prefix is set, otherwise static
       (if isEmpty(joinToString(
           flatAppend(
-            [map(
-              filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.con_description ?? ""),
-            )],
+            [map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_prefix ?? ""))],
             treat_as_set = true,
           ),
           separator = "",
         ))
-        then ""
-        else concat(["\n- ", joinToString(
-          flatAppend(
-            [map(
-              filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.con_description ?? ""),
-            )],
-            treat_as_set = true,
+        then (if isEmpty(joinToString(
+            flatAppend(
+              [map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_description ?? ""))],
+              treat_as_set = true,
+            ),
+            separator = "",
+          ))
+          then ""
+          else concat(["\n- ", joinToString(
+            flatAppend([map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_description ?? ""))], treat_as_set = true),
+            separator = "",
+          )]))
+        else concat(["\n- ",
+          joinToString(
+            flatAppend([map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_prefix ?? ""))], treat_as_set = true),
+            separator = "",
           ),
-          separator = "",
-        )])),
+          " ",
+          add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_per_pp ?? 0))),
+          ".",
+        ])),
     ])
   );
 
@@ -1372,6 +1399,8 @@ calc string cursed_pact_summary_text(name = "Cursed pact summary text") =
   joinToString(cursed_pact_grouped_full, separator = "\n\n");
 
 // Pre-computed grouped display strings for domain expansion nodes
+// Each entry: "NodeName (N PP)\n+ effect\n- drawback"
+// If pro_scale_prefix is set, the numeric value scales with purchase count.
 calc string[] domain_grouped_full(name = "Domain grouped display") =
   map(unique_domain_node_names, mapper = ($uname) =>
     concat([
@@ -1381,50 +1410,251 @@ calc string[] domain_grouped_full(name = "Domain grouped display") =
         mapper = ($n) => ($n.pp_cost ?? 1),
       )),
       " PP)",
+      // Pro: scaled display if pro_scale_prefix is set, otherwise static
       (if isEmpty(joinToString(
           flatAppend(
-            [map(
-              filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.pro_description ?? ""),
-            )],
+            [map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_prefix ?? ""))],
             treat_as_set = true,
           ),
           separator = "",
         ))
-        then ""
-        else concat(["\n+ ", joinToString(
-          flatAppend(
-            [map(
-              filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.pro_description ?? ""),
-            )],
-            treat_as_set = true,
+        then (if isEmpty(joinToString(
+            flatAppend(
+              [map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_description ?? ""))],
+              treat_as_set = true,
+            ),
+            separator = "",
+          ))
+          then ""
+          else concat(["\n+ ", joinToString(
+            flatAppend([map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_description ?? ""))], treat_as_set = true),
+            separator = "",
+          )]))
+        else concat(["\n+ ",
+          joinToString(
+            flatAppend([map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_prefix ?? ""))], treat_as_set = true),
+            separator = "",
           ),
-          separator = "",
-        )])),
+          " ",
+          add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.pro_scale_per_pp ?? 0))),
+          ".",
+        ])),
+      // Con: scaled display if con_scale_prefix is set, otherwise static
       (if isEmpty(joinToString(
           flatAppend(
-            [map(
-              filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.con_description ?? ""),
-            )],
+            [map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_prefix ?? ""))],
             treat_as_set = true,
           ),
           separator = "",
         ))
-        then ""
-        else concat(["\n- ", joinToString(
-          flatAppend(
-            [map(
-              filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname),
-              mapper = ($n) => ($n.con_description ?? ""),
-            )],
-            treat_as_set = true,
+        then (if isEmpty(joinToString(
+            flatAppend(
+              [map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_description ?? ""))],
+              treat_as_set = true,
+            ),
+            separator = "",
+          ))
+          then ""
+          else concat(["\n- ", joinToString(
+            flatAppend([map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_description ?? ""))], treat_as_set = true),
+            separator = "",
+          )]))
+        else concat(["\n- ",
+          joinToString(
+            flatAppend([map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_prefix ?? ""))], treat_as_set = true),
+            separator = "",
           ),
-          separator = "",
-        )])),
+          " ",
+          add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == $uname), mapper = ($n) => ($n.con_scale_per_pp ?? 0))),
+          ".",
+        ])),
     ])
   );
 
 calc string domain_summary_text(name = "Domain summary text") =
   joinToString(domain_grouped_full, separator = "\n\n");
+
+// --- TUG: Mana / Spell Points ---
+
+base integer max_spell_points(name = "Max Spell Points") = 0;
+
+base integer current_spell_points(name = "Spell Points") = 0;
+
+base string spellcasting_ability(name = "Spellcasting ability") = "intelligence";
+
+calc integer spellcasting_modifier(name = "Spellcasting modifier") =
+  when {
+    spellcasting_ability == "strength" -> strength_modifier,
+    spellcasting_ability == "dexterity" -> dexterity_modifier,
+    spellcasting_ability == "constitution" -> constitution_modifier,
+    spellcasting_ability == "intelligence" -> intelligence_modifier,
+    spellcasting_ability == "wisdom" -> wisdom_modifier,
+    spellcasting_ability == "charisma" -> charisma_modifier,
+    else -> intelligence_modifier,
+  };
+
+// --- TUG: Arcane Affinity node PP counts ---
+
+calc integer aa_spell_expertise_pp(name = "AA Spell Expertise PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Spell Expertise"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer aa_irresistible_pp(name = "AA Irresistible PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Irresistible"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer aa_potent_sorcery_pp(name = "AA Potent Sorcery PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Potent Sorcery"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer aa_efficient_sorcery_pp(name = "AA Efficient Sorcery PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Efficient Sorcery"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc bool has_spell_expertise(name = "Has Spell Expertise") = aa_spell_expertise_pp > 0;
+
+calc bool has_irresistible(name = "Has Irresistible") = aa_irresistible_pp > 0;
+
+// AA adds proficiency to attack/DC. Spell Expertise doubles it. Irresistible doubles DC prof.
+calc integer spell_attack_bonus(name = "Spell attack bonus") =
+  spellcasting_modifier +
+  (if has_spell_expertise then 2 * proficiency_bonus
+   else if arcane_affinity_active then proficiency_bonus
+   else 0);
+
+calc integer spell_save_dc_spells(name = "Spell save DC") =
+  8 + spellcasting_modifier +
+  (if has_irresistible then 2 * proficiency_bonus
+   else if arcane_affinity_active then proficiency_bonus
+   else 0);
+
+calc integer potent_sorcery_bonus(name = "Potent Sorcery bonus") = aa_potent_sorcery_pp;
+
+calc integer efficient_sorcery_reduction(name = "Efficient Sorcery reduction") = aa_efficient_sorcery_pp;
+
+// --- TUG: Physical Augmentation node PP counts ---
+
+calc integer pa_simmer_pp(name = "PA Simmer PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Simmer"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer pa_overtime_pp(name = "PA Overtime PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Overtime"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer crit_threshold(name = "Crit threshold") =
+  max([20 - pa_simmer_pp, 2]);
+
+calc integer fumble_threshold(name = "Fumble threshold") =
+  min([1 + pa_simmer_pp, 19]);
+
+calc integer overtime_bonus(name = "Overtime bonus (attack)") = pa_overtime_pp * 2;
+
+// --- TUG: Blood Manipulation node PP counts ---
+
+calc integer bm_blood_laser_pp(name = "BM Blood Laser PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Blood Laser"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer bm_crimson_recovery_pp(name = "BM Crimson Recovery PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Crimson Recovery"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer bm_hemolock_pp(name = "BM Hemolock PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Hemolock"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer bm_hemo_hardening_pp(name = "BM Hemo-Hardening PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Hemo-Hardening"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer bm_hemosight_pp(name = "BM Hemosight PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Hemosight"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer bm_bloodbound_blitz_pp(name = "BM Bloodbound Blitz PP") =
+  add(map(filter(cursed_pact_tree_nodes, filter = ($n) => ($n.name ?? "") == "Bloodbound Blitz"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+// HP cost controls for Blood Manipulation abilities (player adjusts before use)
+// All BM costs reduce MAXIMUM HP (blood_max_hp_debt), not current HP.
+// Current HP is only clamped down if it would exceed the new lower max.
+
+// HP to sacrifice on Blood Laser / Bloodbound Blitz — max 10 × level, any amount
+base integer bm_blood_cost(name = "BM: Max HP to sacrifice") = 5;
+
+// HP to sacrifice on Crimson Recovery — multiples of 5, levels 1-9 (5–45 HP)
+base integer bm_recovery_hp_cost(name = "BM: Recovery HP to sacrifice") = 5;
+
+// HP to sacrifice on Hemolock — multiples of 5, Blood Cost Table (5–45 HP)
+base integer bm_hemolock_cost(name = "BM: Hemolock HP to sacrifice") = 5;
+
+// HP to sacrifice on Hemo-Hardening — multiples of 5 (5–45 HP)
+base integer bm_hemo_hardening_cost(name = "BM: Hemo-Hardening HP to sacrifice") = 5;
+
+// Derived BM stats
+// Blood Laser: flat damage = half max HP sacrificed. No attack roll.
+calc integer blood_laser_damage(name = "Blood Laser flat damage") =
+  divide([bm_blood_cost, 2], rounding_method = "down");
+
+calc integer blood_laser_max_cost(name = "Blood Laser max HP cost") = level * 10;
+
+// Hemolock: attack bonus from extended Blood Cost Table (5 HP = +1, up to 45 HP = +9)
+calc integer hemolock_attack_bonus(name = "Hemolock attack bonus") =
+  min([divide([bm_hemolock_cost, 5], rounding_method = "down"), 9]);
+
+// Hemo-Hardening: +1 AC per 5 HP sacrificed, up to +9
+calc integer hemo_hardening_ac_bonus(name = "Hemo-Hardening AC bonus") =
+  min([divide([bm_hemo_hardening_cost, 5], rounding_method = "down"), 9]);
+
+// Crimson Recovery: Blood Cost Table extended to 9th level.
+// PP just unlocks the ability; the table caps at 45 HP / 9th level slot.
+// SP table: 1st=2, 2nd=3, 3rd=5, 4th=6, 5th=7, 6th=9, 7th=10, 8th=11, 9th=13
+calc integer crimson_recovery_max_hp_cost(name = "Crimson Recovery max HP cost") = 45;
+
+calc integer crimson_recovery_slot_level(name = "Crimson Recovery slot level") =
+  min([divide([bm_recovery_hp_cost, 5], rounding_method = "down"), 9]);
+
+calc integer crimson_recovery_sp_restored(name = "Crimson Recovery SP restored") =
+  when {
+    crimson_recovery_slot_level >= 9 -> 13,
+    crimson_recovery_slot_level == 8 -> 11,
+    crimson_recovery_slot_level == 7 -> 10,
+    crimson_recovery_slot_level == 6 -> 9,
+    crimson_recovery_slot_level == 5 -> 7,
+    crimson_recovery_slot_level == 4 -> 6,
+    crimson_recovery_slot_level == 3 -> 5,
+    crimson_recovery_slot_level == 2 -> 3,
+    else -> 2,
+  };
+
+// --- TUG: Domain Expansion node PP counts ---
+
+calc integer domain_mental_pp(name = "Domain Mental PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Mental"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_physical_pp(name = "Domain Physical PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Physical"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_infinite_void_pp(name = "Domain Infinite Void PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Infinite Void"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_auto_hit_pp(name = "Domain Auto Hit PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Auto Hit"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_duration_pp(name = "Domain Duration PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Domain Duration"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_environment_pp(name = "Domain Environment PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Environment"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_space_pp(name = "Domain Space PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Space"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_embody_pp(name = "Domain Embody PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Embody"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_borderless_pp(name = "Domain Borderless PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Borderless Domain"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+calc integer domain_boundless_pp(name = "Domain Boundless PP") =
+  add(map(filter(domain_tree_nodes, filter = ($n) => ($n.name ?? "") == "Boundless Domain"), mapper = ($n) => ($n.pp_cost ?? 1)));
+
+// Domain derived stats
+calc integer domain_activation_hp_cost(name = "Domain activation HP cost") =
+  divide([level, 2], rounding_method = "up") *
+  (if domain_infinite_void_pp > 0 then 2 else 1);
+
+calc integer domain_concentration_bonus(name = "Domain concentration bonus") =
+  domain_mental_pp * 2;
+
+calc integer domain_duration_bonus_minutes(name = "Domain duration bonus (min)") =
+  domain_duration_pp;

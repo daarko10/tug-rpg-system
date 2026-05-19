@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_cultist",
+    "id": "tug_monster_cultist",
     "name": {
       "value": "Cultist"
     },

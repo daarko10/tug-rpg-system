@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_dragon_turtle",
+    "id": "tug_monster_ancient_dragon_turtle",
     "name": {
       "value": "Ancient Dragon Turtle"
     },

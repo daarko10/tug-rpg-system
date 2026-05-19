@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_+3_dragonhide_belt",
+    "id": "tug_item_+3_dragonhide_belt",
     "name": {
       "value": "+3 Dragonhide Belt"
     },

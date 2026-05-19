@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_maegera_the_dawn_titan",
+    "id": "tug_monster_maegera_the_dawn_titan",
     "name": {
       "value": "Maegera the Dawn Titan"
     },

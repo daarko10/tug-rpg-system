@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_brusipha__bmt_",
+    "id": "tug_monster_brusipha__bmt_",
     "name": {
       "value": "Brusipha"
     },

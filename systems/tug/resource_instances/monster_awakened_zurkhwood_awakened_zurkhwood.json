@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_awakened_zurkhwood",
+    "id": "tug_monster_awakened_zurkhwood",
     "name": {
       "value": "Awakened Zurkhwood"
     },

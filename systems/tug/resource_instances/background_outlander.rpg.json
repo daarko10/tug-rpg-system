@@ -249,7 +249,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Set of traveler\u2019s clothes"
+                            "value": "Set of traveler’s clothes"
                           },
                           "cost": {
                             "value": {
@@ -282,7 +282,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.072182"
                           },
-                          "id": "\u00a0set_of_traveler\u2019s_clothes"
+                          "id": " set_of_traveler’s_clothes"
                         }
                       }
                     },
@@ -439,6 +439,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.072235"
     },
-    "id": "tug_outlander"
+    "id": "tug_background_outlander"
   }
 }

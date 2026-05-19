@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_feather_fall",
+    "id": "tug_spell_feather_fall",
     "name": {
       "value": "Feather Fall"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_wolf_spider",
+    "id": "tug_monster_giant_wolf_spider",
     "name": {
       "value": "Giant Wolf Spider"
     },

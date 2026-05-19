@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_grim_champion_of_bloodshed__bmt_",
+    "id": "tug_monster_grim_champion_of_bloodshed__bmt_",
     "name": {
       "value": "Grim Champion of Bloodshed"
     },

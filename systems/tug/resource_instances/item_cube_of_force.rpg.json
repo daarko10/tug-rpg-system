@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cube_of_force",
+    "id": "tug_item_cube_of_force",
     "name": {
       "value": "Cube of Force"
     },

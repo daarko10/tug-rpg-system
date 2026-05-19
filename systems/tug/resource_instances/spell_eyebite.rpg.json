@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_eyebite",
+    "id": "tug_spell_eyebite",
     "name": {
       "value": "Eyebite"
     },

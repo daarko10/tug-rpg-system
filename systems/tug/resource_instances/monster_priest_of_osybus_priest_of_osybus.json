@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_priest_of_osybus",
+    "id": "tug_monster_priest_of_osybus",
     "name": {
       "value": "Priest of Osybus"
     },

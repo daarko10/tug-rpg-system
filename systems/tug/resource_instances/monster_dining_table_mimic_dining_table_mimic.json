@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dining_table_mimic",
+    "id": "tug_monster_dining_table_mimic",
     "name": {
       "value": "Dining Table Mimic"
     },

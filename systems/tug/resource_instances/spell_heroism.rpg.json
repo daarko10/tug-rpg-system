@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_heroism",
+    "id": "tug_spell_heroism",
     "name": {
       "value": "Heroism"
     },

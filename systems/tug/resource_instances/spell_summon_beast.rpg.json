@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_summon_beast",
+    "id": "tug_spell_summon_beast",
     "name": {
       "value": "Summon Beast"
     },

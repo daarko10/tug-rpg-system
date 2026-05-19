@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_antigravity_belt",
+    "id": "tug_item_antigravity_belt",
     "name": {
       "value": "Antigravity Belt"
     },

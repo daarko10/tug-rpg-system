@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_plane_shift",
+    "id": "tug_spell_plane_shift",
     "name": {
       "value": "Plane Shift"
     },

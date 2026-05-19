@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_tashas_mind_whip",
+    "id": "tug_spell_tashas_mind_whip",
     "name": {
       "value": "Tasha's Mind Whip"
     },

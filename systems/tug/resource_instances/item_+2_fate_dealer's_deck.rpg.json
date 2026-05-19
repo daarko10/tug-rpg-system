@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_+2_fate_dealers_deck",
+    "id": "tug_item_+2_fate_dealers_deck",
     "name": {
       "value": "+2 Fate Dealer's Deck"
     },

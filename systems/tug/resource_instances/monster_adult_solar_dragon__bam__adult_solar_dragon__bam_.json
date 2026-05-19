@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_adult_solar_dragon__bam_",
+    "id": "tug_monster_adult_solar_dragon__bam_",
     "name": {
       "value": "Adult Solar Dragon"
     },

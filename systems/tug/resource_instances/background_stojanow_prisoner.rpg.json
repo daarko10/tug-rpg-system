@@ -182,7 +182,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Trinket\u00a0from the life you stayed behind to defend"
+                            "value": "Trinket from the life you stayed behind to defend"
                           },
                           "cost": {
                             "value": {
@@ -215,7 +215,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.084345"
                           },
-                          "id": "trinket\u00a0from_the_life_you_stayed_behind_to_defend"
+                          "id": "trinket from_the_life_you_stayed_behind_to_defend"
                         }
                       }
                     },
@@ -371,6 +371,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.084398"
     },
-    "id": "tug_stojanow_prisoner"
+    "id": "tug_background_stojanow_prisoner"
   }
 }

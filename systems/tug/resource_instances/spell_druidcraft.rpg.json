@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_druidcraft",
+    "id": "tug_spell_druidcraft",
     "name": {
       "value": "Druidcraft"
     },

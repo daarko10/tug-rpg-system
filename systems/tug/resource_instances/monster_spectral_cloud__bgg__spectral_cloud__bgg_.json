@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_spectral_cloud__bgg_",
+    "id": "tug_monster_spectral_cloud__bgg_",
     "name": {
       "value": "Spectral Cloud"
     },

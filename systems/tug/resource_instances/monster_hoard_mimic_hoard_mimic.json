@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hoard_mimic",
+    "id": "tug_monster_hoard_mimic",
     "name": {
       "value": "Hoard Mimic"
     },

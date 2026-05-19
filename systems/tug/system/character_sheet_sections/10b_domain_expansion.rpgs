@@ -4,6 +4,7 @@ character_sheet_section domain_expansion() =
     show_divider = true,
     content_item_min_width = 1,
     collapsible = true,
+    is_visible = domain_expansion_active,
     header = [
       icon(
         id = "domain_expansion_section_icon",
@@ -21,7 +22,7 @@ character_sheet_section domain_expansion() =
       spacer(id = "domain_expansion_section_header_spacer"),
       selectResources(
         id = "domain_tree_add_node",
-        stat = "purchased_nodes",
+        stat = "purchased_domain_nodes",
         resource_id = "skill_tree_node",
         view_type = "icon",
         should_append = true,
@@ -36,8 +37,113 @@ character_sheet_section domain_expansion() =
         change_amount = 0,
         min_value_allowed = 0,
         override_label = "Activate Domain",
-        edit_bottom_sheet_title = concat(["Tap to spend ", divide([level, 2], rounding_method = "up"), " HP and activate the domain"]),
+        edit_bottom_sheet_title = concat(["Tap to spend ", domain_activation_hp_cost, " HP and activate the domain"]),
         on_tap_event = event(name = "activate_domain"),
+      ),
+      text(
+        id = "domain_hp_debt_info",
+        text = concat(["HP Debt: ", domain_max_hp_debt, " (max HP reduced until long rest)"]),
+        style = "caption",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_max_hp_debt > 0,
+      ),
+      // Domain DC and ability selector
+      composite(
+        id = "domain_dc_row",
+        margin_left = 16,
+        margin_top = 12,
+        subviews = [
+          text(
+            id = "domain_dc_label",
+            text = "Domain DC: ",
+            style = "text",
+            bold = true,
+          ),
+          text(
+            id = "domain_dc_value",
+            text = concat([domain_dc, "  (", enumeratedName(enumerated_type = "ability", id = domain_dc_ability) ?? domain_dc_ability, ")"]),
+            style = "text",
+          ),
+        ],
+      ),
+      // Domain active stats (only show when nodes are invested)
+      text(
+        id = "domain_active_stats_title",
+        text = "Domain Effects",
+        style = "subhead",
+        bold = true,
+        margin_top = 16,
+        margin_left = 16,
+        is_visible = domain_mental_pp > 0 || domain_physical_pp > 0 || domain_infinite_void_pp > 0 || domain_auto_hit_pp > 0 || domain_duration_pp > 0 || domain_space_pp > 0,
+      ),
+      text(
+        id = "domain_mental_stat",
+        text = concat([
+          "Mental (", domain_mental_pp, " PP):\n",
+          "  + Domain DC +", domain_mental_pp, " (currently: ", domain_dc, ")\n",
+          "  + Concentration +", domain_concentration_bonus, " in domain clashes",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_mental_pp > 0,
+      ),
+      text(
+        id = "domain_physical_stat",
+        text = concat([
+          "Physical (", domain_physical_pp, " PP):\n",
+          "  + All attacks deal +", domain_physical_pp, "d6 damage inside domain",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_physical_pp > 0,
+      ),
+      text(
+        id = "domain_infinite_void_stat",
+        text = concat([
+          "Infinite Void (", domain_infinite_void_pp, " PP):\n",
+          "  + Domain affects ", domain_infinite_void_pp * 10, " ft radius\n",
+          "  ⚠ Activation HP cost doubled (", domain_activation_hp_cost, " HP)",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_infinite_void_pp > 0,
+      ),
+      text(
+        id = "domain_auto_hit_stat",
+        text = concat([
+          "Auto Hit (", domain_auto_hit_pp, " PP):\n",
+          "  + Domain attacks automatically hit on a roll of ", 20 - domain_auto_hit_pp, "+",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_auto_hit_pp > 0,
+      ),
+      text(
+        id = "domain_duration_stat",
+        text = concat([
+          "Domain Duration (", domain_duration_pp, " PP):\n",
+          "  + Domain lasts ", domain_duration_bonus_minutes, " extra minute(s)",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_duration_pp > 0,
+      ),
+      text(
+        id = "domain_space_stat",
+        text = concat([
+          "Space (", domain_space_pp, " PP):\n",
+          "  + Teleport up to ", domain_space_pp * 15, " ft inside the domain as a bonus action",
+        ]),
+        style = "text",
+        margin_left = 16,
+        margin_top = 4,
+        is_visible = domain_space_pp > 0,
       ),
       // Grouped display — one entry per unique node (name + total PP invested)
       text(
@@ -49,22 +155,29 @@ character_sheet_section domain_expansion() =
         margin_top = 12,
         is_visible = !isEmpty(unique_domain_node_names),
       ),
-      // Swipe-to-remove flat list
-      text(
-        id = "domain_nodes_remove_hint",
-        text = "Remove PP investments (swipe left):",
-        style = "caption",
-        bold = true,
-        margin_top = 16,
-        margin_left = 16,
+      // Swipe-to-remove flat list (collapsed by default)
+      collapsible(
+        id = "domain_manage_collapsible",
+        title = "Manage PP investments",
+        start_expanded = false,
         is_visible = !isEmpty(domain_tree_nodes),
-      ),
-      resourceSection(
-        id = "domain_tree_nodes_list",
-        resource_id = "skill_tree_node",
-        resource_stat = "domain_tree_nodes",
-        resource_set_stat = "purchased_nodes",
-        read_only = false,
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "domain_nodes_remove_hint",
+            text = "Swipe left on an entry to remove it.",
+            style = "caption",
+            margin_top = 8,
+            margin_left = 16,
+          ),
+          resourceSection(
+            id = "domain_tree_nodes_list",
+            resource_id = "skill_tree_node",
+            resource_stat = "domain_tree_nodes",
+            resource_set_stat = "purchased_domain_nodes",
+            read_only = false,
+          ),
+        ],
       ),
     ],
   );

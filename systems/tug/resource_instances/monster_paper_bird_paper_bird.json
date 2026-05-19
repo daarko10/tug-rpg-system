@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_paper_bird",
+    "id": "tug_monster_paper_bird",
     "name": {
       "value": "Paper Bird"
     },

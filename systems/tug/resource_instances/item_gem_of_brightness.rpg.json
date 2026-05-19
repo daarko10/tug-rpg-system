@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_gem_of_brightness",
+    "id": "tug_item_gem_of_brightness",
     "name": {
       "value": "Gem of Brightness"
     },

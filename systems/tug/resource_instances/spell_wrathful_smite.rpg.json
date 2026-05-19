@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_wrathful_smite",
+    "id": "tug_spell_wrathful_smite",
     "name": {
       "value": "Wrathful Smite"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_altisaur__bgg_",
+    "id": "tug_monster_altisaur__bgg_",
     "name": {
       "value": "Altisaur"
     },

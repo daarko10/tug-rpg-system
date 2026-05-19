@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ring_of_water_walking",
+    "id": "tug_item_ring_of_water_walking",
     "name": {
       "value": "Ring of Water Walking"
     },

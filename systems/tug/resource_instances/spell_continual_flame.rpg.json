@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_continual_flame",
+    "id": "tug_spell_continual_flame",
     "name": {
       "value": "Continual Flame"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dragonflesh_grafter",
+    "id": "tug_monster_dragonflesh_grafter",
     "name": {
       "value": "Dragonflesh Grafter"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_power_word_stun",
+    "id": "tug_spell_power_word_stun",
     "name": {
       "value": "Power Word Stun"
     },

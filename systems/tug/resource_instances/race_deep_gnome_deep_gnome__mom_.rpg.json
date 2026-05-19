@@ -302,7 +302,7 @@
                                   "value": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes"
                                 },
                                 "description": {
-                                  "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can\u2019t be targeted by any divination magic or perceived through magical scrying sensors."
+                                  "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors."
                                 },
                                 "classes": {
                                   "value": [
@@ -660,7 +660,7 @@
                     "value": "a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes"
                   },
                   "description": {
-                    "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can\u2019t be targeted by any divination magic or perceived through magical scrying sensors."
+                    "value": "For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors."
                   },
                   "classes": {
                     "value": [
@@ -732,6 +732,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.839042"
     },
-    "id": "tug_deep_gnome__mom_"
+    "id": "tug_race_deep_gnome__mom_"
   }
 }

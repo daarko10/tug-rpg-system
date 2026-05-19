@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_beholder",
+    "id": "tug_monster_beholder",
     "name": {
       "value": "Beholder"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ruin_grinder",
+    "id": "tug_monster_ruin_grinder",
     "name": {
       "value": "Ruin Grinder"
     },

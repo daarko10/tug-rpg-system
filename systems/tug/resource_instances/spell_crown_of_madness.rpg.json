@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_crown_of_madness",
+    "id": "tug_spell_crown_of_madness",
     "name": {
       "value": "Crown of Madness"
     },

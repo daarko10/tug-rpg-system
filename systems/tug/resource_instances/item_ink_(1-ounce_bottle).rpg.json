@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ink__1-ounce_bottle_",
+    "id": "tug_item_ink__1-ounce_bottle_",
     "name": {
       "value": "Ink (1-ounce bottle)"
     },

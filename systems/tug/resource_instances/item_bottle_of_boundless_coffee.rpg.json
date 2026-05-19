@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bottle_of_boundless_coffee",
+    "id": "tug_item_bottle_of_boundless_coffee",
     "name": {
       "value": "Bottle of Boundless Coffee"
     },

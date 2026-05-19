@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_hunting_trap",
+    "id": "tug_item_hunting_trap",
     "name": {
       "value": "Hunting Trap"
     },

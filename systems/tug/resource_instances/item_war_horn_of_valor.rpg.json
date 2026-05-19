@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_war_horn_of_valor",
+    "id": "tug_item_war_horn_of_valor",
     "name": {
       "value": "War Horn of Valor"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_manacles",
+    "id": "tug_item_manacles",
     "name": {
       "value": "Manacles"
     },

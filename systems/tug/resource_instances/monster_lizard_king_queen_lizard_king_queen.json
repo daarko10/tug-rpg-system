@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_lizard_king_queen",
+    "id": "tug_monster_lizard_king_queen",
     "name": {
       "value": "Lizard King/Queen"
     },

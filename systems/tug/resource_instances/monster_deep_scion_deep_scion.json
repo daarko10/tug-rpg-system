@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_deep_scion",
+    "id": "tug_monster_deep_scion",
     "name": {
       "value": "Deep Scion"
     },

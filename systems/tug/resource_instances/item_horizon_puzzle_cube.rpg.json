@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_horizon_puzzle_cube",
+    "id": "tug_item_horizon_puzzle_cube",
     "name": {
       "value": "Horizon Puzzle Cube"
     },

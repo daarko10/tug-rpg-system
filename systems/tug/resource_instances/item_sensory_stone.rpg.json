@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sensory_stone",
+    "id": "tug_item_sensory_stone",
     "name": {
       "value": "Sensory Stone"
     },

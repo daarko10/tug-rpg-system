@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_misty_step",
+    "id": "tug_spell_misty_step",
     "name": {
       "value": "Misty Step"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_redbrand_ruffian",
+    "id": "tug_monster_redbrand_ruffian",
     "name": {
       "value": "Redbrand Ruffian"
     },

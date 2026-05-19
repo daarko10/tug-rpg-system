@@ -21,7 +21,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can communicate with\u00a0humanoids\u00a0who don't speak any\u00a0language\u00a0you know so long as you observe them interacting with each other for at least one day."
+                      "value": "You can communicate with humanoids who don't speak any language you know so long as you observe them interacting with each other for at least one day."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.048038"
@@ -480,6 +480,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.048209"
     },
-    "id": "tug_anthropologist"
+    "id": "tug_background_anthropologist"
   }
 }

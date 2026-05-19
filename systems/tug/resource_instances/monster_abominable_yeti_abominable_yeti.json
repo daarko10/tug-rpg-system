@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_abominable_yeti",
+    "id": "tug_monster_abominable_yeti",
     "name": {
       "value": "Abominable Yeti"
     },

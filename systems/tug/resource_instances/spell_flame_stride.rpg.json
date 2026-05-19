@@ -29,7 +29,7 @@
       "value": true
     },
     "description": {
-      "value": "The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn\u2019t provoke opportunity attacks. When you move within 5 feet of a creature or object that isn\u2019t being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn"
+      "value": "The billowing flames of a dragon cover your feet, granting you explosive speed. For the duration, your speed increases by 20 feet and moving doesn’t provoke opportunity attacks. When you move within 5 feet of a creature or object that isn’t being worn or carried, it takes 1d6 fire damage from your trail of heat. A creature or object can take this damage only once during a turn"
     },
     "higher_level_description": {
       "value": "When you cast this spell using a spell slot of 4th level or higher, increase your speed by 5 feet for each spell slot level above 3rd. Additionally, the spell deals an additional 1d6 fire damage for each slot level above 3rd"
@@ -335,6 +335,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.702120"
     },
-    "id": "tug_flame_stride"
+    "id": "tug_spell_flame_stride"
   }
 }

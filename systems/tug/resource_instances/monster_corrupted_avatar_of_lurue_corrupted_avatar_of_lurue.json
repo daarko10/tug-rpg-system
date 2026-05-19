@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_corrupted_avatar_of_lurue",
+    "id": "tug_monster_corrupted_avatar_of_lurue",
     "name": {
       "value": "Corrupted Avatar of Lurue"
     },

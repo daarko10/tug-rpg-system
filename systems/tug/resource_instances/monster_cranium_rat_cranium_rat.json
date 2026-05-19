@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_cranium_rat",
+    "id": "tug_monster_cranium_rat",
     "name": {
       "value": "Cranium Rat"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ogre_bolt_launcher__mom_",
+    "id": "tug_monster_ogre_bolt_launcher__mom_",
     "name": {
       "value": "Ogre Bolt Launcher"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_foresight",
+    "id": "tug_spell_foresight",
     "name": {
       "value": "Foresight"
     },

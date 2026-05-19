@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_kobold_inventor",
+    "id": "tug_monster_kobold_inventor",
     "name": {
       "value": "Kobold Inventor"
     },

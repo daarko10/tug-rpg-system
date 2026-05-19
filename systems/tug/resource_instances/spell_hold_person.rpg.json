@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_hold_person",
+    "id": "tug_spell_hold_person",
     "name": {
       "value": "Hold Person"
     },

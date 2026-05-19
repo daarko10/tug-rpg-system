@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_arcane_lock",
+    "id": "tug_spell_arcane_lock",
     "name": {
       "value": "Arcane Lock"
     },

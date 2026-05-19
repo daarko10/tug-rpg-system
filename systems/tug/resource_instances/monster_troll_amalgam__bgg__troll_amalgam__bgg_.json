@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_troll_amalgam__bgg_",
+    "id": "tug_monster_troll_amalgam__bgg_",
     "name": {
       "value": "Troll Amalgam"
     },

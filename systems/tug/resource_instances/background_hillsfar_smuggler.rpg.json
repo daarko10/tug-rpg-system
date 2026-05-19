@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you\u2019re calling in a favor, you can\u2019t be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rogue's Guild a favor and/or may have to pay bribes."
+                      "value": "You can call on your contacts within the smuggling community to secure secret passage into or out of Hillsfar for yourself and your adventuring companions, no questions asked, and no Red Plume entanglements. Because you’re calling in a favor, you can’t be certain they will be able to help on your timetable or at all. Your Dungeon Master will determine whether you can be smuggled into or out of the city. In return for your passage, you and your companions may owe the Rogue's Guild a favor and/or may have to pay bribes."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.037391"
@@ -314,6 +314,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.037500"
     },
-    "id": "tug_hillsfar_smuggler"
+    "id": "tug_background_hillsfar_smuggler"
   }
 }

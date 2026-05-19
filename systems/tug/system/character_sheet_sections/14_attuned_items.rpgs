@@ -1,4 +1,4 @@
-character_sheet_section attuned_items() =
+character_sheet_section attuned_items_sheet() =
   section(
     id = "attuned_items_section",
     show_divider = true,

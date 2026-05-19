@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hook_horror",
+    "id": "tug_monster_hook_horror",
     "name": {
       "value": "Hook Horror"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_fabricate",
+    "id": "tug_spell_fabricate",
     "name": {
       "value": "Fabricate"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_slithering_tracker",
+    "id": "tug_monster_slithering_tracker",
     "name": {
       "value": "Slithering Tracker"
     },

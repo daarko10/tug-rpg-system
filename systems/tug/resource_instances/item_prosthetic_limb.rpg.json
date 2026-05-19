@@ -8,7 +8,7 @@
       "value": "tce"
     },
     "description": {
-      "value": "This item replaces a lost limb\u2014a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can\u2019t be removed against your will. It detaches if you die."
+      "value": "This item replaces a lost limb—a hand, an arm, a foot, a leg, or a similar body part. While the prosthetic is attached, it functions identically to the part it replaces. You can detach or reattach it as an action, and it can’t be removed against your will. It detaches if you die."
     },
     "type": {
       "value": "wondrous"
@@ -53,6 +53,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.750848"
     },
-    "id": "tug_prosthetic_limb"
+    "id": "tug_item_prosthetic_limb"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_mirror_shade__veor_",
+    "id": "tug_monster_mirror_shade__veor_",
     "name": {
       "value": "Mirror Shade"
     },
@@ -135,7 +135,7 @@
               "value": "False Appearance"
             },
             "trait_description": {
-              "value": "If the mirror shade is within 5 feet of a reflective surface\u2014such as a mirror, glass pane, or still water\u2014it has advantage on its initiative roll. If a creature hasn't observed the mirror shade move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mirror shade isn't the creature's own reflection."
+              "value": "If the mirror shade is within 5 feet of a reflective surface—such as a mirror, glass pane, or still water—it has advantage on its initiative roll. If a creature hasn't observed the mirror shade move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the mirror shade isn't the creature's own reflection."
             },
             "id": "6b9bc379-96f1-4bb7-8689-b15e00ef6650",
             "updated_at": {

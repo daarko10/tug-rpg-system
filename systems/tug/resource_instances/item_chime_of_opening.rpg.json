@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_chime_of_opening",
+    "id": "tug_item_chime_of_opening",
     "name": {
       "value": "Chime of Opening"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_strixhaven_campus_guide",
+    "id": "tug_monster_strixhaven_campus_guide",
     "name": {
       "value": "Strixhaven Campus Guide"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_malformed_kraken",
+    "id": "tug_monster_malformed_kraken",
     "name": {
       "value": "Malformed Kraken"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_otilukes_resilient_sphere",
+    "id": "tug_spell_otilukes_resilient_sphere",
     "name": {
       "value": "Otiluke's Resilient Sphere"
     },

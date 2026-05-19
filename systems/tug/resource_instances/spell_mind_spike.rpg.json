@@ -26,7 +26,7 @@
       "value": true
     },
     "description": {
-      "value": "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can\u2019t become hidden from you, and if it\u2019s invisible, it gains no benefit from that condition against you."
+      "value": "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you."
     },
     "higher_level_description": {
       "value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
@@ -351,6 +351,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.677341"
     },
-    "id": "tug_mind_spike"
+    "id": "tug_spell_mind_spike"
   }
 }

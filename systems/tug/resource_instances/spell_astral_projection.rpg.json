@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_astral_projection",
+    "id": "tug_spell_astral_projection",
     "name": {
       "value": "Astral Projection"
     },

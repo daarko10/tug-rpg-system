@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gnoll_pack_lord",
+    "id": "tug_monster_gnoll_pack_lord",
     "name": {
       "value": "Gnoll Pack Lord"
     },

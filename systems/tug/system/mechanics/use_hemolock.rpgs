@@ -1,0 +1,53 @@
+mechanic use_hemolock(event_names = "use_hemolock") =
+  sequence(
+    effects = [
+      when {
+        !blood_manipulation_active -> showMessage(
+          message = "Hemolock requires the Blood Manipulation pact.",
+          message_type = "error",
+        ),
+        bm_hemolock_pp <= 0 -> showMessage(
+          message = "You haven't invested PP in Hemolock.",
+          message_type = "error",
+        ),
+        bm_hemolock_cost <= 0 -> showMessage(
+          message = "Set max HP to sacrifice (must be at least 5).",
+          message_type = "error",
+        ),
+        current_hp >= max_hp -> showMessage(
+          message = "You must have below max HP to use Blood Manipulation techniques.",
+          message_type = "error",
+        ),
+        max_hp <= bm_hemolock_cost -> showMessage(
+          message = concat(["Sacrificing ", bm_hemolock_cost, " max HP would reduce your maximum to 0. You would die."]),
+          message_type = "error",
+        ),
+        else -> sequence(
+          effects = [
+            setStat(
+              stat = "blood_max_hp_debt",
+              new_value = blood_max_hp_debt + bm_hemolock_cost,
+              aggregation_type = "set",
+            ),
+            when {
+              current_hp > max_hp - bm_hemolock_cost -> setStat(
+                stat = "current_hp",
+                new_value = max_hp - bm_hemolock_cost,
+                aggregation_type = "set",
+              ),
+            },
+            showMessage(
+              message = concat([
+                "Hemolock active! Sacrificed ",
+                bm_hemolock_cost,
+                " max HP.\n+",
+                hemolock_attack_bonus,
+                " to one attack roll this turn (declare before rolling).\nMax HP restored on long rest.",
+              ]),
+              message_type = "info",
+            ),
+          ],
+        ),
+      },
+    ],
+  );

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_potion_of_maximum_power",
+    "id": "tug_item_potion_of_maximum_power",
     "name": {
       "value": "Potion of Maximum Power"
     },

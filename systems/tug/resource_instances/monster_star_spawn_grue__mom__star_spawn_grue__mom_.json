@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_star_spawn_grue__mom_",
+    "id": "tug_monster_star_spawn_grue__mom_",
     "name": {
       "value": "Star Spawn Grue"
     },

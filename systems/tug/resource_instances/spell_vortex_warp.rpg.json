@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_vortex_warp",
+    "id": "tug_spell_vortex_warp",
     "name": {
       "value": "Vortex Warp"
     },

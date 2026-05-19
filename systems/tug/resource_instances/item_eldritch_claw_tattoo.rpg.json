@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_eldritch_claw_tattoo",
+    "id": "tug_item_eldritch_claw_tattoo",
     "name": {
       "value": "Eldritch Claw Tattoo"
     },

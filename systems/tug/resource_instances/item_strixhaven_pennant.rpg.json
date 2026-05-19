@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_strixhaven_pennant",
+    "id": "tug_item_strixhaven_pennant",
     "name": {
       "value": "Strixhaven Pennant"
     },

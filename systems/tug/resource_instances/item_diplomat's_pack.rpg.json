@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_diplomats_pack",
+    "id": "tug_item_diplomats_pack",
     "name": {
       "value": "Diplomat's Pack"
     },

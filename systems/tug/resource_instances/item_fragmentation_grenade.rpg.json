@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_fragmentation_grenade",
+    "id": "tug_item_fragmentation_grenade",
     "name": {
       "value": "Fragmentation Grenade"
     },

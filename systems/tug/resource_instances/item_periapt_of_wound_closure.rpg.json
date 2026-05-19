@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_periapt_of_wound_closure",
+    "id": "tug_item_periapt_of_wound_closure",
     "name": {
       "value": "Periapt of Wound Closure"
     },

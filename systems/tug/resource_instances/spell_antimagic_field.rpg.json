@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_antimagic_field",
+    "id": "tug_spell_antimagic_field",
     "name": {
       "value": "Antimagic Field"
     },

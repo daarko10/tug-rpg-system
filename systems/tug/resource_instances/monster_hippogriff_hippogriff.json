@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hippogriff",
+    "id": "tug_monster_hippogriff",
     "name": {
       "value": "Hippogriff"
     },

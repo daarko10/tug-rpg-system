@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_rations__1_day_",
+    "id": "tug_item_rations__1_day_",
     "name": {
       "value": "Rations (1 day)"
     },

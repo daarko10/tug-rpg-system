@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_polar_bear",
+    "id": "tug_monster_polar_bear",
     "name": {
       "value": "Polar Bear"
     },

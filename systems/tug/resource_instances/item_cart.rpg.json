@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cart",
+    "id": "tug_item_cart",
     "name": {
       "value": "Cart"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_shield_of_faith",
+    "id": "tug_spell_shield_of_faith",
     "name": {
       "value": "Shield of Faith"
     },

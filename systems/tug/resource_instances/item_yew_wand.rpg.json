@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_yew_wand",
+    "id": "tug_item_yew_wand",
     "name": {
       "value": "Yew Wand"
     },

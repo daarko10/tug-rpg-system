@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_shard_shunner",
+    "id": "tug_monster_shard_shunner",
     "name": {
       "value": "Shard Shunner"
     },

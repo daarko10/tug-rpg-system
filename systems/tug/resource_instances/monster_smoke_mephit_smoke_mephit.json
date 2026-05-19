@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_smoke_mephit",
+    "id": "tug_monster_smoke_mephit",
     "name": {
       "value": "Smoke Mephit"
     },

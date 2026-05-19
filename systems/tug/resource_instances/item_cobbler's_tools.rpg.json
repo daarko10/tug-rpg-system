@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cobblers_tools",
+    "id": "tug_item_cobblers_tools",
     "name": {
       "value": "Cobbler's Tools"
     },

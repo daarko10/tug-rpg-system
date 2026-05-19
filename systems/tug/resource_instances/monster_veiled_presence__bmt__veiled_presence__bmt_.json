@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_veiled_presence__bmt_",
+    "id": "tug_monster_veiled_presence__bmt_",
     "name": {
       "value": "Veiled Presence"
     },

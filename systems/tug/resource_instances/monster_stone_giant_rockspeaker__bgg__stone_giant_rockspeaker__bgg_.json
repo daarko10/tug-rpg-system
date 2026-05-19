@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_stone_giant_rockspeaker__bgg_",
+    "id": "tug_monster_stone_giant_rockspeaker__bgg_",
     "name": {
       "value": "Stone Giant Rockspeaker"
     },

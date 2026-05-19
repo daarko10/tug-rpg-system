@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_cosmic_horror__bam_",
+    "id": "tug_monster_cosmic_horror__bam_",
     "name": {
       "value": "Cosmic Horror"
     },

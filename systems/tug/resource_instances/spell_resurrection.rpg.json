@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_resurrection",
+    "id": "tug_spell_resurrection",
     "name": {
       "value": "Resurrection"
     },

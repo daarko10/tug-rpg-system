@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_zombie_clot",
+    "id": "tug_monster_zombie_clot",
     "name": {
       "value": "Zombie Clot"
     },

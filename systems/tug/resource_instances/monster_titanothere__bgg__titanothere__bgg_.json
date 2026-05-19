@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_titanothere__bgg_",
+    "id": "tug_monster_titanothere__bgg_",
     "name": {
       "value": "Titanothere"
     },

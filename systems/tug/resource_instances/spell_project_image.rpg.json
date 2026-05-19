@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_project_image",
+    "id": "tug_spell_project_image",
     "name": {
       "value": "Project Image"
     },

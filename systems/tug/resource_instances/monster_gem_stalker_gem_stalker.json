@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gem_stalker",
+    "id": "tug_monster_gem_stalker",
     "name": {
       "value": "Gem Stalker"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vampiric_mist",
+    "id": "tug_monster_vampiric_mist",
     "name": {
       "value": "Vampiric Mist"
     },

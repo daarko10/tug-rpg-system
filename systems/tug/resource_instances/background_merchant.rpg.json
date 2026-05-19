@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "Your experience with customers gives you an advantage with people, once a day, you can use this feature to give you advantage in\u00a0Charisma\u00a0checks that involve negotiation with others."
+                      "value": "Your experience with customers gives you an advantage with people, once a day, you can use this feature to give you advantage in Charisma checks that involve negotiation with others."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.046480"
@@ -473,6 +473,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.046644"
     },
-    "id": "tug_merchant"
+    "id": "tug_background_merchant"
   }
 }

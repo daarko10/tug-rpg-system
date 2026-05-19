@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_pixie_dust",
+    "id": "tug_item_pixie_dust",
     "name": {
       "value": "Pixie Dust"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_alter_self",
+    "id": "tug_spell_alter_self",
     "name": {
       "value": "Alter Self"
     },

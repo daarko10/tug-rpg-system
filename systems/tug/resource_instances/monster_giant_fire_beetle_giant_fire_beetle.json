@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_fire_beetle",
+    "id": "tug_monster_giant_fire_beetle",
     "name": {
       "value": "Giant Fire Beetle"
     },

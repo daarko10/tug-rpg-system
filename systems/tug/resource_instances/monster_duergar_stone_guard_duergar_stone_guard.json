@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_duergar_stone_guard",
+    "id": "tug_monster_duergar_stone_guard",
     "name": {
       "value": "Duergar Stone Guard"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_powered_armor",
+    "id": "tug_item_powered_armor",
     "name": {
       "value": "Powered Armor"
     },

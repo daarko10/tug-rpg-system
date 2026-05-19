@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_fire_giant_dreadnought",
+    "id": "tug_monster_fire_giant_dreadnought",
     "name": {
       "value": "Fire Giant Dreadnought"
     },

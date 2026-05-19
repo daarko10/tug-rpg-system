@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_grasping_whip",
+    "id": "tug_item_grasping_whip",
     "name": {
       "value": "Grasping Whip"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_death_giant_reaper__bgg_",
+    "id": "tug_monster_death_giant_reaper__bgg_",
     "name": {
       "value": "Death Giant Reaper"
     },

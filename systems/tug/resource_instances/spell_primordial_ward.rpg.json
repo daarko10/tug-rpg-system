@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_primordial_ward",
+    "id": "tug_spell_primordial_ward",
     "name": {
       "value": "Primordial Ward"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "You have resistance to acid, cold, fire, lightning, and thunder damage for the spell\u2019s duration.\n\nWhen you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
+      "value": "You have resistance to acid, cold, fire, lightning, and thunder damage for the spell’s duration.\n\nWhen you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends."
     },
     "classes": {
       "value": [

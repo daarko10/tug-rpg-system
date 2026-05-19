@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_astral_dreadnought__mom_",
+    "id": "tug_monster_astral_dreadnought__mom_",
     "name": {
       "value": "Astral Dreadnought"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_compelled_duel",
+    "id": "tug_spell_compelled_duel",
     "name": {
       "value": "Compelled Duel"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_relentless_juggernaut",
+    "id": "tug_monster_relentless_juggernaut",
     "name": {
       "value": "Relentless Juggernaut"
     },

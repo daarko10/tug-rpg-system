@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sacred_stone_monk",
+    "id": "tug_monster_sacred_stone_monk",
     "name": {
       "value": "Sacred Stone Monk"
     },

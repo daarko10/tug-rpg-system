@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_lava_child",
+    "id": "tug_monster_lava_child",
     "name": {
       "value": "Lava Child"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_compulsion",
+    "id": "tug_spell_compulsion",
     "name": {
       "value": "Compulsion"
     },

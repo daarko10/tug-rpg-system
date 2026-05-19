@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_bestow_curse",
+    "id": "tug_spell_bestow_curse",
     "name": {
       "value": "Bestow Curse"
     },

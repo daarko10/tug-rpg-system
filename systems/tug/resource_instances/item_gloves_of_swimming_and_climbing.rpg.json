@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_gloves_of_swimming_and_climbing",
+    "id": "tug_item_gloves_of_swimming_and_climbing",
     "name": {
       "value": "Gloves of Swimming and Climbing"
     },

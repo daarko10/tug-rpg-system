@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_horseshoes_of_a_zephyr",
+    "id": "tug_item_horseshoes_of_a_zephyr",
     "name": {
       "value": "Horseshoes of a Zephyr"
     },

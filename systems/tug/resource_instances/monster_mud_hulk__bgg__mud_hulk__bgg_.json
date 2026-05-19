@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_mud_hulk__bgg_",
+    "id": "tug_monster_mud_hulk__bgg_",
     "name": {
       "value": "Mud Hulk"
     },

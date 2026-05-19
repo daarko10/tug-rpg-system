@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_shambling_mound",
+    "id": "tug_monster_shambling_mound",
     "name": {
       "value": "Shambling Mound"
     },

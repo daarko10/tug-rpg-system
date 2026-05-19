@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_witherbloom_primer",
+    "id": "tug_item_witherbloom_primer",
     "name": {
       "value": "Witherbloom Primer"
     },

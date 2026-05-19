@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gnoll_fang_of_yeenoghu",
+    "id": "tug_monster_gnoll_fang_of_yeenoghu",
     "name": {
       "value": "Gnoll Fang of Yeenoghu"
     },

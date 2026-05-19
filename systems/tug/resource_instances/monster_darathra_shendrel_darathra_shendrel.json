@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_darathra_shendrel",
+    "id": "tug_monster_darathra_shendrel",
     "name": {
       "value": "Darathra Shendrel"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giff_shipmate__bam_",
+    "id": "tug_monster_giff_shipmate__bam_",
     "name": {
       "value": "Giff Shipmate"
     },

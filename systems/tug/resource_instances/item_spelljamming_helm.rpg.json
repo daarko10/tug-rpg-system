@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_spelljamming_helm",
+    "id": "tug_item_spelljamming_helm",
     "name": {
       "value": "Spelljamming Helm"
     },

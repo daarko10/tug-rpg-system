@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_esthetic__bam_",
+    "id": "tug_monster_esthetic__bam_",
     "name": {
       "value": "Esthetic"
     },
@@ -190,7 +190,7 @@
               "value": "Tentacle"
             },
             "action_description": {
-              "value": "11 to hit, reach 30 ft., one target. Hit: 17 (3d6 + 7) force damage, and if the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the creature takes 18 (4d8) acid damage at the start of each of its turns, and the esthetic can't use this tentacle against other targets. The esthetic has 1d4 \u00d7 2 tentacles, each of which can grapple one target."
+              "value": "11 to hit, reach 30 ft., one target. Hit: 17 (3d6 + 7) force damage, and if the target is a creature, it is grappled (escape DC 17). Until this grapple ends, the creature takes 18 (4d8) acid damage at the start of each of its turns, and the esthetic can't use this tentacle against other targets. The esthetic has 1d4 × 2 tentacles, each of which can grapple one target."
             },
             "action_type": {
               "value": "melee"

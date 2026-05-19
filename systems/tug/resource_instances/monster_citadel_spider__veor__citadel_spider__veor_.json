@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_citadel_spider__veor_",
+    "id": "tug_monster_citadel_spider__veor_",
     "name": {
       "value": "Citadel Spider"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ale__mug_",
+    "id": "tug_item_ale__mug_",
     "name": {
       "value": "Ale (Mug)"
     },

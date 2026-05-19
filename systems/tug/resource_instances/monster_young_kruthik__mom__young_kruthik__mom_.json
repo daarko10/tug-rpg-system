@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_young_kruthik__mom_",
+    "id": "tug_monster_young_kruthik__mom_",
     "name": {
       "value": "Young Kruthik"
     },
@@ -132,7 +132,7 @@
               "value": "Tunneler"
             },
             "trait_description": {
-              "value": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2\u00bd-foot-diameter tunnel in its wake."
+              "value": "The kruthik can burrow through solid rock at half its burrowing speed and leaves a 2½-foot-diameter tunnel in its wake."
             },
             "id": "63861625-0d83-4ac6-8050-4d5f742ec51d",
             "updated_at": {

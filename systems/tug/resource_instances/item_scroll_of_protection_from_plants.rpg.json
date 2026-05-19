@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_scroll_of_protection_from_plants",
+    "id": "tug_item_scroll_of_protection_from_plants",
     "name": {
       "value": "Scroll of Protection from Plants"
     },

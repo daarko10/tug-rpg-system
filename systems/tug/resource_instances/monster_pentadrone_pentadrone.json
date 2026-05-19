@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_pentadrone",
+    "id": "tug_monster_pentadrone",
     "name": {
       "value": "Pentadrone"
     },

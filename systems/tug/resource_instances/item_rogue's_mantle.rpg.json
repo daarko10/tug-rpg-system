@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_rogues_mantle",
+    "id": "tug_item_rogues_mantle",
     "name": {
       "value": "Rogue's Mantle"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_saber-toothed_tiger",
+    "id": "tug_monster_saber-toothed_tiger",
     "name": {
       "value": "Saber-Toothed Tiger"
     },

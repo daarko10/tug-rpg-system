@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_control_flames",
+    "id": "tug_spell_control_flames",
     "name": {
       "value": "Control Flames"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "* You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\n\n* You instantaneously extinguish the flames within the cube.\n\n* You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\n\n* You cause simple shapes\u2014such as the vague form of a creature, an inanimate object, or a location\u2014to appear within the flames and animate as you like. The shapes last for 1 hour.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+      "value": "* You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.\n\n* You instantaneously extinguish the flames within the cube.\n\n* You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.\n\n* You cause simple shapes—such as the vague form of a creature, an inanimate object, or a location—to appear within the flames and animate as you like. The shapes last for 1 hour.\n\nIf you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
     },
     "classes": {
       "value": [

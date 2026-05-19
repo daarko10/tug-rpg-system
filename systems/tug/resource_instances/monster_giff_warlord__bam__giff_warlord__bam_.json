@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giff_warlord__bam_",
+    "id": "tug_monster_giff_warlord__bam_",
     "name": {
       "value": "Giff Warlord"
     },

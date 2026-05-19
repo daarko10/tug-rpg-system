@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_spiderdragon__veor_",
+    "id": "tug_monster_spiderdragon__veor_",
     "name": {
       "value": "Spiderdragon"
     },

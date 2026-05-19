@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_slaad_tadpole",
+    "id": "tug_monster_slaad_tadpole",
     "name": {
       "value": "Slaad Tadpole"
     },

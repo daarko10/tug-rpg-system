@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_crushing_wave_reaver",
+    "id": "tug_monster_crushing_wave_reaver",
     "name": {
       "value": "Crushing Wave Reaver"
     },

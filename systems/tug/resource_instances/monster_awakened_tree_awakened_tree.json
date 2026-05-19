@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_awakened_tree",
+    "id": "tug_monster_awakened_tree",
     "name": {
       "value": "Awakened Tree"
     },

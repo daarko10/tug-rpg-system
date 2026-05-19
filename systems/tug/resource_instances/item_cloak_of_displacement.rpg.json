@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cloak_of_displacement",
+    "id": "tug_item_cloak_of_displacement",
     "name": {
       "value": "Cloak of Displacement"
     },

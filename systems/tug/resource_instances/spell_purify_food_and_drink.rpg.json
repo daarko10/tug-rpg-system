@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_purify_food_and_drink",
+    "id": "tug_spell_purify_food_and_drink",
     "name": {
       "value": "Purify Food and Drink"
     },

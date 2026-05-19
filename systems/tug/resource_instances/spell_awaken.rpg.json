@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_awaken",
+    "id": "tug_spell_awaken",
     "name": {
       "value": "Awaken"
     },

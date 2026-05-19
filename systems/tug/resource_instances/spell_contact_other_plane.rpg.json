@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_contact_other_plane",
+    "id": "tug_spell_contact_other_plane",
     "name": {
       "value": "Contact Other Plane"
     },

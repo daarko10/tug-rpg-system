@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_chicken",
+    "id": "tug_item_chicken",
     "name": {
       "value": "Chicken"
     },

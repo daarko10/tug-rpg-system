@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sir_baric_nylef",
+    "id": "tug_monster_sir_baric_nylef",
     "name": {
       "value": "Sir Baric Nylef"
     },

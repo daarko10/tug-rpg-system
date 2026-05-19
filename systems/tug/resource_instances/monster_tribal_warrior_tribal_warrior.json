@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_tribal_warrior",
+    "id": "tug_monster_tribal_warrior",
     "name": {
       "value": "Tribal Warrior"
     },

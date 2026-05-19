@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_living_unseen_servant",
+    "id": "tug_monster_living_unseen_servant",
     "name": {
       "value": "Living Unseen Servant"
     },

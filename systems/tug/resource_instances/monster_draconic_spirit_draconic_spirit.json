@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_draconic_spirit",
+    "id": "tug_monster_draconic_spirit",
     "name": {
       "value": "Draconic Spirit"
     },
@@ -136,7 +136,7 @@
               "value": "Multiattack"
             },
             "action_description": {
-              "value": "The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell\u2019s level (rounded down)"
+              "value": "The dragon uses its Breath Weapon, and it makes a number of Bite and Claw attacks equal to half the spell’s level (rounded down)"
             },
             "action_type": {
               "value": "none"
@@ -160,7 +160,7 @@
               "value": "Bite and Claw"
             },
             "action_description": {
-              "value": "Your (the summoner's) spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell\u2019s level piercing damage"
+              "value": "Your (the summoner's) spell attack modifier to hit, reach 10 ft., one target. Hit: 1d6 + 4 + the spell’s level piercing damage"
             },
             "action_type": {
               "value": "melee"

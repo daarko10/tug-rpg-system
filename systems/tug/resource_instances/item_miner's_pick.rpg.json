@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_miners_pick",
+    "id": "tug_item_miners_pick",
     "name": {
       "value": "Miner's Pick"
     },

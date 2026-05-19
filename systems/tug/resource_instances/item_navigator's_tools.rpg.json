@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_navigators_tools",
+    "id": "tug_item_navigators_tools",
     "name": {
       "value": "Navigator's Tools"
     },

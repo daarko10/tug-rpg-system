@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_energy_cell",
+    "id": "tug_item_energy_cell",
     "name": {
       "value": "Energy Cell"
     },

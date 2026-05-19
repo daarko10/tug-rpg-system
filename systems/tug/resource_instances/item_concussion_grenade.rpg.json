@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_concussion_grenade",
+    "id": "tug_item_concussion_grenade",
     "name": {
       "value": "Concussion Grenade"
     },

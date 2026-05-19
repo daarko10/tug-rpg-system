@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_stabling__per_day_",
+    "id": "tug_item_stabling__per_day_",
     "name": {
       "value": "Stabling (per day)"
     },

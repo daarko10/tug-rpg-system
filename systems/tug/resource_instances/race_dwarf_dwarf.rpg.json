@@ -48,7 +48,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray."
+                      "value": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.831822"
@@ -132,7 +132,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You gain proficiency with the artisan\u2019s tools of your choice: smith\u2019s tools, brewer\u2019s supplies, or mason\u2019s tools."
+                      "value": "You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.831852"
@@ -622,7 +622,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "When you make an Intelligence (History), Intelligence (Investigation), or Thieves\u2019 Tools check involving lock and trap mechanisms, you can roll one Intuition die, a d4, and add the number rolled to the ability check"
+                              "value": "When you make an Intelligence (History), Intelligence (Investigation), or Thieves’ Tools check involving lock and trap mechanisms, you can roll one Intuition die, a d4, and add the number rolled to the ability check"
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.832057"
@@ -1603,7 +1603,7 @@
                                           "value": "a piece of cured leather"
                                         },
                                         "description": {
-                                          "value": "You touch a willing creature who isn\u2019t wearing armor, and a protective magical force surrounds it until the spell ends. The target\u2019s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
+                                          "value": "You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends if the target dons armor or if you dismiss the spell as an action."
                                         },
                                         "classes": {
                                           "value": [
@@ -1794,6 +1794,6 @@
     "updated_at": {
       "value": "2026-05-18T22:07:01.618684"
     },
-    "id": "tug_dwarf"
+    "id": "tug_race_dwarf"
   }
 }

@@ -67,7 +67,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray."
+                      "value": "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.876606"
@@ -332,6 +332,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.876664"
     },
-    "id": "tug_minotaur"
+    "id": "tug_race_minotaur"
   }
 }

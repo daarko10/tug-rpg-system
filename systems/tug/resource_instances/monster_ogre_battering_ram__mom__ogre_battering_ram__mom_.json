@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ogre_battering_ram__mom_",
+    "id": "tug_monster_ogre_battering_ram__mom_",
     "name": {
       "value": "Ogre Battering Ram"
     },

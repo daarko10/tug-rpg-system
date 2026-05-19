@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_spellwrought_tattoo",
+    "id": "tug_item_spellwrought_tattoo",
     "name": {
       "value": "Spellwrought Tattoo"
     },

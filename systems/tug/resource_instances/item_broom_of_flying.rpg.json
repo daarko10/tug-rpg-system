@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_broom_of_flying",
+    "id": "tug_item_broom_of_flying",
     "name": {
       "value": "Broom of Flying"
     },

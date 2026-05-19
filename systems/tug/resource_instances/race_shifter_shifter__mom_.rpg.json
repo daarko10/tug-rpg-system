@@ -125,7 +125,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 \u00d7 your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
+                      "value": "As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to 2 × your proficiency bonus. You can shift a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.836681"
@@ -588,6 +588,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.836849"
     },
-    "id": "tug_shifter__mom_"
+    "id": "tug_race_shifter__mom_"
   }
 }

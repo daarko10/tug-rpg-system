@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_lonely_sorrowsworn__mom_",
+    "id": "tug_monster_lonely_sorrowsworn__mom_",
     "name": {
       "value": "Lonely Sorrowsworn"
     },

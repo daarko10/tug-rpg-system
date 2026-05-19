@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_pipe_of_smoke_monsters",
+    "id": "tug_item_pipe_of_smoke_monsters",
     "name": {
       "value": "Pipe of Smoke Monsters"
     },

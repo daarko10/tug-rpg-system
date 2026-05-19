@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_echo_of_demogorgon__bgg_",
+    "id": "tug_monster_echo_of_demogorgon__bgg_",
     "name": {
       "value": "Echo of Demogorgon"
     },

@@ -90,7 +90,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.059148"
                           },
-                          "id": "musical_instrument\u00a0"
+                          "id": "musical_instrument "
                         }
                       }
                     },
@@ -108,7 +108,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Set of artisan\u2019s tools"
+                            "value": "Set of artisan’s tools"
                           },
                           "cost": {
                             "value": {
@@ -141,7 +141,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.059168"
                           },
-                          "id": "set_of_artisan\u2019s_tools"
+                          "id": "set_of_artisan’s_tools"
                         }
                       }
                     },
@@ -236,7 +236,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Scroll\u00a0of your god\u2019s teachings"
+                            "value": "Scroll of your god’s teachings"
                           },
                           "cost": {
                             "value": {
@@ -269,7 +269,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.059215"
                           },
-                          "id": "scroll\u00a0of_your_god\u2019s_teachings"
+                          "id": "scroll of_your_god’s_teachings"
                         }
                       }
                     },
@@ -467,7 +467,7 @@
           "resource_id": "levelled_choice_text",
           "stats": {
             "options": {
-              "value": "One type of artisan\u2019s tools"
+              "value": "One type of artisan’s tools"
             },
             "updated_at": {
               "value": "2024-12-20T18:50:20.059285"
@@ -492,6 +492,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.059292"
     },
-    "id": "tug_vizier"
+    "id": "tug_background_vizier"
   }
 }

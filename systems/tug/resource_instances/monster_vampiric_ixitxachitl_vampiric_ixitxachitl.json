@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vampiric_ixitxachitl",
+    "id": "tug_monster_vampiric_ixitxachitl",
     "name": {
       "value": "Vampiric Ixitxachitl"
     },

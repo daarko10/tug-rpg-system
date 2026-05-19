@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_boss_augustus__bmt_",
+    "id": "tug_monster_boss_augustus__bmt_",
     "name": {
       "value": "Boss Augustus"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_minotaur_skeleton",
+    "id": "tug_monster_minotaur_skeleton",
     "name": {
       "value": "Minotaur Skeleton"
     },

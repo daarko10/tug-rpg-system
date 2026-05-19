@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_dynamite__stick_",
+    "id": "tug_item_dynamite__stick_",
     "name": {
       "value": "Dynamite (stick)"
     },

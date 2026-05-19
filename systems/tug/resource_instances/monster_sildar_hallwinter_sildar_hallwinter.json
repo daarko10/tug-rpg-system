@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sildar_hallwinter",
+    "id": "tug_monster_sildar_hallwinter",
     "name": {
       "value": "Sildar Hallwinter"
     },

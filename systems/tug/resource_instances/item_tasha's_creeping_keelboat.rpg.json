@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_tashas_creeping_keelboat",
+    "id": "tug_item_tashas_creeping_keelboat",
     "name": {
       "value": "Tasha's Creeping Keelboat"
     },

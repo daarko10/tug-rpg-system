@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_scholars_pack",
+    "id": "tug_item_scholars_pack",
     "name": {
       "value": "Scholar's Pack"
     },

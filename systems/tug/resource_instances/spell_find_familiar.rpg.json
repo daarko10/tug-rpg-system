@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_find_familiar",
+    "id": "tug_spell_find_familiar",
     "name": {
       "value": "Find Familiar"
     },

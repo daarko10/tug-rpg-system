@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_gunpowder_horn",
+    "id": "tug_item_gunpowder_horn",
     "name": {
       "value": "Gunpowder Horn"
     },

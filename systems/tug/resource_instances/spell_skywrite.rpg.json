@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_skywrite",
+    "id": "tug_spell_skywrite",
     "name": {
       "value": "Skywrite"
     },
@@ -36,7 +36,7 @@
       "value": false
     },
     "description": {
-      "value": "You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell\u2019s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early"
+      "value": "You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell’s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early"
     },
     "classes": {
       "value": [

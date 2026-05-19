@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_axe_beak",
+    "id": "tug_monster_axe_beak",
     "name": {
       "value": "Axe Beak"
     },

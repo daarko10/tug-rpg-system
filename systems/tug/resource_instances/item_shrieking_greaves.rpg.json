@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_shrieking_greaves",
+    "id": "tug_item_shrieking_greaves",
     "name": {
       "value": "Shrieking Greaves"
     },

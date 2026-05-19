@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_elemental_gem,_emerald",
+    "id": "tug_item_elemental_gem,_emerald",
     "name": {
       "value": "Elemental Gem, Emerald"
     },

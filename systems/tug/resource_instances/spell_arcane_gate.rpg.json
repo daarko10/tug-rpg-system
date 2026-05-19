@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_arcane_gate",
+    "id": "tug_spell_arcane_gate",
     "name": {
       "value": "Arcane Gate"
     },

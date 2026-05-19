@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_frost_salamander__mom_",
+    "id": "tug_monster_frost_salamander__mom_",
     "name": {
       "value": "Frost Salamander"
     },

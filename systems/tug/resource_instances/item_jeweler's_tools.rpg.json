@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_jewelers_tools",
+    "id": "tug_item_jewelers_tools",
     "name": {
       "value": "Jeweler's Tools"
     },

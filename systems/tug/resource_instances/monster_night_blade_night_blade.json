@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_night_blade",
+    "id": "tug_monster_night_blade",
     "name": {
       "value": "Night Blade"
     },

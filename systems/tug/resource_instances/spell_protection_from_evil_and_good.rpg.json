@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_protection_from_evil_and_good",
+    "id": "tug_spell_protection_from_evil_and_good",
     "name": {
       "value": "Protection from Evil and Good"
     },

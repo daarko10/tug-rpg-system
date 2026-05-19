@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_thri-kreen_gladiator__bam_",
+    "id": "tug_monster_thri-kreen_gladiator__bam_",
     "name": {
       "value": "Thri-kreen Gladiator"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_cadaver_collector__mom_",
+    "id": "tug_monster_cadaver_collector__mom_",
     "name": {
       "value": "Cadaver Collector"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_delvers_claws",
+    "id": "tug_item_delvers_claws",
     "name": {
       "value": "Delver's Claws"
     },

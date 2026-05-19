@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_campestris",
+    "id": "tug_monster_swarm_of_campestris",
     "name": {
       "value": "Swarm of Campestris"
     },

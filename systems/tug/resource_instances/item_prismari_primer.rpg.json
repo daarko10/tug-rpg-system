@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_prismari_primer",
+    "id": "tug_item_prismari_primer",
     "name": {
       "value": "Prismari Primer"
     },

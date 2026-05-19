@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_commune",
+    "id": "tug_spell_commune",
     "name": {
       "value": "Commune"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_prismatic_wall",
+    "id": "tug_spell_prismatic_wall",
     "name": {
       "value": "Prismatic Wall"
     },

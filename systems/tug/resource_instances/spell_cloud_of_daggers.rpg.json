@@ -35,7 +35,7 @@
       "value": "a sliver of glass"
     },
     "description": {
-      "value": "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell\u2019s area for the first time on a turn or starts its turn there."
+      "value": "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell’s area for the first time on a turn or starts its turn there."
     },
     "higher_level_description": {
       "value": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd."
@@ -356,6 +356,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.630014"
     },
-    "id": "tug_cloud_of_daggers"
+    "id": "tug_spell_cloud_of_daggers"
   }
 }

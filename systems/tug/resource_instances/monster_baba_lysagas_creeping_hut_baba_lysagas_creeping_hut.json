@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_baba_lysagas_creeping_hut",
+    "id": "tug_monster_baba_lysagas_creeping_hut",
     "name": {
       "value": "Baba Lysaga's Creeping Hut"
     },

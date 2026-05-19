@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_painters_supplies",
+    "id": "tug_item_painters_supplies",
     "name": {
       "value": "Painter's Supplies"
     },

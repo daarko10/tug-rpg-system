@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_instrument_of_scribing",
+    "id": "tug_item_instrument_of_scribing",
     "name": {
       "value": "Instrument of Scribing"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_rope_trick",
+    "id": "tug_spell_rope_trick",
     "name": {
       "value": "Rope Trick"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_encode_thoughts",
+    "id": "tug_spell_encode_thoughts",
     "name": {
       "value": "Encode Thoughts"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sea_spawn",
+    "id": "tug_monster_sea_spawn",
     "name": {
       "value": "Sea Spawn"
     },

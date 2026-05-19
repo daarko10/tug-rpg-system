@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_damselfly_ship",
+    "id": "tug_item_damselfly_ship",
     "name": {
       "value": "Damselfly Ship"
     },

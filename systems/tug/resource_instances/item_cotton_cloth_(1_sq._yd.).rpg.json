@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cotton_cloth__1_sq._yd._",
+    "id": "tug_item_cotton_cloth__1_sq._yd._",
     "name": {
       "value": "Cotton Cloth (1 sq. yd.)"
     },

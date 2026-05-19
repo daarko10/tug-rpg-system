@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_apparatus_of_kwalish",
+    "id": "tug_item_apparatus_of_kwalish",
     "name": {
       "value": "Apparatus of Kwalish"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_cloud_giant_ghost",
+    "id": "tug_monster_cloud_giant_ghost",
     "name": {
       "value": "Cloud Giant Ghost"
     },

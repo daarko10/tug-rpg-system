@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_true_seeing",
+    "id": "tug_spell_true_seeing",
     "name": {
       "value": "True Seeing"
     },

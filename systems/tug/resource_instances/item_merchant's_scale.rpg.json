@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_merchants_scale",
+    "id": "tug_item_merchants_scale",
     "name": {
       "value": "Merchant's Scale"
     },

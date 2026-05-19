@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_shadow_assassin",
+    "id": "tug_monster_shadow_assassin",
     "name": {
       "value": "Shadow Assassin"
     },

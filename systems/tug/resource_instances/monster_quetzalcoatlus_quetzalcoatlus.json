@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_quetzalcoatlus",
+    "id": "tug_monster_quetzalcoatlus",
     "name": {
       "value": "Quetzalcoatlus"
     },

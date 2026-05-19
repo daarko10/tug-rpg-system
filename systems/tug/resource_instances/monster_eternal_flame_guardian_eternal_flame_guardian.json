@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_eternal_flame_guardian",
+    "id": "tug_monster_eternal_flame_guardian",
     "name": {
       "value": "Eternal Flame Guardian"
     },

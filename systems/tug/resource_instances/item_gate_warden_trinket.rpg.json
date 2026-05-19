@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_gate_warden_trinket",
+    "id": "tug_item_gate_warden_trinket",
     "name": {
       "value": "Gate Warden Trinket"
     },

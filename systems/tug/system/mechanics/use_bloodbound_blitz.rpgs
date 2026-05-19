@@ -1,0 +1,57 @@
+mechanic use_bloodbound_blitz(event_names = "use_bloodbound_blitz") =
+  sequence(
+    effects = [
+      when {
+        !blood_manipulation_active -> showMessage(
+          message = "Bloodbound Blitz requires the Blood Manipulation pact.",
+          message_type = "error",
+        ),
+        bm_bloodbound_blitz_pp <= 0 -> showMessage(
+          message = "You haven't invested PP in Bloodbound Blitz.",
+          message_type = "error",
+        ),
+        bm_blood_cost <= 0 -> showMessage(
+          message = "Set max HP to sacrifice (must be at least 1).",
+          message_type = "error",
+        ),
+        bm_blood_cost > blood_laser_max_cost -> showMessage(
+          message = concat(["Max HP you can sacrifice is ", blood_laser_max_cost, " (10 × level)."]),
+          message_type = "error",
+        ),
+        current_hp >= max_hp -> showMessage(
+          message = "You must have below max HP to use Blood Manipulation techniques.",
+          message_type = "error",
+        ),
+        max_hp <= bm_blood_cost -> showMessage(
+          message = concat(["Sacrificing ", bm_blood_cost, " max HP would reduce your maximum to 0. You would die."]),
+          message_type = "error",
+        ),
+        else -> sequence(
+          effects = [
+            setStat(
+              stat = "blood_max_hp_debt",
+              new_value = blood_max_hp_debt + bm_blood_cost,
+              aggregation_type = "set",
+            ),
+            when {
+              current_hp > max_hp - bm_blood_cost -> setStat(
+                stat = "current_hp",
+                new_value = max_hp - bm_blood_cost,
+                aggregation_type = "set",
+              ),
+            },
+            showMessage(
+              message = concat([
+                "Bloodbound Blitz! Sacrificed ",
+                bm_blood_cost,
+                " max HP.\nDeclare BEFORE rolling to hit. If the attack hits, deal ",
+                divide([bm_blood_cost, 2], rounding_method = "down"),
+                " additional damage (slashing, bludgeoning, or piercing — your choice).\nMax HP restored on long rest.",
+              ]),
+              message_type = "info",
+            ),
+          ],
+        ),
+      },
+    ],
+  );

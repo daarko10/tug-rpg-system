@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_summon_fey",
+    "id": "tug_spell_summon_fey",
     "name": {
       "value": "Summon Fey"
     },

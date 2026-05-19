@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_steam_mephit",
+    "id": "tug_monster_steam_mephit",
     "name": {
       "value": "Steam Mephit"
     },

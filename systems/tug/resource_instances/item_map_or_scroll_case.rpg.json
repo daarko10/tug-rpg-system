@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_map_or_scroll_case",
+    "id": "tug_item_map_or_scroll_case",
     "name": {
       "value": "Map or Scroll Case"
     },

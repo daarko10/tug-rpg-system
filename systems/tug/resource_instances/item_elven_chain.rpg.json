@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_elven_chain",
+    "id": "tug_item_elven_chain",
     "name": {
       "value": "Elven Chain"
     },

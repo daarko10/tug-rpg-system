@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_clone",
+    "id": "tug_spell_clone",
     "name": {
       "value": "Clone"
     },

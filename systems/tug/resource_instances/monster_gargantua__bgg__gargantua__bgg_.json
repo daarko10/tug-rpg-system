@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gargantua__bgg_",
+    "id": "tug_monster_gargantua__bgg_",
     "name": {
       "value": "Gargantua"
     },

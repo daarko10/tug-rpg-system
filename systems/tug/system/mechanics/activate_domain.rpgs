@@ -6,20 +6,24 @@ mechanic activate_domain(event_names = "activate_domain") =
           message = "No domain activations remaining. Take a long rest to recover.",
           message_type = "error",
         ),
-        current_hp <= divide([level, 2], rounding_method = "up") -> showMessage(
-          message = "Not enough HP to activate the domain.",
+        current_hp < domain_activation_hp_cost -> showMessage(
+          message = concat([
+            "Not enough HP to activate the domain (costs ",
+            domain_activation_hp_cost,
+            " HP).",
+          ]),
           message_type = "error",
         ),
         else -> sequence(
           effects = [
             setStat(
               stat = "domain_max_hp_debt",
-              new_value = domain_max_hp_debt + divide([level, 2], rounding_method = "up"),
+              new_value = domain_max_hp_debt + domain_activation_hp_cost,
               aggregation_type = "set",
             ),
             setStat(
               stat = "current_hp",
-              new_value = current_hp - divide([level, 2], rounding_method = "up"),
+              new_value = min([current_hp - domain_activation_hp_cost, max_hp - domain_activation_hp_cost]),
               aggregation_type = "set",
             ),
             setStat(
@@ -30,8 +34,9 @@ mechanic activate_domain(event_names = "activate_domain") =
             showMessage(
               message = concat([
                 "Domain activated! ",
-                divide([level, 2], rounding_method = "up"),
+                domain_activation_hp_cost,
                 " HP sacrificed (restores on long rest).",
+                (if domain_infinite_void_pp > 0 then "\n⚠ Infinite Void: cost doubled!" else ""),
               ]),
               message_type = "info",
             ),

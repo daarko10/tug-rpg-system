@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wand_of_scowls",
+    "id": "tug_item_wand_of_scowls",
     "name": {
       "value": "Wand of Scowls"
     },
@@ -9,7 +9,7 @@
       "value": "xge"
     },
     "description": {
-      "value": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.\n\nThe wand regains all expended charges daily at dawn. If you expend the wand\u2019s last charge, roll a d20. On a 1, the wand transforms into a wand of smiles."
+      "value": "This wand has 3 charges. While holding it, you can use an action to expend 1 of its charges and target a Humanoid you can see within 30 feet of you. The target must succeed on a DC 10 Charisma saving throw or be forced to scowl for 1 minute.\n\nThe wand regains all expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand transforms into a wand of smiles."
     },
     "type": {
       "value": "wand"

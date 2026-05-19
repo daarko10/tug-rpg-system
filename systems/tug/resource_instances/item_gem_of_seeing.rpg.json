@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_gem_of_seeing",
+    "id": "tug_item_gem_of_seeing",
     "name": {
       "value": "Gem of Seeing"
     },

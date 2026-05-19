@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_dragonflesh_abomination",
+    "id": "tug_monster_dragonflesh_abomination",
     "name": {
       "value": "Dragonflesh Abomination"
     },

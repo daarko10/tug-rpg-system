@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ruby_weave_gem",
+    "id": "tug_item_ruby_weave_gem",
     "name": {
       "value": "Ruby Weave Gem"
     },

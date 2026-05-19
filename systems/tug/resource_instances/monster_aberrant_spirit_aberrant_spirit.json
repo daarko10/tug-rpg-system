@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_aberrant_spirit",
+    "id": "tug_monster_aberrant_spirit",
     "name": {
       "value": "Aberrant Spirit"
     },

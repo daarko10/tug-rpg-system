@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_storm_giant_skeleton",
+    "id": "tug_monster_storm_giant_skeleton",
     "name": {
       "value": "Storm Giant Skeleton"
     },

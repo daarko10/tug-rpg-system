@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_oil_of_slipperiness",
+    "id": "tug_item_oil_of_slipperiness",
     "name": {
       "value": "Oil of Slipperiness"
     },

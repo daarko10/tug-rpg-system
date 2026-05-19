@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_myconid_adult",
+    "id": "tug_monster_myconid_adult",
     "name": {
       "value": "Myconid Adult"
     },

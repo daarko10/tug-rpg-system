@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_glass_pegasus",
+    "id": "tug_monster_glass_pegasus",
     "name": {
       "value": "Glass Pegasus"
     },

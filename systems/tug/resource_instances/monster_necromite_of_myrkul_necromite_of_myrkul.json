@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_necromite_of_myrkul",
+    "id": "tug_monster_necromite_of_myrkul",
     "name": {
       "value": "Necromite of Myrkul"
     },

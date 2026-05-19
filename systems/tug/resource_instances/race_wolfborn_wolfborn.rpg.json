@@ -61,7 +61,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You have a wolf's keen senses especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness only shades of gray"
+                      "value": "You have a wolf's keen senses especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness only shades of gray"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.900153"
@@ -268,7 +268,7 @@
                                   "value": "A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn."
                                 },
                                 "higher_level_description": {
-                                  "value": "The spell\u2019s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+                                  "value": "The spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
                                 },
                                 "classes": {
                                   "value": [
@@ -530,7 +530,7 @@
                                   "value": "a pinch of soot and salt"
                                 },
                                 "description": {
-                                  "value": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn\u2019t decode secret messages in a text or a glyph, such as an arcane sigil, that isn\u2019t part of a written language."
+                                  "value": "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.\n\nThis spell doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language."
                                 },
                                 "classes": {
                                   "value": [
@@ -701,7 +701,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "As a bonus action, once per short rest, a wolfborn can emit a howl in a 60-foot-radius spread that affects opponents who fail their Wis save. The affected creature must make a successful Wis save (DC 15) or become frightened. While frightened by this trait, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn\u2019t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the affect ends for that creature. Success indicates that the target is immune to that wolfborn\u2019s frightful howl for one day"
+                      "value": "As a bonus action, once per short rest, a wolfborn can emit a howl in a 60-foot-radius spread that affects opponents who fail their Wis save. The affected creature must make a successful Wis save (DC 15) or become frightened. While frightened by this trait, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the affect ends for that creature. Success indicates that the target is immune to that wolfborn’s frightful howl for one day"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.900197"
@@ -770,7 +770,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can use your action to exhale destructive energy in a 15 ft cone. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can\u2019t use it again until you complete a short or long rest"
+                      "value": "You can use your action to exhale destructive energy in a 15 ft cone. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. After you use your breath weapon, you can’t use it again until you complete a short or long rest"
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.900202"
@@ -902,6 +902,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.900229"
     },
-    "id": "tug_wolfborn"
+    "id": "tug_race_wolfborn"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_dragonchess_set",
+    "id": "tug_item_dragonchess_set",
     "name": {
       "value": "Dragonchess Set"
     },

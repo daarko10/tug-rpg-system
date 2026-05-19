@@ -57,7 +57,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Choose 1 set of Artisan\u2019s Tools"
+                            "value": "Choose 1 set of Artisan’s Tools"
                           },
                           "cost": {
                             "value": {
@@ -90,7 +90,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.012381"
                           },
-                          "id": "choose_1_set_of_artisan\u2019s_tools\u00a0"
+                          "id": "choose_1_set_of_artisan’s_tools "
                         }
                       }
                     },
@@ -375,6 +375,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.012543"
     },
-    "id": "tug_phlan_refugee"
+    "id": "tug_background_phlan_refugee"
   }
 }

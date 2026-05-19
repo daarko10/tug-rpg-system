@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sleep_grenade",
+    "id": "tug_item_sleep_grenade",
     "name": {
       "value": "Sleep Grenade"
     },

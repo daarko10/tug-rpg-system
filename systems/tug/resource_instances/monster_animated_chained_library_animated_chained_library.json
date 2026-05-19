@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_animated_chained_library",
+    "id": "tug_monster_animated_chained_library",
     "name": {
       "value": "Animated Chained Library"
     },

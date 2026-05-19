@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_grung_elite_warrior",
+    "id": "tug_monster_grung_elite_warrior",
     "name": {
       "value": "Grung Elite Warrior"
     },

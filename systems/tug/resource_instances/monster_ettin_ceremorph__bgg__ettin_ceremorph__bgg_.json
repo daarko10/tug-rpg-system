@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ettin_ceremorph__bgg_",
+    "id": "tug_monster_ettin_ceremorph__bgg_",
     "name": {
       "value": "Ettin Ceremorph"
     },

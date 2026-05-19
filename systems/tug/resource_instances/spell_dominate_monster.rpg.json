@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_dominate_monster",
+    "id": "tug_spell_dominate_monster",
     "name": {
       "value": "Dominate Monster"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_dwarven_plate",
+    "id": "tug_item_dwarven_plate",
     "name": {
       "value": "Dwarven Plate"
     },

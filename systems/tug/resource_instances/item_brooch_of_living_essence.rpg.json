@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_brooch_of_living_essence",
+    "id": "tug_item_brooch_of_living_essence",
     "name": {
       "value": "Brooch of Living Essence"
     },

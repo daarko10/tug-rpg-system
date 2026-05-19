@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_daerns_instant_fortress",
+    "id": "tug_item_daerns_instant_fortress",
     "name": {
       "value": "Daern's Instant Fortress"
     },

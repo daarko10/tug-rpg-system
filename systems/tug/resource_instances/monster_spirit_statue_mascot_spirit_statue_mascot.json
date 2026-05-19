@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_spirit_statue_mascot",
+    "id": "tug_monster_spirit_statue_mascot",
     "name": {
       "value": "Spirit Statue Mascot"
     },

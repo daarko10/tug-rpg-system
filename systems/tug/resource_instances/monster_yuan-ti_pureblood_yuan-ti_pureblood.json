@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_yuan-ti_pureblood",
+    "id": "tug_monster_yuan-ti_pureblood",
     "name": {
       "value": "Yuan-ti Pureblood"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "race",
   "stats": {
-    "id": "tug_aarakocra",
+    "id": "tug_race_aarakocra",
     "name": {
       "value": "Aarakocra"
     },
@@ -85,7 +85,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You have a flying speed of 50 feet. To use this speed, you can\u2019t be wearing medium or heavy armor."
+                      "value": "You have a flying speed of 50 feet. To use this speed, you can’t be wearing medium or heavy armor."
                     },
                     "level": {
                       "value": 1

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_loup_garou",
+    "id": "tug_monster_loup_garou",
     "name": {
       "value": "Loup Garou"
     },

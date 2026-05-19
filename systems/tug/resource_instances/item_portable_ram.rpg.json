@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_portable_ram",
+    "id": "tug_item_portable_ram",
     "name": {
       "value": "Portable Ram"
     },

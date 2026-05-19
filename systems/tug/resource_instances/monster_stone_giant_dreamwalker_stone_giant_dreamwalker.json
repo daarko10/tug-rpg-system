@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_stone_giant_dreamwalker",
+    "id": "tug_monster_stone_giant_dreamwalker",
     "name": {
       "value": "Stone Giant Dreamwalker"
     },

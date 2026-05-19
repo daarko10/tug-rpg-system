@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_egg_hunter_hatchling",
+    "id": "tug_monster_egg_hunter_hatchling",
     "name": {
       "value": "Egg Hunter Hatchling"
     },

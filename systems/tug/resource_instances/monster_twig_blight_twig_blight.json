@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_twig_blight",
+    "id": "tug_monster_twig_blight",
     "name": {
       "value": "Twig Blight"
     },

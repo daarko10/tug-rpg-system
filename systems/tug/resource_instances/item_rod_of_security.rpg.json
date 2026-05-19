@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_rod_of_security",
+    "id": "tug_item_rod_of_security",
     "name": {
       "value": "Rod of Security"
     },

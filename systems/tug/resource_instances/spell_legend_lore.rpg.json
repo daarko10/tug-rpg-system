@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_legend_lore",
+    "id": "tug_spell_legend_lore",
     "name": {
       "value": "Legend Lore"
     },

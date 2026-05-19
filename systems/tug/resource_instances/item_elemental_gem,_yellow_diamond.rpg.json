@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_elemental_gem,_yellow_diamond",
+    "id": "tug_item_elemental_gem,_yellow_diamond",
     "name": {
       "value": "Elemental Gem, Yellow Diamond"
     },

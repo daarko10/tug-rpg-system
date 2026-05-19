@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_scaladar",
+    "id": "tug_monster_scaladar",
     "name": {
       "value": "Scaladar"
     },

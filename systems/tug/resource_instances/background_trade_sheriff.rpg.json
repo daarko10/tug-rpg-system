@@ -24,7 +24,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade.\u00a0"
+                      "value": "You are part of a small force outside of Hillsfar You have a special way of communicating with others and they seem to be at ease around you. You can invoke your rank to allow you access to a crime scene or to requisition equipment or horses on a temporary basis. When you enter a town or village around Hillsfar you can identify a contact who will give you information on the local rumors and would help you simply because of your desire to get answers and information for anyone wanting to disrupt trade. "
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:20.064650"
@@ -314,6 +314,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.064748"
     },
-    "id": "tug_trade_sheriff"
+    "id": "tug_background_trade_sheriff"
   }
 }

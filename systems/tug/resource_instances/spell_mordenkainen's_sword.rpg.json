@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_mordenkainens_sword",
+    "id": "tug_spell_mordenkainens_sword",
     "name": {
       "value": "Mordenkainen's Sword"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_neogi_pirate__bam_",
+    "id": "tug_monster_neogi_pirate__bam_",
     "name": {
       "value": "Neogi Pirate"
     },

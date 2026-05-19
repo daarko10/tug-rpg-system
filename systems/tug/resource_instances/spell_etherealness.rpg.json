@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_etherealness",
+    "id": "tug_spell_etherealness",
     "name": {
       "value": "Etherealness"
     },

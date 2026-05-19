@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_confusion",
+    "id": "tug_spell_confusion",
     "name": {
       "value": "Confusion"
     },

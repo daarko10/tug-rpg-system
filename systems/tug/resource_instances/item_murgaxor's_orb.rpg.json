@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_murgaxors_orb",
+    "id": "tug_item_murgaxors_orb",
     "name": {
       "value": "Murgaxor's Orb"
     },

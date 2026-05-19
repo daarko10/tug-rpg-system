@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vladimir_horngaard",
+    "id": "tug_monster_vladimir_horngaard",
     "name": {
       "value": "Vladimir Horngaard"
     },

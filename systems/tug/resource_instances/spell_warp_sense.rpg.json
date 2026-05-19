@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_warp_sense",
+    "id": "tug_spell_warp_sense",
     "name": {
       "value": "Warp Sense"
     },

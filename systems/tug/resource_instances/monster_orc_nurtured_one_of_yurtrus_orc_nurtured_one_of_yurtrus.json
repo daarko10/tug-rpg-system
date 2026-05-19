@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_orc_nurtured_one_of_yurtrus",
+    "id": "tug_monster_orc_nurtured_one_of_yurtrus",
     "name": {
       "value": "Orc Nurtured One of Yurtrus"
     },

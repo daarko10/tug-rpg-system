@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_frost_giant_everlasting_one",
+    "id": "tug_monster_frost_giant_everlasting_one",
     "name": {
       "value": "Frost Giant Everlasting One"
     },

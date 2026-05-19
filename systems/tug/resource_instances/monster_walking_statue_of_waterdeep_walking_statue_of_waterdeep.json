@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_walking_statue_of_waterdeep",
+    "id": "tug_monster_walking_statue_of_waterdeep",
     "name": {
       "value": "Walking Statue of Waterdeep"
     },

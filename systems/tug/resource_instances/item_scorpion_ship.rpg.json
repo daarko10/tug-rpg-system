@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_scorpion_ship",
+    "id": "tug_item_scorpion_ship",
     "name": {
       "value": "Scorpion Ship"
     },

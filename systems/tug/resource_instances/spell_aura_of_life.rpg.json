@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_aura_of_life",
+    "id": "tug_spell_aura_of_life",
     "name": {
       "value": "Aura of Life"
     },

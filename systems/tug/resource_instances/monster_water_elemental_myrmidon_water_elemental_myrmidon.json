@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_water_elemental_myrmidon",
+    "id": "tug_monster_water_elemental_myrmidon",
     "name": {
       "value": "Water Elemental Myrmidon"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_barkskin",
+    "id": "tug_spell_barkskin",
     "name": {
       "value": "Barkskin"
     },
@@ -39,7 +39,7 @@
       "value": "a handful of oak bark"
     },
     "description": {
-      "value": "You touch a willing creature. Until the spell ends, the target\u2019s skin has a rough, bark-like appearance, and the target\u2019s AC can\u2019t be less than 16, regardless of what kind of armor it is wearing."
+      "value": "You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing."
     },
     "classes": {
       "value": [

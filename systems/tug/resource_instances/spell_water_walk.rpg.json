@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_water_walk",
+    "id": "tug_spell_water_walk",
     "name": {
       "value": "Water Walk"
     },

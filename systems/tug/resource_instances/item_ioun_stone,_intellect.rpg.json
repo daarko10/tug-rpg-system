@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ioun_stone,_intellect",
+    "id": "tug_item_ioun_stone,_intellect",
     "name": {
       "value": "Ioun Stone, Intellect"
     },

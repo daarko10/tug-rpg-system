@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_sentinel_shield",
+    "id": "tug_item_sentinel_shield",
     "name": {
       "value": "Sentinel Shield"
     },

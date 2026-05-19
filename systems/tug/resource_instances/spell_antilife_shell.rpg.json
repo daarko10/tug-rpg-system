@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_antilife_shell",
+    "id": "tug_spell_antilife_shell",
     "name": {
       "value": "Antilife Shell"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_displacer_beast_kitten",
+    "id": "tug_monster_displacer_beast_kitten",
     "name": {
       "value": "Displacer Beast Kitten"
     },

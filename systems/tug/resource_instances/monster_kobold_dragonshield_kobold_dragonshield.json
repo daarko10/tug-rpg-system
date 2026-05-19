@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_kobold_dragonshield",
+    "id": "tug_monster_kobold_dragonshield",
     "name": {
       "value": "Kobold Dragonshield"
     },

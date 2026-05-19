@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_pack_saddle",
+    "id": "tug_item_pack_saddle",
     "name": {
       "value": "Pack Saddle"
     },

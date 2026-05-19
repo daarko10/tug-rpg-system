@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_maggots",
+    "id": "tug_monster_swarm_of_maggots",
     "name": {
       "value": "Swarm of Maggots"
     },

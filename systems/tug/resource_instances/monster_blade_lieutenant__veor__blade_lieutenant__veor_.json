@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_blade_lieutenant__veor_",
+    "id": "tug_monster_blade_lieutenant__veor_",
     "name": {
       "value": "Blade Lieutenant"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bag_of_holding",
+    "id": "tug_item_bag_of_holding",
     "name": {
       "value": "Bag of Holding"
     },

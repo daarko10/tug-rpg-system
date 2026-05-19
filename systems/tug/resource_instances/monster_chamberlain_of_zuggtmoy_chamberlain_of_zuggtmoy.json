@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_chamberlain_of_zuggtmoy",
+    "id": "tug_monster_chamberlain_of_zuggtmoy",
     "name": {
       "value": "Chamberlain of Zuggtmoy"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_miros_xelbrin",
+    "id": "tug_monster_miros_xelbrin",
     "name": {
       "value": "Miros Xelbrin"
     },

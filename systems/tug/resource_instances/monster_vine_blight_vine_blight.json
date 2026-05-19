@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vine_blight",
+    "id": "tug_monster_vine_blight",
     "name": {
       "value": "Vine Blight"
     },

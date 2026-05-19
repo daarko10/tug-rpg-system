@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_potion_of_flying",
+    "id": "tug_item_potion_of_flying",
     "name": {
       "value": "Potion of Flying"
     },

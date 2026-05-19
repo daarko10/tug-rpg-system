@@ -130,7 +130,7 @@
                     "value": "specially marked sticks, bones, or similar tokens worth at least 25 gp"
                   },
                   "description": {
-                    "value": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren\u2019t especially good or bad\n\nThe spell doesn\u2019t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret."
+                    "value": "* *Weal*, for good results\n\n* *Woe*, for bad results\n\n* *Weal and woe*, for both good and bad results\n\n* *Nothing*, for results that aren’t especially good or bad\n\nThe spell doesn’t take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.\n\nIf you cast the spell two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret."
                   },
                   "classes": {
                     "value": [
@@ -334,7 +334,7 @@
                     "value": "ashes from a burned leaf of mistletoe and a sprig of spruce"
                   },
                   "description": {
-                    "value": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can\u2019t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
+                    "value": "A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage."
                   },
                   "classes": {
                     "value": [
@@ -364,6 +364,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.744429"
     },
-    "id": "tug_sages_signet__wolf_"
+    "id": "tug_item_sages_signet__wolf_"
   }
 }

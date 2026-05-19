@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_telescopic_transporter",
+    "id": "tug_item_telescopic_transporter",
     "name": {
       "value": "Telescopic Transporter"
     },

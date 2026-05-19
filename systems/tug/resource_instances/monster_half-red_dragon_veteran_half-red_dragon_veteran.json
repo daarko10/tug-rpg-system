@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_half-red_dragon_veteran",
+    "id": "tug_monster_half-red_dragon_veteran",
     "name": {
       "value": "Half-Red Dragon Veteran"
     },

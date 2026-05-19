@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_half-ogre__ogrillon_",
+    "id": "tug_monster_half-ogre__ogrillon_",
     "name": {
       "value": "Half-Ogre (Ogrillon)"
     },

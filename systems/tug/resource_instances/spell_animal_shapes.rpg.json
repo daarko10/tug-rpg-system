@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_animal_shapes",
+    "id": "tug_spell_animal_shapes",
     "name": {
       "value": "Animal Shapes"
     },

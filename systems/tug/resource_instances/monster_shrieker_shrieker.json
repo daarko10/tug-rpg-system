@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_shrieker",
+    "id": "tug_monster_shrieker",
     "name": {
       "value": "Shrieker"
     },

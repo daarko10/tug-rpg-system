@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_fizbans_platinum_shield",
+    "id": "tug_spell_fizbans_platinum_shield",
     "name": {
       "value": "Fizban's Platinum Shield"
     },

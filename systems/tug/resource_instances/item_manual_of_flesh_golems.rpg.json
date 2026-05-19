@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_manual_of_flesh_golems",
+    "id": "tug_item_manual_of_flesh_golems",
     "name": {
       "value": "Manual of Flesh Golems"
     },

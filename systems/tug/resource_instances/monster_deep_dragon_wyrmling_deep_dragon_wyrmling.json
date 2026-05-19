@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_deep_dragon_wyrmling",
+    "id": "tug_monster_deep_dragon_wyrmling",
     "name": {
       "value": "Deep Dragon Wyrmling"
     },

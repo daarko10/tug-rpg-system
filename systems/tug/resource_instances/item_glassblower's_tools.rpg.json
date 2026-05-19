@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_glassblowers_tools",
+    "id": "tug_item_glassblowers_tools",
     "name": {
       "value": "Glassblower's Tools"
     },

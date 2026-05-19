@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_swarm_of_rot_grubs",
+    "id": "tug_monster_swarm_of_rot_grubs",
     "name": {
       "value": "Swarm of Rot Grubs"
     },

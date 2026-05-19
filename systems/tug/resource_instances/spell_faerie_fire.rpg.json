@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_faerie_fire",
+    "id": "tug_spell_faerie_fire",
     "name": {
       "value": "Faerie Fire"
     },

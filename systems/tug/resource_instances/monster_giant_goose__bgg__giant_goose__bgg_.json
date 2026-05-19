@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giant_goose__bgg_",
+    "id": "tug_monster_giant_goose__bgg_",
     "name": {
       "value": "Giant Goose"
     },

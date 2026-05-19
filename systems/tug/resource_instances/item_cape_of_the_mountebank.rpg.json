@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cape_of_the_mountebank",
+    "id": "tug_item_cape_of_the_mountebank",
     "name": {
       "value": "Cape of the Mountebank"
     },

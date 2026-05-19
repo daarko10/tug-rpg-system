@@ -1,4 +1,4 @@
-character_sheet_section spells() =
+character_sheet_section spells_sheet() =
   section(
     id = "spells_section",
     show_divider = true,
@@ -32,6 +32,52 @@ character_sheet_section spells() =
       ),
     ],
     content = [
+      // Spellcasting stats summary
+      composite(
+        id = "spellcasting_stats_row",
+        margin_left = 16,
+        margin_top = 4,
+        margin_bottom = 8,
+        subviews = [
+          text(
+            id = "spellcasting_ability_label",
+            text = concat([
+              enumeratedName(enumerated_type = "ability", id = spellcasting_ability) ?? spellcasting_ability,
+            ]),
+            style = "text",
+            bold = true,
+          ),
+        ],
+      ),
+      composite(
+        id = "spell_attack_dc_row",
+        margin_left = 16,
+        margin_bottom = 12,
+        subviews = [
+          text(
+            id = "spell_attack_bonus_label",
+            text = "Spell attack bonus: ",
+            style = "text",
+          ),
+          text(
+            id = "spell_attack_bonus_value",
+            text = concat([toSignedString(spell_attack_bonus)]),
+            style = "text",
+            color = "accent",
+          ),
+          text(
+            id = "spell_dc_separator",
+            text = "    Spell save DC: ",
+            style = "text",
+          ),
+          text(
+            id = "spell_dc_value",
+            text = concat([spell_save_dc_spells]),
+            style = "text",
+            color = "accent",
+          ),
+        ],
+      ),
       resourceSection(
         id = "cantrips_list",
         resource_stat = "cantrips",

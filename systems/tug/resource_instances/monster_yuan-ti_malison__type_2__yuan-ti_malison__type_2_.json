@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_yuan-ti_malison__type_2_",
+    "id": "tug_monster_yuan-ti_malison__type_2_",
     "name": {
       "value": "Yuan-ti Malison (Type 2)"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_tinkers_tools",
+    "id": "tug_item_tinkers_tools",
     "name": {
       "value": "Tinker's Tools"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_kender_skirmisher__dsdq_",
+    "id": "tug_monster_kender_skirmisher__dsdq_",
     "name": {
       "value": "Kender Skirmisher"
     },

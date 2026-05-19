@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_wildfire_spirit",
+    "id": "tug_monster_wildfire_spirit",
     "name": {
       "value": "Wildfire Spirit"
     },
@@ -135,7 +135,7 @@
               "value": "Soul Bond"
             },
             "trait_description": {
-              "value": "The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit\u2019s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation"
+              "value": "The following numbers increase by 1 when your proficiency bonus increases by 1: the spirit’s skill and saving throw bonuses above, the bonuses to hit and damage of its Flame Seed, and the bonus to damage of its Fiery Teleportation"
             },
             "id": "9cb92ca1-fb9b-4459-910e-4ced7fbfec35",
             "updated_at": {

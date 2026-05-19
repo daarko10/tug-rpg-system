@@ -16,7 +16,7 @@
           "resource_id": "levelled_description",
           "stats": {
             "description": {
-              "value": "- Increase your Dexterity or Strength score by 1, to a maximum of 20.\n\n- While wielding a double-bladed weapon with two hands, the weapon has the finesse trait for your attacks with it, and you gain +1 AC.\n\n- On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon\u2019s damage die for this attack increases to 2d4, instead of 1d4"
+              "value": "- Increase your Dexterity or Strength score by 1, to a maximum of 20.\n\n- While wielding a double-bladed weapon with two hands, the weapon has the finesse trait for your attacks with it, and you gain +1 AC.\n\n- On your turn, when you use a bonus action to make a melee attack with the blade at the opposite end of the weapon, the weapon’s damage die for this attack increases to 2d4, instead of 1d4"
             },
             "updated_at": {
               "value": "2024-12-20T18:50:28.398899"
@@ -255,6 +255,6 @@
     "updated_at": {
       "value": "2026-02-07T10:30:48.627534"
     },
-    "id": "tug_revenant_blade"
+    "id": "tug_feat_revenant_blade"
   }
 }

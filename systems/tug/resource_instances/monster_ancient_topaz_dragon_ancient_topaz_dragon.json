@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_topaz_dragon",
+    "id": "tug_monster_ancient_topaz_dragon",
     "name": {
       "value": "Ancient Topaz Dragon"
     },

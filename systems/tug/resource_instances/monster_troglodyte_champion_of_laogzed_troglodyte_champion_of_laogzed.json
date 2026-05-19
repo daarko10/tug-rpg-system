@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_troglodyte_champion_of_laogzed",
+    "id": "tug_monster_troglodyte_champion_of_laogzed",
     "name": {
       "value": "Troglodyte Champion of Laogzed"
     },

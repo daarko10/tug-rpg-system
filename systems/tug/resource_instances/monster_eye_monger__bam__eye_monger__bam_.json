@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_eye_monger__bam_",
+    "id": "tug_monster_eye_monger__bam_",
     "name": {
       "value": "Eye Monger"
     },

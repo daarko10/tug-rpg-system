@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_evards_black_tentacles",
+    "id": "tug_spell_evards_black_tentacles",
     "name": {
       "value": "Evard's Black Tentacles"
     },

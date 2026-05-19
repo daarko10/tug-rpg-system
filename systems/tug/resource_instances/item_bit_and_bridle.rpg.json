@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bit_and_bridle",
+    "id": "tug_item_bit_and_bridle",
     "name": {
       "value": "Bit and bridle"
     },

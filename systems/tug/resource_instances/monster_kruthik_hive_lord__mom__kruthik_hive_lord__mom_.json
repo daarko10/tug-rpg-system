@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_kruthik_hive_lord__mom_",
+    "id": "tug_monster_kruthik_hive_lord__mom_",
     "name": {
       "value": "Kruthik Hive Lord"
     },

@@ -26,7 +26,7 @@
       "value": "You create a burst of thunderous sound, which can be heard 100 feet away. Each creature other than you within 5 feet of you must make a Constitution saving throw. On a failed save, the creature takes 1d6 thunder damage."
     },
     "higher_level_description": {
-      "value": "The spell\u2019s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+      "value": "The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
     },
     "classes": {
       "value": [
@@ -206,6 +206,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.667432"
     },
-    "id": "tug_thunderclap"
+    "id": "tug_spell_thunderclap"
   }
 }

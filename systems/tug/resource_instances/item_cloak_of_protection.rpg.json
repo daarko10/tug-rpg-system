@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cloak_of_protection",
+    "id": "tug_item_cloak_of_protection",
     "name": {
       "value": "Cloak of Protection"
     },

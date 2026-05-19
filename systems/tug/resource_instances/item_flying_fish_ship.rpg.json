@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_flying_fish_ship",
+    "id": "tug_item_flying_fish_ship",
     "name": {
       "value": "Flying Fish Ship"
     },

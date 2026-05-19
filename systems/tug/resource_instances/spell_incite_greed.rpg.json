@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_incite_greed",
+    "id": "tug_spell_incite_greed",
     "name": {
       "value": "Incite Greed"
     },

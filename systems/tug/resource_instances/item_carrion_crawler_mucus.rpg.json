@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_carrion_crawler_mucus",
+    "id": "tug_item_carrion_crawler_mucus",
     "name": {
       "value": "Carrion Crawler Mucus"
     },

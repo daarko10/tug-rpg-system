@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_duergar_mind_master__mom_",
+    "id": "tug_monster_duergar_mind_master__mom_",
     "name": {
       "value": "Duergar Mind Master"
     },

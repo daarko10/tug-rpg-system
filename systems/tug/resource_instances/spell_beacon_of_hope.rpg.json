@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_beacon_of_hope",
+    "id": "tug_spell_beacon_of_hope",
     "name": {
       "value": "Beacon of Hope"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_parasite-infested_behir",
+    "id": "tug_monster_parasite-infested_behir",
     "name": {
       "value": "Parasite-infested Behir"
     },

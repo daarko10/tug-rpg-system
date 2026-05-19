@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_silence",
+    "id": "tug_spell_silence",
     "name": {
       "value": "Silence"
     },

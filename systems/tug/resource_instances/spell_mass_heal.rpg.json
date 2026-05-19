@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_mass_heal",
+    "id": "tug_spell_mass_heal",
     "name": {
       "value": "Mass Heal"
     },

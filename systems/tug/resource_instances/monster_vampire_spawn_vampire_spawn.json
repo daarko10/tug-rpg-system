@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_vampire_spawn",
+    "id": "tug_monster_vampire_spawn",
     "name": {
       "value": "Vampire Spawn"
     },

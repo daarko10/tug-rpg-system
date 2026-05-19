@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_gust_of_wind",
+    "id": "tug_spell_gust_of_wind",
     "name": {
       "value": "Gust of Wind"
     },

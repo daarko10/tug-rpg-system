@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_aspect_of_bahamut",
+    "id": "tug_monster_aspect_of_bahamut",
     "name": {
       "value": "Aspect of Bahamut"
     },

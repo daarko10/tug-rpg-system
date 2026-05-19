@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_flesh_to_stone",
+    "id": "tug_spell_flesh_to_stone",
     "name": {
       "value": "Flesh to Stone"
     },

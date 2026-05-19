@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_cloak_of_invisibility",
+    "id": "tug_item_cloak_of_invisibility",
     "name": {
       "value": "Cloak of Invisibility"
     },

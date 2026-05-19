@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_feed__per_day_",
+    "id": "tug_item_feed__per_day_",
     "name": {
       "value": "Feed (per day)"
     },

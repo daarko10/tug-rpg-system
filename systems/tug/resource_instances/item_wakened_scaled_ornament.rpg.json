@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wakened_scaled_ornament",
+    "id": "tug_item_wakened_scaled_ornament",
     "name": {
       "value": "Wakened Scaled Ornament"
     },

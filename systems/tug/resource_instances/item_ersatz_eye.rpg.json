@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_ersatz_eye",
+    "id": "tug_item_ersatz_eye",
     "name": {
       "value": "Ersatz Eye"
     },
@@ -9,7 +9,7 @@
       "value": "xge"
     },
     "description": {
-      "value": "This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can\u2019t be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye."
+      "value": "This artificial eye replaces a real one that was lost or removed. While the ersatz eye is embedded in your eye socket, it can’t be removed by anyone other than you, and you can see through the tiny orb as though it were a normal eye."
     },
     "type": {
       "value": "wondrous"

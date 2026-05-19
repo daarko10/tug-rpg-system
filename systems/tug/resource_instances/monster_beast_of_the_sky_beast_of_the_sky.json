@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_beast_of_the_sky",
+    "id": "tug_monster_beast_of_the_sky",
     "name": {
       "value": "Beast of the Sky"
     },

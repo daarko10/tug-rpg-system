@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hill_giant",
+    "id": "tug_monster_hill_giant",
     "name": {
       "value": "Hill Giant"
     },

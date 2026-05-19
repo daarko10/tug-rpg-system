@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_griffon_cavalry_rider",
+    "id": "tug_monster_griffon_cavalry_rider",
     "name": {
       "value": "Griffon Cavalry Rider"
     },

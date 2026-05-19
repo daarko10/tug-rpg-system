@@ -54,7 +54,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Monster Hunter\u2019s Pack"
+                            "value": "Monster Hunter’s Pack"
                           },
                           "cost": {
                             "value": {
@@ -87,7 +87,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.082307"
                           },
-                          "id": "monster_hunter\u2019s_pack"
+                          "id": "monster_hunter’s_pack"
                         }
                       }
                     },
@@ -301,6 +301,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.082380"
     },
-    "id": "tug_haunted_one"
+    "id": "tug_background_haunted_one"
   }
 }

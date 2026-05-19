@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_sword_wraith_commander__mom_",
+    "id": "tug_monster_sword_wraith_commander__mom_",
     "name": {
       "value": "Sword Wraith Commander"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_howling_hatred_initiate",
+    "id": "tug_monster_howling_hatred_initiate",
     "name": {
       "value": "Howling Hatred Initiate"
     },

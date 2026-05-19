@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_black_greatwyrm",
+    "id": "tug_monster_black_greatwyrm",
     "name": {
       "value": "Black Greatwyrm"
     },

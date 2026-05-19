@@ -584,7 +584,7 @@
                     "value": "a handful of oak bark"
                   },
                   "description": {
-                    "value": "You touch a willing creature. Until the spell ends, the target\u2019s skin has a rough, bark-like appearance, and the target\u2019s AC can\u2019t be less than 16, regardless of what kind of armor it is wearing."
+                    "value": "You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing."
                   },
                   "classes": {
                     "value": [
@@ -1190,6 +1190,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:35.631369"
     },
-    "id": "tug_instrument_of_the_bards,_mac-fuirmidh_cittern"
+    "id": "tug_item_instrument_of_the_bards,_mac-fuirmidh_cittern"
   }
 }

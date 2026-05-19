@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_kalka-kylla",
+    "id": "tug_monster_kalka-kylla",
     "name": {
       "value": "Kalka-Kylla"
     },

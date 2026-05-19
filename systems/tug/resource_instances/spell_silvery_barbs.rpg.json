@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_silvery_barbs",
+    "id": "tug_spell_silvery_barbs",
     "name": {
       "value": "Silvery Barbs"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_harengon_sniper",
+    "id": "tug_monster_harengon_sniper",
     "name": {
       "value": "Harengon Sniper"
     },

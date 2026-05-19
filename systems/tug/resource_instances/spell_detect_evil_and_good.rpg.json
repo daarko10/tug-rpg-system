@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_detect_evil_and_good",
+    "id": "tug_spell_detect_evil_and_good",
     "name": {
       "value": "Detect Evil and Good"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_grippli_warrior",
+    "id": "tug_monster_grippli_warrior",
     "name": {
       "value": "Grippli Warrior"
     },

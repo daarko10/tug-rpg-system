@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ruin_spider__bmt_",
+    "id": "tug_monster_ruin_spider__bmt_",
     "name": {
       "value": "Ruin Spider"
     },

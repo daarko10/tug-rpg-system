@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_tyrannosaurus_rex",
+    "id": "tug_monster_tyrannosaurus_rex",
     "name": {
       "value": "Tyrannosaurus Rex"
     },

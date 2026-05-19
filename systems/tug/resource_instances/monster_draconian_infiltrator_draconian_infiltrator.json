@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_draconian_infiltrator",
+    "id": "tug_monster_draconian_infiltrator",
     "name": {
       "value": "Draconian Infiltrator"
     },

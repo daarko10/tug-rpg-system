@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_boss_delour__bmt_",
+    "id": "tug_monster_boss_delour__bmt_",
     "name": {
       "value": "Boss Delour"
     },

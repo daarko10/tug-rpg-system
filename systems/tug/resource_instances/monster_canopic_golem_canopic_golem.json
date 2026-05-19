@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_canopic_golem",
+    "id": "tug_monster_canopic_golem",
     "name": {
       "value": "Canopic Golem"
     },

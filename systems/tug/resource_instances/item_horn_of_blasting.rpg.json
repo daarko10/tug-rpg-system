@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_horn_of_blasting",
+    "id": "tug_item_horn_of_blasting",
     "name": {
       "value": "Horn of Blasting"
     },

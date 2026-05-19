@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ogre_chain_brute__mom_",
+    "id": "tug_monster_ogre_chain_brute__mom_",
     "name": {
       "value": "Ogre Chain Brute"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_reincarnation_dust",
+    "id": "tug_item_reincarnation_dust",
     "name": {
       "value": "Reincarnation Dust"
     },

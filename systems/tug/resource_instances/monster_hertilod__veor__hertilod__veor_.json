@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hertilod__veor_",
+    "id": "tug_monster_hertilod__veor_",
     "name": {
       "value": "Hertilod"
     },

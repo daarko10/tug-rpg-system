@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_drannin_splithelm",
+    "id": "tug_monster_drannin_splithelm",
     "name": {
       "value": "Drannin Splithelm"
     },

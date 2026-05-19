@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_woodcarvers_tools",
+    "id": "tug_item_woodcarvers_tools",
     "name": {
       "value": "Woodcarver's Tools"
     },

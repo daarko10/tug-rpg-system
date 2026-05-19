@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_mirage_arcane",
+    "id": "tug_spell_mirage_arcane",
     "name": {
       "value": "Mirage Arcane"
     },

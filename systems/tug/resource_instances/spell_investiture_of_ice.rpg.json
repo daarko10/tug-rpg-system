@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_investiture_of_ice",
+    "id": "tug_spell_investiture_of_ice",
     "name": {
       "value": "Investiture of Ice"
     },

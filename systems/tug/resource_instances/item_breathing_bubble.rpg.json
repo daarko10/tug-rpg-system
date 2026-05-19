@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_breathing_bubble",
+    "id": "tug_item_breathing_bubble",
     "name": {
       "value": "Breathing Bubble"
     },

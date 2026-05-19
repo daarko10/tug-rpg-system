@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_ray_of_enfeeblement",
+    "id": "tug_spell_ray_of_enfeeblement",
     "name": {
       "value": "Ray of Enfeeblement"
     },

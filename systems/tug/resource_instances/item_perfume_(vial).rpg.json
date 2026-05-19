@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_perfume__vial_",
+    "id": "tug_item_perfume__vial_",
     "name": {
       "value": "Perfume (vial)"
     },

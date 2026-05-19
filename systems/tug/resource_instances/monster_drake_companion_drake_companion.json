@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_drake_companion",
+    "id": "tug_monster_drake_companion",
     "name": {
       "value": "Drake Companion"
     },
@@ -135,7 +135,7 @@
               "value": "Draconic Essence"
             },
             "trait_description": {
-              "value": "When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake\u2019s damage immunity, the damage of its bite, and the damage of its Infused Strikes trait"
+              "value": "When you summon the drake, choose a damage type: acid, cold, fire, lightning, or poison. The chosen type determines the drake’s damage immunity, the damage of its bite, and the damage of its Infused Strikes trait"
             },
             "id": "3d43ca1e-0a73-40ce-9337-c2f3109db1ec",
             "updated_at": {
@@ -154,7 +154,7 @@
               "value": "Bite"
             },
             "action_description": {
-              "value": "+3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 piercing damage plus PB damage of a type determined by the drake\u2019s Draconic Essence"
+              "value": "+3 plus PB to hit, reach 5 ft., one target. Hit: 1d6 piercing damage plus PB damage of a type determined by the drake’s Draconic Essence"
             },
             "action_type": {
               "value": "melee"

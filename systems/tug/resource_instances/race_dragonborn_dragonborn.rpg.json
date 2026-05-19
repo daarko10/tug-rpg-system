@@ -229,7 +229,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842223"
@@ -366,7 +366,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive lightning in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive lightning in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842270"
@@ -503,7 +503,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive fire in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive fire in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842318"
@@ -640,7 +640,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive lightning in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive lightning in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842366"
@@ -777,7 +777,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive acid in a 5 by 30 ft. line.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842413"
@@ -914,7 +914,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive fire in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive fire in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842462"
@@ -1051,7 +1051,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive poison in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive poison in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842509"
@@ -1188,7 +1188,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive fire in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive fire in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a DEX saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842577"
@@ -1325,7 +1325,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive cold energy in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive cold energy in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842628"
@@ -1462,7 +1462,7 @@
                           "resource_id": "levelled_description",
                           "stats": {
                             "description": {
-                              "value": "You can use your action to exhale destructive cold energy in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can\u2019t use it again until you complete a short or long rest."
+                              "value": "You can use your action to exhale destructive cold energy in a 15 ft. cone.\n\nWhen you use your breath weapon, each creature in the area of the exhalation must make a CON saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.\n\nAfter you use your breath weapon, you can’t use it again until you complete a short or long rest."
                             },
                             "updated_at": {
                               "value": "2024-12-20T18:50:53.842675"
@@ -1578,6 +1578,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.842711"
     },
-    "id": "tug_dragonborn"
+    "id": "tug_race_dragonborn"
   }
 }

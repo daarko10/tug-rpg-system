@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_nosferatu",
+    "id": "tug_monster_nosferatu",
     "name": {
       "value": "Nosferatu"
     },

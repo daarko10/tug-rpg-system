@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ancient_sea_serpent",
+    "id": "tug_monster_ancient_sea_serpent",
     "name": {
       "value": "Ancient Sea Serpent"
     },

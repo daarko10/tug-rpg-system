@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_homunculus__artificer_",
+    "id": "tug_monster_homunculus__artificer_",
     "name": {
       "value": "Homunculus (Artificer)"
     },
@@ -117,7 +117,7 @@
               "value": "Might of the Master"
             },
             "trait_description": {
-              "value": "The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus\u2019s skill bonuses and the bonuses to hit and damage of its Acidic Spittle."
+              "value": "The following numbers increase by 1 when your proficiency bonus increases by 1: the homunculus’s skill bonuses and the bonuses to hit and damage of its Acidic Spittle."
             },
             "id": "e0fa9dee-ade6-487f-b754-c9c850a4c9d8",
             "updated_at": {

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_locate_animals_or_plants",
+    "id": "tug_spell_locate_animals_or_plants",
     "name": {
       "value": "Locate Animals or Plants"
     },

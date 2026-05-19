@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_wyrmreaver_gauntlets",
+    "id": "tug_item_wyrmreaver_gauntlets",
     "name": {
       "value": "Wyrmreaver Gauntlets"
     },

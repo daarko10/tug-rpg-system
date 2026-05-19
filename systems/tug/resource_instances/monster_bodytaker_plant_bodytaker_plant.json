@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_bodytaker_plant",
+    "id": "tug_monster_bodytaker_plant",
     "name": {
       "value": "Bodytaker Plant"
     },

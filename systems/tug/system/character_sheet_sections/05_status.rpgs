@@ -44,6 +44,14 @@ character_sheet_section status() =
         edit_bottom_sheet_title = "Max hit points",
         is_visible = $edit_mode,
       ),
+      menuButton(
+        id = "rest_menu_button",
+        icon_name = "ic_daytime",
+        icon_size = "medium",
+        icon_color = "accent",
+        margin_right = 16,
+        options = "lifecycle_events_menu",
+      ),
     ],
     content = [
       stat(
@@ -138,6 +146,22 @@ character_sheet_section status() =
         stat = "domain_dc",
         change_amount = 0,
         min_value_allowed = 0,
+      ),
+      stat(
+        id = "crit_threshold_stat",
+        stat = "crit_threshold",
+        change_amount = 0,
+        min_value_allowed = 2,
+        override_label = "Crit on",
+        is_visible = pa_simmer_pp > 0,
+      ),
+      stat(
+        id = "fumble_threshold_stat",
+        stat = "fumble_threshold",
+        change_amount = 0,
+        min_value_allowed = 1,
+        override_label = "Fumble on",
+        is_visible = pa_simmer_pp > 0,
       ),
     ],
   );

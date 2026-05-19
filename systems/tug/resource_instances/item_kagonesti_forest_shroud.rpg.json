@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_kagonesti_forest_shroud",
+    "id": "tug_item_kagonesti_forest_shroud",
     "name": {
       "value": "Kagonesti Forest Shroud"
     },

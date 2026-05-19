@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_goblin_boss",
+    "id": "tug_monster_goblin_boss",
     "name": {
       "value": "Goblin Boss"
     },

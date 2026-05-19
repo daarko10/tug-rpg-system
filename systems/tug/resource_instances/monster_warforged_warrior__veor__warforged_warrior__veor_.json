@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_warforged_warrior__veor_",
+    "id": "tug_monster_warforged_warrior__veor_",
     "name": {
       "value": "Warforged Warrior"
     },

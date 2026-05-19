@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_tinderbox",
+    "id": "tug_item_tinderbox",
     "name": {
       "value": "Tinderbox"
     },
@@ -9,7 +9,7 @@
       "value": "xphb"
     },
     "description": {
-      "value": "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch\u2014or anything else with abundant, exposed fuel\u2014takes an action. Lighting any other fire takes 1 minute."
+      "value": "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute."
     },
     "type": {
       "value": "adventuring_gear"

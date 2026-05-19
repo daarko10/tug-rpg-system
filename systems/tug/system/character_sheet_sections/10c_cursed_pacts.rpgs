@@ -21,12 +21,12 @@ character_sheet_section cursed_pacts() =
       spacer(id = "cursed_pacts_section_header_spacer"),
       selectResources(
         id = "cursed_pact_nodes_add",
-        stat = "purchased_nodes",
+        stat = "purchased_cursed_pact_nodes",
         resource_id = "skill_tree_node",
         view_type = "icon",
         should_append = true,
         should_save_on_selection = true,
-        filters = dict(tree = ["cursed_pact"], pact = active_pact_ids),
+        filters = dict(tree = ["cursed_pact"], pact = extended_cursed_pact_ids),
       ),
       selectResources(
         id = "pacts_add",
@@ -83,6 +83,8 @@ character_sheet_section cursed_pacts() =
             then "  - Select a physical ability score to receive +2"
             else concat(["  + ", enumeratedName(enumerated_type = "ability", id = pa_chosen_score) ?? pa_chosen_score, " ability score increased by +2"])),
           "\n  - Cannot cast spells",
+          (if pa_simmer_pp > 0 then concat(["\n  Simmer: Crit on ", crit_threshold, "+, Fumble on ", fumble_threshold, "-"]) else ""),
+          (if pa_overtime_pp > 0 then concat(["\n  Overtime: +", overtime_bonus, " to attacks below half HP"]) else ""),
         ]),
         style = "text",
         margin_left = 16,
@@ -98,6 +100,10 @@ character_sheet_section cursed_pacts() =
           (if isEmpty(aa_chosen_score)
             then "  - Select a physical ability score to be reduced to 5"
             else concat(["  - ", enumeratedName(enumerated_type = "ability", id = aa_chosen_score) ?? aa_chosen_score, " ability score becomes 5"])),
+          "\n  + Proficiency bonus (+", proficiency_bonus, ") to spell attack and DC",
+          "\n  Spell Attack: +", spell_attack_bonus, "  |  Spell DC: ", spell_save_dc_spells,
+          (if potent_sorcery_bonus > 0 then concat(["\n  Potent Sorcery: +", potent_sorcery_bonus, " damage per spell level"]) else ""),
+          (if efficient_sorcery_reduction > 0 then concat(["\n  Efficient Sorcery: -", efficient_sorcery_reduction, " SP per spell cast"]) else ""),
         ]),
         style = "text",
         margin_left = 16,
@@ -116,6 +122,101 @@ character_sheet_section cursed_pacts() =
         margin_left = 16,
         margin_top = 4,
         is_visible = blood_manipulation_active,
+      ),
+      // Blood Manipulation abilities — nested collapsible section (stat widgets collapse with it)
+      section(
+        id = "bm_abilities_section",
+        is_visible = blood_manipulation_active,
+        show_divider = false,
+        content_item_min_width = 1,
+        collapsible = true,
+        start_collapsed = false,
+        always_show_collapse_icon = true,
+        header = [
+          text(
+            id = "bm_abilities_header",
+            margin_left = 24,
+            text = "Blood Manipulation Abilities",
+            style = "section",
+          ),
+        ],
+        content = [
+          text(
+            id = "bm_max_hp_note",
+            text = "Techniques sacrifice max HP (not current HP), restored on long rest. Adjust cost with +/−, then tap the ability row to confirm and use.",
+            style = "caption",
+            margin_left = 16,
+            margin_top = 4,
+          ),
+          // ── Blood Laser: adjust cost, see flat damage output, tap to use ──
+          stat(
+            id = "bm_blood_laser_use",
+            stat = "bm_blood_cost",
+            change_amount = 5,
+            min_value_allowed = 5,
+            override_label = concat(["Blood Laser (", bm_blood_laser_pp, " PP): cost → ", bm_blood_cost, " HP  |  dmg → ", blood_laser_damage, " flat"]),
+            edit_bottom_sheet_title = concat(["Adjust HP cost (5–", blood_laser_max_cost, "). Current: sacrifice ", bm_blood_cost, " max HP → deal ", blood_laser_damage, " flat damage. No attack roll. Tap USE to confirm."]),
+            on_tap_event = event(name = "use_blood_laser"),
+            is_visible = bm_blood_laser_pp > 0,
+          ),
+          // ── Bloodbound Blitz: shared cost with Blood Laser ──
+          stat(
+            id = "bm_blitz_use",
+            stat = "bm_blood_cost",
+            change_amount = 5,
+            min_value_allowed = 5,
+            override_label = concat(["Bloodbound Blitz (", bm_bloodbound_blitz_pp, " PP): cost → ", bm_blood_cost, " HP  |  +", blood_laser_damage, " dmg on hit"]),
+            edit_bottom_sheet_title = concat(["Adjust HP cost (5–", blood_laser_max_cost, "). Declare BEFORE rolling to hit. Sacrifice ", bm_blood_cost, " max HP → +", blood_laser_damage, " damage if it hits. Tap USE to confirm."]),
+            on_tap_event = event(name = "use_bloodbound_blitz"),
+            is_visible = bm_bloodbound_blitz_pp > 0,
+          ),
+          // ── Crimson Recovery ──
+          stat(
+            id = "bm_crimson_recovery_use",
+            stat = "bm_recovery_hp_cost",
+            change_amount = 5,
+            min_value_allowed = 5,
+            max_value_allowed = 45,
+            override_label = concat(["Crimson Recovery (", bm_crimson_recovery_pp, " PP): cost → ", bm_recovery_hp_cost, " HP  |  +", crimson_recovery_sp_restored, " SP"]),
+            edit_bottom_sheet_title = concat(["Adjust HP cost (5–45). Current: sacrifice ", bm_recovery_hp_cost, " max HP → recover ", crimson_recovery_sp_restored, " SP (lv", crimson_recovery_slot_level, " slot). Tap USE to confirm."]),
+            on_tap_event = event(name = "use_crimson_recovery"),
+            is_visible = bm_crimson_recovery_pp > 0,
+          ),
+          // ── Hemolock ──
+          stat(
+            id = "bm_hemolock_use",
+            stat = "bm_hemolock_cost",
+            change_amount = 5,
+            min_value_allowed = 5,
+            max_value_allowed = 45,
+            override_label = concat(["Hemolock (", bm_hemolock_pp, " PP): cost → ", bm_hemolock_cost, " HP  |  +", hemolock_attack_bonus, " to attack roll"]),
+            edit_bottom_sheet_title = concat(["Adjust HP cost (5–45). Declare BEFORE rolling. Sacrifice ", bm_hemolock_cost, " max HP → +", hemolock_attack_bonus, " to this attack roll. Tap USE to confirm."]),
+            on_tap_event = event(name = "use_hemolock"),
+            is_visible = bm_hemolock_pp > 0,
+          ),
+          // ── Hemo-Hardening ──
+          stat(
+            id = "bm_hemo_hardening_use",
+            stat = "bm_hemo_hardening_cost",
+            change_amount = 5,
+            min_value_allowed = 5,
+            max_value_allowed = 45,
+            override_label = concat(["Hemo-Hardening (", bm_hemo_hardening_pp, " PP): cost → ", bm_hemo_hardening_cost, " HP  |  +", hemo_hardening_ac_bonus, " AC"]),
+            edit_bottom_sheet_title = concat(["Adjust HP cost (5–45). Reaction: sacrifice ", bm_hemo_hardening_cost, " max HP → +", hemo_hardening_ac_bonus, " AC until start of your next turn. Tap USE to confirm."]),
+            on_tap_event = event(name = "use_hemo_hardening"),
+            is_visible = bm_hemo_hardening_pp > 0,
+          ),
+          // ── Hemosight (fixed 1 HP cost, no slider needed) ──
+          stat(
+            id = "bm_hemosight_use",
+            stat = "bm_hemosight_pp",
+            change_amount = 0,
+            override_label = concat(["Hemosight (", bm_hemosight_pp, " PP): cost → 1 max HP  |  10 min surface sight"]),
+            edit_bottom_sheet_title = "Sacrifice 1 max HP: place a drop of blood on any non-porous surface to see through it as your own eye for 10 minutes. Tap USE to confirm.",
+            on_tap_event = event(name = "use_hemosight"),
+            is_visible = bm_hemosight_pp > 0,
+          ),
+        ],
       ),
       // Primordial Pact effects
       text(
@@ -164,22 +265,29 @@ character_sheet_section cursed_pacts() =
         margin_top = 12,
         is_visible = !isEmpty(unique_cursed_node_names),
       ),
-      // Swipe-to-remove flat list (shows each PP investment individually)
-      text(
-        id = "cursed_pacts_remove_hint",
-        text = "Remove PP investments (swipe left):",
-        style = "caption",
-        bold = true,
-        margin_top = 16,
-        margin_left = 16,
+      // Swipe-to-remove flat list (collapsed by default)
+      collapsible(
+        id = "cursed_pacts_manage_collapsible",
+        title = "Manage PP investments",
+        start_expanded = false,
         is_visible = !isEmpty(cursed_pact_tree_nodes),
-      ),
-      resourceSection(
-        id = "cursed_pact_tree_nodes_list",
-        resource_id = "skill_tree_node",
-        resource_stat = "cursed_pact_tree_nodes",
-        resource_set_stat = "purchased_nodes",
-        read_only = false,
+        margin_top = 8,
+        subviews = [
+          text(
+            id = "cursed_pacts_remove_hint",
+            text = "Swipe left on an entry to remove it.",
+            style = "caption",
+            margin_top = 8,
+            margin_left = 16,
+          ),
+          resourceSection(
+            id = "cursed_pact_tree_nodes_list",
+            resource_id = "skill_tree_node",
+            resource_stat = "cursed_pact_tree_nodes",
+            resource_set_stat = "purchased_cursed_pact_nodes",
+            read_only = false,
+          ),
+        ],
       ),
     ],
   );

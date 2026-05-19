@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_giff_shock_trooper__bam_",
+    "id": "tug_monster_giff_shock_trooper__bam_",
     "name": {
       "value": "Giff Shock Trooper"
     },

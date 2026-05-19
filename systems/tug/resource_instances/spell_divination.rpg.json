@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_divination",
+    "id": "tug_spell_divination",
     "name": {
       "value": "Divination"
     },

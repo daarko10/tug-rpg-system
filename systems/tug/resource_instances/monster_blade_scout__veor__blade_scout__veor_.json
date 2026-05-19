@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_blade_scout__veor_",
+    "id": "tug_monster_blade_scout__veor_",
     "name": {
       "value": "Blade Scout"
     },

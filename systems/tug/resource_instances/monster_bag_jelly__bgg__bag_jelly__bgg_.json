@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_bag_jelly__bgg_",
+    "id": "tug_monster_bag_jelly__bgg_",
     "name": {
       "value": "Bag Jelly"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_fast_friends",
+    "id": "tug_spell_fast_friends",
     "name": {
       "value": "Fast Friends"
     },

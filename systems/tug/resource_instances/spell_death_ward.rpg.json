@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_death_ward",
+    "id": "tug_spell_death_ward",
     "name": {
       "value": "Death Ward"
     },

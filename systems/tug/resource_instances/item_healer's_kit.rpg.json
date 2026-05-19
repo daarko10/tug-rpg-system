@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_healers_kit",
+    "id": "tug_item_healers_kit",
     "name": {
       "value": "Healer's Kit"
     },

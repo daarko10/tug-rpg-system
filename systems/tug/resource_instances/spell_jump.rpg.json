@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_jump",
+    "id": "tug_spell_jump",
     "name": {
       "value": "Jump"
     },

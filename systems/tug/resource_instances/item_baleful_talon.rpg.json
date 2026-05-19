@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_baleful_talon",
+    "id": "tug_item_baleful_talon",
     "name": {
       "value": "Baleful Talon"
     },

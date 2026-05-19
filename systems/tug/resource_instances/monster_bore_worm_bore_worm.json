@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_bore_worm",
+    "id": "tug_monster_bore_worm",
     "name": {
       "value": "Bore Worm"
     },

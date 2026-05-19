@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_gray_ooze__psychic_",
+    "id": "tug_monster_gray_ooze__psychic_",
     "name": {
       "value": "Gray Ooze (Psychic)"
     },

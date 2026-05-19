@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_orb_of_the_veil",
+    "id": "tug_item_orb_of_the_veil",
     "name": {
       "value": "Orb of the Veil"
     },

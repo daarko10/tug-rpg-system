@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_grenade_launcher",
+    "id": "tug_item_grenade_launcher",
     "name": {
       "value": "Grenade Launcher"
     },

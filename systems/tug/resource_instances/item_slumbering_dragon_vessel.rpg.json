@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_slumbering_dragon_vessel",
+    "id": "tug_item_slumbering_dragon_vessel",
     "name": {
       "value": "Slumbering Dragon Vessel"
     },

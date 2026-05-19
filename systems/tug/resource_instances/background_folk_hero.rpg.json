@@ -54,7 +54,7 @@
                         "resource_id": "item",
                         "stats": {
                           "name": {
-                            "value": "Set of artisan\u2019s tools Of Your Choice"
+                            "value": "Set of artisan’s tools Of Your Choice"
                           },
                           "cost": {
                             "value": {
@@ -87,7 +87,7 @@
                           "updated_at": {
                             "value": "2024-12-20T18:50:20.017236"
                           },
-                          "id": "set_of_artisan\u2019s_tools_of_your_choice"
+                          "id": "set_of_artisan’s_tools_of_your_choice"
                         }
                       }
                     },
@@ -441,6 +441,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:20.017423"
     },
-    "id": "tug_folk_hero"
+    "id": "tug_background_folk_hero"
   }
 }

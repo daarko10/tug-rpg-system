@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_ceratops__bgg_",
+    "id": "tug_monster_ceratops__bgg_",
     "name": {
       "value": "Ceratops"
     },

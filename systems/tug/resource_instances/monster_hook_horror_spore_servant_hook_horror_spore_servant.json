@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_hook_horror_spore_servant",
+    "id": "tug_monster_hook_horror_spore_servant",
     "name": {
       "value": "Hook Horror Spore Servant"
     },

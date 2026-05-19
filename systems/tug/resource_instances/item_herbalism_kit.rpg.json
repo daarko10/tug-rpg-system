@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_herbalism_kit",
+    "id": "tug_item_herbalism_kit",
     "name": {
       "value": "Herbalism Kit"
     },

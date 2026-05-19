@@ -29,7 +29,7 @@
       "value": true
     },
     "description": {
-      "value": "You call forth spirits of the dead, which flit around you for the spell\u2019s duration. The spirits are intangible and invulnerable, and they are good or evil (your choice). Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can\u2019t regain hit points until the start of your next turn.\n\nIn addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn"
+      "value": "You call forth spirits of the dead, which flit around you for the spell’s duration. The spirits are intangible and invulnerable, and they are good or evil (your choice). Until the spell ends, any attack you make deals 1d8 extra damage when you hit a creature within 10 feet of you. This damage is radiant if the spirits are good and necrotic if they are evil. Any creature that takes this damage can’t regain hit points until the start of your next turn.\n\nIn addition, any creature of your choice that you can see that starts its turn within 10 feet of you has its speed reduced by 10 feet until the start of your next turn"
     },
     "higher_level_description": {
       "value": "When you cast this spell using a spell slot of 4th level or higher, the extra damage increases by 1d8 for each slot level above 3rd"
@@ -333,6 +333,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:46.689040"
     },
-    "id": "tug_spirit_shroud__ua_"
+    "id": "tug_spell_spirit_shroud__ua_"
   }
 }

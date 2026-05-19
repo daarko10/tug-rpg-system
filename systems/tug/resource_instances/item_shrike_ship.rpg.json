@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_shrike_ship",
+    "id": "tug_item_shrike_ship",
     "name": {
       "value": "Shrike Ship"
     },
@@ -9,7 +9,7 @@
       "value": "aag"
     },
     "description": {
-      "value": "This swift vessel is a relatively recent design, quickly gaining popularity with merchants and pirates. A shrike ship's legs enable it to land safely on the ground. The ship can float but isn't built for traveling on water and sinks quickly in rough seas.\n\nStandard weaponry on a shrike ship includes three ballistae\u2014one on the forecastle, one in the middle of the top deck, and one on the sterncastle. In a desperate situation, the ship's reinforced bow can be used as a piercing ram."
+      "value": "This swift vessel is a relatively recent design, quickly gaining popularity with merchants and pirates. A shrike ship's legs enable it to land safely on the ground. The ship can float but isn't built for traveling on water and sinks quickly in rough seas.\n\nStandard weaponry on a shrike ship includes three ballistae—one on the forecastle, one in the middle of the top deck, and one on the sterncastle. In a desperate situation, the ship's reinforced bow can be used as a piercing ram."
     },
     "type": {
       "value": "vehicle_space"

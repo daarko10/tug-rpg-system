@@ -111,7 +111,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "As a bonus action, choose one creature you can see within 30 feet of you. The target is imprinted in your mind until it dies or you use this trait again. Alternatively, you can imprint a creature as your quarry whenever you succeed on a Wisdom (Survival) check to track it.\n\nWhen you are tracking your quarry, double the result of your Intuition die. When your quarry is within 60 feet of you, you have a general sense of its location. Your attacks against it ignore half cover. If you can\u2019t see the target when you attack it, your inability to see it doesn\u2019t impose disadvantage on the attack roll. Likewise, your quarry doesn\u2019t doesn\u2019t gain advantage on attack rolls against you due to being hidden or invisible. Once you use this trait, you cannot use it again until you finish a short or long rest."
+                      "value": "As a bonus action, choose one creature you can see within 30 feet of you. The target is imprinted in your mind until it dies or you use this trait again. Alternatively, you can imprint a creature as your quarry whenever you succeed on a Wisdom (Survival) check to track it.\n\nWhen you are tracking your quarry, double the result of your Intuition die. When your quarry is within 60 feet of you, you have a general sense of its location. Your attacks against it ignore half cover. If you can’t see the target when you attack it, your inability to see it doesn’t impose disadvantage on the attack roll. Likewise, your quarry doesn’t doesn’t gain advantage on attack rolls against you due to being hidden or invisible. Once you use this trait, you cannot use it again until you finish a short or long rest."
                     },
                     "updated_at": {
                       "value": "2024-12-20T18:50:53.880637"
@@ -445,6 +445,6 @@
     "updated_at": {
       "value": "2024-12-20T18:50:53.880673"
     },
-    "id": "tug_mark_of_finding_half-orc"
+    "id": "tug_race_mark_of_finding_half-orc"
   }
 }

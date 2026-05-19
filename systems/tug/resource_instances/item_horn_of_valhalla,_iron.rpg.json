@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_horn_of_valhalla,_iron",
+    "id": "tug_item_horn_of_valhalla,_iron",
     "name": {
       "value": "Horn of Valhalla, Iron"
     },

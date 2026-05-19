@@ -1,2 +1,0 @@
-view race_list() =
-  listItem(id = "race_list", title = name, subtitle = subrace_names);

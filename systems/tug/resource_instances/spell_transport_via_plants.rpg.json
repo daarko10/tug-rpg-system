@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_transport_via_plants",
+    "id": "tug_spell_transport_via_plants",
     "name": {
       "value": "Transport via Plants"
     },

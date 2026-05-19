@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_disguise_kit",
+    "id": "tug_item_disguise_kit",
     "name": {
       "value": "Disguise Kit"
     },

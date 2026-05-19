@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_modify_memory",
+    "id": "tug_spell_modify_memory",
     "name": {
       "value": "Modify Memory"
     },

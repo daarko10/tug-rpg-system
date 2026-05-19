@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_protection_from_poison",
+    "id": "tug_spell_protection_from_poison",
     "name": {
       "value": "Protection from Poison"
     },

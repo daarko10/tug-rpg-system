@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_blindness_deafness",
+    "id": "tug_spell_blindness_deafness",
     "name": {
       "value": "Blindness/Deafness"
     },

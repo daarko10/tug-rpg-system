@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_sequester",
+    "id": "tug_spell_sequester",
     "name": {
       "value": "Sequester"
     },

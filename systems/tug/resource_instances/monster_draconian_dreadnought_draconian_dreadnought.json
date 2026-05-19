@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_draconian_dreadnought",
+    "id": "tug_monster_draconian_dreadnought",
     "name": {
       "value": "Draconian Dreadnought"
     },

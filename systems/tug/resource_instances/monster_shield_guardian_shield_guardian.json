@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_shield_guardian",
+    "id": "tug_monster_shield_guardian",
     "name": {
       "value": "Shield Guardian"
     },

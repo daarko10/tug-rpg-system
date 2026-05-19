@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_relentless_impaler__veor_",
+    "id": "tug_monster_relentless_impaler__veor_",
     "name": {
       "value": "Relentless Impaler"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_zone_of_truth",
+    "id": "tug_spell_zone_of_truth",
     "name": {
       "value": "Zone of Truth"
     },

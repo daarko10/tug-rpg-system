@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_bag_of_tricks,_gray",
+    "id": "tug_item_bag_of_tricks,_gray",
     "name": {
       "value": "Bag of Tricks, Gray"
     },

@@ -118,7 +118,7 @@
       "id": "ae1e209d-1ccb-4b37-ad97-9b14fc87facf",
       "name": "Warhammer",
       "path": "resources/weapon_warhammer_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.538763"
+      "updated_at": "2026-05-19T21:03:54.115858"
     },
     {
       "id": "seeming",
@@ -148,7 +148,7 @@
       "id": "a6961973-2a9e-474d-8535-0e78ab465473",
       "name": "Studded leather",
       "path": "resources/armor_studded_leather_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.542135"
+      "updated_at": "2026-05-19T21:03:54.119160"
     },
     {
       "id": "bgg",
@@ -274,7 +274,7 @@
       "id": "01c261c5-8995-4144-b5d5-76884aff5734",
       "name": "Lock of Trickery",
       "path": "resources/item_lock_of_trickery_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.560646"
+      "updated_at": "2026-05-19T21:03:54.136317"
     },
     {
       "id": "d0fe1c74-27de-49ba-9cd4-7061df9c6871",
@@ -310,7 +310,7 @@
       "id": "5d536a46-4495-4319-a02b-ab242d91fa83",
       "name": "Vanrak's Mithral Shirt",
       "path": "resources/armor_vanrak_s_mithral_shirt_wdmm.rpg",
-      "updated_at": "2026-05-19T18:33:09.566751"
+      "updated_at": "2026-05-19T21:03:54.141884"
     },
     {
       "id": "flameskull",
@@ -334,7 +334,7 @@
       "id": "57499b30-0f0f-4a16-8825-d55cea4f07dd",
       "name": "Sun Blade",
       "path": "resources/weapon_sun_blade_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.570959"
+      "updated_at": "2026-05-19T21:03:54.145633"
     },
     {
       "id": "adult_copper_dragon",
@@ -346,7 +346,7 @@
       "id": "6700782e-aea9-4d0a-9184-f1e00f4e9c16",
       "name": "Wooden Staff",
       "path": "resources/weapon_wooden_staff_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.574054"
+      "updated_at": "2026-05-19T21:03:54.148730"
     },
     {
       "id": "heavily_armored",
@@ -376,7 +376,7 @@
       "id": "022485a0-7779-4828-b280-fa1c11c41130",
       "name": "Sword of Answering",
       "path": "resources/weapon_sword_of_answering_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.578400"
+      "updated_at": "2026-05-19T21:03:54.153455"
     },
     {
       "id": "scrying",
@@ -490,7 +490,7 @@
       "id": "796ffca5-5892-43fa-ad05-3f143d50e7fd",
       "name": "Hermit",
       "path": "resources/background_hermit_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.595172"
+      "updated_at": "2026-05-19T21:03:54.168261"
     },
     {
       "id": "wildspace_orrery",
@@ -508,19 +508,19 @@
       "id": "a66bfcdc-dd9c-4e39-b3b4-9e843c839adb",
       "name": "Rival Coin",
       "path": "resources/item_rival_coin_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.600533"
+      "updated_at": "2026-05-19T21:03:54.171836"
     },
     {
       "id": "cf03bdce-386d-43bb-98fb-8c3694355d55",
       "name": "Pipes of Haunting",
       "path": "resources/item_pipes_of_haunting_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.601237"
+      "updated_at": "2026-05-19T21:03:54.172484"
     },
     {
       "id": "8eb50989-84dc-4899-a6a2-54e7c6f252d5",
       "name": "Shield of the Blazing Dreadnought",
       "path": "resources/armor_shield_of_the_blazing_dreadnought_bgg.rpg",
-      "updated_at": "2026-05-19T18:33:09.601988"
+      "updated_at": "2026-05-19T21:03:54.173167"
     },
     {
       "id": "hunters_mark",
@@ -568,7 +568,7 @@
       "id": "18ae76bd-6139-4e1f-997f-c59ba3213575",
       "name": "Mace of Disruption",
       "path": "resources/weapon_mace_of_disruption_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.608776"
+      "updated_at": "2026-05-19T21:03:54.178269"
     },
     {
       "id": "house_of_cards",
@@ -622,7 +622,7 @@
       "id": "15016e0a-2449-4a9c-a6f0-68b6fbc820c8",
       "name": "Flail",
       "path": "resources/weapon_flail_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.617810"
+      "updated_at": "2026-05-19T21:03:54.185974"
     },
     {
       "id": "dire_wolf",
@@ -748,13 +748,13 @@
       "id": "d8b7ca0d-ffb0-493a-85e7-1c205612c826",
       "name": "+1 Wraps of Unarmed Power",
       "path": "resources/item_+1_wraps_of_unarmed_power_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.640922"
+      "updated_at": "2026-05-19T21:03:54.204381"
     },
     {
       "id": "5acb6ac8-24c3-4381-acca-f5edf72a7fbc",
       "name": "Boon of Recovery",
       "path": "resources/feat_boon_of_recovery_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.641714"
+      "updated_at": "2026-05-19T21:03:54.205044"
     },
     {
       "id": "tabaxi__mom_",
@@ -814,7 +814,7 @@
       "id": "d2fe6553-a790-4dd8-a0f9-c4a274453f39",
       "name": "Staff of the Woodlands",
       "path": "resources/weapon_staff_of_the_woodlands_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.681886"
+      "updated_at": "2026-05-19T21:03:54.242362"
     },
     {
       "id": "bracers_of_defense",
@@ -904,7 +904,7 @@
       "id": "c3017eba-e847-45a7-8b32-9050dae35324",
       "name": "Quarterstaff of the Acrobat",
       "path": "resources/weapon_quarterstaff_of_the_acrobat_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.700436"
+      "updated_at": "2026-05-19T21:03:54.258806"
     },
     {
       "id": "larva",
@@ -940,7 +940,7 @@
       "id": "7d0e6b31-7b66-4d09-a350-3bf348b1df6f",
       "name": "Guard",
       "path": "resources/background_guard_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.707043"
+      "updated_at": "2026-05-19T21:03:54.264091"
     },
     {
       "id": "bulette",
@@ -1024,7 +1024,7 @@
       "id": "8355cfa7-ed09-4afe-b031-bf4840ca2077",
       "name": "Scroll of Titan Summoning",
       "path": "resources/item_scroll_of_titan_summoning_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.721219"
+      "updated_at": "2026-05-19T21:03:54.276070"
     },
     {
       "id": "goblin_warrior",
@@ -1036,7 +1036,7 @@
       "id": "07b81bce-c591-44ce-ae36-c0d185ef3632",
       "name": "Druidic Warrior",
       "path": "resources/feat_druidic_warrior_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.723002"
+      "updated_at": "2026-05-19T21:03:54.277899"
     },
     {
       "id": "cure_wounds",
@@ -1078,7 +1078,7 @@
       "id": "1aa293d9-85c9-48e5-917b-e674f52c2580",
       "name": "Nature's Mantle",
       "path": "resources/item_nature_s_mantle_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.730092"
+      "updated_at": "2026-05-19T21:03:54.284357"
     },
     {
       "id": "vampire",
@@ -1138,7 +1138,7 @@
       "id": "30f9e103-1e44-4c22-b093-a052b582f624",
       "name": "+3 Wraps of Unarmed Power",
       "path": "resources/item_+3_wraps_of_unarmed_power_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.740891"
+      "updated_at": "2026-05-19T21:03:54.292867"
     },
     {
       "id": "ua",
@@ -1318,13 +1318,13 @@
       "id": "fa5db9bd-dc77-4745-8c30-91a4deedcbc1",
       "name": "Light Crossbow",
       "path": "resources/weapon_light_crossbow_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.786498"
+      "updated_at": "2026-05-19T21:03:54.335078"
     },
     {
       "id": "f683d0e6-ecf6-4620-ad7d-613040d73309",
       "name": "Gnome",
       "path": "resources/race_gnome_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.787370"
+      "updated_at": "2026-05-19T21:03:54.335846"
     },
     {
       "id": "summon_shadowspawn",
@@ -1408,7 +1408,7 @@
       "id": "675a391f-4636-4752-bba8-0a18270289f8",
       "name": "Whelm",
       "path": "resources/weapon_whelm_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.801475"
+      "updated_at": "2026-05-19T21:03:54.348731"
     },
     {
       "id": "eagle",
@@ -1462,7 +1462,7 @@
       "id": "e1066d6b-ff74-4ed6-a320-ab6496daf4b1",
       "name": "Pot of Awakening",
       "path": "resources/item_pot_of_awakening_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.809257"
+      "updated_at": "2026-05-19T21:03:54.356402"
     },
     {
       "id": "githzerai_monk",
@@ -1504,7 +1504,7 @@
       "id": "443cde04-0b8e-4a9a-aada-9e2c938c6d37",
       "name": "Staff",
       "path": "resources/weapon_staff_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.816424"
+      "updated_at": "2026-05-19T21:03:54.362691"
     },
     {
       "id": "barbed_devil",
@@ -1612,7 +1612,7 @@
       "id": "ee548c3b-7eb7-4f2c-a3f8-c3afecd83925",
       "name": "Glamoured Studded Leather",
       "path": "resources/armor_glamoured_studded_leather_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.851636"
+      "updated_at": "2026-05-19T21:03:54.397945"
     },
     {
       "id": "ring_of_regeneration",
@@ -1660,7 +1660,7 @@
       "id": "e4a569a1-0b1e-426b-9608-81b244d52da5",
       "name": "Two-Weapon Fighting",
       "path": "resources/feat_two_weapon_fighting_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.859522"
+      "updated_at": "2026-05-19T21:03:54.405232"
     },
     {
       "id": "speak_with_plants",
@@ -1780,7 +1780,7 @@
       "id": "84930251-63fe-4909-8549-f580fef71076",
       "name": "Archery",
       "path": "resources/feat_archery_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.875896"
+      "updated_at": "2026-05-19T21:03:54.420498"
     },
     {
       "id": "cultist_fanatic",
@@ -1882,13 +1882,13 @@
       "id": "4239da01-7535-4685-aea9-bc8d1221079c",
       "name": "Ear Horn of Hearing",
       "path": "resources/item_ear_horn_of_hearing_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.889784"
+      "updated_at": "2026-05-19T21:03:54.433387"
     },
     {
       "id": "ff4c1108-8eaa-41c1-99ba-9f3c3c564c51",
       "name": "Hide",
       "path": "resources/armor_hide_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.890270"
+      "updated_at": "2026-05-19T21:03:54.433842"
     },
     {
       "id": "swarm_of_stirges",
@@ -1912,7 +1912,7 @@
       "id": "3942ebf2-79e8-4afd-af8b-8612fe12e34d",
       "name": "Mace",
       "path": "resources/weapon_mace_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.894393"
+      "updated_at": "2026-05-19T21:03:54.437759"
     },
     {
       "id": "spellwrought_tattoo",
@@ -1948,7 +1948,7 @@
       "id": "555f9840-a861-41d4-9075-7f42ddfd56b9",
       "name": "Shortsword",
       "path": "resources/weapon_shortsword_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.898650"
+      "updated_at": "2026-05-19T21:03:54.442028"
     },
     {
       "id": "tinkers_tools",
@@ -1990,7 +1990,7 @@
       "id": "79e8077b-4e04-4951-bf1b-1d4d3636779a",
       "name": "Obsidian Flint Dragon Plate",
       "path": "resources/armor_obsidian_flint_dragon_plate_bgdia.rpg",
-      "updated_at": "2026-05-19T18:33:09.903600"
+      "updated_at": "2026-05-19T21:03:54.446914"
     },
     {
       "id": "fishing_tackle",
@@ -2050,13 +2050,13 @@
       "id": "20208190-cc0e-45e9-8852-cf02de3910cc",
       "name": "Staff of Frost",
       "path": "resources/weapon_staff_of_frost_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.911338"
+      "updated_at": "2026-05-19T21:03:54.454165"
     },
     {
       "id": "0ab44d05-9d81-4dfa-90f2-45b079053b2a",
       "name": "Boon of Irresistible Offense",
       "path": "resources/feat_boon_of_irresistible_offense_phb.rpg",
-      "updated_at": "2026-05-19T18:33:09.913806"
+      "updated_at": "2026-05-19T21:03:54.456434"
     },
     {
       "id": "dominate_person",
@@ -2086,7 +2086,7 @@
       "id": "64703821-ba84-4c6b-9d60-5aa273f07e58",
       "name": "Animated Shield",
       "path": "resources/armor_animated_shield_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:09.920997"
+      "updated_at": "2026-05-19T21:03:54.463409"
     },
     {
       "id": "scorpion",
@@ -2122,7 +2122,7 @@
       "id": "292b80f6-f924-450d-87e6-8082f63b49d8",
       "name": "Instrument of the Bards, Canaith Mandolin",
       "path": "resources/item_instrument_of_the_bards,_canaith_mandolin_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.054838"
+      "updated_at": "2026-05-19T21:03:54.594197"
     },
     {
       "id": "damselfly_ship",
@@ -2164,7 +2164,7 @@
       "id": "789121b7-04ef-4a1c-9307-96301d600451",
       "name": "Armor of Vulnerability (Bludgeoning)",
       "path": "resources/armor_armor_of_vulnerability_bludgeoning_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.063195"
+      "updated_at": "2026-05-19T21:03:54.602592"
     },
     {
       "id": "durable",
@@ -2194,7 +2194,7 @@
       "id": "cb418782-4ba3-4f25-8555-e238f4a425dc",
       "name": "Speedy",
       "path": "resources/feat_speedy_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.066356"
+      "updated_at": "2026-05-19T21:03:54.605935"
     },
     {
       "id": "rod_of_alertness",
@@ -2272,7 +2272,7 @@
       "id": "0bd1f6f2-e9af-4e99-a17e-539ee9f8dfb8",
       "name": "Staff of the Adder",
       "path": "resources/weapon_staff_of_the_adder_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.082767"
+      "updated_at": "2026-05-19T21:03:54.620974"
     },
     {
       "id": "temporal_shunt",
@@ -2290,7 +2290,7 @@
       "id": "bfc1160c-2f8f-49fa-8ff9-6efd25ef3a64",
       "name": "Scimitar",
       "path": "resources/weapon_scimitar_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.085551"
+      "updated_at": "2026-05-19T21:03:54.623780"
     },
     {
       "id": "goose_egg_trinket",
@@ -2398,7 +2398,7 @@
       "id": "10d305ec-5f29-4b44-8431-ffbfe4a00661",
       "name": "Airship",
       "path": "resources/item_airship_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.102763"
+      "updated_at": "2026-05-19T21:03:54.641622"
     },
     {
       "id": "cordon_of_arrows",
@@ -2572,7 +2572,7 @@
       "id": "7fb205dc-9ba6-4d26-8868-b6a8d773b3b7",
       "name": "Instrument of the Bards, Doss Lute",
       "path": "resources/item_instrument_of_the_bards,_doss_lute_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.126545"
+      "updated_at": "2026-05-19T21:03:54.664054"
     },
     {
       "id": "black_dragon_wyrmling",
@@ -2608,7 +2608,7 @@
       "id": "90ae4988-be16-49f5-97d0-43d533dd04a7",
       "name": "Survival Mantle",
       "path": "resources/armor_survival_mantle_vgm.rpg",
-      "updated_at": "2026-05-19T18:33:10.132538"
+      "updated_at": "2026-05-19T21:03:54.670220"
     },
     {
       "id": "tsunami",
@@ -2638,7 +2638,7 @@
       "id": "5279d9f8-825d-4e44-a036-bb827c43d43f",
       "name": "Powered Armor",
       "path": "resources/armor_powered_armor_qftis.rpg",
-      "updated_at": "2026-05-19T18:33:10.136143"
+      "updated_at": "2026-05-19T21:03:54.674105"
     },
     {
       "id": "slasher__tce_",
@@ -2722,7 +2722,7 @@
       "id": "77e6780b-9e2f-42e4-a6ae-876b32dc5793",
       "name": "Farmer",
       "path": "resources/background_farmer_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.147670"
+      "updated_at": "2026-05-19T21:03:54.685353"
     },
     {
       "id": "chill_touch",
@@ -2866,7 +2866,7 @@
       "id": "e7dfcc8a-42c4-4952-baa0-37c4746b6efd",
       "name": "Bronze Dragon Scale Mail",
       "path": "resources/armor_bronze_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.169772"
+      "updated_at": "2026-05-19T21:03:54.707582"
     },
     {
       "id": "detect_evil_and_good",
@@ -2956,7 +2956,7 @@
       "id": "ae7ae739-7ed3-4cac-9dad-0d8a33a38b03",
       "name": "Light Hammer",
       "path": "resources/weapon_light_hammer_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.182642"
+      "updated_at": "2026-05-19T21:03:54.719484"
     },
     {
       "id": "keen_mind",
@@ -3004,7 +3004,7 @@
       "id": "f6e4f00f-290f-4e71-8dd8-23b1b54f690c",
       "name": "Scale mail",
       "path": "resources/armor_scale_mail_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.188208"
+      "updated_at": "2026-05-19T21:03:54.724618"
     },
     {
       "id": "chime_of_opening",
@@ -3070,7 +3070,7 @@
       "id": "bcd84bec-ce45-4ed4-95f8-32092c421d55",
       "name": "Orb of Detection",
       "path": "resources/item_orb_of_detection_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.196900"
+      "updated_at": "2026-05-19T21:03:54.732950"
     },
     {
       "id": "oil_of_sharpness",
@@ -3118,7 +3118,7 @@
       "id": "7a9f2d44-7fd1-4f7e-bb43-c81828850786",
       "name": "Stonebreaker's Breastplate",
       "path": "resources/armor_stonebreaker_s_breastplate_bgg.rpg",
-      "updated_at": "2026-05-19T18:33:10.203582"
+      "updated_at": "2026-05-19T21:03:54.739525"
     },
     {
       "id": "painters_supplies",
@@ -3136,7 +3136,7 @@
       "id": "52252b7d-9e2e-46d7-8064-ca803abfcb75",
       "name": "Midnight Tears",
       "path": "resources/item_midnight_tears_aag.rpg",
-      "updated_at": "2026-05-19T18:33:10.206167"
+      "updated_at": "2026-05-19T21:03:54.741606"
     },
     {
       "id": "tiger",
@@ -3190,7 +3190,7 @@
       "id": "c9d0042e-6d27-428d-b29b-6872a976639d",
       "name": "Elf",
       "path": "resources/race_elf_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.230267"
+      "updated_at": "2026-05-19T21:03:54.764954"
     },
     {
       "id": "modron_duodrone",
@@ -3256,7 +3256,7 @@
       "id": "7ebd57d5-95ef-46d4-b1ba-e1041a5f7587",
       "name": "Sling",
       "path": "resources/weapon_sling_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.359127"
+      "updated_at": "2026-05-19T21:03:54.891088"
     },
     {
       "id": "giant_shark",
@@ -3388,7 +3388,7 @@
       "id": "f6c1d72c-04f1-4ccb-b4f0-146013219dc0",
       "name": "Ring mail",
       "path": "resources/armor_ring_mail_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.375772"
+      "updated_at": "2026-05-19T21:03:54.906905"
     },
     {
       "id": "minotaur_of_baphomet",
@@ -3466,7 +3466,7 @@
       "id": "cc853974-d3b0-42cd-aafb-8914ac034329",
       "name": "Dwarf",
       "path": "resources/race_dwarf_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.387437"
+      "updated_at": "2026-05-19T21:03:54.917307"
     },
     {
       "id": "sealing_wax",
@@ -3562,13 +3562,13 @@
       "id": "7a0557f5-a5d4-4e6e-9eeb-c037bbfb09aa",
       "name": "Crystal",
       "path": "resources/item_crystal_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.399941"
+      "updated_at": "2026-05-19T21:03:54.929285"
     },
     {
       "id": "9e1096ca-eadf-4853-991f-7a7601cca0fe",
       "name": "Halberd",
       "path": "resources/weapon_halberd_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.400445"
+      "updated_at": "2026-05-19T21:03:54.929861"
     },
     {
       "id": "ioun_stone,_awareness",
@@ -3658,7 +3658,7 @@
       "id": "2bc4b9ff-20c1-4d04-a690-2b51e039b244",
       "name": "Instrument of the Bards, Fochlucan Bandore",
       "path": "resources/item_instrument_of_the_bards,_fochlucan_bandore_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.415154"
+      "updated_at": "2026-05-19T21:03:54.944518"
     },
     {
       "id": "ritual_caster",
@@ -3844,7 +3844,7 @@
       "id": "1e7f9b89-d904-4e9d-a4ed-82be972a8050",
       "name": "Staff of Striking",
       "path": "resources/weapon_staff_of_striking_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.452515"
+      "updated_at": "2026-05-19T21:03:54.980821"
     },
     {
       "id": "saddle_of_the_cavalier",
@@ -3856,7 +3856,7 @@
       "id": "ab7b159a-d6af-4e1f-8e71-8c2986a90578",
       "name": "Boon of Energy Resistance",
       "path": "resources/feat_boon_of_energy_resistance_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.453950"
+      "updated_at": "2026-05-19T21:03:54.982155"
     },
     {
       "id": "planar_mechanus",
@@ -3922,7 +3922,7 @@
       "id": "8acf3de4-414b-4241-93a0-89f26de859aa",
       "name": "Boon of Dimensional Travel",
       "path": "resources/feat_boon_of_dimensional_travel_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.468183"
+      "updated_at": "2026-05-19T21:03:54.996104"
     },
     {
       "id": "daerns_instant_fortress",
@@ -4018,7 +4018,7 @@
       "id": "2b601594-f3db-4c50-ab63-5a3b0d74bf22",
       "name": "Net",
       "path": "resources/weapon_net_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.486777"
+      "updated_at": "2026-05-19T21:03:55.014255"
     },
     {
       "id": "sunbeam",
@@ -4060,7 +4060,7 @@
       "id": "08e30890-255e-4ec8-8867-90770395c9c4",
       "name": "Copper Dragon Scale Mail",
       "path": "resources/armor_copper_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.492024"
+      "updated_at": "2026-05-19T21:03:55.019248"
     },
     {
       "id": "danse_macabre",
@@ -4120,7 +4120,7 @@
       "id": "adfece56-006c-47ea-b168-f38b84b47ceb",
       "name": "War Pick",
       "path": "resources/weapon_war_pick_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.501070"
+      "updated_at": "2026-05-19T21:03:55.027937"
     },
     {
       "id": "dragonchess_set",
@@ -4144,7 +4144,7 @@
       "id": "e6158354-4e15-407f-aa97-bc1cd7823077",
       "name": "Mace of Terror",
       "path": "resources/weapon_mace_of_terror_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.504687"
+      "updated_at": "2026-05-19T21:03:55.031440"
     },
     {
       "id": "potion_of_clairvoyance",
@@ -4222,7 +4222,7 @@
       "id": "2057150c-e16a-4d88-a492-5c5b63d69ba2",
       "name": "Perfume of Bewitching",
       "path": "resources/item_perfume_of_bewitching_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.516041"
+      "updated_at": "2026-05-19T21:03:55.042264"
     },
     {
       "id": "commune",
@@ -4288,7 +4288,7 @@
       "id": "e5cc2e9d-d499-4b1d-b76e-15235891faa1",
       "name": "Demonomicon of Iggwilv",
       "path": "resources/item_demonomicon_of_iggwilv_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.524796"
+      "updated_at": "2026-05-19T21:03:55.051155"
     },
     {
       "id": "periapt_of_health",
@@ -4312,7 +4312,7 @@
       "id": "8149a503-fae9-4333-a587-ea92ea24ae45",
       "name": "Euryale's Aegis",
       "path": "resources/armor_euryale_s_aegis_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:10.529971"
+      "updated_at": "2026-05-19T21:03:55.056307"
     },
     {
       "id": "dread_helm",
@@ -4336,7 +4336,7 @@
       "id": "1d78eb4f-bd8a-4edf-ac5a-295a27ae8030",
       "name": "Shield of the Silver Dragon",
       "path": "resources/armor_shield_of_the_silver_dragon_cos.rpg",
-      "updated_at": "2026-05-19T18:33:10.532539"
+      "updated_at": "2026-05-19T21:03:55.058724"
     },
     {
       "id": "panther",
@@ -4348,7 +4348,7 @@
       "id": "28ba8258-7a88-46ce-a98c-29a9e932a6ad",
       "name": "Artisan",
       "path": "resources/background_artisan_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.534117"
+      "updated_at": "2026-05-19T21:03:55.060181"
     },
     {
       "id": "couatl",
@@ -4366,7 +4366,7 @@
       "id": "8ce16577-43f7-4656-a17e-bec3b69f617b",
       "name": "Staff of Healing",
       "path": "resources/weapon_staff_of_healing_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.538707"
+      "updated_at": "2026-05-19T21:03:55.064542"
     },
     {
       "id": "galley",
@@ -4684,13 +4684,13 @@
       "id": "175277d4-f2f8-4c68-8f6c-815132ee5722",
       "name": "Silver Dragon Scale Mail",
       "path": "resources/armor_silver_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.727449"
+      "updated_at": "2026-05-19T21:03:55.253172"
     },
     {
       "id": "f5a22662-fe27-45f5-a017-072db6a4b203",
       "name": "Spellguard Shield",
       "path": "resources/armor_spellguard_shield_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.728066"
+      "updated_at": "2026-05-19T21:03:55.253915"
     },
     {
       "id": "flying_citadel_helm",
@@ -4750,7 +4750,7 @@
       "id": "eb9b8c22-6c9a-408c-81a3-f8cbdfefb5ae",
       "name": "Martial Weapon Training",
       "path": "resources/feat_martial_weapon_training_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.736061"
+      "updated_at": "2026-05-19T21:03:55.261788"
     },
     {
       "id": "ancient_silver_dragon",
@@ -4798,7 +4798,7 @@
       "id": "a2b7b128-82c3-4355-a0bc-e24a82ce73bc",
       "name": "Splint",
       "path": "resources/armor_splint_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.744907"
+      "updated_at": "2026-05-19T21:03:55.271089"
     },
     {
       "id": "wizard",
@@ -4816,7 +4816,7 @@
       "id": "8b4ddba7-4136-4bb5-874c-246a3c7d6696",
       "name": "Boon of Fate",
       "path": "resources/feat_boon_of_fate_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.752100"
+      "updated_at": "2026-05-19T21:03:55.278153"
     },
     {
       "id": "invisible_stalker",
@@ -4894,7 +4894,7 @@
       "id": "6a95d0e4-4abf-4556-ac84-72c58add4de2",
       "name": "Longsword",
       "path": "resources/weapon_longsword_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.762905"
+      "updated_at": "2026-05-19T21:03:55.288064"
     },
     {
       "id": "creation",
@@ -4930,7 +4930,7 @@
       "id": "93cceb9e-8ac2-43c5-bcca-c1528e6f4355",
       "name": "Basic Poison",
       "path": "resources/item_basic_poison_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.766648"
+      "updated_at": "2026-05-19T21:03:55.292663"
     },
     {
       "id": "horseshoes_of_speed",
@@ -5014,19 +5014,19 @@
       "id": "5909b8bb-4bd9-4386-84fe-67dab30502ef",
       "name": "Shield of Shouting",
       "path": "resources/armor_shield_of_shouting_toa.rpg",
-      "updated_at": "2026-05-19T18:33:10.779033"
+      "updated_at": "2026-05-19T21:03:55.303686"
     },
     {
       "id": "bedfb3c2-c759-426b-b0e8-a509617bb09c",
       "name": "Pariah's Shield",
       "path": "resources/armor_pariah_s_shield_ggr.rpg",
-      "updated_at": "2026-05-19T18:33:10.779545"
+      "updated_at": "2026-05-19T21:03:55.304306"
     },
     {
       "id": "d8876271-fffe-4da6-9051-b80762c8b409",
       "name": "Tiefling",
       "path": "resources/race_tiefling_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.780908"
+      "updated_at": "2026-05-19T21:03:55.305655"
     },
     {
       "id": "ball_bearings__bag_of_1,000_",
@@ -5050,7 +5050,7 @@
       "id": "2c221d24-7051-4a47-afb6-57637b6c201d",
       "name": "Lute of Thunderous Thumping",
       "path": "resources/weapon_lute_of_thunderous_thumping_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.790882"
+      "updated_at": "2026-05-19T21:03:55.315285"
     },
     {
       "id": "wyvern",
@@ -5080,13 +5080,13 @@
       "id": "49bc11a8-588e-46e8-8751-f945ffc8ca45",
       "name": "Staff of Birdcalls",
       "path": "resources/weapon_staff_of_birdcalls_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.889763"
+      "updated_at": "2026-05-19T21:03:55.412265"
     },
     {
       "id": "b75a9afd-c66c-45a6-a15e-27aad1cd54cc",
       "name": "Dragonguard",
       "path": "resources/armor_dragonguard_pabtso.rpg",
-      "updated_at": "2026-05-19T18:33:10.890891"
+      "updated_at": "2026-05-19T21:03:55.413373"
     },
     {
       "id": "earthquake",
@@ -5098,7 +5098,7 @@
       "id": "a6210222-6c95-4bff-9233-a5f86ef4a5fd",
       "name": "Lance",
       "path": "resources/weapon_lance_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.892414"
+      "updated_at": "2026-05-19T21:03:55.414876"
     },
     {
       "id": "lion",
@@ -5128,7 +5128,7 @@
       "id": "d25ce103-e5f4-4f3f-973e-ebe9a344679f",
       "name": "Veteran's Cane",
       "path": "resources/item_veteran_s_cane_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.896817"
+      "updated_at": "2026-05-19T21:03:55.418449"
     },
     {
       "id": "holy_water__flask_",
@@ -5188,7 +5188,7 @@
       "id": "14007e2d-d3d3-4e4c-8d1b-65888198db54",
       "name": "Padded",
       "path": "resources/armor_padded_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.905724"
+      "updated_at": "2026-05-19T21:03:55.425674"
     },
     {
       "id": "hewards_handy_haversack",
@@ -5236,7 +5236,7 @@
       "id": "8272ba4e-149c-449c-9235-5af9f0dbb503",
       "name": "Axe of the Dwarvish Lords",
       "path": "resources/weapon_axe_of_the_dwarvish_lords_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.913485"
+      "updated_at": "2026-05-19T21:03:55.432578"
     },
     {
       "id": "sickening_radiance",
@@ -5362,7 +5362,7 @@
       "id": "5cb8811c-a403-4992-b2e3-63c7585f72e6",
       "name": "Dwarven Thrower",
       "path": "resources/weapon_dwarven_thrower_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.938025"
+      "updated_at": "2026-05-19T21:03:55.454779"
     },
     {
       "id": "ettin",
@@ -5404,7 +5404,7 @@
       "id": "7405d232-aa6d-4b61-975e-4ce739da5522",
       "name": "Heavy Crossbow",
       "path": "resources/weapon_heavy_crossbow_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.944515"
+      "updated_at": "2026-05-19T21:03:55.460034"
     },
     {
       "id": "investiture_of_wind",
@@ -5422,7 +5422,7 @@
       "id": "574d7203-bddb-4308-a7eb-0cc02c0a5294",
       "name": "Wave",
       "path": "resources/weapon_wave_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.947144"
+      "updated_at": "2026-05-19T21:03:55.462251"
     },
     {
       "id": "resurrection",
@@ -5464,7 +5464,7 @@
       "id": "4a1cfbdb-8574-4f12-83f1-eff94bf4204c",
       "name": "Scimitar of Speed",
       "path": "resources/weapon_scimitar_of_speed_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.952827"
+      "updated_at": "2026-05-19T21:03:55.467386"
     },
     {
       "id": "shrike_ship",
@@ -5488,7 +5488,7 @@
       "id": "8d8eecd2-a469-4c89-af2a-f5e34beaaa12",
       "name": "Plate Armor of Etherealness",
       "path": "resources/armor_plate_armor_of_etherealness_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.955903"
+      "updated_at": "2026-05-19T21:03:55.469880"
     },
     {
       "id": "antigravity_belt",
@@ -5542,7 +5542,7 @@
       "id": "64e0ed0a-80c6-4e26-92d5-a8360e583d8d",
       "name": "Staff of Fire",
       "path": "resources/weapon_staff_of_fire_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.963112"
+      "updated_at": "2026-05-19T21:03:55.476597"
     },
     {
       "id": "conjure_elemental",
@@ -5602,7 +5602,7 @@
       "id": "d2b35b2f-47c3-494b-9b04-3120d924c570",
       "name": "Blowgun",
       "path": "resources/weapon_blowgun_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.973438"
+      "updated_at": "2026-05-19T21:03:55.486384"
     },
     {
       "id": "commoner",
@@ -5656,7 +5656,7 @@
       "id": "52792f6c-edb1-4dfd-9fc9-300953b8492a",
       "name": "Greataxe",
       "path": "resources/weapon_greataxe_phb.rpg",
-      "updated_at": "2026-05-19T18:33:10.982973"
+      "updated_at": "2026-05-19T21:03:55.495357"
     },
     {
       "id": "assassins_blood",
@@ -5698,7 +5698,7 @@
       "id": "ecb1e70b-8813-460f-938f-f84c4853af04",
       "name": "White Dragon Scale Mail",
       "path": "resources/armor_white_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:10.988906"
+      "updated_at": "2026-05-19T21:03:55.500608"
     },
     {
       "id": "tome_of_leadership_and_influence",
@@ -5782,7 +5782,7 @@
       "id": "b50a76aa-d2c5-4c0e-afcc-5996a8c32106",
       "name": "Scribe",
       "path": "resources/background_scribe_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.002531"
+      "updated_at": "2026-05-19T21:03:55.512961"
     },
     {
       "id": "spirit_guardians",
@@ -5926,7 +5926,7 @@
       "id": "2b444d85-7120-4dd5-8de6-c9a9d17d3c05",
       "name": "Sword of Kas",
       "path": "resources/weapon_sword_of_kas_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.022287"
+      "updated_at": "2026-05-19T21:03:55.530109"
     },
     {
       "id": "violet_fungus_necrohulk",
@@ -5998,13 +5998,13 @@
       "id": "572a0201-79a6-49b5-bd84-e98c68e06a34",
       "name": "Net",
       "path": "resources/item_net_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.035612"
+      "updated_at": "2026-05-19T21:03:55.542466"
     },
     {
       "id": "a9d55b04-d8ef-4b43-ba9d-e5efffffcdf9",
       "name": "Staff of Thunder and Lightning",
       "path": "resources/weapon_staff_of_thunder_and_lightning_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.036221"
+      "updated_at": "2026-05-19T21:03:55.543063"
     },
     {
       "id": "qftis",
@@ -6040,7 +6040,7 @@
       "id": "f5d2d586-7039-404c-a9e3-9bff3692cc27",
       "name": "Brass Dragon Scale Mail",
       "path": "resources/armor_brass_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.056879"
+      "updated_at": "2026-05-19T21:03:55.563422"
     },
     {
       "id": "frostbite",
@@ -6076,7 +6076,7 @@
       "id": "7991bcc4-e1f8-4e02-8aba-ee5295a835bd",
       "name": "Boon of Skill",
       "path": "resources/feat_boon_of_skill_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.063991"
+      "updated_at": "2026-05-19T21:03:55.570091"
     },
     {
       "id": "stirring_gem_dragon-touched_focus",
@@ -6142,7 +6142,7 @@
       "id": "6c223bee-180d-4053-975c-21cacdd8afa3",
       "name": "Acolyte",
       "path": "resources/background_acolyte_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.084761"
+      "updated_at": "2026-05-19T21:03:55.590486"
     },
     {
       "id": "medusa",
@@ -6160,7 +6160,7 @@
       "id": "0dbe28ea-f90d-4a21-abac-f03b82fe0f0e",
       "name": "Scorpion Armor",
       "path": "resources/armor_scorpion_armor_toa.rpg",
-      "updated_at": "2026-05-19T18:33:11.088530"
+      "updated_at": "2026-05-19T21:03:55.594096"
     },
     {
       "id": "tinderbox",
@@ -6268,13 +6268,13 @@
       "id": "a13a2df2-9baf-42cb-aa98-09fcdc1d2681",
       "name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
       "path": "resources/item_instrument_of_the_bards,_mac_fuirmidh_cittern_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.105354"
+      "updated_at": "2026-05-19T21:03:55.610151"
     },
     {
       "id": "5cd33ac9-f208-48d4-9693-d6308ee202d0",
       "name": "+2 Wraps of Unarmed Power",
       "path": "resources/item_+2_wraps_of_unarmed_power_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.107239"
+      "updated_at": "2026-05-19T21:03:55.612077"
     },
     {
       "id": "animate_objects",
@@ -6310,7 +6310,7 @@
       "id": "f36b3927-0d33-4eb1-bc6e-c3554c6b0a8d",
       "name": "Goliath",
       "path": "resources/race_goliath_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.112767"
+      "updated_at": "2026-05-19T21:03:55.617448"
     },
     {
       "id": "dimension_door",
@@ -6322,13 +6322,13 @@
       "id": "cf856e6f-0a64-480c-a01e-ff0d02c4c0ff",
       "name": "Merchant",
       "path": "resources/background_merchant_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.115232"
+      "updated_at": "2026-05-19T21:03:55.619861"
     },
     {
       "id": "8b3e3af0-f77a-4b75-bcf3-ccbcce4a4a16",
       "name": "Wand of Orcus",
       "path": "resources/weapon_wand_of_orcus_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.116779"
+      "updated_at": "2026-05-19T21:03:55.621491"
     },
     {
       "id": "smoke_grenade",
@@ -6340,7 +6340,7 @@
       "id": "7abc8c2d-fa1c-4a9d-b86f-ac4b38344aa5",
       "name": "Blessed Warrior",
       "path": "resources/feat_blessed_warrior_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.119660"
+      "updated_at": "2026-05-19T21:03:55.624384"
     },
     {
       "id": "yuan-ti_infiltrator",
@@ -6400,19 +6400,19 @@
       "id": "616cb819-937f-4094-aa39-560023f20910",
       "name": "Orb of Time",
       "path": "resources/item_orb_of_time_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.128661"
+      "updated_at": "2026-05-19T21:03:55.633321"
     },
     {
       "id": "e51bc04c-d6c1-4fee-a407-d0cfefaa8d90",
       "name": "Shield of Far Sight",
       "path": "resources/armor_shield_of_far_sight_vgm.rpg",
-      "updated_at": "2026-05-19T18:33:11.129438"
+      "updated_at": "2026-05-19T21:03:55.633888"
     },
     {
       "id": "54ae044f-cb25-4601-b6ab-5ad9dd33c762",
       "name": "Dagger of Venom",
       "path": "resources/weapon_dagger_of_venom_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.130154"
+      "updated_at": "2026-05-19T21:03:55.634545"
     },
     {
       "id": "encode_thoughts",
@@ -6466,7 +6466,7 @@
       "id": "4c4dfc2b-8741-4f6c-ba61-8072e567e223",
       "name": "Spear",
       "path": "resources/weapon_spear_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.136975"
+      "updated_at": "2026-05-19T21:03:55.641084"
     },
     {
       "id": "mage_armor",
@@ -6478,7 +6478,7 @@
       "id": "e4452763-e684-4223-9e8f-5e46fc7941a9",
       "name": "Guide",
       "path": "resources/background_guide_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.138443"
+      "updated_at": "2026-05-19T21:03:55.642389"
     },
     {
       "id": "pota",
@@ -6508,7 +6508,7 @@
       "id": "9656d33c-438d-44dc-ba19-79e91ac6607f",
       "name": "Hag Eye",
       "path": "resources/item_hag_eye_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.143252"
+      "updated_at": "2026-05-19T21:03:55.647034"
     },
     {
       "id": "hand_of_vecna",
@@ -6628,7 +6628,7 @@
       "id": "e3f08201-236f-4164-a57e-177e329a32e5",
       "name": "Adamantine Weapon",
       "path": "resources/weapon_adamantine_weapon_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.323301"
+      "updated_at": "2026-05-19T21:03:55.822121"
     },
     {
       "id": "moderately_armored",
@@ -6682,7 +6682,7 @@
       "id": "bbedb30c-4738-4821-adc6-e78f1c2747ea",
       "name": "Instrument of the Bards, Ollamh Harp",
       "path": "resources/item_instrument_of_the_bards,_ollamh_harp_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.470951"
+      "updated_at": "2026-05-19T21:03:55.968024"
     },
     {
       "id": "nycaloth",
@@ -6706,7 +6706,7 @@
       "id": "5c052344-c8fe-4e9c-afdd-f86f16309d6a",
       "name": "Boon of the Night Spirit",
       "path": "resources/feat_boon_of_the_night_spirit_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.475574"
+      "updated_at": "2026-05-19T21:03:55.972873"
     },
     {
       "id": "d860a324-c300-43b9-81c4-05976e07ce26",
@@ -6748,7 +6748,7 @@
       "id": "7d1d6042-6251-41f0-982a-92c8f2feb2a2",
       "name": "Thunderous Greatclub",
       "path": "resources/weapon_thunderous_greatclub_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.481160"
+      "updated_at": "2026-05-19T21:03:55.978311"
     },
     {
       "id": "potion_of_cold_resistance",
@@ -6760,7 +6760,7 @@
       "id": "fbe80d94-5b26-4354-baf3-63db1be736a4",
       "name": "Boon of Spell Recall",
       "path": "resources/feat_boon_of_spell_recall_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.482536"
+      "updated_at": "2026-05-19T21:03:55.979934"
     },
     {
       "id": "find_steed",
@@ -6778,7 +6778,7 @@
       "id": "3e1e57d1-1655-45c6-9066-164eae50f0d5",
       "name": "Mystery Key",
       "path": "resources/item_mystery_key_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.485401"
+      "updated_at": "2026-05-19T21:03:55.982734"
     },
     {
       "id": "talarith",
@@ -6796,7 +6796,7 @@
       "id": "995d8411-1d9a-486c-ae22-2bc4cf757060",
       "name": "Enduring Spellbook",
       "path": "resources/item_enduring_spellbook_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.487951"
+      "updated_at": "2026-05-19T21:03:55.985126"
     },
     {
       "id": "red_slaad",
@@ -6814,7 +6814,7 @@
       "id": "99ae4bdf-16bb-4af1-a973-f37304658053",
       "name": "Boon of Fortitude",
       "path": "resources/feat_boon_of_fortitude_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.490240"
+      "updated_at": "2026-05-19T21:03:55.987427"
     },
     {
       "id": "book_of_vile_darkness",
@@ -6874,7 +6874,7 @@
       "id": "ef53e6d1-bb17-413b-bf22-06b6fa8e0070",
       "name": "Breastplate",
       "path": "resources/armor_breastplate_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.499236"
+      "updated_at": "2026-05-19T21:03:55.995966"
     },
     {
       "id": "instrument_of_the_bards,_ollamh_harp",
@@ -7132,7 +7132,7 @@
       "id": "d5bffdd4-f3d3-4b79-b591-67a6c101b7c5",
       "name": "Pipes of the Sewers",
       "path": "resources/item_pipes_of_the_sewers_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.709768"
+      "updated_at": "2026-05-19T21:03:56.201740"
     },
     {
       "id": "dust_of_sneezing_and_choking",
@@ -7174,7 +7174,7 @@
       "id": "9ee14c14-0bac-4404-8a4f-df67ce86af48",
       "name": "Armor of Invulnerability",
       "path": "resources/armor_armor_of_invulnerability_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.715144"
+      "updated_at": "2026-05-19T21:03:56.206941"
     },
     {
       "id": "purple_worm_poison",
@@ -7228,7 +7228,7 @@
       "id": "0660115b-b190-42b0-893e-08b5b7e2c78f",
       "name": "Rapier",
       "path": "resources/weapon_rapier_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.721244"
+      "updated_at": "2026-05-19T21:03:56.212640"
     },
     {
       "id": "shadow",
@@ -7282,7 +7282,7 @@
       "id": "d67b9518-983b-42c4-a537-65011c007a80",
       "name": "Wand",
       "path": "resources/item_wand_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.729488"
+      "updated_at": "2026-05-19T21:03:56.221313"
     },
     {
       "id": "delayed_blast_fireball",
@@ -7414,19 +7414,19 @@
       "id": "25516528-c194-4233-a082-0a338c178658",
       "name": "Whip",
       "path": "resources/weapon_whip_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.748357"
+      "updated_at": "2026-05-19T21:03:56.241893"
     },
     {
       "id": "40ab6f91-8acf-4a12-a9f8-a571af65e0e8",
       "name": "Pole of Angling",
       "path": "resources/item_pole_of_angling_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.748936"
+      "updated_at": "2026-05-19T21:03:56.242470"
     },
     {
       "id": "a4cc606b-8045-486c-be44-904a6e73fa58",
       "name": "Orb",
       "path": "resources/item_orb_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.749607"
+      "updated_at": "2026-05-19T21:03:56.243018"
     },
     {
       "id": "antilife_shell",
@@ -7456,13 +7456,13 @@
       "id": "5074ef48-9aa1-4f82-9892-ad08b469332f",
       "name": "Greatsword",
       "path": "resources/weapon_greatsword_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.753040"
+      "updated_at": "2026-05-19T21:03:56.247033"
     },
     {
       "id": "a42c08f1-e614-46e7-9cbe-6f70a0066d01",
       "name": "Longbow",
       "path": "resources/weapon_longbow_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.753768"
+      "updated_at": "2026-05-19T21:03:56.247658"
     },
     {
       "id": "canvas__1_sq._yd._",
@@ -7654,7 +7654,7 @@
       "id": "81404ce1-0047-4453-95f9-85ca7cf49437",
       "name": "Javelin of Lightning",
       "path": "resources/weapon_javelin_of_lightning_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.783207"
+      "updated_at": "2026-05-19T21:03:56.276981"
     },
     {
       "id": "marid",
@@ -7750,7 +7750,7 @@
       "id": "b9983bd8-1cdf-4ba6-ac50-ef914162b900",
       "name": "Orc",
       "path": "resources/race_orc_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.801888"
+      "updated_at": "2026-05-19T21:03:56.296165"
     },
     {
       "id": "helmed_horror",
@@ -7792,7 +7792,7 @@
       "id": "64db16b2-859c-45e1-a989-201be52d3358",
       "name": "Plate",
       "path": "resources/armor_plate_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.825310"
+      "updated_at": "2026-05-19T21:03:56.319956"
     },
     {
       "id": "basilisk",
@@ -7804,7 +7804,7 @@
       "id": "777befeb-bb44-41b5-b4fe-47d2be61105f",
       "name": "Prosthetic Limb",
       "path": "resources/item_prosthetic_limb_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.826681"
+      "updated_at": "2026-05-19T21:03:56.321635"
     },
     {
       "id": "magic_stone",
@@ -7846,13 +7846,13 @@
       "id": "1a6c27eb-b5da-4587-96c3-358572c67682",
       "name": "Shortbow",
       "path": "resources/weapon_shortbow_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.831649"
+      "updated_at": "2026-05-19T21:03:56.326228"
     },
     {
       "id": "d9ca42c0-01d4-4791-9511-beaa539f2c46",
       "name": "String",
       "path": "resources/item_string_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.832241"
+      "updated_at": "2026-05-19T21:03:56.326824"
     },
     {
       "id": "barbarian",
@@ -7954,7 +7954,7 @@
       "id": "e84f0bfd-75bc-48ce-aa23-1310e96beae6",
       "name": "Wayfarer",
       "path": "resources/background_wayfarer_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.855510"
+      "updated_at": "2026-05-19T21:03:56.349918"
     },
     {
       "id": "adult_black_dragon",
@@ -7966,13 +7966,13 @@
       "id": "df715154-049a-49c8-ae39-18802f175f67",
       "name": "Charlatan",
       "path": "resources/background_charlatan_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.859858"
+      "updated_at": "2026-05-19T21:03:56.354406"
     },
     {
       "id": "b6aa3970-6093-4447-b057-d06bcb1221fd",
       "name": "Blind Fighting",
       "path": "resources/feat_blind_fighting_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.861030"
+      "updated_at": "2026-05-19T21:03:56.355717"
     },
     {
       "id": "banishment",
@@ -8044,7 +8044,7 @@
       "id": "f631236b-7f3b-4940-9785-983aaac96235",
       "name": "Yklwa",
       "path": "resources/weapon_yklwa_toa.rpg",
-      "updated_at": "2026-05-19T18:33:11.870671"
+      "updated_at": "2026-05-19T21:03:56.364870"
     },
     {
       "id": "mpp",
@@ -8062,7 +8062,7 @@
       "id": "6b202054-e8b1-4566-8fb8-3920bd3b7fec",
       "name": "Arrow-Catching Shield",
       "path": "resources/armor_arrow_catching_shield_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.872515"
+      "updated_at": "2026-05-19T21:03:56.366671"
     },
     {
       "id": "basic_fishing_equipment",
@@ -8188,7 +8188,7 @@
       "id": "5753cd5b-f090-4d78-9c00-31584f78e561",
       "name": "Efreeti Chain",
       "path": "resources/armor_efreeti_chain_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.895222"
+      "updated_at": "2026-05-19T21:03:56.387431"
     },
     {
       "id": "tensers_transformation",
@@ -8224,7 +8224,7 @@
       "id": "642f3e46-1240-4bcc-b972-6839981e8162",
       "name": "Hand Crossbow",
       "path": "resources/weapon_hand_crossbow_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.899547"
+      "updated_at": "2026-05-19T21:03:56.391165"
     },
     {
       "id": "component_pouch",
@@ -8278,7 +8278,7 @@
       "id": "2bbf8cc3-0cf8-485d-ba34-16d153da1157",
       "name": "Rod",
       "path": "resources/item_rod_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.910523"
+      "updated_at": "2026-05-19T21:03:56.401394"
     },
     {
       "id": "planar_nine_hells",
@@ -8380,7 +8380,7 @@
       "id": "0627ba3a-889d-4102-a747-f9868df85f87",
       "name": "Dark Shard Amulet",
       "path": "resources/item_dark_shard_amulet_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:11.937127"
+      "updated_at": "2026-05-19T21:03:56.425532"
     },
     {
       "id": "planar_feywild",
@@ -8398,7 +8398,7 @@
       "id": "beeb1c04-b304-4b6f-8f1d-cd495aaf4f92",
       "name": "Club",
       "path": "resources/weapon_club_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.952519"
+      "updated_at": "2026-05-19T21:03:56.440273"
     },
     {
       "id": "giant_axe_beak",
@@ -8590,7 +8590,7 @@
       "id": "dca8c894-2868-4bb5-822c-da53ad54b0d8",
       "name": "Chain shirt",
       "path": "resources/armor_chain_shirt_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.984050"
+      "updated_at": "2026-05-19T21:03:56.469154"
     },
     {
       "id": "death_tyrant",
@@ -8620,7 +8620,7 @@
       "id": "e14247e4-2a62-4232-b217-a12d0ed4f7c2",
       "name": "Staff of Flowers",
       "path": "resources/weapon_staff_of_flowers_phb.rpg",
-      "updated_at": "2026-05-19T18:33:11.988376"
+      "updated_at": "2026-05-19T21:03:56.473141"
     },
     {
       "id": "linen__1_sq._yd._",
@@ -8704,7 +8704,7 @@
       "id": "ea695d9a-05b9-4e9c-9933-d665f4d3d15e",
       "name": "Sickle",
       "path": "resources/weapon_sickle_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.000354"
+      "updated_at": "2026-05-19T21:03:56.484265"
     },
     {
       "id": "gas_spore_fungus",
@@ -8902,7 +8902,7 @@
       "id": "f0f03f67-628f-4580-bd02-aac0d35a37ab",
       "name": "Blackrazor",
       "path": "resources/weapon_blackrazor_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.049192"
+      "updated_at": "2026-05-19T21:03:56.529956"
     },
     {
       "id": "purple_worm",
@@ -8914,7 +8914,7 @@
       "id": "e3eb7540-231b-499b-b4e5-6f0bc23297c2",
       "name": "Shield of the Uven Rune",
       "path": "resources/armor_shield_of_the_uven_rune_wdmm.rpg",
-      "updated_at": "2026-05-19T18:33:12.051893"
+      "updated_at": "2026-05-19T21:03:56.531997"
     },
     {
       "id": "wand_of_magic_missiles",
@@ -9004,13 +9004,13 @@
       "id": "c89993c4-2ca2-442a-9f19-8d5fde2729fc",
       "name": "Clothes of Mending",
       "path": "resources/item_clothes_of_mending_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.064918"
+      "updated_at": "2026-05-19T21:03:56.543198"
     },
     {
       "id": "2975a0fb-198b-46d9-90ce-338a599b4869",
       "name": "Ruby of the War Mage",
       "path": "resources/item_ruby_of_the_war_mage_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.065475"
+      "updated_at": "2026-05-19T21:03:56.543793"
     },
     {
       "id": "on_off",
@@ -9046,7 +9046,7 @@
       "id": "fd364b7a-6600-47f0-a247-c7faf1044d20",
       "name": "Red Dragon Scale Mail",
       "path": "resources/armor_red_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.069918"
+      "updated_at": "2026-05-19T21:03:56.548402"
     },
     {
       "id": "defensive_duelist",
@@ -9094,7 +9094,7 @@
       "id": "eec8249d-fb34-4fd4-9643-e8738a273b3d",
       "name": "Staff of Withering",
       "path": "resources/weapon_staff_of_withering_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.087978"
+      "updated_at": "2026-05-19T21:03:56.565828"
     },
     {
       "id": "centaur_warden",
@@ -9136,7 +9136,7 @@
       "id": "b805dabc-c6ce-4246-b927-b85165c0b4f5",
       "name": "Pistol",
       "path": "resources/weapon_pistol_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.093755"
+      "updated_at": "2026-05-19T21:03:56.571655"
     },
     {
       "id": "essence_of_ether",
@@ -9148,7 +9148,7 @@
       "id": "2ae728e3-e389-4c2a-8b52-ef88dd8f96b1",
       "name": "Plate of Knight's Fellowship",
       "path": "resources/armor_plate_of_knight_s_fellowship_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:12.095003"
+      "updated_at": "2026-05-19T21:03:56.572735"
     },
     {
       "id": "young_bronze_dragon",
@@ -9214,7 +9214,7 @@
       "id": "c7e2cc60-f1a0-4fb4-bdae-a598f68b3bdb",
       "name": "Armor of Vulnerability (Slashing)",
       "path": "resources/armor_armor_of_vulnerability_slashing_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.104608"
+      "updated_at": "2026-05-19T21:03:56.581508"
     },
     {
       "id": "wand_of_smiles",
@@ -9244,13 +9244,13 @@
       "id": "2a062048-a38e-4dbb-bd8e-77dbc93e5a3d",
       "name": "Demon Armor",
       "path": "resources/armor_demon_armor_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.107840"
+      "updated_at": "2026-05-19T21:03:56.584347"
     },
     {
       "id": "8f26e1b4-c61a-4673-a43e-2dcf1f37ec26",
       "name": "Half plate",
       "path": "resources/armor_half_plate_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.108352"
+      "updated_at": "2026-05-19T21:03:56.585032"
     },
     {
       "id": "shadow_demon",
@@ -9274,7 +9274,7 @@
       "id": "304bab0a-6aa2-4036-a96f-0e8aa853a9e0",
       "name": "Crafter",
       "path": "resources/feat_crafter_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.118447"
+      "updated_at": "2026-05-19T21:03:56.595610"
     },
     {
       "id": "evards_black_tentacles",
@@ -9370,7 +9370,7 @@
       "id": "99445422-30d6-4026-8baf-b350ec102403",
       "name": "Noble",
       "path": "resources/background_noble_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.132444"
+      "updated_at": "2026-05-19T21:03:56.608546"
     },
     {
       "id": "pig",
@@ -9460,7 +9460,7 @@
       "id": "7bc81d5c-e6f1-4b62-8e37-be2e573a1eb2",
       "name": "Maul",
       "path": "resources/weapon_maul_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.153102"
+      "updated_at": "2026-05-19T21:03:56.629159"
     },
     {
       "id": "warding_bond",
@@ -9568,7 +9568,7 @@
       "id": "3e23920a-46a2-4fc5-bee3-9f74d148ad4a",
       "name": "Musician",
       "path": "resources/feat_musician_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.171312"
+      "updated_at": "2026-05-19T21:03:56.647115"
     },
     {
       "id": "mule",
@@ -9610,19 +9610,19 @@
       "id": "7177c94b-afb5-4a01-8c6d-f62946a60ef3",
       "name": "Serpent Scale Armor",
       "path": "resources/armor_serpent_scale_armor_cm.rpg",
-      "updated_at": "2026-05-19T18:33:12.177425"
+      "updated_at": "2026-05-19T21:03:56.652896"
     },
     {
       "id": "3ac3efde-18f0-4df1-8aca-bb7b34b82952",
       "name": "Armor of Vulnerability (Piercing)",
       "path": "resources/armor_armor_of_vulnerability_piercing_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.177998"
+      "updated_at": "2026-05-19T21:03:56.653494"
     },
     {
       "id": "e89374ce-2494-4937-813e-4d829d8eaeee",
       "name": "Dagger",
       "path": "resources/weapon_dagger_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.178621"
+      "updated_at": "2026-05-19T21:03:56.654363"
     },
     {
       "id": "riding_saddle",
@@ -9724,7 +9724,7 @@
       "id": "3725a7dd-2f1c-4bb1-b5b0-403fbc046e9d",
       "name": "Staff of Charming",
       "path": "resources/weapon_staff_of_charming_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.193225"
+      "updated_at": "2026-05-19T21:03:56.667497"
     },
     {
       "id": "locate_creature",
@@ -9814,7 +9814,7 @@
       "id": "38e4da0a-4984-4c7e-a5f0-008dd774686f",
       "name": "Gold Dragon Scale Mail",
       "path": "resources/armor_gold_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.205932"
+      "updated_at": "2026-05-19T21:03:56.680053"
     },
     {
       "id": "aboleth",
@@ -9826,7 +9826,7 @@
       "id": "a6530cb5-04a0-47d6-b3d3-4bd34a9566df",
       "name": "Baba Yaga's Dancing Broom",
       "path": "resources/item_baba_yaga_s_dancing_broom_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.207852"
+      "updated_at": "2026-05-19T21:03:56.682021"
     },
     {
       "id": "tree_stride",
@@ -9880,7 +9880,7 @@
       "id": "22ce1a64-c297-43e0-881f-3d7279ca4e4b",
       "name": "Medium Armor Master",
       "path": "resources/feat_medium_armor_master_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.214062"
+      "updated_at": "2026-05-19T21:03:56.689082"
     },
     {
       "id": "map_or_scroll_case",
@@ -9958,7 +9958,7 @@
       "id": "f7edf781-bc79-413a-95c4-d79645d69af0",
       "name": "Lolth's Sting",
       "path": "resources/item_lolth_s_sting_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.225120"
+      "updated_at": "2026-05-19T21:03:56.701068"
     },
     {
       "id": "dominate_beast",
@@ -10168,7 +10168,7 @@
       "id": "a1471d9b-e9c2-4e2f-a929-3327d6a987db",
       "name": "Quarterstaff",
       "path": "resources/weapon_quarterstaff_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.256069"
+      "updated_at": "2026-05-19T21:03:56.733229"
     },
     {
       "id": "prismari_primer",
@@ -10198,7 +10198,7 @@
       "id": "bb667697-78a2-4523-9114-fb8fbbbbe12e",
       "name": "Tankard of Sobriety",
       "path": "resources/item_tankard_of_sobriety_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.261898"
+      "updated_at": "2026-05-19T21:03:56.738839"
     },
     {
       "id": "cinnamon",
@@ -10246,7 +10246,7 @@
       "id": "e5295d05-a481-4c84-9478-c9f6ab0d037e",
       "name": "Instrument of the Bards, Anstruth Harp",
       "path": "resources/item_instrument_of_the_bards,_anstruth_harp_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.267998"
+      "updated_at": "2026-05-19T21:03:56.744599"
     },
     {
       "id": "suggestion",
@@ -10276,7 +10276,7 @@
       "id": "5d175ce7-86ca-43ce-ab2a-c13aff7d5c08",
       "name": "Musket",
       "path": "resources/weapon_musket_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.274034"
+      "updated_at": "2026-05-19T21:03:56.750311"
     },
     {
       "id": "ring_of_warmth",
@@ -10306,7 +10306,7 @@
       "id": "1544ca60-e142-4051-99c7-b2f3fea777d4",
       "name": "Dart",
       "path": "resources/weapon_dart_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.277503"
+      "updated_at": "2026-05-19T21:03:56.753908"
     },
     {
       "id": "summon_aberration",
@@ -10336,7 +10336,7 @@
       "id": "c0b0a79b-bdd7-4cb5-9dc9-a4194098439b",
       "name": "Unarmed Fighting",
       "path": "resources/feat_unarmed_fighting_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.280781"
+      "updated_at": "2026-05-19T21:03:56.757119"
     },
     {
       "id": "fire_elemental",
@@ -10354,7 +10354,7 @@
       "id": "160d77dc-eb1b-429e-a183-08056abbc418",
       "name": "Breastplate of Balance",
       "path": "resources/armor_breastplate_of_balance_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:12.283167"
+      "updated_at": "2026-05-19T21:03:56.759340"
     },
     {
       "id": "message",
@@ -10402,7 +10402,7 @@
       "id": "0e0dd3e6-2fef-42bd-874e-bda1eccf1685",
       "name": "Dueling",
       "path": "resources/feat_dueling_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.289100"
+      "updated_at": "2026-05-19T21:03:56.765086"
     },
     {
       "id": "wall_of_stone",
@@ -10660,7 +10660,7 @@
       "id": "e9a92a8d-6356-4fec-9391-3d0243bb090c",
       "name": "Morningstar",
       "path": "resources/weapon_morningstar_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.330752"
+      "updated_at": "2026-05-19T21:03:56.806407"
     },
     {
       "id": "deck_of_wonder",
@@ -10696,7 +10696,7 @@
       "id": "efb19bf8-81b5-4803-8e58-856aa97f6fe3",
       "name": "Battleaxe",
       "path": "resources/weapon_battleaxe_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.340241"
+      "updated_at": "2026-05-19T21:03:56.815901"
     },
     {
       "id": "slow",
@@ -10738,7 +10738,7 @@
       "id": "6e34d1c4-f755-4ce9-9d45-cd6d43ef6f92",
       "name": "Handaxe",
       "path": "resources/weapon_handaxe_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.345364"
+      "updated_at": "2026-05-19T21:03:56.820225"
     },
     {
       "id": "planar_ally",
@@ -10780,13 +10780,13 @@
       "id": "ecbf5ab1-9e17-4c6d-91d9-30ae711a7991",
       "name": "Clockwork Amulet",
       "path": "resources/item_clockwork_amulet_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.471934"
+      "updated_at": "2026-05-19T21:03:56.944715"
     },
     {
       "id": "77d4d134-d30e-4af4-a8d8-9c2ffbfddcc6",
       "name": "Shield of Expression",
       "path": "resources/armor_shield_of_expression_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.472590"
+      "updated_at": "2026-05-19T21:03:56.945440"
     },
     {
       "id": "tce",
@@ -10882,7 +10882,7 @@
       "id": "4bbdbb4f-d347-49c5-a9a8-0cc9ea1d687d",
       "name": "Boon of Truesight",
       "path": "resources/feat_boon_of_truesight_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.485193"
+      "updated_at": "2026-05-19T21:03:56.959335"
     },
     {
       "id": "ring_of_psychic_resistance",
@@ -10900,7 +10900,7 @@
       "id": "1d300ba0-c052-491f-924a-0853ba326f9d",
       "name": "Sailor",
       "path": "resources/background_sailor_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.487707"
+      "updated_at": "2026-05-19T21:03:56.961799"
     },
     {
       "id": "amulet_of_the_drunkard",
@@ -10918,7 +10918,7 @@
       "id": "b3426879-7b6e-47d5-8037-557a25ccd426",
       "name": "Black Dragon Scale Mail",
       "path": "resources/armor_black_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.491983"
+      "updated_at": "2026-05-19T21:03:56.965831"
     },
     {
       "id": "gold_canary_figurine_of_wondrous_power",
@@ -10936,7 +10936,7 @@
       "id": "91931e7c-b45b-491d-a967-4c74d14f54b1",
       "name": "Blue Dragon Scale Mail",
       "path": "resources/armor_blue_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.494015"
+      "updated_at": "2026-05-19T21:03:56.967828"
     },
     {
       "id": "performer_maestro",
@@ -10954,7 +10954,7 @@
       "id": "95ca4820-09a6-462d-b2e3-e902490a30c8",
       "name": "Javelin",
       "path": "resources/weapon_javelin_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.496844"
+      "updated_at": "2026-05-19T21:03:56.970285"
     },
     {
       "id": "beholder",
@@ -10978,19 +10978,19 @@
       "id": "4b1b3194-7486-445d-b565-227ea3f15f36",
       "name": "Staff of the Python",
       "path": "resources/weapon_staff_of_the_python_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.500283"
+      "updated_at": "2026-05-19T21:03:56.973801"
     },
     {
       "id": "e2a92219-9331-49ab-82da-8840e9263cfa",
       "name": "Trident of Fish Command",
       "path": "resources/weapon_trident_of_fish_command_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.501032"
+      "updated_at": "2026-05-19T21:03:56.974579"
     },
     {
       "id": "12a02b28-577e-4033-97b8-90857272297c",
       "name": "Defense",
       "path": "resources/feat_defense_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.501967"
+      "updated_at": "2026-05-19T21:03:56.975441"
     },
     {
       "id": "pegasus",
@@ -11080,7 +11080,7 @@
       "id": "5911d7a1-8fb3-4197-b5bb-2d2867f49130",
       "name": "Command Amulet",
       "path": "resources/item_command_amulet_mm.rpg",
-      "updated_at": "2026-05-19T18:33:12.514283"
+      "updated_at": "2026-05-19T21:03:56.987279"
     },
     {
       "id": "scout",
@@ -11110,7 +11110,7 @@
       "id": "37448c11-9822-48ae-800c-49411869b0f0",
       "name": "Voidwalker Armor",
       "path": "resources/armor_voidwalker_armor_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:12.517708"
+      "updated_at": "2026-05-19T21:03:56.991222"
     },
     {
       "id": "druid_grove",
@@ -11200,7 +11200,7 @@
       "id": "0a0aaa5f-dc30-477c-aa0e-a3dddf559712",
       "name": "Boon of Combat Prowess",
       "path": "resources/feat_boon_of_combat_prowess_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.534212"
+      "updated_at": "2026-05-19T21:03:57.008114"
     },
     {
       "id": "lizardfolk__mom_",
@@ -11218,7 +11218,7 @@
       "id": "860b58a0-8bb5-42b7-8697-8a4c91d1053b",
       "name": "Shield of the Tortoise",
       "path": "resources/armor_shield_of_the_tortoise_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:12.536575"
+      "updated_at": "2026-05-19T21:03:57.010641"
     },
     {
       "id": "killer_whale",
@@ -11242,7 +11242,7 @@
       "id": "7a6ea468-4bd1-4624-8100-72ac1d97d61d",
       "name": "Criminal",
       "path": "resources/background_criminal_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.540078"
+      "updated_at": "2026-05-19T21:03:57.013982"
     },
     {
       "id": "potion_of_hill_giant_strength",
@@ -11392,7 +11392,7 @@
       "id": "456bb932-cf6d-4b1d-b31d-11c277705a28",
       "name": "Staff of Swarming Insects",
       "path": "resources/weapon_staff_of_swarming_insects_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.561537"
+      "updated_at": "2026-05-19T21:03:57.035241"
     },
     {
       "id": "simulacrum",
@@ -11500,13 +11500,13 @@
       "id": "55dedb75-7705-4533-a12a-731775d241ed",
       "name": "Staff of the Magi",
       "path": "resources/weapon_staff_of_the_magi_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.577084"
+      "updated_at": "2026-05-19T21:03:57.051390"
     },
     {
       "id": "aae1cf33-cb7a-4e11-81e4-2d7480966825",
       "name": "Spiked Armor",
       "path": "resources/armor_spiked_armor_scag.rpg",
-      "updated_at": "2026-05-19T18:33:12.582564"
+      "updated_at": "2026-05-19T21:03:57.056862"
     },
     {
       "id": "planar_wanderer__sato_",
@@ -11524,7 +11524,7 @@
       "id": "cf14366c-57b4-44d4-913e-9662ca5a8b42",
       "name": "Spirit Board",
       "path": "resources/item_spirit_board_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.584432"
+      "updated_at": "2026-05-19T21:03:57.058711"
     },
     {
       "id": "bestow_curse",
@@ -11548,7 +11548,7 @@
       "id": "b604f3cf-fd90-41e8-8a8d-b779e40dec17",
       "name": "Greatclub",
       "path": "resources/weapon_greatclub_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.586870"
+      "updated_at": "2026-05-19T21:03:57.061095"
     },
     {
       "id": "whirlwind",
@@ -11638,13 +11638,13 @@
       "id": "9a5cc39e-fd08-4bfd-9ca3-8293c25b69f7",
       "name": "Shield of Missile Attraction",
       "path": "resources/armor_shield_of_missile_attraction_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.598621"
+      "updated_at": "2026-05-19T21:03:57.072474"
     },
     {
       "id": "5f53ed9d-7e1d-4eed-ad8c-c18133409fd5",
       "name": "Heward's Handy Spice Pouch",
       "path": "resources/item_heward_s_handy_spice_pouch_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.599227"
+      "updated_at": "2026-05-19T21:03:57.072929"
     },
     {
       "id": "violet_fungus",
@@ -11662,7 +11662,7 @@
       "id": "2fd4eb5e-d0f3-436a-acc1-d9ca817992e8",
       "name": "Charlatan's Die",
       "path": "resources/item_charlatan_s_die_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.601218"
+      "updated_at": "2026-05-19T21:03:57.074867"
     },
     {
       "id": "+2_rod_of_the_pact_keeper",
@@ -11680,7 +11680,7 @@
       "id": "163bde9a-ef41-4e26-89fc-b6d2003383a8",
       "name": "Glaive",
       "path": "resources/weapon_glaive_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.603027"
+      "updated_at": "2026-05-19T21:03:57.076656"
     },
     {
       "id": "desert",
@@ -11788,7 +11788,7 @@
       "id": "f41112ea-68cd-4b6d-8528-fc96f93be25b",
       "name": "Shield of the Hidden Lord",
       "path": "resources/armor_shield_of_the_hidden_lord_bgdia.rpg",
-      "updated_at": "2026-05-19T18:33:12.752451"
+      "updated_at": "2026-05-19T21:03:57.230792"
     },
     {
       "id": "berserker_commander",
@@ -11848,7 +11848,7 @@
       "id": "a2180b6e-ef61-4aad-9d04-206196ba1a8f",
       "name": "Thrown Weapon Fighting",
       "path": "resources/feat_thrown_weapon_fighting_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.761741"
+      "updated_at": "2026-05-19T21:03:57.242769"
     },
     {
       "id": "reality_break",
@@ -11866,7 +11866,7 @@
       "id": "9819e6de-fe6e-4617-a265-3d641c3c263f",
       "name": "Human",
       "path": "resources/race_human_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.764078"
+      "updated_at": "2026-05-19T21:03:57.245646"
     },
     {
       "id": "worg",
@@ -11932,7 +11932,7 @@
       "id": "8f18467d-82df-43a2-8f67-82aac3477837",
       "name": "Map",
       "path": "resources/item_map_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.774706"
+      "updated_at": "2026-05-19T21:03:57.258578"
     },
     {
       "id": "sahuagin_warrior",
@@ -12010,7 +12010,7 @@
       "id": "e554eced-a043-4055-b9ad-050fb409d160",
       "name": "Great Weapon Fighting",
       "path": "resources/feat_great_weapon_fighting_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.910088"
+      "updated_at": "2026-05-19T21:03:57.399451"
     },
     {
       "id": "crusaders_mantle",
@@ -12100,7 +12100,7 @@
       "id": "949053ed-7203-45f4-a424-e062455f50a8",
       "name": "Shield of the Cavalier",
       "path": "resources/armor_shield_of_the_cavalier_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.925158"
+      "updated_at": "2026-05-19T21:03:57.416580"
     },
     {
       "id": "aura_of_life",
@@ -12178,7 +12178,7 @@
       "id": "ec0deff2-17f0-4a0b-bbdb-23423f41955f",
       "name": "Sage",
       "path": "resources/background_sage_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.939294"
+      "updated_at": "2026-05-19T21:03:57.430653"
     },
     {
       "id": "ankylosaurus",
@@ -12202,7 +12202,7 @@
       "id": "40134be3-5ad3-4f94-a46a-8137031793db",
       "name": "Protection",
       "path": "resources/feat_protection_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.944218"
+      "updated_at": "2026-05-19T21:03:57.435399"
     },
     {
       "id": "giant_vulture",
@@ -12262,7 +12262,7 @@
       "id": "c011796d-7cff-4474-9d84-9397d2eb408e",
       "name": "Green Dragon Scale Mail",
       "path": "resources/armor_green_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.952981"
+      "updated_at": "2026-05-19T21:03:57.446413"
     },
     {
       "id": "wand_of_magic_detection",
@@ -12292,7 +12292,7 @@
       "id": "c7257dbf-796b-4e6b-8960-84a23ffb536f",
       "name": "Staff of Adornment",
       "path": "resources/weapon_staff_of_adornment_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.958581"
+      "updated_at": "2026-05-19T21:03:57.452011"
     },
     {
       "id": "leomund’s_tiny_hut",
@@ -12382,7 +12382,7 @@
       "id": "dbc47ebd-88f2-4508-b1bd-34117a536416",
       "name": "Trident",
       "path": "resources/weapon_trident_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.971901"
+      "updated_at": "2026-05-19T21:03:57.466232"
     },
     {
       "id": "mold_earth",
@@ -12418,7 +12418,7 @@
       "id": "0bb38767-0e24-46a7-b7f0-570819be45af",
       "name": "Mace of Smiting",
       "path": "resources/weapon_mace_of_smiting_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:12.976328"
+      "updated_at": "2026-05-19T21:03:57.470953"
     },
     {
       "id": "boots_of_speed",
@@ -12454,7 +12454,7 @@
       "id": "144bc411-31ad-4984-8644-93d0ad28621f",
       "name": "Halfling",
       "path": "resources/race_halfling_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.980952"
+      "updated_at": "2026-05-19T21:03:57.475801"
     },
     {
       "id": "saffron",
@@ -12550,7 +12550,7 @@
       "id": "9a9b50a8-be89-4e9a-ac47-63ddddacc4c8",
       "name": "Pike",
       "path": "resources/weapon_pike_phb.rpg",
-      "updated_at": "2026-05-19T18:33:12.994933"
+      "updated_at": "2026-05-19T21:03:57.498667"
     },
     {
       "id": "locate_animals_or_plants",
@@ -12640,7 +12640,7 @@
       "id": "d60c568a-7f66-44d1-950f-e181d6caf7e3",
       "name": "Chain mail",
       "path": "resources/armor_chain_mail_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.007368"
+      "updated_at": "2026-05-19T21:03:57.515477"
     },
     {
       "id": "observant",
@@ -12652,7 +12652,7 @@
       "id": "be4ed939-e678-4822-8b03-de6c91bb16d3",
       "name": "Soldier",
       "path": "resources/background_soldier_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.008879"
+      "updated_at": "2026-05-19T21:03:57.517199"
     },
     {
       "id": "signet_ring",
@@ -12880,7 +12880,7 @@
       "id": "63b8037c-a61c-4a4c-ab07-8efb369ee898",
       "name": "Psychic Blade",
       "path": "resources/weapon_psychic_blade_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.039316"
+      "updated_at": "2026-05-19T21:03:57.555434"
     },
     {
       "id": "antitoxin__vial_",
@@ -12922,7 +12922,7 @@
       "id": "9c846c49-fb69-47bf-a510-760ff5fa7e7a",
       "name": "Sentinel Shield",
       "path": "resources/armor_sentinel_shield_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:13.043868"
+      "updated_at": "2026-05-19T21:03:57.560924"
     },
     {
       "id": "wakened_metallic_dragon-touched_focus",
@@ -13006,7 +13006,7 @@
       "id": "c0f5c0be-2d37-413c-a1da-8c612881146f",
       "name": "Cauldron of Rebirth",
       "path": "resources/item_cauldron_of_rebirth_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:13.056601"
+      "updated_at": "2026-05-19T21:03:57.578438"
     },
     {
       "id": "young_white_dragon",
@@ -13066,7 +13066,7 @@
       "id": "9e29b0ef-1c0f-4671-aaa0-d016d0dae7e0",
       "name": "Boon of Speed",
       "path": "resources/feat_boon_of_speed_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.065470"
+      "updated_at": "2026-05-19T21:03:57.588014"
     },
     {
       "id": "psk",
@@ -13078,13 +13078,13 @@
       "id": "0526667f-8472-45d6-b837-48ad5a9b0ceb",
       "name": "Horn of Silent Alarm",
       "path": "resources/item_horn_of_silent_alarm_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:13.066975"
+      "updated_at": "2026-05-19T21:03:57.589621"
     },
     {
       "id": "cbca8c54-259b-4c2e-bfb4-789b34d7b943",
       "name": "Boomerang Shield",
       "path": "resources/armor_boomerang_shield_bmt.rpg",
-      "updated_at": "2026-05-19T18:33:13.067579"
+      "updated_at": "2026-05-19T21:03:57.590334"
     },
     {
       "id": "crown_of_madness",
@@ -13138,7 +13138,7 @@
       "id": "75d82a12-b320-4f13-8821-6ec7967a5163",
       "name": "Interception",
       "path": "resources/feat_interception_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.081278"
+      "updated_at": "2026-05-19T21:03:57.605187"
     },
     {
       "id": "arctic",
@@ -13222,7 +13222,7 @@
       "id": "92f9b553-9e28-478a-8c41-22b139eca313",
       "name": "Leather",
       "path": "resources/armor_leather_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.187614"
+      "updated_at": "2026-05-19T21:03:57.706548"
     },
     {
       "id": "blob_of_annihilation",
@@ -13270,7 +13270,7 @@
       "id": "98837393-923a-4002-9e2c-e99ee1e8ad38",
       "name": "Entertainer",
       "path": "resources/background_entertainer_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.197233"
+      "updated_at": "2026-05-19T21:03:57.714248"
     },
     {
       "id": "lamia",
@@ -13288,7 +13288,7 @@
       "id": "91629614-a838-4e6a-a4c2-c95dd7f41899",
       "name": "Mirror",
       "path": "resources/item_mirror_phb.rpg",
-      "updated_at": "2026-05-19T18:33:13.203096"
+      "updated_at": "2026-05-19T21:03:57.718735"
     },
     {
       "id": "tentacle_rod",
@@ -13324,7 +13324,7 @@
       "id": "1bccd783-6c89-44de-a548-9a555ccc66e2",
       "name": "Instrument of the Bards, Cli Lyre",
       "path": "resources/item_instrument_of_the_bards,_cli_lyre_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:13.208730"
+      "updated_at": "2026-05-19T21:03:57.724026"
     },
     {
       "id": "maelstrom",
@@ -13366,7 +13366,7 @@
       "id": "9b5b1e77-228c-4277-9926-e2c0a8fed534",
       "name": "Sapphire Buckler",
       "path": "resources/armor_sapphire_buckler_ftd.rpg",
-      "updated_at": "2026-05-19T18:33:13.217036"
+      "updated_at": "2026-05-19T21:03:57.730703"
     },
     {
       "id": "hold_monster",
@@ -13378,7 +13378,7 @@
       "id": "209aa24b-bb0b-4416-a638-7299548cf5c0",
       "name": "Staff of Power",
       "path": "resources/weapon_staff_of_power_dmg.rpg",
-      "updated_at": "2026-05-19T18:33:13.219219"
+      "updated_at": "2026-05-19T21:03:57.732284"
     },
     {
       "id": "slumbering_scaled_ornament",

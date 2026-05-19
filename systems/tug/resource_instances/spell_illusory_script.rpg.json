@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_illusory_script",
+    "id": "tug_spell_illusory_script",
     "name": {
       "value": "Illusory Script"
     },

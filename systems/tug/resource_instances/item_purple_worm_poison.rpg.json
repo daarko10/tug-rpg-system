@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_purple_worm_poison",
+    "id": "tug_item_purple_worm_poison",
     "name": {
       "value": "Purple Worm Poison"
     },

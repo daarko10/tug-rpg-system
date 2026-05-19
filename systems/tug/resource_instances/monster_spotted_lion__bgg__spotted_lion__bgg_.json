@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_spotted_lion__bgg_",
+    "id": "tug_monster_spotted_lion__bgg_",
     "name": {
       "value": "Spotted Lion"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_orc_red_fang_of_shargaas",
+    "id": "tug_monster_orc_red_fang_of_shargaas",
     "name": {
       "value": "Orc Red Fang of Shargaas"
     },

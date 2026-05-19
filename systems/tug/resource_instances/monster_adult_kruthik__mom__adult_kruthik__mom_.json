@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_adult_kruthik__mom_",
+    "id": "tug_monster_adult_kruthik__mom_",
     "name": {
       "value": "Adult Kruthik"
     },

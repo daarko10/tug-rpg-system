@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_hewards_handy_haversack",
+    "id": "tug_item_hewards_handy_haversack",
     "name": {
       "value": "Heward's Handy Haversack"
     },

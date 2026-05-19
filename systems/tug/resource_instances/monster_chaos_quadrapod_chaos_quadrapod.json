@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_chaos_quadrapod",
+    "id": "tug_monster_chaos_quadrapod",
     "name": {
       "value": "Chaos Quadrapod"
     },

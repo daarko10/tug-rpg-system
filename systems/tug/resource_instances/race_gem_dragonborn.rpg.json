@@ -1,7 +1,7 @@
 {
   "resource_id": "race",
   "stats": {
-    "id": "tug_gem_dragonborn__ua_",
+    "id": "tug_race_gem_dragonborn__ua_",
     "name": {
       "value": "Gem Dragonborn"
     },
@@ -192,7 +192,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can telepathically speak to any creature you can see within 30 feet of you. You don\u2019t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn\u2019t give the creature the ability to respond to you telepathically"
+                      "value": "You can telepathically speak to any creature you can see within 30 feet of you. You don’t need to share a language with the creature, but the creature must be able to understand at least one language. Your communication doesn’t give the creature the ability to respond to you telepathically"
                     },
                     "level": {
                       "value": 1
@@ -229,7 +229,7 @@
                   "resource_id": "levelled_description",
                   "stats": {
                     "description": {
-                      "value": "You can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can\u2019t do so again until you finish a long rest"
+                      "value": "You can use your bonus action to temporarily summon an array of spectral gems that match your Gem Ancestry in the shape of wings that last for 1 minute. For the duration, you gain a flying speed equal to your walking speed and can hover. Once you use this trait, you can’t do so again until you finish a long rest"
                     },
                     "level": {
                       "value": 3

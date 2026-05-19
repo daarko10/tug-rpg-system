@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_lesser_star_spawn_emissary",
+    "id": "tug_monster_lesser_star_spawn_emissary",
     "name": {
       "value": "Lesser Star Spawn Emissary"
     },

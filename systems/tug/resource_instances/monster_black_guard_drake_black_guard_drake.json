@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_black_guard_drake",
+    "id": "tug_monster_black_guard_drake",
     "name": {
       "value": "Black Guard Drake"
     },

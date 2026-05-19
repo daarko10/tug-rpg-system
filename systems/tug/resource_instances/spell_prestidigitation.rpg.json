@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_prestidigitation",
+    "id": "tug_spell_prestidigitation",
     "name": {
       "value": "Prestidigitation"
     },

@@ -1,7 +1,7 @@
 {
   "resource_id": "monster",
   "stats": {
-    "id": "tug_flesh_golem",
+    "id": "tug_monster_flesh_golem",
     "name": {
       "value": "Flesh Golem"
     },

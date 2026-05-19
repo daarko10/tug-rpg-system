@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_calm_emotions",
+    "id": "tug_spell_calm_emotions",
     "name": {
       "value": "Calm Emotions"
     },

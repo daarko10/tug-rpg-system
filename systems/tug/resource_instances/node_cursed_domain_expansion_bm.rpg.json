@@ -1,0 +1,27 @@
+{
+  "resource_id": "skill_tree_node",
+  "stats": {
+    "name": {
+      "value": "Domain Expansion"
+    },
+    "tree": {
+      "value": "cursed_pact"
+    },
+    "pact": {
+      "value": "blood_manipulation"
+    },
+    "pp_cost": {
+      "value": 3
+    },
+    "can_invest_multiple": {
+      "value": false
+    },
+    "pro_description": {
+      "value": "Unlock the Domain Expansion Skill Tree. You can now develop and customise your personal domain."
+    },
+    "con_description": {
+      "value": "Requires at least one node purchased in any Cursed Pact."
+    },
+    "id": "bm0de002-1596-4df1-8b54-5d1dda8c0002"
+  }
+}

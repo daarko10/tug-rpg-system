@@ -1,7 +1,7 @@
 {
   "resource_id": "item",
   "stats": {
-    "id": "tug_potion_of_psychic_resistance",
+    "id": "tug_item_potion_of_psychic_resistance",
     "name": {
       "value": "Potion of Psychic Resistance"
     },

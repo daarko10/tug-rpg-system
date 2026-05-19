@@ -1,7 +1,7 @@
 {
   "resource_id": "spell",
   "stats": {
-    "id": "tug_mordenkainens_private_sanctum",
+    "id": "tug_spell_mordenkainens_private_sanctum",
     "name": {
       "value": "Mordenkainen's Private Sanctum"
     },
