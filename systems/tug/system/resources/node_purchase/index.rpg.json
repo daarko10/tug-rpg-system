@@ -1,7 +1,0 @@
-{
-  "id": "node_purchase",
-  "name": "Node Purchase",
-  "plural": "Node Purchases",
-  "core": false,
-  "indexed_stats": ["name", "pp_cost"]
-}

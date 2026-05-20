@@ -1,6 +1,0 @@
-view pact_entry_search_item() =
-  listItem(
-    id = "pact_entry_search_item",
-    title = name,
-    subtitle = pact_name,
-  );

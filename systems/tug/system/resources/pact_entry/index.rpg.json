@@ -1,7 +1,0 @@
-{
-  "id": "pact_entry",
-  "name": "Pact Entry",
-  "plural": "Pact Entries",
-  "core": true,
-  "indexed_stats": ["name", "pact_id", "pact_name"]
-}

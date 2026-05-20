@@ -1,7 +1,0 @@
-base resource<skill_tree_node> node(name = "Node") = null;
-
-base integer purchase_index(name = "Purchase index") = 1;
-
-calc string name(name = "Name") = node?.name ?? "";
-
-calc integer pp_cost(name = "PP Cost") = node?.pp_cost ?? 0;
