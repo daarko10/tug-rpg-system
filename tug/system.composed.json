@@ -9252,20 +9252,8 @@
                     "stat": "base_hp"
                   },
                   {
-                    "type": "multiply",
-                    "components": {
-                      "type": "list",
-                      "components": [
-                        {
-                          "type": "stat",
-                          "stat": "constitution_modifier"
-                        },
-                        {
-                          "type": "stat",
-                          "stat": "level"
-                        }
-                      ]
-                    }
+                    "type": "stat",
+                    "stat": "combat_tree_hp_bonus"
                   }
                 ]
               }
