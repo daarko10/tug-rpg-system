@@ -38520,6 +38520,26 @@
           },
           {
             "type": "setStat",
+            "stat": "rage_speed_bonus",
+            "new_value": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "rage_ac_bonus",
+            "new_value": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
             "stat": "is_raging",
             "new_value": {
               "type": "constant",
@@ -85699,6 +85719,18 @@
                   "stat": "chosen_speed_type"
                 },
                 {
+                  "type": "stat",
+                  "stat": "chosen_natural_defence_ability"
+                },
+                {
+                  "type": "stat",
+                  "stat": "chosen_specialise_skill"
+                },
+                {
+                  "type": "stat",
+                  "stat": "chosen_weapon_tag"
+                },
+                {
                   "type": "defaultIfNull",
                   "components": {
                     "type": "stat",
@@ -85807,18 +85839,6 @@
                   }
                 },
                 {
-                  "type": "stat",
-                  "stat": "chosen_natural_defence_ability"
-                },
-                {
-                  "type": "stat",
-                  "stat": "chosen_specialise_skill"
-                },
-                {
-                  "type": "stat",
-                  "stat": "chosen_weapon_tag"
-                },
-                {
                   "type": "joinToString",
                   "components": {
                     "type": "stat",
@@ -85839,6 +85859,342 @@
                   "components": {
                     "type": "stat",
                     "stat": "chosen_fortify_conditions"
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_weapon_master_styles"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_flourishes"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_tricks"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_exposing_strikes"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_grapple_moves"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_jutsu"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_shape_forms"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_summons"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_summon_buffs"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_spell_weaves"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_arcane_bond_abilities"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_healing_gifts"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_spells"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  },
+                  "separator": ","
+                },
+                {
+                  "type": "joinToString",
+                  "components": {
+                    "type": "map",
+                    "components": {
+                      "type": "stat",
+                      "stat": "chosen_cantrips"
+                    },
+                    "map_value_key": "$r",
+                    "mapper": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$r?.id"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
                   },
                   "separator": ","
                 }
@@ -89941,8 +90297,16 @@
                           "type": "list",
                           "components": [
                             {
-                              "type": "stat",
-                              "stat": "$character.current_spell_points"
+                              "type": "defaultIfNull",
+                              "components": {
+                                "type": "stat",
+                                "stat": "$character?.current_spell_points?"
+                              },
+                              "default_components": {
+                                "type": "constant",
+                                "value": 0,
+                                "value_type": "integer"
+                              }
                             },
                             {
                               "type": "stat",
