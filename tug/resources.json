@@ -22,13 +22,13 @@
       "id": "dd53a401-6c32-43c7-a3ea-30fe136f7a7f",
       "name": "Hoopak",
       "path": "resources/weapon_hoopak_dsotdq.rpg",
-      "updated_at": "2026-05-22T14:24:21.663334"
+      "updated_at": "2026-05-22T14:56:24.654589"
     },
     {
       "id": "c27660cf-948b-4b1b-b731-521c36c17ec7",
       "name": "Elven Chain",
       "path": "resources/armor_elven_chain_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:21.668917"
+      "updated_at": "2026-05-22T14:56:24.655862"
     },
     {
       "id": "gos",
@@ -94,7 +94,7 @@
       "id": "5753cd5b-f090-4d78-9c00-31584f78e561",
       "name": "Efreeti Chain",
       "path": "resources/armor_efreeti_chain_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:21.737488"
+      "updated_at": "2026-05-22T14:56:24.668256"
     },
     {
       "id": "dc",
@@ -113,6 +113,12 @@
       "name": "Black Earth Priest",
       "path": "resources/monster_black_earth_priest_pota.rpg",
       "updated_at": "2026-02-27T17:46:07.917925"
+    },
+    {
+      "id": "trick_pick_hide",
+      "name": "Hide",
+      "path": "resources/trick_pick_hide.rpg",
+      "updated_at": "2026-05-22T14:56:24.672914"
     },
     {
       "id": "tug_monster_skulk__mom_",
@@ -211,6 +217,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "perfect_form_pick_deadly_strikes",
+      "name": "Deadly Strikes",
+      "path": "resources/perfect_form_pick_deadly_strikes.rpg",
+      "updated_at": "2026-05-22T14:56:24.698820"
+    },
+    {
       "id": "bgg",
       "name": "source_bgg",
       "path": "resources/source_source_bgg.rpg",
@@ -253,6 +265,12 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "flourish_pick_cleave",
+      "name": "Cleave",
+      "path": "resources/flourish_pick_cleave.rpg",
+      "updated_at": "2026-05-22T14:56:24.709162"
+    },
+    {
       "id": "tug_item_iron_pot",
       "name": "Iron Pot",
       "path": "resources/item_iron_pot_phb.rpg",
@@ -262,7 +280,7 @@
       "id": "62c43f34-8a55-4c16-95d4-b987737e6fdf",
       "name": "Dragon Thighbone Club",
       "path": "resources/weapon_dragon_thighbone_club_skt.rpg",
-      "updated_at": "2026-05-22T14:24:21.879647"
+      "updated_at": "2026-05-22T14:56:24.710650"
     },
     {
       "id": "tug_item_eye_of_vecna",
@@ -322,7 +340,7 @@
       "id": "a1471d9b-e9c2-4e2f-a929-3327d6a987db",
       "name": "Quarterstaff",
       "path": "resources/weapon_quarterstaff_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.049926"
+      "updated_at": "2026-05-22T14:56:24.722654"
     },
     {
       "id": "tug_monster_planetar",
@@ -409,6 +427,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "flourish_pick_trip",
+      "name": "Trip",
+      "path": "resources/flourish_pick_trip.rpg",
+      "updated_at": "2026-05-22T14:56:24.742915"
+    },
+    {
       "id": "tug_spell_slow",
       "name": "Slow",
       "path": "resources/spell_slow_phb.rpg",
@@ -436,7 +460,7 @@
       "id": "789121b7-04ef-4a1c-9307-96301d600451",
       "name": "Armor of Vulnerability (Bludgeoning)",
       "path": "resources/armor_armor_of_vulnerability_bludgeoning_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.089343"
+      "updated_at": "2026-05-22T14:56:24.746833"
     },
     {
       "id": "tug_item_daerns_instant_fortress",
@@ -448,7 +472,7 @@
       "id": "55205bff-7e37-4e42-8d22-9b770f12f625",
       "name": "Tearulai",
       "path": "resources/weapon_tearulai_wdmm.rpg",
-      "updated_at": "2026-05-22T14:24:22.091858"
+      "updated_at": "2026-05-22T14:56:24.748227"
     },
     {
       "id": "tug_race_shifter__mom_",
@@ -460,7 +484,7 @@
       "id": "15016e0a-2449-4a9c-a6f0-68b6fbc820c8",
       "name": "Flail",
       "path": "resources/weapon_flail_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.095712"
+      "updated_at": "2026-05-22T14:56:24.750884"
     },
     {
       "id": "tug_monster_sir_jared__bmt_",
@@ -484,7 +508,7 @@
       "id": "fd364b7a-6600-47f0-a247-c7faf1044d20",
       "name": "Red Dragon Scale Mail",
       "path": "resources/armor_red_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.101068"
+      "updated_at": "2026-05-22T14:56:24.754804"
     },
     {
       "id": "tug_monster_black_pudding",
@@ -520,7 +544,7 @@
       "id": "0453cb96-acaf-4542-ba38-fb12426d27e9",
       "name": "Black Flash",
       "path": "resources/skill_tree_node_black_flash.rpg",
-      "updated_at": "2026-05-22T14:24:22.113220"
+      "updated_at": "2026-05-22T14:56:24.763245"
     },
     {
       "id": "tug_item_keg_of_alchemists_fire",
@@ -574,7 +598,7 @@
       "id": "1ea8a7d3-e80e-4110-a96e-fc1af92b879a",
       "name": "Bonecounter",
       "path": "resources/weapon_bonecounter_sdw.rpg",
-      "updated_at": "2026-05-22T14:24:22.125695"
+      "updated_at": "2026-05-22T14:56:24.772553"
     },
     {
       "id": "tug_monster_wereboar",
@@ -589,6 +613,12 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "trick_pick_dash_t",
+      "name": "Dash",
+      "path": "resources/trick_pick_dash.rpg",
+      "updated_at": "2026-05-22T14:56:24.775719"
+    },
+    {
       "id": "tug_spell_vampiric_touch",
       "name": "Vampiric Touch",
       "path": "resources/spell_vampiric_touch_phb.rpg",
@@ -598,7 +628,7 @@
       "id": "5b4b61ee-1fb6-4a62-92a5-30adf0b27580",
       "name": "Attract",
       "path": "resources/skill_tree_node_attract.rpg",
-      "updated_at": "2026-05-22T14:24:22.130959"
+      "updated_at": "2026-05-22T14:56:24.777533"
     },
     {
       "id": "tug_item_gloves_of_missile_snaring",
@@ -646,13 +676,13 @@
       "id": "limit_break_pick_adrenaline_junkie",
       "name": "Adrenaline Junkie",
       "path": "resources/limit_break_pick_adrenaline_junkie.rpg",
-      "updated_at": "2026-05-22T14:24:22.145425"
+      "updated_at": "2026-05-22T14:56:24.786925"
     },
     {
       "id": "28092797-c416-422e-a3d4-d351913caebb",
       "name": "Spell Immunity",
       "path": "resources/skill_tree_node_spell_immunity.rpg",
-      "updated_at": "2026-05-22T14:24:22.146378"
+      "updated_at": "2026-05-22T14:56:24.787390"
     },
     {
       "id": "tug_item_potion_of_cold_resistance",
@@ -682,7 +712,7 @@
       "id": "e9a92a8d-6356-4fec-9391-3d0243bb090c",
       "name": "Morningstar",
       "path": "resources/weapon_morningstar_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.153227"
+      "updated_at": "2026-05-22T14:56:24.790961"
     },
     {
       "id": "tug_spell_immolation",
@@ -766,7 +796,7 @@
       "id": "8524d767-dc5a-4ff5-babe-22047dff88e6",
       "name": "Javelin of Backbiting",
       "path": "resources/weapon_javelin_of_backbiting_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:22.185634"
+      "updated_at": "2026-05-22T14:56:24.806640"
     },
     {
       "id": "tug_item_ale__mug_",
@@ -814,13 +844,13 @@
       "id": "404395e4-166d-460d-8d7a-2ed975a9f49a",
       "name": "Staff of the Forgotten One",
       "path": "resources/weapon_staff_of_the_forgotten_one_toa.rpg",
-      "updated_at": "2026-05-22T14:24:22.202994"
+      "updated_at": "2026-05-22T14:56:24.814640"
     },
     {
       "id": "149db985-502b-4e25-94eb-67fabdaa161a",
       "name": "+2 Cantrips",
       "path": "resources/skill_tree_node_+2_cantrips.rpg",
-      "updated_at": "2026-05-22T14:24:22.204928"
+      "updated_at": "2026-05-22T14:56:24.815517"
     },
     {
       "id": "tug_feat_skulker",
@@ -881,6 +911,12 @@
       "name": "Adult Emerald Dragon",
       "path": "resources/monster_adult_emerald_dragon_ftd.rpg",
       "updated_at": "2026-02-27T17:46:07.917925"
+    },
+    {
+      "id": "perfect_form_pick_create_weak_point",
+      "name": "Create Weak Point",
+      "path": "resources/perfect_form_pick_create_weak_point.rpg",
+      "updated_at": "2026-05-22T14:56:24.831677"
     },
     {
       "id": "tug_item_hourglass",
@@ -946,7 +982,7 @@
       "id": "2459ab0a-6786-4c05-8680-78f4d69ca455",
       "name": "Spell Expertise",
       "path": "resources/skill_tree_node_spell_expertise.rpg",
-      "updated_at": "2026-05-22T14:24:22.244299"
+      "updated_at": "2026-05-22T14:56:24.840388"
     },
     {
       "id": "tug_monster_corpse_flower__mom_",
@@ -959,6 +995,12 @@
       "name": "Cat",
       "path": "resources/monster_cat_mm.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "weapon_master_style_hammer_time",
+      "name": "Hammer Time",
+      "path": "resources/weapon_master_style_hammer_time.rpg",
+      "updated_at": "2026-05-22T14:56:24.842994"
     },
     {
       "id": "tug_item_butchers_bib",
@@ -1000,7 +1042,7 @@
       "id": "838d78dc-9ce4-4a25-9f3e-423fe0bab9ac",
       "name": "Labyrinth",
       "path": "resources/skill_tree_node_labyrinth.rpg",
-      "updated_at": "2026-05-22T14:24:22.255918"
+      "updated_at": "2026-05-22T14:56:24.849360"
     },
     {
       "id": "tug_monster_madam_eva",
@@ -1036,7 +1078,7 @@
       "id": "51735734-695d-4c62-8cdf-ac3d62f8de8e",
       "name": "+1 Speed",
       "path": "resources/skill_tree_node_+1_speed.rpg",
-      "updated_at": "2026-05-22T14:24:22.269799"
+      "updated_at": "2026-05-22T14:56:24.858390"
     },
     {
       "id": "dsdq",
@@ -1081,6 +1123,12 @@
       "updated_at": "2024-12-20T18:50:35.734835"
     },
     {
+      "id": "weapon_master_style_living_weapon",
+      "name": "Living Weapon",
+      "path": "resources/weapon_master_style_living_weapon.rpg",
+      "updated_at": "2026-05-22T14:56:24.867457"
+    },
+    {
       "id": "tug_item_warhorse",
       "name": "Warhorse",
       "path": "resources/item_warhorse_xphb.rpg",
@@ -1090,7 +1138,7 @@
       "id": "b8ed68a7-035b-480f-a997-ca5ad8d46841",
       "name": "Wyllow's Staff of Flowers",
       "path": "resources/weapon_wyllow_s_staff_of_flowers_xge.rpg",
-      "updated_at": "2026-05-22T14:24:22.284705"
+      "updated_at": "2026-05-22T14:56:24.868619"
     },
     {
       "id": "tug_feat_crossbow_expert",
@@ -1102,7 +1150,7 @@
       "id": "305d58ce-5007-4c6b-bd09-3023a920f5e6",
       "name": "+1 Mana Drain",
       "path": "resources/skill_tree_node_+1_mana_drain.rpg",
-      "updated_at": "2026-05-22T14:24:22.287449"
+      "updated_at": "2026-05-22T14:56:24.870030"
     },
     {
       "id": "tug_monster_champion_of_madarua__qftis_",
@@ -1180,13 +1228,13 @@
       "id": "9ee14c14-0bac-4404-8a4f-df67ce86af48",
       "name": "Armor of Invulnerability",
       "path": "resources/armor_armor_of_invulnerability_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.313306"
+      "updated_at": "2026-05-22T14:56:24.885320"
     },
     {
       "id": "6dbf3ac5-523a-47d2-914e-de43a15fedac",
       "name": "Rod of Seven Parts",
       "path": "resources/weapon_rod_of_seven_parts_veor.rpg",
-      "updated_at": "2026-05-22T14:24:22.314255"
+      "updated_at": "2026-05-22T14:56:24.886461"
     },
     {
       "id": "tug_monster_bullywug",
@@ -1246,7 +1294,7 @@
       "id": "92c8f76d-7f49-4083-b621-a1f31905c082",
       "name": "Blackstaff",
       "path": "resources/weapon_blackstaff_wdh.rpg",
-      "updated_at": "2026-05-22T14:24:22.334395"
+      "updated_at": "2026-05-22T14:56:24.898914"
     },
     {
       "id": "tug_item_eyes_of_charming",
@@ -1264,7 +1312,7 @@
       "id": "3942ebf2-79e8-4afd-af8b-8612fe12e34d",
       "name": "Mace",
       "path": "resources/weapon_mace_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.340266"
+      "updated_at": "2026-05-22T14:56:24.903236"
     },
     {
       "id": "tug_monster_campestri",
@@ -1312,7 +1360,7 @@
       "id": "ff0cca9f-27fd-40fb-802c-40ccd5caebc6",
       "name": "Potent Sorcery",
       "path": "resources/skill_tree_node_potent_sorcery.rpg",
-      "updated_at": "2026-05-22T14:24:22.353625"
+      "updated_at": "2026-05-22T14:56:24.912214"
     },
     {
       "id": "tug_item_staff_of_striking",
@@ -1369,6 +1417,12 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "weapon_master_style_entangler",
+      "name": "Entangler",
+      "path": "resources/weapon_master_style_entangler.rpg",
+      "updated_at": "2026-05-22T14:56:24.920946"
+    },
+    {
       "id": "tug_item_scroll_of_protection_from_plants",
       "name": "Scroll of Protection from Plants",
       "path": "resources/item_scroll_of_protection_from_plants_dmg.rpg",
@@ -1396,7 +1450,7 @@
       "id": "2cb30416-ec8f-4390-bcd1-fc0240934097",
       "name": "Boogie-Woogie",
       "path": "resources/skill_tree_node_boogie_woogie.rpg",
-      "updated_at": "2026-05-22T14:24:22.374239"
+      "updated_at": "2026-05-22T14:56:24.927747"
     },
     {
       "id": "tug_monster_rust_monster",
@@ -1462,7 +1516,7 @@
       "id": "dbc47ebd-88f2-4508-b1bd-34117a536416",
       "name": "Trident",
       "path": "resources/weapon_trident_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.393989"
+      "updated_at": "2026-05-22T14:56:24.938271"
     },
     {
       "id": "tug_spell_detect_magic",
@@ -1480,7 +1534,7 @@
       "id": "f894ab16-3b26-4f14-8261-4ea4b6fdcb08",
       "name": "Mental",
       "path": "resources/skill_tree_node_mental.rpg",
-      "updated_at": "2026-05-22T14:24:22.401924"
+      "updated_at": "2026-05-22T14:56:24.940589"
     },
     {
       "id": "tug_monster_triceratops",
@@ -1516,7 +1570,7 @@
       "id": "2a062048-a38e-4dbb-bd8e-77dbc93e5a3d",
       "name": "Demon Armor",
       "path": "resources/armor_demon_armor_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.416528"
+      "updated_at": "2026-05-22T14:56:24.953730"
     },
     {
       "id": "tug_monster_minotaur",
@@ -1588,7 +1642,7 @@
       "id": "pp0de003-1596-4df1-8b54-5d1dda8c0003",
       "name": "Domain Expansion",
       "path": "resources/skill_tree_node_domain_expansion.rpg",
-      "updated_at": "2026-05-22T14:24:22.450550"
+      "updated_at": "2026-05-22T14:56:24.975948"
     },
     {
       "id": "tug_monster_monodrone",
@@ -1660,7 +1714,7 @@
       "id": "8ccf0fe9-4df4-43ae-b0e5-c502e0dec34d",
       "name": "Gambler",
       "path": "resources/skill_tree_node_gambler.rpg",
-      "updated_at": "2026-05-22T14:24:22.466980"
+      "updated_at": "2026-05-22T14:56:24.987631"
     },
     {
       "id": "tug_feat_mobile",
@@ -1672,7 +1726,7 @@
       "id": "9a9b50a8-be89-4e9a-ac47-63ddddacc4c8",
       "name": "Pike",
       "path": "resources/weapon_pike_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.468537"
+      "updated_at": "2026-05-22T14:56:24.989015"
     },
     {
       "id": "tug_monster_stone_golem",
@@ -1696,7 +1750,7 @@
       "id": "869e0e7e-0c5e-49aa-863f-9f86f2c31fec",
       "name": "Hammer of Thunderbolts",
       "path": "resources/weapon_hammer_of_thunderbolts_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.472469"
+      "updated_at": "2026-05-22T14:56:24.992711"
     },
     {
       "id": "tug_spell_foresight",
@@ -1738,7 +1792,7 @@
       "id": "81404ce1-0047-4453-95f9-85ca7cf49437",
       "name": "Javelin of Lightning",
       "path": "resources/weapon_javelin_of_lightning_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.491167"
+      "updated_at": "2026-05-22T14:56:25.004255"
     },
     {
       "id": "tug_monster_crystal_dragon_wyrmling",
@@ -1834,7 +1888,7 @@
       "id": "50da6946-389f-43d2-a642-a4c850828ff8",
       "name": "Primordial Pact",
       "path": "resources/pact_entry_primordial_pact.rpg",
-      "updated_at": "2026-05-22T14:24:22.521870"
+      "updated_at": "2026-05-22T14:56:25.020130"
     },
     {
       "id": "tug_monster_lunar_dragon_wyrmling__bam_",
@@ -1846,7 +1900,7 @@
       "id": "a3ef0856-591e-4ecf-85e8-c4bc79361c51",
       "name": "+1 Spell",
       "path": "resources/skill_tree_node_+1_spell.rpg",
-      "updated_at": "2026-05-22T14:24:22.531009"
+      "updated_at": "2026-05-22T14:56:25.021612"
     },
     {
       "id": "tug_monster_djinni",
@@ -1930,7 +1984,7 @@
       "id": "2a5e09d8-0ff2-4135-aa05-d00dcdf1688d",
       "name": "Glamoured Studded Leather",
       "path": "resources/armor_glamoured_studded_leather_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.568183"
+      "updated_at": "2026-05-22T14:56:25.037840"
     },
     {
       "id": "tug_spell_reality_break",
@@ -2074,7 +2128,7 @@
       "id": "b7bb747d-95e0-49fc-8f3c-5a974ea10db7",
       "name": "Two-Birds Sling",
       "path": "resources/weapon_two_birds_sling_mot.rpg",
-      "updated_at": "2026-05-22T14:24:22.607911"
+      "updated_at": "2026-05-22T14:56:25.067136"
     },
     {
       "id": "tug_item_costume_clothes",
@@ -2140,7 +2194,7 @@
       "id": "b043aa5e-6a88-419c-aa0a-6aed48d0c684",
       "name": "Elemental Blight",
       "path": "resources/skill_tree_node_elemental_blight.rpg",
-      "updated_at": "2026-05-22T14:24:22.619840"
+      "updated_at": "2026-05-22T14:56:25.077217"
     },
     {
       "id": "tug_item_gem_of_seeing",
@@ -2164,7 +2218,7 @@
       "id": "c63d3017-6529-44ab-bb35-91f5047e0b1e",
       "name": "+1 Protect",
       "path": "resources/skill_tree_node_+1_protect.rpg",
-      "updated_at": "2026-05-22T14:24:22.623300"
+      "updated_at": "2026-05-22T14:56:25.080708"
     },
     {
       "id": "tug_race_changeling__mom_",
@@ -2188,13 +2242,13 @@
       "id": "24c73ff6-5475-436c-91eb-ecf88ecb6dc9",
       "name": "Arcane Strikes",
       "path": "resources/skill_tree_node_arcane_strikes.rpg",
-      "updated_at": "2026-05-22T14:24:22.627691"
+      "updated_at": "2026-05-22T14:56:25.084044"
     },
     {
       "id": "f41112ea-68cd-4b6d-8528-fc96f93be25b",
       "name": "Shield of the Hidden Lord",
       "path": "resources/armor_shield_of_the_hidden_lord_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:22.628876"
+      "updated_at": "2026-05-22T14:56:25.084880"
     },
     {
       "id": "tug_race_half-elf",
@@ -2218,7 +2272,7 @@
       "id": "27b4a1c6-6d3e-4141-bcdf-7cb9f827c2d7",
       "name": "Colourless Ability",
       "path": "resources/skill_tree_node_colourless_ability.rpg",
-      "updated_at": "2026-05-22T14:24:22.634640"
+      "updated_at": "2026-05-22T14:56:25.089259"
     },
     {
       "id": "tug_item_robe_of_eyes",
@@ -2272,7 +2326,7 @@
       "id": "3fe029ae-c95e-49f3-a5a9-b0c20cac0b19",
       "name": "Gold Rush",
       "path": "resources/skill_tree_node_gold_rush.rpg",
-      "updated_at": "2026-05-22T14:24:22.645273"
+      "updated_at": "2026-05-22T14:56:25.096868"
     },
     {
       "id": "tug_item_bottle_of_boundless_coffee",
@@ -2320,7 +2374,7 @@
       "id": "5645679e-6e82-4a2e-a9a8-2ad128f268e3",
       "name": "Double-Bladed Scimitar",
       "path": "resources/weapon_double_bladed_scimitar_erlw.rpg",
-      "updated_at": "2026-05-22T14:24:22.655271"
+      "updated_at": "2026-05-22T14:56:25.104455"
     },
     {
       "id": "tug_spell_gift_of_alacrity",
@@ -2416,19 +2470,19 @@
       "id": "fc70296e-c4c8-4196-ba90-1c35ac27e6b6",
       "name": "Nepenthe",
       "path": "resources/weapon_nepenthe_vrgr.rpg",
-      "updated_at": "2026-05-22T14:24:22.702050"
+      "updated_at": "2026-05-22T14:56:25.137071"
     },
     {
       "id": "040600c4-49a9-427d-bde7-7e4718cd4a66",
       "name": "Staff of the Rooted Hills",
       "path": "resources/weapon_staff_of_the_rooted_hills_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:22.704414"
+      "updated_at": "2026-05-22T14:56:25.137841"
     },
     {
       "id": "9c8dc7c2-7f30-454f-bfdc-bc0b19393abc",
       "name": "Topaz Annihilator",
       "path": "resources/weapon_topaz_annihilator_ftd.rpg",
-      "updated_at": "2026-05-22T14:24:22.707618"
+      "updated_at": "2026-05-22T14:56:25.139095"
     },
     {
       "id": "tug_item_quaals_feather_token,_tree",
@@ -2464,7 +2518,7 @@
       "id": "52b32b50-efcb-4885-ac8b-be5635f5137d",
       "name": "+1 Regen",
       "path": "resources/skill_tree_node_+1_regen.rpg",
-      "updated_at": "2026-05-22T14:24:22.717743"
+      "updated_at": "2026-05-22T14:56:25.145146"
     },
     {
       "id": "tug_spell_banishing_smite",
@@ -2476,7 +2530,7 @@
       "id": "443cde04-0b8e-4a9a-aada-9e2c938c6d37",
       "name": "Staff",
       "path": "resources/weapon_staff_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.719412"
+      "updated_at": "2026-05-22T14:56:25.146468"
     },
     {
       "id": "tug_feat_master_of_disguise",
@@ -2488,7 +2542,7 @@
       "id": "2c6204f8-fc87-4eae-b6fc-725425a04810",
       "name": "Dyrrn's Tentacle Whip",
       "path": "resources/weapon_dyrrn_s_tentacle_whip_erlw.rpg",
-      "updated_at": "2026-05-22T14:24:22.721518"
+      "updated_at": "2026-05-22T14:56:25.147945"
     },
     {
       "id": "tug_monster_phantom_warrior",
@@ -2513,6 +2567,12 @@
       "name": "Bead of Force",
       "path": "resources/item_bead_of_force_dmg.rpg",
       "updated_at": "2024-12-20T18:50:35.637441"
+    },
+    {
+      "id": "flourish_pick_chug",
+      "name": "Chug",
+      "path": "resources/flourish_pick_chug.rpg",
+      "updated_at": "2026-05-22T14:56:25.153143"
     },
     {
       "id": "tug_monster_topaz_greatwyrm",
@@ -2560,13 +2620,13 @@
       "id": "5cb8811c-a403-4992-b2e3-63c7585f72e6",
       "name": "Dwarven Thrower",
       "path": "resources/weapon_dwarven_thrower_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.738085"
+      "updated_at": "2026-05-22T14:56:25.161825"
     },
     {
       "id": "rage_type_cold",
       "name": "Cold",
       "path": "resources/rage_type_cold.rpg",
-      "updated_at": "2026-05-22T14:24:22.738831"
+      "updated_at": "2026-05-22T14:56:25.162547"
     },
     {
       "id": "tug_monster_enchanter",
@@ -2602,7 +2662,7 @@
       "id": "14007e2d-d3d3-4e4c-8d1b-65888198db54",
       "name": "Padded",
       "path": "resources/armor_padded_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.752822"
+      "updated_at": "2026-05-22T14:56:25.171961"
     },
     {
       "id": "tug_monster_orc_eye_of_gruumsh",
@@ -2621,6 +2681,12 @@
       "name": "Savage Attacker",
       "path": "resources/feat_savage_attacker_phb.rpg",
       "updated_at": "2024-12-20T18:50:28.402243"
+    },
+    {
+      "id": "flourish_pick_disengage_f",
+      "name": "Disengage",
+      "path": "resources/flourish_pick_disengage.rpg",
+      "updated_at": "2026-05-22T14:56:25.176439"
     },
     {
       "id": "tug_monster_stone_giant_of_evil_earth__bgg_",
@@ -2716,13 +2782,13 @@
       "id": "6acfbf2d-bb39-437a-9292-c52e7d76c62e",
       "name": "+1 Summon Buff",
       "path": "resources/skill_tree_node_+1_summon_buff.rpg",
-      "updated_at": "2026-05-22T14:24:22.787348"
+      "updated_at": "2026-05-22T14:56:25.191413"
     },
     {
       "id": "f5d8623a-a990-4a4d-9891-8283fc3e7968",
       "name": "Junky +1 Dagger",
       "path": "resources/weapon_junky_+1_dagger_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:22.788507"
+      "updated_at": "2026-05-22T14:56:25.192176"
     },
     {
       "id": "tug_item_carpet_of_flying,_3_ft._x_5_ft.",
@@ -2752,7 +2818,7 @@
       "id": "2b601594-f3db-4c50-ab63-5a3b0d74bf22",
       "name": "Net",
       "path": "resources/weapon_net_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.797199"
+      "updated_at": "2026-05-22T14:56:25.197037"
     },
     {
       "id": "tug_background_haunted_one",
@@ -2797,6 +2863,12 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "flourish_pick_bull_rush",
+      "name": "Bull Rush",
+      "path": "resources/flourish_pick_bull_rush.rpg",
+      "updated_at": "2026-05-22T14:56:25.204040"
+    },
+    {
       "id": "tug_spell_entangle",
       "name": "Entangle",
       "path": "resources/spell_entangle_phb.rpg",
@@ -2818,7 +2890,7 @@
       "id": "f6e4f00f-290f-4e71-8dd8-23b1b54f690c",
       "name": "Scale mail",
       "path": "resources/armor_scale_mail_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.814858"
+      "updated_at": "2026-05-22T14:56:25.206582"
     },
     {
       "id": "tug_monster_adult_kruthik__mom_",
@@ -2884,7 +2956,7 @@
       "id": "lm0de004-1596-4df1-8b54-5d1dda8c0004",
       "name": "Domain Expansion",
       "path": "resources/skill_tree_node_domain_expansion.rpg",
-      "updated_at": "2026-05-22T14:24:22.829473"
+      "updated_at": "2026-05-22T14:56:25.216570"
     },
     {
       "id": "tug_monster_green_guard_drake",
@@ -2914,7 +2986,7 @@
       "id": "9b75dc2e-f88d-4d36-a434-030e175c7b1d",
       "name": "Shatterspike",
       "path": "resources/weapon_shatterspike_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:22.836279"
+      "updated_at": "2026-05-22T14:56:25.222524"
     },
     {
       "id": "tug_monster_space_clown__bam_",
@@ -2962,7 +3034,7 @@
       "id": "52792f6c-edb1-4dfd-9fc9-300953b8492a",
       "name": "Greataxe",
       "path": "resources/weapon_greataxe_phb.rpg",
-      "updated_at": "2026-05-22T14:24:22.849593"
+      "updated_at": "2026-05-22T14:56:25.233650"
     },
     {
       "id": "tug_monster_sacred_stone_monk",
@@ -2974,7 +3046,7 @@
       "id": "833d201c-36c6-4d09-8e2c-1317028126fe",
       "name": "Matalotok",
       "path": "resources/weapon_matalotok_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:22.852870"
+      "updated_at": "2026-05-22T14:56:25.235257"
     },
     {
       "id": "tug_monster_juvenile_mimic",
@@ -2986,7 +3058,7 @@
       "id": "ee90aac3-6fd1-4882-b4ae-5ba5a16d8e33",
       "name": "Sun Staff",
       "path": "resources/weapon_sun_staff_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:22.855141"
+      "updated_at": "2026-05-22T14:56:25.236624"
     },
     {
       "id": "tug_monster_cloud_giant",
@@ -3064,7 +3136,7 @@
       "id": "b9ba6748-d11c-4883-acf9-bd6a3671a8a1",
       "name": "Dragongleam",
       "path": "resources/weapon_dragongleam_hotdq.rpg",
-      "updated_at": "2026-05-22T14:24:22.961667"
+      "updated_at": "2026-05-22T14:56:25.333807"
     },
     {
       "id": "tug_monster_ixitxachitl_cleric",
@@ -3112,7 +3184,7 @@
       "id": "7f33eb07-9710-4d3b-bc5c-cc7d71ada517",
       "name": "Bloodhound Blitz",
       "path": "resources/skill_tree_node_bloodhound_blitz.rpg",
-      "updated_at": "2026-05-22T14:24:22.974393"
+      "updated_at": "2026-05-22T14:56:25.343368"
     },
     {
       "id": "tug_spell_warding_wind",
@@ -3172,7 +3244,7 @@
       "id": "58bed8d6-4258-4b58-8295-fea0e13cda78",
       "name": "Staff of the Adder",
       "path": "resources/weapon_staff_of_the_adder_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:22.989399"
+      "updated_at": "2026-05-22T14:56:25.354563"
     },
     {
       "id": "tug_monster_gibbering_mouther",
@@ -3232,7 +3304,7 @@
       "id": "1e239c5c-a3e4-4433-9edd-aeaf5e6df85e",
       "name": "Drown",
       "path": "resources/weapon_drown_pota.rpg",
-      "updated_at": "2026-05-22T14:24:23.008639"
+      "updated_at": "2026-05-22T14:56:25.367412"
     },
     {
       "id": "tug_item_figurine_of_wondrous_power,_ebony_fly",
@@ -3244,7 +3316,7 @@
       "id": "8272ba4e-149c-449c-9235-5af9f0dbb503",
       "name": "Axe of the Dwarvish Lords",
       "path": "resources/weapon_axe_of_the_dwarvish_lords_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.010689"
+      "updated_at": "2026-05-22T14:56:25.369343"
     },
     {
       "id": "tug_spell_power_word_pain",
@@ -3262,7 +3334,7 @@
       "id": "e11dcaa9-2daa-4632-b5dd-f3126b49aeff",
       "name": "Waythe",
       "path": "resources/weapon_waythe_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.013495"
+      "updated_at": "2026-05-22T14:56:25.372139"
     },
     {
       "id": "tug_spell_enemies_abound",
@@ -3361,6 +3433,12 @@
       "updated_at": "2024-12-20T18:50:46.632534"
     },
     {
+      "id": "trick_pick_first_aid",
+      "name": "First Aid",
+      "path": "resources/trick_pick_first_aid.rpg",
+      "updated_at": "2026-05-22T14:56:25.388216"
+    },
+    {
       "id": "tug_spell_find_greater_steed",
       "name": "Find Greater Steed",
       "path": "resources/spell_find_greater_steed_xge.rpg",
@@ -3400,7 +3478,7 @@
       "id": "5a555aaa-3513-4004-a82d-5c50b82869ff",
       "name": "Environment",
       "path": "resources/skill_tree_node_environment.rpg",
-      "updated_at": "2026-05-22T14:24:23.038713"
+      "updated_at": "2026-05-22T14:56:25.393647"
     },
     {
       "id": "tug_spell_command",
@@ -3502,7 +3580,7 @@
       "id": "f6c1d72c-04f1-4ccb-b4f0-146013219dc0",
       "name": "Ring mail",
       "path": "resources/armor_ring_mail_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.061549"
+      "updated_at": "2026-05-22T14:56:25.414227"
     },
     {
       "id": "tug_monster_stench_kow",
@@ -3526,7 +3604,7 @@
       "id": "64db16b2-859c-45e1-a989-201be52d3358",
       "name": "Plate",
       "path": "resources/armor_plate_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.064805"
+      "updated_at": "2026-05-22T14:56:25.418560"
     },
     {
       "id": "tug_monster_rakshasa",
@@ -3562,13 +3640,13 @@
       "id": "3c4815bf-dfa2-420f-8d79-6e1cbf1b19e5",
       "name": "Akmon, Hammer of Purphoros",
       "path": "resources/weapon_akmon,_hammer_of_purphoros_mot.rpg",
-      "updated_at": "2026-05-22T14:24:23.073997"
+      "updated_at": "2026-05-22T14:56:25.428056"
     },
     {
       "id": "c78fb27a-0e45-440b-8dbe-c155cb5a205d",
       "name": "Voyager Staff",
       "path": "resources/weapon_voyager_staff_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:23.076820"
+      "updated_at": "2026-05-22T14:56:25.430795"
     },
     {
       "id": "tug_background_urban_bounty_hunter",
@@ -3586,7 +3664,7 @@
       "id": "4136838b-fa56-49c7-9b7c-369e5b82caaf",
       "name": "Sanguine Strings",
       "path": "resources/skill_tree_node_sanguine_strings.rpg",
-      "updated_at": "2026-05-22T14:24:23.081236"
+      "updated_at": "2026-05-22T14:56:25.435017"
     },
     {
       "id": "tug_monster_draconian_mastermind",
@@ -3598,7 +3676,7 @@
       "id": "0b714872-2d19-43f2-b341-1164a3a4d32e",
       "name": "Environment",
       "path": "resources/skill_tree_node_environment.rpg",
-      "updated_at": "2026-05-22T14:24:23.084015"
+      "updated_at": "2026-05-22T14:56:25.437268"
     },
     {
       "id": "tug_spell_wind_walk",
@@ -3682,7 +3760,7 @@
       "id": "9a5cc39e-fd08-4bfd-9ca3-8293c25b69f7",
       "name": "Shield of Missile Attraction",
       "path": "resources/armor_shield_of_missile_attraction_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.103362"
+      "updated_at": "2026-05-22T14:56:25.451830"
     },
     {
       "id": "tug_monster_blue_guard_drake",
@@ -3701,6 +3779,12 @@
       "name": "Giff Shock Trooper",
       "path": "resources/monster_giff_shock_trooper_bam.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "weapon_master_style_hiker",
+      "name": "Hiker",
+      "path": "resources/weapon_master_style_hiker.rpg",
+      "updated_at": "2026-05-22T14:56:25.456444"
     },
     {
       "id": "tug_item_+3_wand_of_the_war_mage",
@@ -3814,7 +3898,7 @@
       "id": "rage_type_demonic",
       "name": "Demonic",
       "path": "resources/rage_type_demonic.rpg",
-      "updated_at": "2026-05-22T14:24:23.137032"
+      "updated_at": "2026-05-22T14:56:25.478674"
     },
     {
       "id": "tug_item_squid_ship",
@@ -3838,7 +3922,7 @@
       "id": "7ebd57d5-95ef-46d4-b1ba-e1041a5f7587",
       "name": "Sling",
       "path": "resources/weapon_sling_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.139648"
+      "updated_at": "2026-05-22T14:56:25.481693"
     },
     {
       "id": "tug_monster_bugbear_chief",
@@ -3868,7 +3952,7 @@
       "id": "d65a2e7d-afc5-4b9b-a184-e402ed5a9767",
       "name": "+1 Moon Sickle",
       "path": "resources/weapon_+1_moon_sickle_tce.rpg",
-      "updated_at": "2026-05-22T14:24:23.147741"
+      "updated_at": "2026-05-22T14:56:25.489076"
     },
     {
       "id": "tug_monster_adult_topaz_dragon",
@@ -3922,7 +4006,7 @@
       "id": "c30ece3d-a9ae-4a1d-83d8-28e790c77cb3",
       "name": "Sword of Answering (Scather)",
       "path": "resources/weapon_sword_of_answering_scather_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.157368"
+      "updated_at": "2026-05-22T14:56:25.497445"
     },
     {
       "id": "tug_monster_elise",
@@ -3934,7 +4018,7 @@
       "id": "ddb05f4e-d055-416a-abaa-0c427cc3d356",
       "name": "Domain Duration",
       "path": "resources/skill_tree_node_domain_duration.rpg",
-      "updated_at": "2026-05-22T14:24:23.158959"
+      "updated_at": "2026-05-22T14:56:25.498866"
     },
     {
       "id": "tug_item_wagon",
@@ -4225,6 +4309,12 @@
       "updated_at": "2024-12-20T18:50:46.642314"
     },
     {
+      "id": "trick_pick_quick_pick",
+      "name": "Quick Pick",
+      "path": "resources/trick_pick_quick_pick.rpg",
+      "updated_at": "2026-05-22T14:56:25.546953"
+    },
+    {
       "id": "tug_item_warriors_passkey",
       "name": "Warrior's Passkey",
       "path": "resources/item_warrior_s_passkey_bmt.rpg",
@@ -4264,7 +4354,7 @@
       "id": "5b356a03-3f4d-446e-991f-8b3dfd3bc090",
       "name": "+1 Rage Resist",
       "path": "resources/skill_tree_node_+1_rage_resist.rpg",
-      "updated_at": "2026-05-22T14:24:23.229741"
+      "updated_at": "2026-05-22T14:56:25.553058"
     },
     {
       "id": "tug_item_flour",
@@ -4276,7 +4366,7 @@
       "id": "c011796d-7cff-4474-9d84-9397d2eb408e",
       "name": "Green Dragon Scale Mail",
       "path": "resources/armor_green_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.233843"
+      "updated_at": "2026-05-22T14:56:25.554596"
     },
     {
       "id": "tug_item_hag_eye",
@@ -4300,7 +4390,7 @@
       "id": "5d536a46-4495-4319-a02b-ab242d91fa83",
       "name": "Vanrak's Mithral Shirt",
       "path": "resources/armor_vanrak_s_mithral_shirt_wdmm.rpg",
-      "updated_at": "2026-05-22T14:24:23.239550"
+      "updated_at": "2026-05-22T14:56:25.557364"
     },
     {
       "id": "tug_monster_slithering_tracker",
@@ -4312,7 +4402,7 @@
       "id": "5fd8f846-81fb-4994-893a-6fa2c9461a47",
       "name": "+1 Exposing Strike",
       "path": "resources/skill_tree_node_+1_exposing_strike.rpg",
-      "updated_at": "2026-05-22T14:24:23.241607"
+      "updated_at": "2026-05-22T14:56:25.559135"
     },
     {
       "id": "tug_monster_transmuter",
@@ -4378,7 +4468,7 @@
       "id": "c26b173a-122b-47e7-989a-a3e52da43202",
       "name": "Staff of Ruling",
       "path": "resources/weapon_staff_of_ruling_qftis.rpg",
-      "updated_at": "2026-05-22T14:24:23.258135"
+      "updated_at": "2026-05-22T14:56:25.571162"
     },
     {
       "id": "tug_monster_ambitious_assassin__bmt_",
@@ -4432,7 +4522,7 @@
       "id": "d54ba007-4fa6-4d8a-9242-a919d251c575",
       "name": "Reposition",
       "path": "resources/skill_tree_node_reposition.rpg",
-      "updated_at": "2026-05-22T14:24:23.272106"
+      "updated_at": "2026-05-22T14:56:25.578970"
     },
     {
       "id": "tug_monster_draconic_spirit",
@@ -4456,7 +4546,7 @@
       "id": "54ae044f-cb25-4601-b6ab-5ad9dd33c762",
       "name": "Dagger of Venom",
       "path": "resources/weapon_dagger_of_venom_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.277070"
+      "updated_at": "2026-05-22T14:56:25.582411"
     },
     {
       "id": "Custom5fbed979-3938-40eb-8825-3eb7b99ef4f7",
@@ -4510,7 +4600,7 @@
       "id": "87bdc095-67df-4b9a-b010-90e233a85f78",
       "name": "Staff of Charming",
       "path": "resources/weapon_staff_of_charming_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.289214"
+      "updated_at": "2026-05-22T14:56:25.592261"
     },
     {
       "id": "tug_monster_tiger",
@@ -4630,7 +4720,7 @@
       "id": "574d7203-bddb-4308-a7eb-0cc02c0a5294",
       "name": "Wave",
       "path": "resources/weapon_wave_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.375570"
+      "updated_at": "2026-05-22T14:56:25.671658"
     },
     {
       "id": "tug_item_sages_signet__lion_",
@@ -4684,7 +4774,7 @@
       "id": "61ab791f-cf61-4773-b5ab-c97151a8b0da",
       "name": "Ruinous Flail",
       "path": "resources/weapon_ruinous_flail_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:23.387993"
+      "updated_at": "2026-05-22T14:56:25.681546"
     },
     {
       "id": "tug_monster_bone_roc__veor_",
@@ -4702,7 +4792,7 @@
       "id": "2b6f4e42-87ff-4b43-9963-f6153bcbe4bb",
       "name": "Snicker-Snack",
       "path": "resources/weapon_snicker_snack_wbtw.rpg",
-      "updated_at": "2026-05-22T14:24:23.391882"
+      "updated_at": "2026-05-22T14:56:25.684398"
     },
     {
       "id": "tug_monster_stone_giant_dreamwalker",
@@ -4723,6 +4813,12 @@
       "updated_at": "2025-08-03T22:41:00.665491"
     },
     {
+      "id": "flourish_pick_multishot",
+      "name": "Multishot",
+      "path": "resources/flourish_pick_multishot.rpg",
+      "updated_at": "2026-05-22T14:56:25.687827"
+    },
+    {
       "id": "tug_spell_wish",
       "name": "Wish",
       "path": "resources/spell_wish_phb.rpg",
@@ -4732,7 +4828,7 @@
       "id": "95b6dade-4e56-4fb8-ae08-09ff94a3cd38",
       "name": "Macuahuitl",
       "path": "resources/weapon_macuahuitl_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:23.399281"
+      "updated_at": "2026-05-22T14:56:25.689068"
     },
     {
       "id": "tug_monster_severin",
@@ -4763,6 +4859,12 @@
       "name": "Baphomet",
       "path": "resources/monster_baphomet_mtf.rpg",
       "updated_at": "2026-02-27T17:46:07.917925"
+    },
+    {
+      "id": "perfect_form_pick_lighting_barrage",
+      "name": "Lighting Barrage",
+      "path": "resources/perfect_form_pick_lighting_barrage.rpg",
+      "updated_at": "2026-05-22T14:56:25.697201"
     },
     {
       "id": "tug_spell_astral_projection",
@@ -4912,7 +5014,7 @@
       "id": "bc846746-7fad-40d4-aea4-476cb80b35c2",
       "name": "Staff of Swarming Insects",
       "path": "resources/weapon_staff_of_swarming_insects_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.446816"
+      "updated_at": "2026-05-22T14:56:25.725317"
     },
     {
       "id": "tug_monster_yuan-ti_abomination",
@@ -4930,7 +5032,7 @@
       "id": "4257129a-2824-4ef7-8f66-d8fc298cc101",
       "name": "Hammer of Runic Focus",
       "path": "resources/weapon_hammer_of_runic_focus_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:23.453785"
+      "updated_at": "2026-05-22T14:56:25.729110"
     },
     {
       "id": "tug_monster_elder_brain",
@@ -5014,7 +5116,7 @@
       "id": "aa0de001-1596-4df1-8b54-5d1dda8c0001",
       "name": "Domain Expansion",
       "path": "resources/skill_tree_node_domain_expansion.rpg",
-      "updated_at": "2026-05-22T14:24:23.477101"
+      "updated_at": "2026-05-22T14:56:25.744661"
     },
     {
       "id": "tug_background_urchin",
@@ -5107,6 +5209,12 @@
       "updated_at": "2024-12-20T18:50:46.672862"
     },
     {
+      "id": "trick_pick_spring",
+      "name": "Spring",
+      "path": "resources/trick_pick_spring.rpg",
+      "updated_at": "2026-05-22T14:56:25.767791"
+    },
+    {
       "id": "tug_monster_hawk",
       "name": "Hawk",
       "path": "resources/monster_hawk_mm.rpg",
@@ -5170,7 +5278,7 @@
       "id": "85616c47-e8a1-4e09-a67e-2e8524a55651",
       "name": "Windvane",
       "path": "resources/weapon_windvane_pota.rpg",
-      "updated_at": "2026-05-22T14:24:23.516355"
+      "updated_at": "2026-05-22T14:56:25.776566"
     },
     {
       "id": "tug_monster_plesiosaurus",
@@ -5212,7 +5320,7 @@
       "id": "4c4dfc2b-8741-4f6c-ba61-8072e567e223",
       "name": "Spear",
       "path": "resources/weapon_spear_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.528265"
+      "updated_at": "2026-05-22T14:56:25.784093"
     },
     {
       "id": "tug_monster_mummy_lord",
@@ -5230,7 +5338,7 @@
       "id": "1fdd759c-8ad2-4842-a279-a1b490589f96",
       "name": "Dwarven Plate",
       "path": "resources/armor_dwarven_plate_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.539608"
+      "updated_at": "2026-05-22T14:56:25.789713"
     },
     {
       "id": "tug_monster_lightning_hulk__bgg_",
@@ -5260,7 +5368,7 @@
       "id": "cd50bae7-f46e-4697-beca-cc9763abde5b",
       "name": "Arcane Affinity",
       "path": "resources/pact_entry_arcane_affinity.rpg",
-      "updated_at": "2026-05-22T14:24:23.551817"
+      "updated_at": "2026-05-22T14:56:25.794572"
     },
     {
       "id": "tug_item_rod_of_lordly_might",
@@ -5428,7 +5536,7 @@
       "id": "fa5db9bd-dc77-4745-8c30-91a4deedcbc1",
       "name": "Light Crossbow",
       "path": "resources/weapon_light_crossbow_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.653368"
+      "updated_at": "2026-05-22T14:56:25.831149"
     },
     {
       "id": "tug_feat_tough",
@@ -5446,7 +5554,7 @@
       "id": "57499b30-0f0f-4a16-8825-d55cea4f07dd",
       "name": "Sun Blade",
       "path": "resources/weapon_sun_blade_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.657038"
+      "updated_at": "2026-05-22T14:56:25.833548"
     },
     {
       "id": "tug_item_gold",
@@ -5500,7 +5608,7 @@
       "id": "32ced7a5-fcb1-40bc-9a11-00fa0b655f43",
       "name": "Verdan",
       "path": "resources/race_verdan_ai.rpg",
-      "updated_at": "2026-05-22T14:24:23.673183"
+      "updated_at": "2026-05-22T14:56:25.843960"
     },
     {
       "id": "tug_item_cloak_of_many_fashions",
@@ -5524,13 +5632,19 @@
       "id": "aa6c4e4c-d933-4627-a900-a4dc84a9ab37",
       "name": "Sword of Zariel",
       "path": "resources/weapon_sword_of_zariel_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:23.679828"
+      "updated_at": "2026-05-22T14:56:25.846852"
     },
     {
       "id": "tug_monster_darz_helgar",
       "name": "Darz Helgar",
       "path": "resources/monster_darz_helgar_skt.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "trick_pick_feint",
+      "name": "Feint",
+      "path": "resources/trick_pick_feint.rpg",
+      "updated_at": "2026-05-22T14:56:25.848701"
     },
     {
       "id": "tug_monster_amethyst_dragon_wyrmling",
@@ -5545,10 +5659,16 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "perfect_form_pick_perfect_strikes",
+      "name": "Perfect Strikes",
+      "path": "resources/perfect_form_pick_perfect_strikes.rpg",
+      "updated_at": "2026-05-22T14:56:25.851711"
+    },
+    {
       "id": "0dbe28ea-f90d-4a21-abac-f03b82fe0f0e",
       "name": "Scorpion Armor",
       "path": "resources/armor_scorpion_armor_toa.rpg",
-      "updated_at": "2026-05-22T14:24:23.685731"
+      "updated_at": "2026-05-22T14:56:25.852352"
     },
     {
       "id": "tug_item_nautiloid",
@@ -5578,7 +5698,7 @@
       "id": "19f7f705-d5e1-4aec-975c-cb13341f1ec8",
       "name": "Perfect Form",
       "path": "resources/skill_tree_node_perfect_form.rpg",
-      "updated_at": "2026-05-22T14:24:23.691842"
+      "updated_at": "2026-05-22T14:56:25.856842"
     },
     {
       "id": "tug_monster_mind_flayer_arcanist",
@@ -5662,7 +5782,7 @@
       "id": "6b202054-e8b1-4566-8fb8-3920bd3b7fec",
       "name": "Arrow-Catching Shield",
       "path": "resources/armor_arrow_catching_shield_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.718433"
+      "updated_at": "2026-05-22T14:56:25.878681"
     },
     {
       "id": "tug_item_carpet_of_flying,_4_ft._x_6_ft.",
@@ -5674,19 +5794,25 @@
       "id": "37448c11-9822-48ae-800c-49411869b0f0",
       "name": "Voidwalker Armor",
       "path": "resources/armor_voidwalker_armor_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:23.720495"
+      "updated_at": "2026-05-22T14:56:25.879865"
     },
     {
       "id": "1544ca60-e142-4051-99c7-b2f3fea777d4",
       "name": "Dart",
       "path": "resources/weapon_dart_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.721603"
+      "updated_at": "2026-05-22T14:56:25.880674"
     },
     {
       "id": "tug_spell_prestidigitation",
       "name": "Prestidigitation",
       "path": "resources/spell_prestidigitation_phb.rpg",
       "updated_at": "2024-12-20T18:50:46.619420"
+    },
+    {
+      "id": "weapon_master_style_yeeter",
+      "name": "Yeeter",
+      "path": "resources/weapon_master_style_yeeter.rpg",
+      "updated_at": "2026-05-22T14:56:25.882078"
     },
     {
       "id": "tug_monster_yusdrayl",
@@ -5758,7 +5884,7 @@
       "id": "84982f7f-6079-4336-b1c6-a8f1b2ce70e3",
       "name": "Comedic Relief",
       "path": "resources/skill_tree_node_comedic_relief.rpg",
-      "updated_at": "2026-05-22T14:24:23.740573"
+      "updated_at": "2026-05-22T14:56:25.897900"
     },
     {
       "id": "tug_feat_gift_of_the_metallic_dragon__ua_",
@@ -5782,19 +5908,19 @@
       "id": "8b5863c5-e563-4e00-8c2d-c364f49c13eb",
       "name": "The Judged",
       "path": "resources/skill_tree_node_the_judged.rpg",
-      "updated_at": "2026-05-22T14:24:23.745672"
+      "updated_at": "2026-05-22T14:56:25.902655"
     },
     {
       "id": "473ea658-5d39-40b3-8913-3ba81a9f9f5c",
       "name": "777",
       "path": "resources/skill_tree_node_777.rpg",
-      "updated_at": "2026-05-22T14:24:23.746628"
+      "updated_at": "2026-05-22T14:56:25.903651"
     },
     {
       "id": "b3de5bec-4144-47d8-9643-14825f190080",
       "name": "Hew",
       "path": "resources/weapon_hew_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:23.747538"
+      "updated_at": "2026-05-22T14:56:25.904670"
     },
     {
       "id": "tug_spell_sleet_storm",
@@ -5884,7 +6010,7 @@
       "id": "1d78eb4f-bd8a-4edf-ac5a-295a27ae8030",
       "name": "Shield of the Silver Dragon",
       "path": "resources/armor_shield_of_the_silver_dragon_cos.rpg",
-      "updated_at": "2026-05-22T14:24:23.765290"
+      "updated_at": "2026-05-22T14:56:25.920091"
     },
     {
       "id": "tug_monster_eternal_flame_guardian",
@@ -6004,7 +6130,7 @@
       "id": "5909b8bb-4bd9-4386-84fe-67dab30502ef",
       "name": "Shield of Shouting",
       "path": "resources/armor_shield_of_shouting_toa.rpg",
-      "updated_at": "2026-05-22T14:24:23.789725"
+      "updated_at": "2026-05-22T14:56:25.939805"
     },
     {
       "id": "tug_monster_banshee",
@@ -6022,7 +6148,7 @@
       "id": "f5a22662-fe27-45f5-a017-072db6a4b203",
       "name": "Spellguard Shield",
       "path": "resources/armor_spellguard_shield_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.793108"
+      "updated_at": "2026-05-22T14:56:25.943051"
     },
     {
       "id": "tug_monster_drow_favored_consort__mom_",
@@ -6053,6 +6179,12 @@
       "name": "Giant Scorpion",
       "path": "resources/monster_giant_scorpion_mm.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "trick_pick_mundane_illusion",
+      "name": "Mundane Illusion",
+      "path": "resources/trick_pick_mundane_illusion.rpg",
+      "updated_at": "2026-05-22T14:56:25.954296"
     },
     {
       "id": "tug_monster_engineer",
@@ -6100,7 +6232,7 @@
       "id": "b72bf4a2-f878-4216-bc81-2ac8f4234a26",
       "name": "Orcsplitter",
       "path": "resources/weapon_orcsplitter_pota.rpg",
-      "updated_at": "2026-05-22T14:24:23.816914"
+      "updated_at": "2026-05-22T14:56:25.964654"
     },
     {
       "id": "tug_item_thunderbuss",
@@ -6244,13 +6376,13 @@
       "id": "555f9840-a861-41d4-9075-7f42ddfd56b9",
       "name": "Shortsword",
       "path": "resources/weapon_shortsword_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.851181"
+      "updated_at": "2026-05-22T14:56:25.992955"
     },
     {
       "id": "f2ee0266-12e3-47b0-925d-113b4c2075f3",
       "name": "Tinderstrike",
       "path": "resources/weapon_tinderstrike_pota.rpg",
-      "updated_at": "2026-05-22T14:24:23.852737"
+      "updated_at": "2026-05-22T14:56:25.993676"
     },
     {
       "id": "tug_monster_harengon_sniper",
@@ -6262,7 +6394,7 @@
       "id": "7f702902-5be4-4ec7-86e9-ee1f93447253",
       "name": "Staff of the Python",
       "path": "resources/weapon_staff_of_the_python_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:23.855188"
+      "updated_at": "2026-05-22T14:56:25.995898"
     },
     {
       "id": "tug_monster_deep_scion",
@@ -6340,7 +6472,7 @@
       "id": "ff4c1108-8eaa-41c1-99ba-9f3c3c564c51",
       "name": "Hide",
       "path": "resources/armor_hide_phb.rpg",
-      "updated_at": "2026-05-22T14:24:23.874947"
+      "updated_at": "2026-05-22T14:56:26.008568"
     },
     {
       "id": "tug_monster_couatl",
@@ -6556,7 +6688,7 @@
       "id": "f6fc68d1-e845-4178-9296-e61af2541e6d",
       "name": "Malevolent Shrine",
       "path": "resources/skill_tree_node_malevolent_shrine.rpg",
-      "updated_at": "2026-05-22T14:24:24.045980"
+      "updated_at": "2026-05-22T14:56:26.162061"
     },
     {
       "id": "tug_monster_earth_elemental_myrmidon",
@@ -6592,7 +6724,7 @@
       "id": "c919c0dd-e019-4ae6-b29a-022900b5b557",
       "name": "Embody",
       "path": "resources/skill_tree_node_embody.rpg",
-      "updated_at": "2026-05-22T14:24:24.053121"
+      "updated_at": "2026-05-22T14:56:26.166841"
     },
     {
       "id": "tug_monster_dragon_army_dragonnel__dsdq_",
@@ -6622,13 +6754,13 @@
       "id": "4a1cfbdb-8574-4f12-83f1-eff94bf4204c",
       "name": "Scimitar of Speed",
       "path": "resources/weapon_scimitar_of_speed_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.059554"
+      "updated_at": "2026-05-22T14:56:26.171767"
     },
     {
       "id": "4fd44034-17f8-4429-8d28-3188fd0e3b26",
       "name": "Steel",
       "path": "resources/weapon_steel_wbtw.rpg",
-      "updated_at": "2026-05-22T14:24:24.060354"
+      "updated_at": "2026-05-22T14:56:26.172624"
     },
     {
       "id": "tug_monster_raven",
@@ -6778,13 +6910,13 @@
       "id": "48054d13-0dfb-4b7e-9fc0-a310662749db",
       "name": "Light Repeating Crossbow",
       "path": "resources/weapon_light_repeating_crossbow_oota.rpg",
-      "updated_at": "2026-05-22T14:24:24.105433"
+      "updated_at": "2026-05-22T14:56:26.205234"
     },
     {
       "id": "e121aa91-1f64-4052-bda8-67b483c1b4fe",
       "name": "Staff of Thunder and Lightning",
       "path": "resources/weapon_staff_of_thunder_and_lightning_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.107212"
+      "updated_at": "2026-05-22T14:56:26.206052"
     },
     {
       "id": "tug_monster_dragonblood_ooze",
@@ -6874,7 +7006,7 @@
       "id": "34724f6b-6c43-4ecb-b18d-e64dbb8d1bb6",
       "name": "Comedic Relief",
       "path": "resources/skill_tree_node_comedic_relief.rpg",
-      "updated_at": "2026-05-22T14:24:24.131047"
+      "updated_at": "2026-05-22T14:56:26.223553"
     },
     {
       "id": "tug_spell_intellect_fortress__ua_",
@@ -7030,7 +7162,13 @@
       "id": "ca1a0ab3-cb39-40f9-a5ec-ff7ce581d004",
       "name": "Infinite Void",
       "path": "resources/skill_tree_node_infinite_void.rpg",
-      "updated_at": "2026-05-22T14:24:24.167888"
+      "updated_at": "2026-05-22T14:56:26.251668"
+    },
+    {
+      "id": "weapon_master_style_clubbing",
+      "name": "Clubbing",
+      "path": "resources/weapon_master_style_clubbing.rpg",
+      "updated_at": "2026-05-22T14:56:26.252343"
     },
     {
       "id": "tug_monster_night_blade",
@@ -7078,7 +7216,7 @@
       "id": "rage_type_reckless",
       "name": "Reckless",
       "path": "resources/rage_type_reckless.rpg",
-      "updated_at": "2026-05-22T14:24:24.179202"
+      "updated_at": "2026-05-22T14:56:26.261539"
     },
     {
       "id": "tug_monster_flail_snail",
@@ -7288,7 +7426,7 @@
       "id": "4399ae2f-b32d-492c-8d05-493bc3ffafae",
       "name": "+1 Primal Strike",
       "path": "resources/skill_tree_node_+1_primal_strike.rpg",
-      "updated_at": "2026-05-22T14:24:24.231284"
+      "updated_at": "2026-05-22T14:56:26.300827"
     },
     {
       "id": "tug_spell_passwall",
@@ -7324,7 +7462,7 @@
       "id": "8ecce90e-1f4f-4683-9c09-754ecb1cee4a",
       "name": "Storm Boomerang",
       "path": "resources/weapon_storm_boomerang_pota.rpg",
-      "updated_at": "2026-05-22T14:24:24.240292"
+      "updated_at": "2026-05-22T14:56:26.308219"
     },
     {
       "id": "tug_monster_dragon_army_officer__dsdq_",
@@ -7342,7 +7480,7 @@
       "id": "642f3e46-1240-4bcc-b972-6839981e8162",
       "name": "Hand Crossbow",
       "path": "resources/weapon_hand_crossbow_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.243616"
+      "updated_at": "2026-05-22T14:56:26.310930"
     },
     {
       "id": "tug_item_perfume__vial_",
@@ -7366,13 +7504,13 @@
       "id": "rage_type_undying",
       "name": "Undying",
       "path": "resources/rage_type_undying.rpg",
-      "updated_at": "2026-05-22T14:24:24.248172"
+      "updated_at": "2026-05-22T14:56:26.313851"
     },
     {
       "id": "f5d2d586-7039-404c-a9e3-9bff3692cc27",
       "name": "Brass Dragon Scale Mail",
       "path": "resources/armor_brass_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.248972"
+      "updated_at": "2026-05-22T14:56:26.314387"
     },
     {
       "id": "tug_item_ring_of_amity",
@@ -7390,7 +7528,7 @@
       "id": "675a391f-4636-4752-bba8-0a18270289f8",
       "name": "Whelm",
       "path": "resources/weapon_whelm_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.252065"
+      "updated_at": "2026-05-22T14:56:26.316646"
     },
     {
       "id": "tug_monster_wyvern",
@@ -7456,7 +7594,7 @@
       "id": "00a70872-d35d-4b28-9371-09da646ea527",
       "name": "Flail of Tiamat",
       "path": "resources/weapon_flail_of_tiamat_ftd.rpg",
-      "updated_at": "2026-05-22T14:24:24.301156"
+      "updated_at": "2026-05-22T14:56:26.361018"
     },
     {
       "id": "tug_item_emblem",
@@ -7474,7 +7612,7 @@
       "id": "32f7a66f-370b-4caf-b7f4-a543ec2b15ab",
       "name": "Baba Yaga's Pestle",
       "path": "resources/weapon_baba_yaga_s_pestle_tce.rpg",
-      "updated_at": "2026-05-22T14:24:24.304820"
+      "updated_at": "2026-05-22T14:56:26.364580"
     },
     {
       "id": "tug_monster_lion",
@@ -7486,7 +7624,7 @@
       "id": "e2a92219-9331-49ab-82da-8840e9263cfa",
       "name": "Trident of Fish Command",
       "path": "resources/weapon_trident_of_fish_command_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.306978"
+      "updated_at": "2026-05-22T14:56:26.366652"
     },
     {
       "id": "tug_feat_gift_of_the_metallic_dragon__ftd_",
@@ -7528,25 +7666,25 @@
       "id": "beeb1c04-b304-4b6f-8f1d-cd495aaf4f92",
       "name": "Club",
       "path": "resources/weapon_club_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.315324"
+      "updated_at": "2026-05-22T14:56:26.372917"
     },
     {
       "id": "8801363b-e49c-401b-ae57-ef735b438ab4",
       "name": "Sunsword",
       "path": "resources/weapon_sunsword_cos.rpg",
-      "updated_at": "2026-05-22T14:24:24.316112"
+      "updated_at": "2026-05-22T14:56:26.373626"
     },
     {
       "id": "3ac3efde-18f0-4df1-8aca-bb7b34b82952",
       "name": "Armor of Vulnerability (Piercing)",
       "path": "resources/armor_armor_of_vulnerability_piercing_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.317031"
+      "updated_at": "2026-05-22T14:56:26.374645"
     },
     {
       "id": "b18be78e-875d-470c-b0eb-f163c6329c6f",
       "name": "Ephixis, Bow of Nylea",
       "path": "resources/weapon_ephixis,_bow_of_nylea_mot.rpg",
-      "updated_at": "2026-05-22T14:24:24.317993"
+      "updated_at": "2026-05-22T14:56:26.375586"
     },
     {
       "id": "tug_monster_grell",
@@ -7594,7 +7732,7 @@
       "id": "0d4b37a3-2ac4-48f3-8e21-8596b84c096a",
       "name": "Ironfang",
       "path": "resources/weapon_ironfang_pota.rpg",
-      "updated_at": "2026-05-22T14:24:24.333250"
+      "updated_at": "2026-05-22T14:56:26.385061"
     },
     {
       "id": "tug_item_three-dragon_ante_set",
@@ -7612,7 +7750,7 @@
       "id": "a435151c-ff8d-48b3-8fba-20f76ea5b340",
       "name": "Limit Break",
       "path": "resources/skill_tree_node_limit_break.rpg",
-      "updated_at": "2026-05-22T14:24:24.338100"
+      "updated_at": "2026-05-22T14:56:26.388539"
     },
     {
       "id": "tug_item_coin_of_delving",
@@ -7648,7 +7786,7 @@
       "id": "c9584020-c083-4df3-9420-5af985d8b564",
       "name": "Chance",
       "path": "resources/skill_tree_node_chance.rpg",
-      "updated_at": "2026-05-22T14:24:24.346315"
+      "updated_at": "2026-05-22T14:56:26.395086"
     },
     {
       "id": "tug_spell_tree_stride",
@@ -7720,7 +7858,7 @@
       "id": "aae1cf33-cb7a-4e11-81e4-2d7480966825",
       "name": "Spiked Armor",
       "path": "resources/armor_spiked_armor_scag.rpg",
-      "updated_at": "2026-05-22T14:24:24.377713"
+      "updated_at": "2026-05-22T14:56:26.410024"
     },
     {
       "id": "tug_monster_mist_hulk__bgg_",
@@ -7786,7 +7924,7 @@
       "id": "ecb1e70b-8813-460f-938f-f84c4853af04",
       "name": "White Dragon Scale Mail",
       "path": "resources/armor_white_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.393467"
+      "updated_at": "2026-05-22T14:56:26.419231"
     },
     {
       "id": "tug_monster_bronze_dragon_wyrmling",
@@ -7822,13 +7960,19 @@
       "id": "17247ba1-4cd7-4ed1-9cf2-4d5353a68ebb",
       "name": "Azuredge",
       "path": "resources/weapon_azuredge_wdh.rpg",
-      "updated_at": "2026-05-22T14:24:24.406243"
+      "updated_at": "2026-05-22T14:56:26.427925"
     },
     {
       "id": "tug_feat_knight_of_the_rose__dsdq_",
       "name": "Knight of the Rose",
       "path": "resources/feat_knight_of_the_rose_dsdq.rpg",
       "updated_at": "2026-02-07T10:30:48.627534"
+    },
+    {
+      "id": "trick_pick_tumble",
+      "name": "Tumble",
+      "path": "resources/trick_pick_tumble.rpg",
+      "updated_at": "2026-05-22T14:56:26.429632"
     },
     {
       "id": "tug_spell_nathairs_mischief",
@@ -7840,13 +7984,13 @@
       "id": "8149a503-fae9-4333-a587-ea92ea24ae45",
       "name": "Euryale's Aegis",
       "path": "resources/armor_euryale_s_aegis_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:24.410381"
+      "updated_at": "2026-05-22T14:56:26.430890"
     },
     {
       "id": "1e7f9b89-d904-4e9d-a4ed-82be972a8050",
       "name": "Staff of Striking",
       "path": "resources/weapon_staff_of_striking_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.412479"
+      "updated_at": "2026-05-22T14:56:26.431917"
     },
     {
       "id": "tug_spell_otherworldly_form__ua_",
@@ -7882,7 +8026,7 @@
       "id": "51920be8-5cfb-48bb-ad41-e86ea8a0f2d4",
       "name": "Brawn over Brains",
       "path": "resources/skill_tree_node_brawn_over_brains.rpg",
-      "updated_at": "2026-05-22T14:24:24.423625"
+      "updated_at": "2026-05-22T14:56:26.439732"
     },
     {
       "id": "tug_monster_combat_robot__qftis_",
@@ -7924,7 +8068,7 @@
       "id": "7b0f82f4-9cf7-4540-bc86-ae1f03a8e6cd",
       "name": "Greater Silver Sword",
       "path": "resources/weapon_greater_silver_sword_mtf.rpg",
-      "updated_at": "2026-05-22T14:24:24.434195"
+      "updated_at": "2026-05-22T14:56:26.446239"
     },
     {
       "id": "tug_item_crystal_ball_of_true_seeing",
@@ -7954,7 +8098,7 @@
       "id": "a4e953a7-1e7c-4d8b-ad75-dbe924ef160a",
       "name": "Mind Lash",
       "path": "resources/weapon_mind_lash_vgm.rpg",
-      "updated_at": "2026-05-22T14:24:24.441471"
+      "updated_at": "2026-05-22T14:56:26.450586"
     },
     {
       "id": "tug_spell_holy_weapon",
@@ -7978,7 +8122,7 @@
       "id": "e51bc04c-d6c1-4fee-a407-d0cfefaa8d90",
       "name": "Shield of Far Sight",
       "path": "resources/armor_shield_of_far_sight_vgm.rpg",
-      "updated_at": "2026-05-22T14:24:24.446646"
+      "updated_at": "2026-05-22T14:56:26.454026"
     },
     {
       "id": "tug_race_goliath__mom_",
@@ -8027,6 +8171,12 @@
       "name": "source_psz",
       "path": "resources/source_source_psz.rpg",
       "updated_at": "2025-01-10T08:05:38.936507"
+    },
+    {
+      "id": "weapon_master_style_sweeper",
+      "name": "Sweeper",
+      "path": "resources/weapon_master_style_sweeper.rpg",
+      "updated_at": "2026-05-22T14:56:26.463746"
     },
     {
       "id": "tug_monster_black_abishai__mom_",
@@ -8116,7 +8266,7 @@
       "id": "ef53e6d1-bb17-413b-bf22-06b6fa8e0070",
       "name": "Breastplate",
       "path": "resources/armor_breastplate_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.478806"
+      "updated_at": "2026-05-22T14:56:26.478019"
     },
     {
       "id": "tug_item_spell_scroll__2nd_level_",
@@ -8176,7 +8326,7 @@
       "id": "a6210222-6c95-4bff-9233-a5f86ef4a5fd",
       "name": "Lance",
       "path": "resources/weapon_lance_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.493651"
+      "updated_at": "2026-05-22T14:56:26.488532"
     },
     {
       "id": "tug_item_eversmoking_bottle",
@@ -8200,7 +8350,7 @@
       "id": "7ac9ec56-b1fa-4163-a5fc-da4cfa0f8752",
       "name": "Lash of Immolation",
       "path": "resources/weapon_lash_of_immolation_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:24.500729"
+      "updated_at": "2026-05-22T14:56:26.492196"
     },
     {
       "id": "tug_feat_adept_of_the_red_robes__dsdq_",
@@ -8236,7 +8386,7 @@
       "id": "8194cb99-7007-4f3b-95b8-d37ff7315d02",
       "name": "Severance",
       "path": "resources/skill_tree_node_severance.rpg",
-      "updated_at": "2026-05-22T14:24:24.509185"
+      "updated_at": "2026-05-22T14:56:26.497154"
     },
     {
       "id": "tug_monster_captain_othelstan",
@@ -8278,7 +8428,7 @@
       "id": "387a8325-f73c-4faa-98e1-7507a0efd67d",
       "name": "Wooden Staff",
       "path": "resources/weapon_wooden_staff_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.521343"
+      "updated_at": "2026-05-22T14:56:26.506037"
     },
     {
       "id": "esk",
@@ -8302,7 +8452,7 @@
       "id": "c7257dbf-796b-4e6b-8960-84a23ffb536f",
       "name": "Staff of Adornment",
       "path": "resources/weapon_staff_of_adornment_xge.rpg",
-      "updated_at": "2026-05-22T14:24:24.524608"
+      "updated_at": "2026-05-22T14:56:26.509636"
     },
     {
       "id": "tug_spell_knock",
@@ -8338,7 +8488,7 @@
       "id": "a1af2405-d85b-4b3f-a80c-808772e2842e",
       "name": "Repel",
       "path": "resources/skill_tree_node_repel.rpg",
-      "updated_at": "2026-05-22T14:24:24.530763"
+      "updated_at": "2026-05-22T14:56:26.515699"
     },
     {
       "id": "tug_monster_silver_dragon_wyrmling",
@@ -8350,7 +8500,7 @@
       "id": "d2b35b2f-47c3-494b-9b04-3120d924c570",
       "name": "Blowgun",
       "path": "resources/weapon_blowgun_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.532796"
+      "updated_at": "2026-05-22T14:56:26.517328"
     },
     {
       "id": "tug_item_ring_of_the_ram",
@@ -8365,10 +8515,16 @@
       "updated_at": "2024-12-20T18:50:35.756573"
     },
     {
+      "id": "flourish_pick_dodge_roll",
+      "name": "Dodge Roll",
+      "path": "resources/flourish_pick_dodge_roll.rpg",
+      "updated_at": "2026-05-22T14:56:26.519876"
+    },
+    {
       "id": "8877545f-697d-4b9a-a284-81c39b95dcfd",
       "name": "Oversized Longbow",
       "path": "resources/weapon_oversized_longbow_wdh.rpg",
-      "updated_at": "2026-05-22T14:24:24.534858"
+      "updated_at": "2026-05-22T14:56:26.520760"
     },
     {
       "id": "tug_spell_ice_storm",
@@ -8398,7 +8554,7 @@
       "id": "1d589c15-f904-48df-833a-9f5c3e4100f9",
       "name": "Primordial Weapon",
       "path": "resources/skill_tree_node_primordial_weapon.rpg",
-      "updated_at": "2026-05-22T14:24:24.540489"
+      "updated_at": "2026-05-22T14:56:26.525177"
     },
     {
       "id": "tug_background_investigator",
@@ -8470,7 +8626,7 @@
       "id": "b8b98f63-fd7e-40bf-8b0e-e14d39ac1d88",
       "name": "+1 Adrenaline",
       "path": "resources/skill_tree_node_+1_adrenaline.rpg",
-      "updated_at": "2026-05-22T14:24:24.558346"
+      "updated_at": "2026-05-22T14:56:26.539172"
     },
     {
       "id": "tug_monster_young_copper_dragon",
@@ -8524,7 +8680,7 @@
       "id": "rage_type_avenging",
       "name": "Avenging",
       "path": "resources/rage_type_avenging.rpg",
-      "updated_at": "2026-05-22T14:24:24.576297"
+      "updated_at": "2026-05-22T14:56:26.555562"
     },
     {
       "id": "tug_item_book_of_exalted_deeds",
@@ -8536,7 +8692,7 @@
       "id": "4c23842b-dbf3-463a-a558-1f37c3f16b9b",
       "name": "Hemo-Hardening",
       "path": "resources/skill_tree_node_hemo_hardening.rpg",
-      "updated_at": "2026-05-22T14:24:24.577866"
+      "updated_at": "2026-05-22T14:56:26.557237"
     },
     {
       "id": "tug_item_leatherworkers_tools",
@@ -8560,7 +8716,7 @@
       "id": "9f4ba7b0-a165-44ae-9f65-9e0e410f4496",
       "name": "Saint Markovia's Thighbone",
       "path": "resources/weapon_saint_markovia_s_thighbone_cos.rpg",
-      "updated_at": "2026-05-22T14:24:24.582113"
+      "updated_at": "2026-05-22T14:56:26.561607"
     },
     {
       "id": "tug_feat_medic",
@@ -8572,7 +8728,7 @@
       "id": "58bc997d-f7d9-405c-b0b5-af81cb5ba3ef",
       "name": "Infinite Void",
       "path": "resources/skill_tree_node_infinite_void.rpg",
-      "updated_at": "2026-05-22T14:24:24.583589"
+      "updated_at": "2026-05-22T14:56:26.563304"
     },
     {
       "id": "tug_monster_cave_bear",
@@ -8752,13 +8908,13 @@
       "id": "5eb6c562-68e1-4ecc-a4e2-5d8019369018",
       "name": "+1 Jutsu",
       "path": "resources/skill_tree_node_+1_jutsu.rpg",
-      "updated_at": "2026-05-22T14:24:24.624095"
+      "updated_at": "2026-05-22T14:56:26.601194"
     },
     {
       "id": "90ae4988-be16-49f5-97d0-43d533dd04a7",
       "name": "Survival Mantle",
       "path": "resources/armor_survival_mantle_vgm.rpg",
-      "updated_at": "2026-05-22T14:24:24.624734"
+      "updated_at": "2026-05-22T14:56:26.601787"
     },
     {
       "id": "tug_race_halfling",
@@ -8818,13 +8974,13 @@
       "id": "b604f3cf-fd90-41e8-8a8d-b779e40dec17",
       "name": "Greatclub",
       "path": "resources/weapon_greatclub_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.640446"
+      "updated_at": "2026-05-22T14:56:26.614956"
     },
     {
       "id": "d60c568a-7f66-44d1-950f-e181d6caf7e3",
       "name": "Chain mail",
       "path": "resources/armor_chain_mail_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.641196"
+      "updated_at": "2026-05-22T14:56:26.615644"
     },
     {
       "id": "tug_monster_adult_amethyst_dragon",
@@ -8842,13 +8998,13 @@
       "id": "cf88783d-03e1-467c-b2d1-1d9e33068908",
       "name": "Oathbow",
       "path": "resources/weapon_oathbow_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.644779"
+      "updated_at": "2026-05-22T14:56:26.619020"
     },
     {
       "id": "6cfeae3a-f42c-41a0-be85-6d57e481834e",
       "name": "Irresistible",
       "path": "resources/skill_tree_node_irresistible.rpg",
-      "updated_at": "2026-05-22T14:24:24.645530"
+      "updated_at": "2026-05-22T14:56:26.619909"
     },
     {
       "id": "cos",
@@ -8890,13 +9046,19 @@
       "id": "faec1148-2d16-4716-ab8d-a81df5f6a56c",
       "name": "Spear of Backbiting",
       "path": "resources/weapon_spear_of_backbiting_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:24.651858"
+      "updated_at": "2026-05-22T14:56:26.625137"
     },
     {
       "id": "tug_monster_langdedrosa_cyanwrath",
       "name": "Langdedrosa Cyanwrath",
       "path": "resources/monster_langdedrosa_cyanwrath_hotdq.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "weapon_master_style_poker",
+      "name": "Poker",
+      "path": "resources/weapon_master_style_poker.rpg",
+      "updated_at": "2026-05-22T14:56:26.626870"
     },
     {
       "id": "egw",
@@ -8938,7 +9100,7 @@
       "id": "7bc81d5c-e6f1-4b62-8e37-be2e573a1eb2",
       "name": "Maul",
       "path": "resources/weapon_maul_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.661899"
+      "updated_at": "2026-05-22T14:56:26.633426"
     },
     {
       "id": "tug_monster_grinning_cat__bgg_",
@@ -8992,7 +9154,7 @@
       "id": "022485a0-7779-4828-b280-fa1c11c41130",
       "name": "Sword of Answering (Answerer)",
       "path": "resources/weapon_sword_of_answering_answerer_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.674600"
+      "updated_at": "2026-05-22T14:56:26.642926"
     },
     {
       "id": "tug_monster_ancient_bronze_dragon",
@@ -9016,7 +9178,7 @@
       "id": "8b43d98b-f56e-44aa-b98f-6e0e7691fa0a",
       "name": "+1 Stance",
       "path": "resources/skill_tree_node_+1_stance.rpg",
-      "updated_at": "2026-05-22T14:24:24.679476"
+      "updated_at": "2026-05-22T14:56:26.646865"
     },
     {
       "id": "tug_monster_boar",
@@ -9046,7 +9208,7 @@
       "id": "ae7ae739-7ed3-4cac-9dad-0d8a33a38b03",
       "name": "Light Hammer",
       "path": "resources/weapon_light_hammer_phb.rpg",
-      "updated_at": "2026-05-22T14:24:24.684986"
+      "updated_at": "2026-05-22T14:56:26.651110"
     },
     {
       "id": "tug_spell_leomunds_secret_chest",
@@ -9076,7 +9238,7 @@
       "id": "e6158354-4e15-407f-aa97-bc1cd7823077",
       "name": "Mace of Terror",
       "path": "resources/weapon_mace_of_terror_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.689897"
+      "updated_at": "2026-05-22T14:56:26.654674"
     },
     {
       "id": "tug_item_jug",
@@ -9136,7 +9298,7 @@
       "id": "e7d86375-8b72-4a02-a9a3-f2b898f96b3f",
       "name": "Bob",
       "path": "resources/weapon_bob_toa.rpg",
-      "updated_at": "2026-05-22T14:24:24.701226"
+      "updated_at": "2026-05-22T14:56:26.663450"
     },
     {
       "id": "tug_item_dust_of_deliciousness",
@@ -9154,7 +9316,7 @@
       "id": "64703821-ba84-4c6b-9d60-5aa273f07e58",
       "name": "Animated Shield",
       "path": "resources/armor_animated_shield_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.704206"
+      "updated_at": "2026-05-22T14:56:26.665503"
     },
     {
       "id": "tug_item_belt_of_fire_giant_strength",
@@ -9394,7 +9556,7 @@
       "id": "limit_break_pick_relentless_endurance",
       "name": "Relentless Endurance",
       "path": "resources/limit_break_pick_relentless_endurance.rpg",
-      "updated_at": "2026-05-22T14:24:24.759774"
+      "updated_at": "2026-05-22T14:56:26.713081"
     },
     {
       "id": "tug_spell_motivational_speech",
@@ -9502,7 +9664,7 @@
       "id": "limit_break_pick_blood_drinker",
       "name": "Blood Drinker",
       "path": "resources/limit_break_pick_blood_drinker.rpg",
-      "updated_at": "2026-05-22T14:24:24.795375"
+      "updated_at": "2026-05-22T14:56:26.732222"
     },
     {
       "id": "tug_monster_ancient_green_dragon",
@@ -9514,7 +9676,7 @@
       "id": "b53ff795-1dae-4853-82b9-d4faeb24d85c",
       "name": "+1 Flourish",
       "path": "resources/skill_tree_node_+1_flourish.rpg",
-      "updated_at": "2026-05-22T14:24:24.798063"
+      "updated_at": "2026-05-22T14:56:26.734692"
     },
     {
       "id": "tug_monster_hadrosaurus",
@@ -9652,7 +9814,7 @@
       "id": "55dedb75-7705-4533-a12a-731775d241ed",
       "name": "Staff of the Magi",
       "path": "resources/weapon_staff_of_the_magi_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:24.828937"
+      "updated_at": "2026-05-22T14:56:26.756429"
     },
     {
       "id": "tug_item_potion_of_flying",
@@ -9724,7 +9886,7 @@
       "id": "a8432468-55fb-4a9a-8985-c4a67f75bf20",
       "name": "Mastix, Whip of Erebos",
       "path": "resources/weapon_mastix,_whip_of_erebos_mot.rpg",
-      "updated_at": "2026-05-22T14:24:24.851643"
+      "updated_at": "2026-05-22T14:56:26.773182"
     },
     {
       "id": "tug_monster_aurnozci__bmt_",
@@ -9748,7 +9910,7 @@
       "id": "37caca09-63a1-4a0a-9109-d37438ca3a83",
       "name": "Perfect Ratio",
       "path": "resources/skill_tree_node_perfect_ratio.rpg",
-      "updated_at": "2026-05-22T14:24:24.859671"
+      "updated_at": "2026-05-22T14:56:26.779098"
     },
     {
       "id": "tug_monster_barovian_witch",
@@ -9850,7 +10012,7 @@
       "id": "d70e2cb0-1dcd-4257-813a-fa6c566c7660",
       "name": "Dragontooth Dagger",
       "path": "resources/weapon_dragontooth_dagger_rot.rpg",
-      "updated_at": "2026-05-22T14:24:24.895419"
+      "updated_at": "2026-05-22T14:56:26.798811"
     },
     {
       "id": "tug_monster_deathlock_wight",
@@ -9868,7 +10030,7 @@
       "id": "860b58a0-8bb5-42b7-8697-8a4c91d1053b",
       "name": "Shield of the Tortoise",
       "path": "resources/armor_shield_of_the_tortoise_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:24.901117"
+      "updated_at": "2026-05-22T14:56:26.803618"
     },
     {
       "id": "tug_monster_kiddywidget",
@@ -9934,7 +10096,7 @@
       "id": "e651d3bb-8ba2-4713-b854-453e02864ead",
       "name": "Silver Sword",
       "path": "resources/weapon_silver_sword_mtf.rpg",
-      "updated_at": "2026-05-22T14:24:24.918011"
+      "updated_at": "2026-05-22T14:56:26.817624"
     },
     {
       "id": "tug_monster_beledros_witherbloom",
@@ -10027,6 +10189,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "weapon_master_style_improviser",
+      "name": "Improviser",
+      "path": "resources/weapon_master_style_improviser.rpg",
+      "updated_at": "2026-05-22T14:56:27.064887"
+    },
+    {
       "id": "tug_item_playing_card_set",
       "name": "Playing Card Set",
       "path": "resources/item_playing_card_set_phb.rpg",
@@ -10090,7 +10258,7 @@
       "id": "38e4da0a-4984-4c7e-a5f0-008dd774686f",
       "name": "Gold Dragon Scale Mail",
       "path": "resources/armor_gold_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.365463"
+      "updated_at": "2026-05-22T14:56:27.237694"
     },
     {
       "id": "tug_item_bobbing_lily_pad",
@@ -10222,7 +10390,7 @@
       "id": "e3eb7540-231b-499b-b4e5-6f0bc23297c2",
       "name": "Shield of the Uven Rune",
       "path": "resources/armor_shield_of_the_uven_rune_wdmm.rpg",
-      "updated_at": "2026-05-22T14:24:25.386526"
+      "updated_at": "2026-05-22T14:56:27.256961"
     },
     {
       "id": "tug_item_cloak_of_the_manta_ray",
@@ -10240,7 +10408,7 @@
       "id": "f3c3e56f-fcbe-4b9a-b604-b3c32b27fd19",
       "name": "Grasping Whip",
       "path": "resources/weapon_grasping_whip_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:25.388756"
+      "updated_at": "2026-05-22T14:56:27.259289"
     },
     {
       "id": "tug_item_scroll_of_protection_from_undead",
@@ -10288,7 +10456,7 @@
       "id": "ca742e6f-1ffe-45fc-83ef-d401f227c66b",
       "name": "Void",
       "path": "resources/skill_tree_node_void.rpg",
-      "updated_at": "2026-05-22T14:24:25.399338"
+      "updated_at": "2026-05-22T14:56:27.267178"
     },
     {
       "id": "tug_monster_loup_garou",
@@ -10318,7 +10486,7 @@
       "id": "a70c0450-c4d0-4a26-aafe-8a4b4daee97a",
       "name": "Rakdos Riteknife",
       "path": "resources/weapon_rakdos_riteknife_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:25.411626"
+      "updated_at": "2026-05-22T14:56:27.274549"
     },
     {
       "id": "tug_item_sling_bullet",
@@ -10330,13 +10498,13 @@
       "id": "rage_type_adamant",
       "name": "Adamant",
       "path": "resources/rage_type_adamant.rpg",
-      "updated_at": "2026-05-22T14:24:25.413641"
+      "updated_at": "2026-05-22T14:56:27.275965"
     },
     {
       "id": "c42f5fcc-adeb-420d-a8d3-0ace90d9c099",
       "name": "Elemental Transformation",
       "path": "resources/skill_tree_node_elemental_transformation.rpg",
-      "updated_at": "2026-05-22T14:24:25.414544"
+      "updated_at": "2026-05-22T14:56:27.276612"
     },
     {
       "id": "tug_monster_drow",
@@ -10438,13 +10606,13 @@
       "id": "20208190-cc0e-45e9-8852-cf02de3910cc",
       "name": "Staff of Frost",
       "path": "resources/weapon_staff_of_frost_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.433383"
+      "updated_at": "2026-05-22T14:56:27.292638"
     },
     {
       "id": "54c875a3-4ab7-4056-8263-cf634f540f08",
       "name": "Sword of Answering (Concluder)",
       "path": "resources/weapon_sword_of_answering_concluder_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.435239"
+      "updated_at": "2026-05-22T14:56:27.294398"
     },
     {
       "id": "tug_monster_hungry_sorrowsworn__mom_",
@@ -10468,7 +10636,7 @@
       "id": "8e313949-51a0-43a5-bd82-f682749a937c",
       "name": "Perfect Ratio +",
       "path": "resources/skill_tree_node_perfect_ratio_+.rpg",
-      "updated_at": "2026-05-22T14:24:25.439633"
+      "updated_at": "2026-05-22T14:56:27.298209"
     },
     {
       "id": "tug_spell_summon_beast",
@@ -10480,7 +10648,7 @@
       "id": "8d8eecd2-a469-4c89-af2a-f5e34beaaa12",
       "name": "Plate Armor of Etherealness",
       "path": "resources/armor_plate_armor_of_etherealness_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.441682"
+      "updated_at": "2026-05-22T14:56:27.299444"
     },
     {
       "id": "tug_spell_sword_burst",
@@ -10528,7 +10696,7 @@
       "id": "265f5d9d-91f2-4a28-820d-e21e4525730c",
       "name": "Sword of Answering (Retorter)",
       "path": "resources/weapon_sword_of_answering_retorter_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.450396"
+      "updated_at": "2026-05-22T14:56:27.306400"
     },
     {
       "id": "tug_item_wand_of_enemy_detection",
@@ -10696,7 +10864,7 @@
       "id": "160d77dc-eb1b-429e-a183-08056abbc418",
       "name": "Breastplate of Balance",
       "path": "resources/armor_breastplate_of_balance_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:25.488407"
+      "updated_at": "2026-05-22T14:56:27.337177"
     },
     {
       "id": "tug_spell_dark_star",
@@ -10756,7 +10924,7 @@
       "id": "9b5b1e77-228c-4277-9926-e2c0a8fed534",
       "name": "Sapphire Buckler",
       "path": "resources/armor_sapphire_buckler_ftd.rpg",
-      "updated_at": "2026-05-22T14:24:25.502230"
+      "updated_at": "2026-05-22T14:56:27.349368"
     },
     {
       "id": "tug_monster_homunculus__artificer_",
@@ -10804,13 +10972,13 @@
       "id": "e8946f76-50bb-4e49-9f6d-36e05ca9fe9c",
       "name": "Khrusor, Spear of Heliod",
       "path": "resources/weapon_khrusor,_spear_of_heliod_mot.rpg",
-      "updated_at": "2026-05-22T14:24:25.691682"
+      "updated_at": "2026-05-22T14:56:27.525218"
     },
     {
       "id": "17f919d3-7b1b-4e66-b528-950398c12358",
       "name": "Crusader's Shortsword",
       "path": "resources/weapon_crusader_s_shortsword_cos.rpg",
-      "updated_at": "2026-05-22T14:24:25.693513"
+      "updated_at": "2026-05-22T14:56:27.527052"
     },
     {
       "id": "tug_monster_swarm_of_hoard_scarabs",
@@ -10837,10 +11005,16 @@
       "updated_at": "2025-01-10T08:05:38.930522"
     },
     {
+      "id": "flourish_pick_meteor_shot",
+      "name": "Meteor Shot",
+      "path": "resources/flourish_pick_meteor_shot.rpg",
+      "updated_at": "2026-05-22T14:56:27.531904"
+    },
+    {
       "id": "1a6c27eb-b5da-4587-96c3-358572c67682",
       "name": "Shortbow",
       "path": "resources/weapon_shortbow_phb.rpg",
-      "updated_at": "2026-05-22T14:24:25.699285"
+      "updated_at": "2026-05-22T14:56:27.532575"
     },
     {
       "id": "tug_spell_divine_word",
@@ -10924,7 +11098,7 @@
       "id": "163bde9a-ef41-4e26-89fc-b6d2003383a8",
       "name": "Glaive",
       "path": "resources/weapon_glaive_phb.rpg",
-      "updated_at": "2026-05-22T14:24:25.712420"
+      "updated_at": "2026-05-22T14:56:27.544589"
     },
     {
       "id": "tug_monster_marut__mom_",
@@ -11008,7 +11182,7 @@
       "id": "e14247e4-2a62-4232-b217-a12d0ed4f7c2",
       "name": "Staff of Flowers",
       "path": "resources/weapon_staff_of_flowers_xge.rpg",
-      "updated_at": "2026-05-22T14:24:25.732220"
+      "updated_at": "2026-05-22T14:56:27.561492"
     },
     {
       "id": "tug_monster_fomorian_deep_crawler__bgg_",
@@ -11062,7 +11236,7 @@
       "id": "91c40010-d246-482d-9ec5-035c7d767a21",
       "name": "Boundless Domain",
       "path": "resources/skill_tree_node_boundless_domain.rpg",
-      "updated_at": "2026-05-22T14:24:25.743176"
+      "updated_at": "2026-05-22T14:56:27.570308"
     },
     {
       "id": "tug_item_hammer",
@@ -11104,7 +11278,7 @@
       "id": "ea695d9a-05b9-4e9c-9933-d665f4d3d15e",
       "name": "Sickle",
       "path": "resources/weapon_sickle_phb.rpg",
-      "updated_at": "2026-05-22T14:24:25.753267"
+      "updated_at": "2026-05-22T14:56:27.576999"
     },
     {
       "id": "tug_item_wasp_ship",
@@ -11173,6 +11347,12 @@
       "updated_at": "2025-01-10T08:05:38.930369"
     },
     {
+      "id": "flourish_pick_sweep",
+      "name": "Sweep",
+      "path": "resources/flourish_pick_sweep.rpg",
+      "updated_at": "2026-05-22T14:56:27.587889"
+    },
+    {
       "id": "tug_monster_treant",
       "name": "Treant",
       "path": "resources/monster_treant_mm.rpg",
@@ -11188,7 +11368,7 @@
       "id": "6e34d1c4-f755-4ce9-9d45-cd6d43ef6f92",
       "name": "Handaxe",
       "path": "resources/weapon_handaxe_phb.rpg",
-      "updated_at": "2026-05-22T14:24:25.768589"
+      "updated_at": "2026-05-22T14:56:27.589918"
     },
     {
       "id": "tug_item_mirror_of_life_trapping",
@@ -11212,7 +11392,7 @@
       "id": "79e8077b-4e04-4951-bf1b-1d4d3636779a",
       "name": "Obsidian Flint Dragon Plate",
       "path": "resources/armor_obsidian_flint_dragon_plate_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:25.772637"
+      "updated_at": "2026-05-22T14:56:27.593021"
     },
     {
       "id": "tug_item_carriage",
@@ -11230,7 +11410,7 @@
       "id": "a1e5d56a-9970-4c79-b8d4-0c6c46058bcc",
       "name": "+1 Rage",
       "path": "resources/skill_tree_node_+1_rage.rpg",
-      "updated_at": "2026-05-22T14:24:25.775808"
+      "updated_at": "2026-05-22T14:56:27.595406"
     },
     {
       "id": "tug_item_luxon_beacon",
@@ -11242,7 +11422,7 @@
       "id": "a1f068aa-9a61-42e9-a1de-166d8ded17f7",
       "name": "Blade of Avernus",
       "path": "resources/weapon_blade_of_avernus_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:25.777598"
+      "updated_at": "2026-05-22T14:56:27.596648"
     },
     {
       "id": "tug_spell_creation",
@@ -11254,7 +11434,7 @@
       "id": "57af96d1-8bca-420b-97d3-0e75d6a0fab6",
       "name": "Hemolock",
       "path": "resources/skill_tree_node_hemolock.rpg",
-      "updated_at": "2026-05-22T14:24:25.779167"
+      "updated_at": "2026-05-22T14:56:27.598134"
     },
     {
       "id": "tug_feat_bountiful_luck",
@@ -11284,7 +11464,7 @@
       "id": "8c1e6f79-c7ad-461d-ad38-ebf563baab18",
       "name": "Seeker Dart",
       "path": "resources/weapon_seeker_dart_pota.rpg",
-      "updated_at": "2026-05-22T14:24:25.783347"
+      "updated_at": "2026-05-22T14:56:27.601883"
     },
     {
       "id": "tug_monster_hill_giant_avalancher__bgg_",
@@ -11326,13 +11506,13 @@
       "id": "58d72e8e-af25-4eb5-ae71-d9c95f91a52b",
       "name": "Esper",
       "path": "resources/skill_tree_node_esper.rpg",
-      "updated_at": "2026-05-22T14:24:25.791057"
+      "updated_at": "2026-05-22T14:56:27.610557"
     },
     {
       "id": "172d734b-43bb-4d27-b111-2610e61c83d3",
       "name": "+1 Spell Broken",
       "path": "resources/skill_tree_node_+1_spell_broken.rpg",
-      "updated_at": "2026-05-22T14:24:25.791995"
+      "updated_at": "2026-05-22T14:56:27.611177"
     },
     {
       "id": "tug_item_potion_of_climbing",
@@ -11344,7 +11524,7 @@
       "id": "d2fe6553-a790-4dd8-a0f9-c4a274453f39",
       "name": "Staff of the Woodlands",
       "path": "resources/weapon_staff_of_the_woodlands_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.793639"
+      "updated_at": "2026-05-22T14:56:27.612870"
     },
     {
       "id": "tug_spell_illusory_dragon",
@@ -11380,7 +11560,7 @@
       "id": "87b84b66-f0ac-4833-9290-ff2dd5e42e44",
       "name": "Spider Staff",
       "path": "resources/weapon_spider_staff_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:25.800847"
+      "updated_at": "2026-05-22T14:56:27.619668"
     },
     {
       "id": "tug_item_ring_of_shooting_stars",
@@ -11416,7 +11596,7 @@
       "id": "effe5d6b-826a-47ea-b091-606a94c4ffb3",
       "name": "Staff of Defense",
       "path": "resources/weapon_staff_of_defense_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:25.806796"
+      "updated_at": "2026-05-22T14:56:27.625460"
     },
     {
       "id": "tug_monster_space_hamster__bam_",
@@ -11470,7 +11650,7 @@
       "id": "5279d9f8-825d-4e44-a036-bb827c43d43f",
       "name": "Powered Armor",
       "path": "resources/armor_powered_armor_qftis.rpg",
-      "updated_at": "2026-05-22T14:24:25.818367"
+      "updated_at": "2026-05-22T14:56:27.635752"
     },
     {
       "id": "tug_monster_dao",
@@ -11608,7 +11788,7 @@
       "id": "18ae76bd-6139-4e1f-997f-c59ba3213575",
       "name": "Mace of Disruption",
       "path": "resources/weapon_mace_of_disruption_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.850333"
+      "updated_at": "2026-05-22T14:56:27.665250"
     },
     {
       "id": "tug_item_component_pouch",
@@ -11626,7 +11806,7 @@
       "id": "85e8163a-f6c3-445b-9e36-180b98578ae0",
       "name": "Sword of the Paruns",
       "path": "resources/weapon_sword_of_the_paruns_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:25.854840"
+      "updated_at": "2026-05-22T14:56:27.668636"
     },
     {
       "id": "tug_item_instrument_of_the_bards,_doss_lute",
@@ -11734,7 +11914,7 @@
       "id": "ac2bb964-9216-4a88-ada8-8d1cd49801ac",
       "name": "Mana Blade",
       "path": "resources/skill_tree_node_mana_blade.rpg",
-      "updated_at": "2026-05-22T14:24:25.875823"
+      "updated_at": "2026-05-22T14:56:27.687050"
     },
     {
       "id": "tug_item_scroll_of_protection_from_elementals",
@@ -11812,13 +11992,13 @@
       "id": "8f426179-88fd-445c-9b93-e099d8f15ced",
       "name": "Serpent's Fang",
       "path": "resources/weapon_serpent_s_fang_cm.rpg",
-      "updated_at": "2026-05-22T14:24:25.891950"
+      "updated_at": "2026-05-22T14:56:27.700424"
     },
     {
       "id": "58ee1c97-2e55-4b3c-9ac7-adbbc3b60240",
       "name": "Hemosight",
       "path": "resources/skill_tree_node_hemosight.rpg",
-      "updated_at": "2026-05-22T14:24:25.892788"
+      "updated_at": "2026-05-22T14:56:27.701226"
     },
     {
       "id": "tug_item_pipe_of_smoke_monsters",
@@ -11908,7 +12088,7 @@
       "id": "175277d4-f2f8-4c68-8f6c-815132ee5722",
       "name": "Silver Dragon Scale Mail",
       "path": "resources/armor_silver_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:25.909390"
+      "updated_at": "2026-05-22T14:56:27.715397"
     },
     {
       "id": "tug_monster_dragon_army_soldier__dsdq_",
@@ -12013,6 +12193,12 @@
       "updated_at": "2026-02-07T10:53:53.727929"
     },
     {
+      "id": "flourish_pick_grab",
+      "name": "Grab",
+      "path": "resources/flourish_pick_grab.rpg",
+      "updated_at": "2026-05-22T14:56:27.736478"
+    },
+    {
       "id": "tug_monster_cradle_of_the_hill_scion__bgg_",
       "name": "Cradle of the Hill Scion",
       "path": "resources/monster_cradle_of_the_hill_scion_bgg.rpg",
@@ -12058,7 +12244,7 @@
       "id": "674c45ef-1336-45d3-ba01-e0129713a142",
       "name": "Evasion",
       "path": "resources/skill_tree_node_evasion.rpg",
-      "updated_at": "2026-05-22T14:24:25.939927"
+      "updated_at": "2026-05-22T14:56:27.744265"
     },
     {
       "id": "tug_item_potion_of_necrotic_resistance",
@@ -12070,13 +12256,13 @@
       "id": "cff909c2-3baf-4b1b-9519-10b7f7c00cff",
       "name": "+1 Trick",
       "path": "resources/skill_tree_node_+1_trick.rpg",
-      "updated_at": "2026-05-22T14:24:25.941383"
+      "updated_at": "2026-05-22T14:56:27.745597"
     },
     {
       "id": "d9771f2c-dc53-4c5d-8b67-7ae7e88dc49f",
       "name": "Sling of Giant Felling",
       "path": "resources/weapon_sling_of_giant_felling_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:25.942064"
+      "updated_at": "2026-05-22T14:56:27.746176"
     },
     {
       "id": "tug_monster_draegloth",
@@ -12184,7 +12370,7 @@
       "id": "d4efd23c-e429-4b90-94cb-3130273c00a0",
       "name": "+2 Spell Weaves",
       "path": "resources/skill_tree_node_+2_spell_weaves.rpg",
-      "updated_at": "2026-05-22T14:24:25.961113"
+      "updated_at": "2026-05-22T14:56:27.762994"
     },
     {
       "id": "tug_item_universal_solvent",
@@ -12232,13 +12418,13 @@
       "id": "7a9f2d44-7fd1-4f7e-bb43-c81828850786",
       "name": "Stonebreaker's Breastplate",
       "path": "resources/armor_stonebreaker_s_breastplate_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:25.967872"
+      "updated_at": "2026-05-22T14:56:27.769525"
     },
     {
       "id": "37412607-fb39-4db0-b02d-8082178c5785",
       "name": "Elemental Transformation",
       "path": "resources/skill_tree_node_elemental_transformation.rpg",
-      "updated_at": "2026-05-22T14:24:25.969112"
+      "updated_at": "2026-05-22T14:56:27.770237"
     },
     {
       "id": "tug_monster_kender_skirmisher__dsdq_",
@@ -12268,7 +12454,7 @@
       "id": "e3f33b4e-406b-4131-9fde-44187b7cd1a8",
       "name": "Spell Resistance",
       "path": "resources/skill_tree_node_spell_resistance.rpg",
-      "updated_at": "2026-05-22T14:24:25.977016"
+      "updated_at": "2026-05-22T14:56:27.775636"
     },
     {
       "id": "tug_monster_fate_hag__bmt_",
@@ -12286,7 +12472,7 @@
       "id": "d518accb-c8cd-46e9-9643-2279c3cce710",
       "name": "Flayer Slayer",
       "path": "resources/weapon_flayer_slayer_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:25.980594"
+      "updated_at": "2026-05-22T14:56:27.779208"
     },
     {
       "id": "tug_item_periapt_of_wound_closure",
@@ -12364,7 +12550,7 @@
       "id": "a09015da-87e2-4120-956b-c336212c2f75",
       "name": "Witchlight Vane",
       "path": "resources/weapon_witchlight_vane_wbtw.rpg",
-      "updated_at": "2026-05-22T14:24:25.995491"
+      "updated_at": "2026-05-22T14:56:27.791121"
     },
     {
       "id": "tug_monster_skull_lord__mom_",
@@ -12394,13 +12580,19 @@
       "id": "0e349fe6-feca-4f21-89ba-fef4db156e04",
       "name": "Overtime",
       "path": "resources/skill_tree_node_overtime.rpg",
-      "updated_at": "2026-05-22T14:24:26.004631"
+      "updated_at": "2026-05-22T14:56:27.798502"
     },
     {
       "id": "tug_monster_sharwyn_hucrele",
       "name": "Sharwyn Hucrele",
       "path": "resources/monster_sharwyn_hucrele_tftyp.rpg",
       "updated_at": "2026-02-27T17:46:07.917925"
+    },
+    {
+      "id": "weapon_master_style_protector",
+      "name": "Protector",
+      "path": "resources/weapon_master_style_protector.rpg",
+      "updated_at": "2026-05-22T14:56:27.801199"
     },
     {
       "id": "tug_item_staff_of_thunder_and_lightning",
@@ -12496,7 +12688,7 @@
       "id": "eb01bdca-8c5e-407e-9f24-8c9aedb4798f",
       "name": "Arcane Bond",
       "path": "resources/skill_tree_node_arcane_bond.rpg",
-      "updated_at": "2026-05-22T14:24:26.036556"
+      "updated_at": "2026-05-22T14:56:27.821043"
     },
     {
       "id": "tug_item_cobblers_tools",
@@ -12538,13 +12730,13 @@
       "id": "79f5f83b-b61c-43c6-9da5-ef7373600168",
       "name": "Candle Mace",
       "path": "resources/weapon_candle_mace_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:26.045064"
+      "updated_at": "2026-05-22T14:56:27.826388"
     },
     {
       "id": "c7e2cc60-f1a0-4fb4-bdae-a598f68b3bdb",
       "name": "Armor of Vulnerability (Slashing)",
       "path": "resources/armor_armor_of_vulnerability_slashing_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.046193"
+      "updated_at": "2026-05-22T14:56:27.826961"
     },
     {
       "id": "tug_spell_speak_with_plants",
@@ -12604,7 +12796,7 @@
       "id": "e7dfcc8a-42c4-4952-baa0-37c4746b6efd",
       "name": "Bronze Dragon Scale Mail",
       "path": "resources/armor_bronze_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.064811"
+      "updated_at": "2026-05-22T14:56:27.838335"
     },
     {
       "id": "tug_spell_word_of_radiance",
@@ -12694,7 +12886,7 @@
       "id": "6ac1f7e2-03b8-4563-a19d-a605d9ae9a9e",
       "name": "+3 Moon Sickle",
       "path": "resources/weapon_+3_moon_sickle_tce.rpg",
-      "updated_at": "2026-05-22T14:24:26.089624"
+      "updated_at": "2026-05-22T14:56:27.857091"
     },
     {
       "id": "tug_spell_levitate",
@@ -12724,13 +12916,13 @@
       "id": "52facdf0-a7bc-45b9-8c2e-0500922d6bd0",
       "name": "Pathfinder's Greataxe",
       "path": "resources/weapon_pathfinder_s_greataxe_pota.rpg",
-      "updated_at": "2026-05-22T14:24:26.093977"
+      "updated_at": "2026-05-22T14:56:27.860502"
     },
     {
       "id": "08e30890-255e-4ec8-8867-90770395c9c4",
       "name": "Copper Dragon Scale Mail",
       "path": "resources/armor_copper_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.094828"
+      "updated_at": "2026-05-22T14:56:27.861093"
     },
     {
       "id": "tug_monster_bandit",
@@ -12761,6 +12953,12 @@
       "name": "Athlete",
       "path": "resources/feat_athlete_phb.rpg",
       "updated_at": "2026-02-07T10:30:48.627534"
+    },
+    {
+      "id": "weapon_master_style_goliath_feller",
+      "name": "Goliath Feller",
+      "path": "resources/weapon_master_style_goliath_feller.rpg",
+      "updated_at": "2026-05-22T14:56:27.866648"
     },
     {
       "id": "tug_monster_female_steeder",
@@ -12916,7 +13114,7 @@
       "id": "209aa24b-bb0b-4416-a638-7299548cf5c0",
       "name": "Staff of Power",
       "path": "resources/weapon_staff_of_power_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.148864"
+      "updated_at": "2026-05-22T14:56:27.889577"
     },
     {
       "id": "tug_monster_dragonborn_of_tiamat",
@@ -12929,6 +13127,12 @@
       "name": "Wand of Polymorph",
       "path": "resources/item_wand_of_polymorph_dmg.rpg",
       "updated_at": "2024-12-20T18:50:35.657771"
+    },
+    {
+      "id": "weapon_master_style_boomeranger",
+      "name": "Boomeranger",
+      "path": "resources/weapon_master_style_boomeranger.rpg",
+      "updated_at": "2026-05-22T14:56:27.893643"
     },
     {
       "id": "tug_item_mess_kit",
@@ -12952,7 +13156,7 @@
       "id": "2b444d85-7120-4dd5-8de6-c9a9d17d3c05",
       "name": "Sword of Kas",
       "path": "resources/weapon_sword_of_kas_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.160378"
+      "updated_at": "2026-05-22T14:56:27.896797"
     },
     {
       "id": "tug_background_clan_crafter",
@@ -13084,7 +13288,7 @@
       "id": "limit_break_pick_unkillable",
       "name": "Unkillable",
       "path": "resources/limit_break_pick_unkillable.rpg",
-      "updated_at": "2026-05-22T14:24:26.192864"
+      "updated_at": "2026-05-22T14:56:27.918969"
     },
     {
       "id": "tug_item_alchemists_supplies",
@@ -13108,7 +13312,7 @@
       "id": "9fa31af5-d7e3-4e31-8e2b-648470fd27e5",
       "name": "Stonemaker War Pick",
       "path": "resources/weapon_stonemaker_war_pick_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:26.198431"
+      "updated_at": "2026-05-22T14:56:27.922237"
     },
     {
       "id": "tug_item_spell_scroll__cantrip_",
@@ -13306,7 +13510,7 @@
       "id": "539c545a-1d7a-4afb-8e15-53801b721aa5",
       "name": "Natural Defence",
       "path": "resources/skill_tree_node_natural_defence.rpg",
-      "updated_at": "2026-05-22T14:24:26.255579"
+      "updated_at": "2026-05-22T14:56:27.961502"
     },
     {
       "id": "tug_item_deck_of_miscellany",
@@ -13363,6 +13567,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "weapon_master_style_gun_fu",
+      "name": "Gun-Fu",
+      "path": "resources/weapon_master_style_gun_fu.rpg",
+      "updated_at": "2026-05-22T14:56:27.981231"
+    },
+    {
       "id": "tug_item_potion_of_clairvoyance",
       "name": "Potion of Clairvoyance",
       "path": "resources/item_potion_of_clairvoyance_dmg.rpg",
@@ -13378,13 +13588,19 @@
       "id": "fb0762da-9619-48ad-a3c1-65e30aa3feb5",
       "name": "Devlin's Staff of Striking",
       "path": "resources/weapon_devlin_s_staff_of_striking_toa.rpg",
-      "updated_at": "2026-05-22T14:24:26.272558"
+      "updated_at": "2026-05-22T14:56:27.984936"
     },
     {
       "id": "Customc8aef394-0f7d-4e56-b6a4-0e508727bc86",
       "name": "Athlete",
       "path": "resources/background_athlete_mot.rpg",
       "updated_at": "2024-12-20T18:50:20.069256"
+    },
+    {
+      "id": "weapon_master_style_big_swinger",
+      "name": "Big Swinger",
+      "path": "resources/weapon_master_style_big_swinger.rpg",
+      "updated_at": "2026-05-22T14:56:27.987560"
     },
     {
       "id": "tug_monster_clockwork_dragon",
@@ -13444,7 +13660,7 @@
       "id": "a7f0c80c-011a-42a9-985b-04d798d9ffea",
       "name": "Space",
       "path": "resources/skill_tree_node_space.rpg",
-      "updated_at": "2026-05-22T14:24:26.306585"
+      "updated_at": "2026-05-22T14:56:27.998544"
     },
     {
       "id": "tug_monster_bridesmaid_of_zuggtmoy",
@@ -13486,7 +13702,7 @@
       "id": "3090da78-9b1f-4a18-aa70-9a2bec2dbd9b",
       "name": "Primordial Hunger",
       "path": "resources/skill_tree_node_primordial_hunger.rpg",
-      "updated_at": "2026-05-22T14:24:26.317755"
+      "updated_at": "2026-05-22T14:56:28.004622"
     },
     {
       "id": "tug_spell_blade_of_disaster",
@@ -13504,13 +13720,19 @@
       "id": "e812fe2f-7aba-40f0-8b7d-ab639c4f2080",
       "name": "Elemental Infusion",
       "path": "resources/skill_tree_node_elemental_infusion.rpg",
-      "updated_at": "2026-05-22T14:24:26.324754"
+      "updated_at": "2026-05-22T14:56:28.007879"
     },
     {
       "id": "tug_monster_young_gold_dragon",
       "name": "Young Gold Dragon",
       "path": "resources/monster_young_gold_dragon_mm.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "flourish_pick_uppercut",
+      "name": "Uppercut",
+      "path": "resources/flourish_pick_uppercut.rpg",
+      "updated_at": "2026-05-22T14:56:28.009621"
     },
     {
       "id": "tug_monster_dybbuk__mom_",
@@ -13660,7 +13882,7 @@
       "id": "a421f195-9242-4a44-a0ee-15912738e558",
       "name": "Surplus Potential",
       "path": "resources/skill_tree_node_surplus_potential.rpg",
-      "updated_at": "2026-05-22T14:24:26.363373"
+      "updated_at": "2026-05-22T14:56:28.036208"
     },
     {
       "id": "tug_monster_faerie_dragon__indigo_",
@@ -13690,7 +13912,7 @@
       "id": "6c59b65d-2da2-407c-a4fd-0cbb467cdec2",
       "name": "Sword of Answering (Squelcher)",
       "path": "resources/weapon_sword_of_answering_squelcher_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.368844"
+      "updated_at": "2026-05-22T14:56:28.041384"
     },
     {
       "id": "tug_monster_nupperibo__mom_",
@@ -13714,7 +13936,7 @@
       "id": "d07432ff-3145-485d-8f4a-2520c64631db",
       "name": "+1 Heal",
       "path": "resources/skill_tree_node_+1_heal.rpg",
-      "updated_at": "2026-05-22T14:24:26.372489"
+      "updated_at": "2026-05-22T14:56:28.044179"
     },
     {
       "id": "tug_item_tankard",
@@ -13744,13 +13966,13 @@
       "id": "e471c557-a797-4b2f-b16e-662f6265433c",
       "name": "Sword of Answering (Rebutter)",
       "path": "resources/weapon_sword_of_answering_rebutter_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.376317"
+      "updated_at": "2026-05-22T14:56:28.047371"
     },
     {
       "id": "8f26e1b4-c61a-4673-a43e-2dcf1f37ec26",
       "name": "Half plate",
       "path": "resources/armor_half_plate_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.377136"
+      "updated_at": "2026-05-22T14:56:28.048005"
     },
     {
       "id": "tug_race_shadar-kai__mom_",
@@ -13774,7 +13996,7 @@
       "id": "d3d40f63-47cc-4fb1-8340-fbdab63ebd38",
       "name": "Rod of Lordly Might",
       "path": "resources/weapon_rod_of_lordly_might_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.382149"
+      "updated_at": "2026-05-22T14:56:28.051783"
     },
     {
       "id": "tug_spell_bestow_curse",
@@ -13804,7 +14026,7 @@
       "id": "a6961973-2a9e-474d-8535-0e78ab465473",
       "name": "Studded leather",
       "path": "resources/armor_studded_leather_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.386877"
+      "updated_at": "2026-05-22T14:56:28.055722"
     },
     {
       "id": "tug_monster_wasteland_dragonnel__dsdq_",
@@ -13823,6 +14045,12 @@
       "name": "Kenku",
       "path": "resources/race_kenku_mom.rpg",
       "updated_at": "2024-12-20T18:50:53.874361"
+    },
+    {
+      "id": "weapon_master_style_whiplash",
+      "name": "Whiplash",
+      "path": "resources/weapon_master_style_whiplash.rpg",
+      "updated_at": "2026-05-22T14:56:28.058714"
     },
     {
       "id": "tug_item_figurine_of_wondrous_power,_obsidian_steed",
@@ -13870,7 +14098,7 @@
       "id": "limit_break_pick_desperate_smite",
       "name": "Desperate Smite",
       "path": "resources/limit_break_pick_desperate_smite.rpg",
-      "updated_at": "2026-05-22T14:24:26.397008"
+      "updated_at": "2026-05-22T14:56:28.064082"
     },
     {
       "id": "tug_monster_bore_worm",
@@ -13919,6 +14147,12 @@
       "name": "Everybody's Friend",
       "path": "resources/feat_everybody_s_friend_ua.rpg",
       "updated_at": "2026-02-07T10:30:48.627534"
+    },
+    {
+      "id": "weapon_master_style_axe_terminator",
+      "name": "Axe-Terminator",
+      "path": "resources/weapon_master_style_axe_terminator.rpg",
+      "updated_at": "2026-05-22T14:56:28.070079"
     },
     {
       "id": "tug_item_orb_of_the_veil",
@@ -13990,7 +14224,7 @@
       "id": "7405d232-aa6d-4b61-975e-4ce739da5522",
       "name": "Heavy Crossbow",
       "path": "resources/weapon_heavy_crossbow_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.424507"
+      "updated_at": "2026-05-22T14:56:28.083498"
     },
     {
       "id": "tug_monster_duergar",
@@ -14026,7 +14260,7 @@
       "id": "a58c7867-3b7a-4ea1-af41-dd676317792e",
       "name": "+1 Specialise",
       "path": "resources/skill_tree_node_+1_specialise.rpg",
-      "updated_at": "2026-05-22T14:24:26.431040"
+      "updated_at": "2026-05-22T14:56:28.088387"
     },
     {
       "id": "tug_monster_jackal",
@@ -14068,7 +14302,7 @@
       "id": "ea9bb7d0-eda3-4c83-b902-1472f916e9d4",
       "name": "Longbow of the Healing Hearth",
       "path": "resources/weapon_longbow_of_the_healing_hearth_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:26.437094"
+      "updated_at": "2026-05-22T14:56:28.093215"
     },
     {
       "id": "tug_item_+2_fate_dealers_deck",
@@ -14104,7 +14338,7 @@
       "id": "85af8ab8-251e-411e-bd39-7fec30ef75a4",
       "name": "Sword of Answering (Back Talker)",
       "path": "resources/weapon_sword_of_answering_back_talker_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.444881"
+      "updated_at": "2026-05-22T14:56:28.098743"
     },
     {
       "id": "tug_monster_spawn_of_kyuss",
@@ -14122,7 +14356,7 @@
       "id": "9c846c49-fb69-47bf-a510-760ff5fa7e7a",
       "name": "Sentinel Shield",
       "path": "resources/armor_sentinel_shield_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.447619"
+      "updated_at": "2026-05-22T14:56:28.101292"
     },
     {
       "id": "tug_monster_baboon",
@@ -14146,7 +14380,7 @@
       "id": "554f0667-0402-4ab4-b570-52e3908d565e",
       "name": "Environmental Hazard",
       "path": "resources/skill_tree_node_environmental_hazard.rpg",
-      "updated_at": "2026-05-22T14:24:26.453612"
+      "updated_at": "2026-05-22T14:56:28.106417"
     },
     {
       "id": "tug_monster_swarm_of_gremishkas",
@@ -14176,7 +14410,7 @@
       "id": "cc82fb5a-849e-44b4-8717-d7cd708250e2",
       "name": "Dawnbringer",
       "path": "resources/weapon_dawnbringer_oota.rpg",
-      "updated_at": "2026-05-22T14:24:26.460713"
+      "updated_at": "2026-05-22T14:56:28.113382"
     },
     {
       "id": "tug_spell_fizbans_platinum_shield",
@@ -14194,7 +14428,7 @@
       "id": "0bb38767-0e24-46a7-b7f0-570819be45af",
       "name": "Mace of Smiting",
       "path": "resources/weapon_mace_of_smiting_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.462965"
+      "updated_at": "2026-05-22T14:56:28.115300"
     },
     {
       "id": "cm",
@@ -14206,7 +14440,7 @@
       "id": "fcc898bb-af8a-45ac-ab64-cbe4d4f22ac6",
       "name": "+1d4 Sneak Attack",
       "path": "resources/skill_tree_node_+1d4_sneak_attack.rpg",
-      "updated_at": "2026-05-22T14:24:26.464288"
+      "updated_at": "2026-05-22T14:56:28.116551"
     },
     {
       "id": "tug_monster_sapphire_greatwyrm",
@@ -14224,7 +14458,7 @@
       "id": "8aa1d5ad-33b4-4f61-8891-b4676b81d05c",
       "name": "Physical",
       "path": "resources/skill_tree_node_physical.rpg",
-      "updated_at": "2026-05-22T14:24:26.467797"
+      "updated_at": "2026-05-22T14:56:28.119604"
     },
     {
       "id": "tug_monster_tarrasque",
@@ -14255,6 +14489,12 @@
       "name": "Feather Fall",
       "path": "resources/spell_feather_fall_phb.rpg",
       "updated_at": "2024-12-20T18:50:46.611972"
+    },
+    {
+      "id": "trick_pick_disengage_t",
+      "name": "Disengage",
+      "path": "resources/trick_pick_disengage.rpg",
+      "updated_at": "2026-05-22T14:56:28.130178"
     },
     {
       "id": "tug_spell_hold_person",
@@ -14308,7 +14548,7 @@
       "id": "dca8c894-2868-4bb5-822c-da53ad54b0d8",
       "name": "Chain shirt",
       "path": "resources/armor_chain_shirt_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.486952"
+      "updated_at": "2026-05-22T14:56:28.136752"
     },
     {
       "id": "tug_monster_spy",
@@ -14320,7 +14560,7 @@
       "id": "f631236b-7f3b-4940-9785-983aaac96235",
       "name": "Yklwa",
       "path": "resources/weapon_yklwa_toa.rpg",
-      "updated_at": "2026-05-22T14:24:26.488730"
+      "updated_at": "2026-05-22T14:56:28.138243"
     },
     {
       "id": "tug_monster_giant_bat",
@@ -14380,7 +14620,7 @@
       "id": "77452213-ccc8-412f-81f8-97e03a73766e",
       "name": "The Judged",
       "path": "resources/skill_tree_node_the_judged.rpg",
-      "updated_at": "2026-05-22T14:24:26.499988"
+      "updated_at": "2026-05-22T14:56:28.148367"
     },
     {
       "id": "tug_spell_maelstrom",
@@ -14428,7 +14668,7 @@
       "id": "2788925f-c16b-415d-8e8f-5f6f209102a3",
       "name": "Borderless Domain",
       "path": "resources/skill_tree_node_borderless_domain.rpg",
-      "updated_at": "2026-05-22T14:24:26.507240"
+      "updated_at": "2026-05-22T14:56:28.153379"
     },
     {
       "id": "tug_spell_zone_of_truth",
@@ -14470,7 +14710,7 @@
       "id": "0660115b-b190-42b0-893e-08b5b7e2c78f",
       "name": "Rapier",
       "path": "resources/weapon_rapier_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.514130"
+      "updated_at": "2026-05-22T14:56:28.158554"
     },
     {
       "id": "tug_spell_hold_monster",
@@ -14545,6 +14785,12 @@
       "updated_at": "2024-12-20T18:50:53.897053"
     },
     {
+      "id": "trick_pick_interfere",
+      "name": "Interfere",
+      "path": "resources/trick_pick_interfere.rpg",
+      "updated_at": "2026-05-22T14:56:28.167603"
+    },
+    {
       "id": "tug_monster_priest_of_osybus",
       "name": "Priest of Osybus",
       "path": "resources/monster_priest_of_osybus_vrgr.rpg",
@@ -14554,7 +14800,7 @@
       "id": "cbca8c54-259b-4c2e-bfb4-789b34d7b943",
       "name": "Boomerang Shield",
       "path": "resources/armor_boomerang_shield_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:26.526542"
+      "updated_at": "2026-05-22T14:56:28.169001"
     },
     {
       "id": "tug_monster_cadaver_collector__mom_",
@@ -14596,7 +14842,7 @@
       "id": "2b32b365-37ef-4e7b-9ad9-86aaf11cbf68",
       "name": "Environmental Hazard",
       "path": "resources/skill_tree_node_environmental_hazard.rpg",
-      "updated_at": "2026-05-22T14:24:26.536510"
+      "updated_at": "2026-05-22T14:56:28.177624"
     },
     {
       "id": "tug_spell_sending",
@@ -14695,6 +14941,12 @@
       "updated_at": "2025-01-10T08:05:38.930449"
     },
     {
+      "id": "trick_pick_juggle",
+      "name": "Juggle",
+      "path": "resources/trick_pick_juggle.rpg",
+      "updated_at": "2026-05-22T14:56:28.192905"
+    },
+    {
       "id": "tug_monster_ancient_companion",
       "name": "Ancient Companion",
       "path": "resources/monster_ancient_companion_h_o_m_e_b_r_e_w.rpg",
@@ -14764,7 +15016,7 @@
       "id": "a3b68c76-11a6-4d5b-a633-a860452d0b1a",
       "name": "Boundless Domain",
       "path": "resources/skill_tree_node_boundless_domain.rpg",
-      "updated_at": "2026-05-22T14:24:26.568564"
+      "updated_at": "2026-05-22T14:56:28.205210"
     },
     {
       "id": "tug_monster_owlbear",
@@ -14788,7 +15040,7 @@
       "id": "91839fd2-aa1c-428c-aa04-6e8cdf952540",
       "name": "Auto Hit",
       "path": "resources/skill_tree_node_auto_hit.rpg",
-      "updated_at": "2026-05-22T14:24:26.573042"
+      "updated_at": "2026-05-22T14:56:28.208647"
     },
     {
       "id": "tug_feat_dragon_hide",
@@ -14812,13 +15064,13 @@
       "id": "c333ba86-aa95-47fe-aae9-98f82aae2e58",
       "name": "+1 Ward",
       "path": "resources/skill_tree_node_+1_ward.rpg",
-      "updated_at": "2026-05-22T14:24:26.580603"
+      "updated_at": "2026-05-22T14:56:28.212271"
     },
     {
       "id": "8eb50989-84dc-4899-a6a2-54e7c6f252d5",
       "name": "Shield of the Blazing Dreadnought",
       "path": "resources/armor_shield_of_the_blazing_dreadnought_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:26.581440"
+      "updated_at": "2026-05-22T14:56:28.212788"
     },
     {
       "id": "tug_spell_heat_metal",
@@ -14860,7 +15112,7 @@
       "id": "43b0eec0-1596-4df1-8b54-5d1dda8c517d",
       "name": "Domain Expansion",
       "path": "resources/skill_tree_node_domain_expansion.rpg",
-      "updated_at": "2026-05-22T14:24:26.589879"
+      "updated_at": "2026-05-22T14:56:28.218652"
     },
     {
       "id": "tug_spell_inflict_wounds",
@@ -14884,7 +15136,7 @@
       "id": "49bc11a8-588e-46e8-8751-f945ffc8ca45",
       "name": "Staff of Birdcalls",
       "path": "resources/weapon_staff_of_birdcalls_xge.rpg",
-      "updated_at": "2026-05-22T14:24:26.594221"
+      "updated_at": "2026-05-22T14:56:28.221420"
     },
     {
       "id": "tug_monster_necromite_of_myrkul",
@@ -14902,7 +15154,7 @@
       "id": "c675810f-8843-497c-a076-dc36bcc1ec20",
       "name": "Blood Spear",
       "path": "resources/weapon_blood_spear_cos.rpg",
-      "updated_at": "2026-05-22T14:24:26.597517"
+      "updated_at": "2026-05-22T14:56:28.223386"
     },
     {
       "id": "tug_monster_istarian_drone__dsdq_",
@@ -14974,7 +15226,7 @@
       "id": "95c5d44a-2eec-45a0-b1b9-6b9acc2dec9f",
       "name": "+1 Weapon Master",
       "path": "resources/skill_tree_node_+1_weapon_master.rpg",
-      "updated_at": "2026-05-22T14:24:26.614322"
+      "updated_at": "2026-05-22T14:56:28.234350"
     },
     {
       "id": "tug_monster_bozak_draconian__dsdq_",
@@ -15047,6 +15299,12 @@
       "name": "Podling",
       "path": "resources/monster_podling_vrgr.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "flourish_pick_smash",
+      "name": "Smash",
+      "path": "resources/flourish_pick_smash.rpg",
+      "updated_at": "2026-05-22T14:56:28.248947"
     },
     {
       "id": "tug_spell_minor_illusion",
@@ -15208,7 +15466,7 @@
       "id": "a90f337a-1be9-4692-8a36-7ebc775f6a00",
       "name": "Draconic Longsword",
       "path": "resources/weapon_draconic_longsword_toa.rpg",
-      "updated_at": "2026-05-22T14:24:26.678850"
+      "updated_at": "2026-05-22T14:56:28.281744"
     },
     {
       "id": "tug_item_figurine_of_wondrous_power,_bronze_griffon",
@@ -15274,7 +15532,7 @@
       "id": "5074ef48-9aa1-4f82-9892-ad08b469332f",
       "name": "Greatsword",
       "path": "resources/weapon_greatsword_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.687622"
+      "updated_at": "2026-05-22T14:56:28.289213"
     },
     {
       "id": "tug_monster_kobold_scale_sorcerer",
@@ -15292,7 +15550,7 @@
       "id": "11e298cd-c45f-49ea-a552-f9672213401f",
       "name": "Fate Cutter Shears",
       "path": "resources/weapon_fate_cutter_shears_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:26.694005"
+      "updated_at": "2026-05-22T14:56:28.293777"
     },
     {
       "id": "tug_monster_duergar_stone_guard",
@@ -15334,7 +15592,7 @@
       "id": "48b0d783-f8a5-4218-a918-2bf6e7e2e48b",
       "name": "Mental",
       "path": "resources/skill_tree_node_mental.rpg",
-      "updated_at": "2026-05-22T14:24:26.701389"
+      "updated_at": "2026-05-22T14:56:28.299714"
     },
     {
       "id": "tug_item_ascendant_dragon_vessel",
@@ -15406,7 +15664,7 @@
       "id": "010cc4d9-04e4-48b2-9fbb-722465478d98",
       "name": "+1 Shape Change",
       "path": "resources/skill_tree_node_+1_shape_change.rpg",
-      "updated_at": "2026-05-22T14:24:26.711467"
+      "updated_at": "2026-05-22T14:56:28.308010"
     },
     {
       "id": "tug_item_caltrops__bag_of_20_",
@@ -15424,7 +15682,7 @@
       "id": "ba697a46-83ba-4d0d-bdc6-089a6cd57d49",
       "name": "Dagger of Guitar Solos",
       "path": "resources/weapon_dagger_of_guitar_solos_wdmm.rpg",
-      "updated_at": "2026-05-22T14:24:26.714348"
+      "updated_at": "2026-05-22T14:56:28.309814"
     },
     {
       "id": "tug_spell_wrath_of_nature",
@@ -15502,7 +15760,7 @@
       "id": "7fb5bea0-ae15-471c-8d4d-1c4b2d7f0254",
       "name": "Sunforger",
       "path": "resources/weapon_sunforger_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:26.729465"
+      "updated_at": "2026-05-22T14:56:28.322321"
     },
     {
       "id": "tug_monster_kapak_draconian__dsdq_",
@@ -15520,13 +15778,19 @@
       "id": "bf44c152-3fbd-406b-815e-22357a5ad622",
       "name": "Jakarion's Staff of Frost",
       "path": "resources/weapon_jakarion_s_staff_of_frost_cos.rpg",
-      "updated_at": "2026-05-22T14:24:26.736547"
+      "updated_at": "2026-05-22T14:56:28.325561"
     },
     {
       "id": "tug_monster_treant_sapling",
       "name": "Treant Sapling",
       "path": "resources/monster_treant_sapling_wbtw.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "weapon_master_style_my_little_friend",
+      "name": "My Little Friend",
+      "path": "resources/weapon_master_style_my_little_friend.rpg",
+      "updated_at": "2026-05-22T14:56:28.328323"
     },
     {
       "id": "tug_item_reliquary",
@@ -15545,6 +15809,12 @@
       "name": "Brass Dragon Wyrmling",
       "path": "resources/monster_brass_dragon_wyrmling_mm.rpg",
       "updated_at": "2026-02-07T10:53:53.727929"
+    },
+    {
+      "id": "flourish_pick_disarm",
+      "name": "Disarm",
+      "path": "resources/flourish_pick_disarm.rpg",
+      "updated_at": "2026-05-22T14:56:28.330655"
     },
     {
       "id": "tug_monster_fomorian_noble__bgg_",
@@ -15598,7 +15868,7 @@
       "id": "92f9b553-9e28-478a-8c41-22b139eca313",
       "name": "Leather",
       "path": "resources/armor_leather_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.752052"
+      "updated_at": "2026-05-22T14:56:28.339930"
     },
     {
       "id": "tug_monster_fire_elemental",
@@ -15610,7 +15880,7 @@
       "id": "91931e7c-b45b-491d-a967-4c74d14f54b1",
       "name": "Blue Dragon Scale Mail",
       "path": "resources/armor_blue_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.754165"
+      "updated_at": "2026-05-22T14:56:28.341578"
     },
     {
       "id": "tug_monster_mimic_chair",
@@ -15694,7 +15964,7 @@
       "id": "1408eb79-3a0b-464a-9575-835690ab120f",
       "name": "Arcane Adaption",
       "path": "resources/skill_tree_node_arcane_adaption.rpg",
-      "updated_at": "2026-05-22T14:24:26.772588"
+      "updated_at": "2026-05-22T14:56:28.357235"
     },
     {
       "id": "tug_background_secret_identity",
@@ -15742,7 +16012,7 @@
       "id": "af542351-b623-4050-b725-5effcf97966b",
       "name": "Regenerate",
       "path": "resources/skill_tree_node_regenerate.rpg",
-      "updated_at": "2026-05-22T14:24:26.779557"
+      "updated_at": "2026-05-22T14:56:28.363514"
     },
     {
       "id": "tug_monster_githyanki_kithrak__mom_",
@@ -15766,7 +16036,7 @@
       "id": "2ae728e3-e389-4c2a-8b52-ef88dd8f96b1",
       "name": "Plate of Knight's Fellowship",
       "path": "resources/armor_plate_of_knight_s_fellowship_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:26.784183"
+      "updated_at": "2026-05-22T14:56:28.367386"
     },
     {
       "id": "tug_monster_yan-c-bin",
@@ -15778,7 +16048,7 @@
       "id": "39447947-fb56-48a9-ac9b-b7fba366617a",
       "name": "Combat Focus",
       "path": "resources/skill_tree_node_combat_focus.rpg",
-      "updated_at": "2026-05-22T14:24:26.787789"
+      "updated_at": "2026-05-22T14:56:28.370495"
     },
     {
       "id": "tug_monster_giant_lizard",
@@ -15790,7 +16060,7 @@
       "id": "8de31229-92c1-44f6-b9bb-645befdd2d94",
       "name": "Dagger of Blindsight",
       "path": "resources/weapon_dagger_of_blindsight_wdmm.rpg",
-      "updated_at": "2026-05-22T14:24:26.789352"
+      "updated_at": "2026-05-22T14:56:28.371735"
     },
     {
       "id": "tug_monster_octopus",
@@ -15826,13 +16096,13 @@
       "id": "76f7da43-4f43-4559-8f07-3652c96410ea",
       "name": "Sword of Answering (Replier)",
       "path": "resources/weapon_sword_of_answering_replier_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.797210"
+      "updated_at": "2026-05-22T14:56:28.378474"
     },
     {
       "id": "60289669-2c03-4f10-85d5-bd71218d89e5",
       "name": "Staff of Fate",
       "path": "resources/weapon_staff_of_fate_cm.rpg",
-      "updated_at": "2026-05-22T14:24:26.797992"
+      "updated_at": "2026-05-22T14:56:28.379284"
     },
     {
       "id": "tug_item_iron_spikes__10_",
@@ -15850,7 +16120,7 @@
       "id": "e89374ce-2494-4937-813e-4d829d8eaeee",
       "name": "Dagger",
       "path": "resources/weapon_dagger_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.800916"
+      "updated_at": "2026-05-22T14:56:28.382016"
     },
     {
       "id": "tug_item_fargab",
@@ -15892,7 +16162,7 @@
       "id": "9fd27068-974c-40b2-9ffd-3d3a91dadac1",
       "name": "Potent Arcanum",
       "path": "resources/skill_tree_node_potent_arcanum.rpg",
-      "updated_at": "2026-05-22T14:24:26.809086"
+      "updated_at": "2026-05-22T14:56:28.390349"
     },
     {
       "id": "tug_feat_barbed_hide",
@@ -15994,7 +16264,7 @@
       "id": "3849b5c4-711f-42c9-90b6-29ae80b23e89",
       "name": "Luminous War Pick",
       "path": "resources/weapon_luminous_war_pick_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:26.823889"
+      "updated_at": "2026-05-22T14:56:28.403783"
     },
     {
       "id": "tug_monster_griffon",
@@ -16132,7 +16402,7 @@
       "id": "9d247329-c392-4f75-bc86-64ea72f1f126",
       "name": "Auto Hit",
       "path": "resources/skill_tree_node_auto_hit.rpg",
-      "updated_at": "2026-05-22T14:24:26.844626"
+      "updated_at": "2026-05-22T14:56:28.422610"
     },
     {
       "id": "tug_item_iron_spike",
@@ -16168,7 +16438,7 @@
       "id": "88b4b619-ca4e-4fe7-bfcd-4c70d6696234",
       "name": "Avenger",
       "path": "resources/skill_tree_node_avenger.rpg",
-      "updated_at": "2026-05-22T14:24:26.850794"
+      "updated_at": "2026-05-22T14:56:28.428590"
     },
     {
       "id": "tug_spell_speak_with_dead",
@@ -16222,7 +16492,7 @@
       "id": "3ff6ad64-5269-4272-b1d9-5ea8ec9a245b",
       "name": "Mystic Art",
       "path": "resources/skill_tree_node_mystic_art.rpg",
-      "updated_at": "2026-05-22T14:24:26.858349"
+      "updated_at": "2026-05-22T14:56:28.435277"
     },
     {
       "id": "tug_monster_cloud_giant_ghost",
@@ -16276,7 +16546,7 @@
       "id": "a2b7b128-82c3-4355-a0bc-e24a82ce73bc",
       "name": "Splint",
       "path": "resources/armor_splint_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.866942"
+      "updated_at": "2026-05-22T14:56:28.442562"
     },
     {
       "id": "tug_race_aasimar__mom_",
@@ -16342,13 +16612,13 @@
       "id": "ae1e209d-1ccb-4b37-ad97-9b14fc87facf",
       "name": "Warhammer",
       "path": "resources/weapon_warhammer_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.878956"
+      "updated_at": "2026-05-22T14:56:28.452451"
     },
     {
       "id": "4e4bb80e-4b40-4457-bd73-c9d39ca37549",
       "name": "+1 Focus",
       "path": "resources/skill_tree_node_+1_focus.rpg",
-      "updated_at": "2026-05-22T14:24:26.879853"
+      "updated_at": "2026-05-22T14:56:28.453082"
     },
     {
       "id": "tug_item_totem",
@@ -16378,7 +16648,7 @@
       "id": "7c74cdd5-61d7-4deb-92f0-c27c850046b8",
       "name": "Crimson Recovery",
       "path": "resources/skill_tree_node_crimson_recovery.rpg",
-      "updated_at": "2026-05-22T14:24:26.884093"
+      "updated_at": "2026-05-22T14:56:28.456489"
     },
     {
       "id": "tug_item_essence_of_ether",
@@ -16402,7 +16672,7 @@
       "id": "9e1096ca-eadf-4853-991f-7a7601cca0fe",
       "name": "Halberd",
       "path": "resources/weapon_halberd_phb.rpg",
-      "updated_at": "2026-05-22T14:24:26.886866"
+      "updated_at": "2026-05-22T14:56:28.458949"
     },
     {
       "id": "tug_monster_animated_armor",
@@ -16414,7 +16684,7 @@
       "id": "e53a3826-5abe-450f-a929-706212cc5e81",
       "name": "Skyblinder Staff",
       "path": "resources/weapon_skyblinder_staff_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:26.888362"
+      "updated_at": "2026-05-22T14:56:28.460349"
     },
     {
       "id": "tug_item_wand_of_magic_missiles",
@@ -16444,7 +16714,7 @@
       "id": "18732609-fa1b-4987-a48d-9dbd5048b509",
       "name": "Tidecaller Trident",
       "path": "resources/weapon_tidecaller_trident_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:26.895228"
+      "updated_at": "2026-05-22T14:56:28.464913"
     },
     {
       "id": "tug_monster_young_moonstone_dragon",
@@ -16456,7 +16726,7 @@
       "id": "fad21d2c-fd65-4fcb-aad7-89ea712c8983",
       "name": "Staff of Fire",
       "path": "resources/weapon_staff_of_fire_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:26.897969"
+      "updated_at": "2026-05-22T14:56:28.467618"
     },
     {
       "id": "tug_feat_survivalist",
@@ -16486,13 +16756,13 @@
       "id": "27c1dbc4-5020-4b11-9e13-82a11fbf8881",
       "name": "777",
       "path": "resources/skill_tree_node_777.rpg",
-      "updated_at": "2026-05-22T14:24:26.909884"
+      "updated_at": "2026-05-22T14:56:28.479059"
     },
     {
       "id": "be2c5a4e-0019-4d39-9b91-9d1541718243",
       "name": "+2 Moon Sickle",
       "path": "resources/weapon_+2_moon_sickle_tce.rpg",
-      "updated_at": "2026-05-22T14:24:26.910563"
+      "updated_at": "2026-05-22T14:56:28.479600"
     },
     {
       "id": "tug_monster_guard_drake",
@@ -16540,7 +16810,7 @@
       "id": "10219c09-9d8d-4e21-84aa-e8b01ed151cd",
       "name": "Physical Augmentation",
       "path": "resources/pact_entry_physical_augmentation.rpg",
-      "updated_at": "2026-05-22T14:24:27.007492"
+      "updated_at": "2026-05-22T14:56:28.580455"
     },
     {
       "id": "tug_monster_wretched_sorrowsworn__mom_",
@@ -16594,7 +16864,7 @@
       "id": "7177c94b-afb5-4a01-8c6d-f62946a60ef3",
       "name": "Serpent Scale Armor",
       "path": "resources/armor_serpent_scale_armor_cm.rpg",
-      "updated_at": "2026-05-22T14:24:27.015252"
+      "updated_at": "2026-05-22T14:56:28.589086"
     },
     {
       "id": "tug_item_ring_of_puzzlers_wit",
@@ -16651,6 +16921,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "weapon_master_style_bullseye",
+      "name": "Bullseye",
+      "path": "resources/weapon_master_style_bullseye.rpg",
+      "updated_at": "2026-05-22T14:56:28.601863"
+    },
+    {
       "id": "Custom9d43c432-0aae-4bda-be33-007c6449a6a8",
       "name": "Giant Foundling",
       "path": "resources/background_giant_foundling_bgg.rpg",
@@ -16666,7 +16942,7 @@
       "id": "214d40c2-0ec9-4db8-9359-2f857797a83d",
       "name": "Boundless Potential",
       "path": "resources/skill_tree_node_boundless_potential.rpg",
-      "updated_at": "2026-05-22T14:24:27.029704"
+      "updated_at": "2026-05-22T14:56:28.604523"
     },
     {
       "id": "tug_monster_displacer_beast",
@@ -16714,7 +16990,7 @@
       "id": "8a6f586f-3417-4450-86d1-5a9ecdbc8b85",
       "name": "Fane-Eater",
       "path": "resources/weapon_fane_eater_bgdia.rpg",
-      "updated_at": "2026-05-22T14:24:27.037631"
+      "updated_at": "2026-05-22T14:56:28.612976"
     },
     {
       "id": "tug_monster_centaur",
@@ -16744,7 +17020,7 @@
       "id": "9f9b7172-0f2c-41aa-8015-a1faa2f7cfe6",
       "name": "Simmer",
       "path": "resources/skill_tree_node_simmer.rpg",
-      "updated_at": "2026-05-22T14:24:27.041348"
+      "updated_at": "2026-05-22T14:56:28.616925"
     },
     {
       "id": "tug_monster_giant_sea_horse",
@@ -16822,13 +17098,13 @@
       "id": "rage_type_eldritch",
       "name": "Eldritch",
       "path": "resources/rage_type_eldritch.rpg",
-      "updated_at": "2026-05-22T14:24:27.052786"
+      "updated_at": "2026-05-22T14:56:28.628169"
     },
     {
       "id": "a5859df4-315b-49de-9d00-ef94f74de248",
       "name": "+1 Summon",
       "path": "resources/skill_tree_node_+1_summon.rpg",
-      "updated_at": "2026-05-22T14:24:27.053397"
+      "updated_at": "2026-05-22T14:56:28.628723"
     },
     {
       "id": "tug_item_platinum",
@@ -16840,7 +17116,7 @@
       "id": "rage_type_blood_drinker",
       "name": "Blood Drinker",
       "path": "resources/rage_type_blood_drinker.rpg",
-      "updated_at": "2026-05-22T14:24:27.054515"
+      "updated_at": "2026-05-22T14:56:28.629887"
     },
     {
       "id": "tug_feat_cohort_of_chaos__sato_",
@@ -16864,7 +17140,7 @@
       "id": "98c99d64-7e22-4869-bb8f-ff38e1fd23fe",
       "name": "Bound Weapon",
       "path": "resources/skill_tree_node_bound_weapon.rpg",
-      "updated_at": "2026-05-22T14:24:27.060919"
+      "updated_at": "2026-05-22T14:56:28.636681"
     },
     {
       "id": "tug_monster_mormesk_the_wraith",
@@ -17026,7 +17302,7 @@
       "id": "6b0fa1ee-6143-4bbc-8864-5993ec425079",
       "name": "Domain Bane",
       "path": "resources/skill_tree_node_domain_bane.rpg",
-      "updated_at": "2026-05-22T14:24:27.087691"
+      "updated_at": "2026-05-22T14:56:28.662352"
     },
     {
       "id": "tug_race_mark_of_finding_half-orc",
@@ -17056,7 +17332,7 @@
       "id": "f05ee902-c101-4250-a6b6-c58e058db07e",
       "name": "Yester Hill Axe",
       "path": "resources/weapon_yester_hill_axe_cos.rpg",
-      "updated_at": "2026-05-22T14:24:27.094671"
+      "updated_at": "2026-05-22T14:56:28.668922"
     },
     {
       "id": "tug_race_loxodon",
@@ -17200,7 +17476,7 @@
       "id": "f8d51eec-8b42-4d2a-9bfd-1914cb007d8b",
       "name": "Borderless Domain",
       "path": "resources/skill_tree_node_borderless_domain.rpg",
-      "updated_at": "2026-05-22T14:24:27.117617"
+      "updated_at": "2026-05-22T14:56:28.692057"
     },
     {
       "id": "tug_monster_white_guard_drake",
@@ -17260,7 +17536,7 @@
       "id": "53fb8d7e-8c00-4a27-9830-9ac82a4c87b9",
       "name": "Rage Type",
       "path": "resources/skill_tree_node_rage_type.rpg",
-      "updated_at": "2026-05-22T14:24:27.125075"
+      "updated_at": "2026-05-22T14:56:28.698713"
     },
     {
       "id": "tug_monster_dragonfang",
@@ -17345,6 +17621,12 @@
       "name": "Initiate of High Sorcery",
       "path": "resources/feat_initiate_of_high_sorcery_dsdq.rpg",
       "updated_at": "2026-05-18T22:07:01.618684"
+    },
+    {
+      "id": "perfect_form_pick_ultimate_defence",
+      "name": "Ultimate Defence",
+      "path": "resources/perfect_form_pick_ultimate_defence.rpg",
+      "updated_at": "2026-05-22T14:56:28.716610"
     },
     {
       "id": "tug_item_thieves_tools",
@@ -17563,6 +17845,12 @@
       "updated_at": "2024-12-20T18:50:35.797555"
     },
     {
+      "id": "weapon_master_style_sniper",
+      "name": "Sniper",
+      "path": "resources/weapon_master_style_sniper.rpg",
+      "updated_at": "2026-05-22T14:56:28.775589"
+    },
+    {
       "id": "tug_item_gauntlets_of_ogre_power",
       "name": "Gauntlets of Ogre Power",
       "path": "resources/item_gauntlets_of_ogre_power_dmg.rpg",
@@ -17650,7 +17938,7 @@
       "id": "5d431c09-a125-43f8-80f1-74c54bed2fb5",
       "name": "Domain Duration",
       "path": "resources/skill_tree_node_domain_duration.rpg",
-      "updated_at": "2026-05-22T14:24:27.191029"
+      "updated_at": "2026-05-22T14:56:28.788888"
     },
     {
       "id": "tug_spell_summon_aberrant_spirit__ua_",
@@ -17680,7 +17968,7 @@
       "id": "9da4ff03-826e-4fb2-9a27-db3104cdef26",
       "name": "Dragon Sensing Longsword",
       "path": "resources/weapon_dragon_sensing_longsword_pota.rpg",
-      "updated_at": "2026-05-22T14:24:27.199641"
+      "updated_at": "2026-05-22T14:56:28.797933"
     },
     {
       "id": "tug_monster_spiderdragon__veor_",
@@ -17692,7 +17980,13 @@
       "id": "4071207f-79d6-4e20-98f7-d8c1babf2151",
       "name": "+1 Smite",
       "path": "resources/skill_tree_node_+1_smite.rpg",
-      "updated_at": "2026-05-22T14:24:27.201429"
+      "updated_at": "2026-05-22T14:56:28.799702"
+    },
+    {
+      "id": "trick_pick_lead",
+      "name": "Lead",
+      "path": "resources/trick_pick_lead.rpg",
+      "updated_at": "2026-05-22T14:56:28.800279"
     },
     {
       "id": "tug_monster_githyanki_xenomancer__bam_",
@@ -17716,7 +18010,7 @@
       "id": "a1f42e80-5485-4488-b5da-3326ccb254ec",
       "name": "Sword of Answering (Last Quip)",
       "path": "resources/weapon_sword_of_answering_last_quip_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.205727"
+      "updated_at": "2026-05-22T14:56:28.804384"
     },
     {
       "id": "tug_monster_olhydra",
@@ -17812,7 +18106,7 @@
       "id": "77d4d134-d30e-4af4-a8d8-9c2ffbfddcc6",
       "name": "Shield of Expression",
       "path": "resources/armor_shield_of_expression_xge.rpg",
-      "updated_at": "2026-05-22T14:24:27.220210"
+      "updated_at": "2026-05-22T14:56:28.818600"
     },
     {
       "id": "tug_feat_planar_wanderer__sato_",
@@ -17842,13 +18136,13 @@
       "id": "adfece56-006c-47ea-b168-f38b84b47ceb",
       "name": "War Pick",
       "path": "resources/weapon_war_pick_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.224242"
+      "updated_at": "2026-05-22T14:56:28.822536"
     },
     {
       "id": "a80a0eed-2cb2-4311-9a55-ab13ffd12ddc",
       "name": "Flame Tongue Shortsword of Greed",
       "path": "resources/weapon_flame_tongue_shortsword_of_greed_tftyp.rpg",
-      "updated_at": "2026-05-22T14:24:27.224805"
+      "updated_at": "2026-05-22T14:56:28.823060"
     },
     {
       "id": "tug_background_phlan_refugee",
@@ -18061,6 +18355,12 @@
       "updated_at": "2026-05-18T22:07:01.618684"
     },
     {
+      "id": "flourish_pick_repose",
+      "name": "Repose",
+      "path": "resources/flourish_pick_repose.rpg",
+      "updated_at": "2026-05-22T14:56:28.984220"
+    },
+    {
       "id": "tug_monster_deathlock_mastermind__mom_",
       "name": "Deathlock Mastermind",
       "path": "resources/monster_deathlock_mastermind_mom.rpg",
@@ -18148,7 +18448,7 @@
       "id": "76d99a0c-3e38-47d2-b165-6b3470393e42",
       "name": "Space",
       "path": "resources/skill_tree_node_space.rpg",
-      "updated_at": "2026-05-22T14:24:27.401698"
+      "updated_at": "2026-05-22T14:56:29.000636"
     },
     {
       "id": "tug_spell_blink",
@@ -18166,7 +18466,7 @@
       "id": "b633d40e-8d73-4349-b873-403d0ca1db7f",
       "name": "Moonblade",
       "path": "resources/weapon_moonblade_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.404239"
+      "updated_at": "2026-05-22T14:56:29.002452"
     },
     {
       "id": "tug_monster_illusionist_wizard__mom_",
@@ -18190,7 +18490,7 @@
       "id": "e89cbcc4-6f40-47fe-bc47-b809a77e893a",
       "name": "Baleful Talon",
       "path": "resources/weapon_baleful_talon_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:27.410076"
+      "updated_at": "2026-05-22T14:56:29.006252"
     },
     {
       "id": "tug_spell_ravenous_void",
@@ -18226,13 +18526,13 @@
       "id": "9055924e-f3fb-426a-92e5-109380a9c2d6",
       "name": "Physical",
       "path": "resources/skill_tree_node_physical.rpg",
-      "updated_at": "2026-05-22T14:24:27.416294"
+      "updated_at": "2026-05-22T14:56:29.011440"
     },
     {
       "id": "b3426879-7b6e-47d5-8037-557a25ccd426",
       "name": "Black Dragon Scale Mail",
       "path": "resources/armor_black_dragon_scale_mail_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.417067"
+      "updated_at": "2026-05-22T14:56:29.011971"
     },
     {
       "id": "tug_monster_worg",
@@ -18244,7 +18544,7 @@
       "id": "b5968e73-c7ee-4484-8867-f5965467bc38",
       "name": "Woodcutter's Axe",
       "path": "resources/weapon_woodcutter_s_axe_wbtw.rpg",
-      "updated_at": "2026-05-22T14:24:27.418988"
+      "updated_at": "2026-05-22T14:56:29.014126"
     },
     {
       "id": "tug_spell_fireball",
@@ -18256,7 +18556,7 @@
       "id": "7ca1c970-5630-4074-a58d-5d015a9791f3",
       "name": "Domain Bane",
       "path": "resources/skill_tree_node_domain_bane.rpg",
-      "updated_at": "2026-05-22T14:24:27.421318"
+      "updated_at": "2026-05-22T14:56:29.015884"
     },
     {
       "id": "slw",
@@ -18274,7 +18574,7 @@
       "id": "3c405650-f3bf-4686-ae84-62af08855365",
       "name": "Staff of Withering",
       "path": "resources/weapon_staff_of_withering_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.423441"
+      "updated_at": "2026-05-22T14:56:29.018389"
     },
     {
       "id": "tug_item_elven_chain",
@@ -18376,7 +18676,7 @@
       "id": "9bf00167-b64c-40a6-83b5-398353cf8ea4",
       "name": "Korolnor Scepter",
       "path": "resources/weapon_korolnor_scepter_skt.rpg",
-      "updated_at": "2026-05-22T14:24:27.445881"
+      "updated_at": "2026-05-22T14:56:29.035750"
     },
     {
       "id": "tug_monster_witherbloom_professor_of_growth",
@@ -18400,7 +18700,7 @@
       "id": "73373d6a-5804-4d5e-868a-895f3a1a0e4a",
       "name": "Eldritch Staff",
       "path": "resources/weapon_eldritch_staff_wbtw.rpg",
-      "updated_at": "2026-05-22T14:24:27.451557"
+      "updated_at": "2026-05-22T14:56:29.041453"
     },
     {
       "id": "tug_monster_axe_beak",
@@ -18454,7 +18754,7 @@
       "id": "38d2c9b3-6364-4866-9aae-da7a03bf131c",
       "name": "+2 Mana",
       "path": "resources/skill_tree_node_+2_mana.rpg",
-      "updated_at": "2026-05-22T14:24:27.525506"
+      "updated_at": "2026-05-22T14:56:29.109809"
     },
     {
       "id": "tug_spell_galders_speedy_courier",
@@ -18478,7 +18778,7 @@
       "id": "07011adf-0bde-46c2-bce1-271e57cc062a",
       "name": "Devotee's Censer",
       "path": "resources/weapon_devotee_s_censer_tce.rpg",
-      "updated_at": "2026-05-22T14:24:27.529898"
+      "updated_at": "2026-05-22T14:56:29.113945"
     },
     {
       "id": "tug_item_stabling__per_day_",
@@ -18556,7 +18856,7 @@
       "id": "94b69444-a237-4656-91f9-3fe4ddd4a4e1",
       "name": "Labyrinth",
       "path": "resources/skill_tree_node_labyrinth.rpg",
-      "updated_at": "2026-05-22T14:24:27.543682"
+      "updated_at": "2026-05-22T14:56:29.126952"
     },
     {
       "id": "tug_item_entertainers_pack",
@@ -18622,7 +18922,7 @@
       "id": "946c94e4-0647-47d8-8010-f3984fb53aaf",
       "name": "Hooked Shortspear",
       "path": "resources/weapon_hooked_shortspear_oota.rpg",
-      "updated_at": "2026-05-22T14:24:27.554347"
+      "updated_at": "2026-05-22T14:56:29.137733"
     },
     {
       "id": "tug_monster_aartuk_elder__bam_",
@@ -18652,7 +18952,7 @@
       "id": "617cdd64-6d79-4957-a902-71f3ed89e24a",
       "name": "Efficient Sorcery",
       "path": "resources/skill_tree_node_efficient_sorcery.rpg",
-      "updated_at": "2026-05-22T14:24:27.559276"
+      "updated_at": "2026-05-22T14:56:29.142410"
     },
     {
       "id": "tug_monster_necromancer",
@@ -18715,6 +19015,12 @@
       "updated_at": "2024-12-20T18:50:46.636114"
     },
     {
+      "id": "flourish_pick_pinning_strike",
+      "name": "Pinning Strike",
+      "path": "resources/flourish_pick_pinning_strike.rpg",
+      "updated_at": "2026-05-22T14:56:29.155466"
+    },
+    {
       "id": "tug_spell_conjure_volley",
       "name": "Conjure Volley",
       "path": "resources/spell_conjure_volley_phb.rpg",
@@ -18748,7 +19054,7 @@
       "id": "f0f03f67-628f-4580-bd02-aac0d35a37ab",
       "name": "Blackrazor",
       "path": "resources/weapon_blackrazor_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.576672"
+      "updated_at": "2026-05-22T14:56:29.159769"
     },
     {
       "id": "tug_item_bag_of_beans",
@@ -18922,13 +19228,13 @@
       "id": "d212d964-3245-4706-a21c-85369c1ee824",
       "name": "Hazirawn",
       "path": "resources/weapon_hazirawn_hotdq.rpg",
-      "updated_at": "2026-05-22T14:24:27.613979"
+      "updated_at": "2026-05-22T14:56:29.196170"
     },
     {
       "id": "25516528-c194-4233-a082-0a338c178658",
       "name": "Whip",
       "path": "resources/weapon_whip_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.615368"
+      "updated_at": "2026-05-22T14:56:29.197368"
     },
     {
       "id": "tug_item_sages_signet__bear_",
@@ -18940,7 +19246,7 @@
       "id": "8677522a-f8ad-4d5c-b84c-68ee3aee0619",
       "name": "Dragonstaff of Ahghairon",
       "path": "resources/weapon_dragonstaff_of_ahghairon_wdh.rpg",
-      "updated_at": "2026-05-22T14:24:27.617398"
+      "updated_at": "2026-05-22T14:56:29.199048"
     },
     {
       "id": "tug_monster_displacer_beast_kitten",
@@ -18952,7 +19258,7 @@
       "id": "03fbd6a4-680a-405b-a02c-d435ed3262b2",
       "name": "Bloodrage Greataxe",
       "path": "resources/weapon_bloodrage_greataxe_bmt.rpg",
-      "updated_at": "2026-05-22T14:24:27.619048"
+      "updated_at": "2026-05-22T14:56:29.201013"
     },
     {
       "id": "tug_monster_armanite__mom_",
@@ -18988,7 +19294,7 @@
       "id": "b87ce41a-09c0-49ae-ba82-783a741368f8",
       "name": "Heretic",
       "path": "resources/weapon_heretic_qftis.rpg",
-      "updated_at": "2026-05-22T14:24:27.624959"
+      "updated_at": "2026-05-22T14:56:29.206875"
     },
     {
       "id": "tug_monster_gibberling__qftis_",
@@ -19000,7 +19306,7 @@
       "id": "d2bccb4c-245b-47fd-a9db-8cdab1fc1bd0",
       "name": "Malevolent Shrine",
       "path": "resources/skill_tree_node_malevolent_shrine.rpg",
-      "updated_at": "2026-05-22T14:24:27.626893"
+      "updated_at": "2026-05-22T14:56:29.209279"
     },
     {
       "id": "tug_spell_clone",
@@ -19018,7 +19324,7 @@
       "id": "c39f1f4d-2054-461a-aa73-d5a19479ee23",
       "name": "Blood Laser",
       "path": "resources/skill_tree_node_blood_laser.rpg",
-      "updated_at": "2026-05-22T14:24:27.628746"
+      "updated_at": "2026-05-22T14:56:29.211821"
     },
     {
       "id": "tug_spell_primal_savagery",
@@ -19030,13 +19336,13 @@
       "id": "bfc1160c-2f8f-49fa-8ff9-6efd25ef3a64",
       "name": "Scimitar",
       "path": "resources/weapon_scimitar_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.630305"
+      "updated_at": "2026-05-22T14:56:29.213234"
     },
     {
       "id": "cd25a6c2-2ce8-4d3a-ba0f-4644e943436a",
       "name": "Adze of Annam",
       "path": "resources/weapon_adze_of_annam_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:27.631038"
+      "updated_at": "2026-05-22T14:56:29.213816"
     },
     {
       "id": "tug_race_chromatic_dragonborn__ua_",
@@ -19162,7 +19468,7 @@
       "id": "b75a9afd-c66c-45a6-a15e-27aad1cd54cc",
       "name": "Dragonguard",
       "path": "resources/armor_dragonguard_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:27.651689"
+      "updated_at": "2026-05-22T14:56:29.236952"
     },
     {
       "id": "tug_item_instrument_of_the_bards,_mac-fuirmidh_cittern",
@@ -19219,6 +19525,12 @@
       "updated_at": "2024-12-20T18:50:35.650861"
     },
     {
+      "id": "trick_pick_signal",
+      "name": "Signal",
+      "path": "resources/trick_pick_signal.rpg",
+      "updated_at": "2026-05-22T14:56:29.247485"
+    },
+    {
       "id": "tug_spell_investiture_of_flame",
       "name": "Investiture of Flame",
       "path": "resources/spell_investiture_of_flame_xge.rpg",
@@ -19270,7 +19582,7 @@
       "id": "74d1e66e-a2ae-43b6-aedd-60701437c2d6",
       "name": "Piercer",
       "path": "resources/weapon_piercer_ai.rpg",
-      "updated_at": "2026-05-22T14:24:27.672680"
+      "updated_at": "2026-05-22T14:56:29.258089"
     },
     {
       "id": "tug_item_crown_of_whirling_comets",
@@ -19333,6 +19645,12 @@
       "updated_at": "2026-02-27T17:46:07.917925"
     },
     {
+      "id": "trick_pick_distract",
+      "name": "Distract",
+      "path": "resources/trick_pick_distract.rpg",
+      "updated_at": "2026-05-22T14:56:29.276388"
+    },
+    {
       "id": "tug_background_stojanow_prisoner",
       "name": "Stojanow Prisoner",
       "path": "resources/background_stojanow_prisoner_cos.rpg",
@@ -19384,7 +19702,7 @@
       "id": "a1b313df-dd81-4b13-8c85-897da22f3142",
       "name": "Gamble",
       "path": "resources/skill_tree_node_gamble.rpg",
-      "updated_at": "2026-05-22T14:24:27.698664"
+      "updated_at": "2026-05-22T14:56:29.283566"
     },
     {
       "id": "tug_race_mark_of_making_human",
@@ -19510,7 +19828,7 @@
       "id": "9a70701f-8ae8-484f-b839-741b6ded6d5c",
       "name": "Bookmark",
       "path": "resources/weapon_bookmark_toa.rpg",
-      "updated_at": "2026-05-22T14:24:27.728541"
+      "updated_at": "2026-05-22T14:56:29.312429"
     },
     {
       "id": "tug_spell_conjure_animals",
@@ -19612,7 +19930,7 @@
       "id": "a9b69967-46ba-4f18-85cf-47941599b60a",
       "name": "Gurt's Greataxe",
       "path": "resources/weapon_gurt_s_greataxe_skt.rpg",
-      "updated_at": "2026-05-22T14:24:27.745401"
+      "updated_at": "2026-05-22T14:56:29.328476"
     },
     {
       "id": "tug_item_keelboat",
@@ -19630,7 +19948,7 @@
       "id": "db6ed9ce-6fb8-4f0a-8437-395015b0435f",
       "name": "Chance",
       "path": "resources/skill_tree_node_chance.rpg",
-      "updated_at": "2026-05-22T14:24:27.747981"
+      "updated_at": "2026-05-22T14:56:29.330615"
     },
     {
       "id": "tug_monster_carrion_stalker",
@@ -19666,7 +19984,7 @@
       "id": "3ffb77f4-8b1d-4b78-a416-73358e4e5983",
       "name": "Elven Thrower",
       "path": "resources/weapon_elven_thrower_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:27.752059"
+      "updated_at": "2026-05-22T14:56:29.334992"
     },
     {
       "id": "tug_monster_will-o-wisp",
@@ -19876,7 +20194,7 @@
       "id": "f89027cc-be7e-4740-b624-bb10fd4cd093",
       "name": "Dekella, Bident of Thassa",
       "path": "resources/weapon_dekella,_bident_of_thassa_mot.rpg",
-      "updated_at": "2026-05-22T14:24:27.788403"
+      "updated_at": "2026-05-22T14:56:29.370944"
     },
     {
       "id": "tug_background_inquisitor",
@@ -19894,7 +20212,7 @@
       "id": "c9f3ad6c-c6b6-428f-b7dd-4911fa6d9f57",
       "name": "Gulthias Staff",
       "path": "resources/weapon_gulthias_staff_cos.rpg",
-      "updated_at": "2026-05-22T14:24:27.791392"
+      "updated_at": "2026-05-22T14:56:29.373575"
     },
     {
       "id": "tug_item_elemental_gem,_red_corundum",
@@ -19906,7 +20224,7 @@
       "id": "8b3e3af0-f77a-4b75-bcf3-ccbcce4a4a16",
       "name": "Wand of Orcus",
       "path": "resources/weapon_wand_of_orcus_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:27.793033"
+      "updated_at": "2026-05-22T14:56:29.375673"
     },
     {
       "id": "tug_monster_firbolg_wanderer__bgg_",
@@ -19930,7 +20248,7 @@
       "id": "916c8a3d-4a21-49ef-934a-8a0def35bcc5",
       "name": "Blood Manipulation",
       "path": "resources/pact_entry_blood_manipulation.rpg",
-      "updated_at": "2026-05-22T14:24:27.800228"
+      "updated_at": "2026-05-22T14:56:29.382043"
     },
     {
       "id": "tug_monster_sahuagin_baron",
@@ -20050,7 +20368,7 @@
       "id": "74017d84-a66f-4ec1-a18b-b0aa689f6530",
       "name": "+1 Grapple Move",
       "path": "resources/skill_tree_node_+1_grapple_move.rpg",
-      "updated_at": "2026-05-22T14:24:27.817327"
+      "updated_at": "2026-05-22T14:56:29.398380"
     },
     {
       "id": "tug_monster_giant_wasp",
@@ -20080,7 +20398,7 @@
       "id": "5cda5c33-f3e4-412a-b137-4fc0c90e4a4c",
       "name": "+1 Fortify",
       "path": "resources/skill_tree_node_+1_fortify.rpg",
-      "updated_at": "2026-05-22T14:24:27.820775"
+      "updated_at": "2026-05-22T14:56:29.401973"
     },
     {
       "id": "oow",
@@ -20149,6 +20467,12 @@
       "updated_at": "2024-12-20T18:50:46.606879"
     },
     {
+      "id": "trick_pick_dodge_t",
+      "name": "Dodge",
+      "path": "resources/trick_pick_dodge.rpg",
+      "updated_at": "2026-05-22T14:56:29.413428"
+    },
+    {
       "id": "tug_monster_howler__mom_",
       "name": "Howler",
       "path": "resources/monster_howler_mom.rpg",
@@ -20164,7 +20488,7 @@
       "id": "5eb618ad-7003-42ce-8a2e-6b6e89f87ebb",
       "name": "Gold Rush",
       "path": "resources/skill_tree_node_gold_rush.rpg",
-      "updated_at": "2026-05-22T14:24:27.834615"
+      "updated_at": "2026-05-22T14:56:29.415988"
     },
     {
       "id": "tug_monster_star_spawn_mangler__mom_",
@@ -20200,7 +20524,7 @@
       "id": "335ca0cd-7f3e-421b-be73-bf15105831a7",
       "name": "Reaper's Scream",
       "path": "resources/weapon_reaper_s_scream_bgg.rpg",
-      "updated_at": "2026-05-22T14:24:27.839560"
+      "updated_at": "2026-05-22T14:56:29.420540"
     },
     {
       "id": "tug_monster_whirling_chandelier__veor_",
@@ -20260,13 +20584,13 @@
       "id": "5d6728ee-f8af-4be8-a8c9-e485082118f8",
       "name": "Reszur",
       "path": "resources/weapon_reszur_pota.rpg",
-      "updated_at": "2026-05-22T14:24:27.847960"
+      "updated_at": "2026-05-22T14:56:29.428641"
     },
     {
       "id": "cf0a34f6-4f02-4b8b-9d62-d2d81da30865",
       "name": "Extra Attack",
       "path": "resources/skill_tree_node_extra_attack.rpg",
-      "updated_at": "2026-05-22T14:24:27.848684"
+      "updated_at": "2026-05-22T14:56:29.429258"
     },
     {
       "id": "tug_item_robes",
@@ -20428,7 +20752,7 @@
       "id": "6a95d0e4-4abf-4556-ac84-72c58add4de2",
       "name": "Longsword",
       "path": "resources/weapon_longsword_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.877944"
+      "updated_at": "2026-05-22T14:56:29.457068"
     },
     {
       "id": "tug_monster_hellwasp",
@@ -20464,7 +20788,7 @@
       "id": "bm0de002-1596-4df1-8b54-5d1dda8c0002",
       "name": "Domain Expansion",
       "path": "resources/skill_tree_node_domain_expansion.rpg",
-      "updated_at": "2026-05-22T14:24:27.881741"
+      "updated_at": "2026-05-22T14:56:29.461267"
     },
     {
       "id": "tug_item_periapt_of_health",
@@ -20551,6 +20875,12 @@
       "updated_at": "2026-02-07T10:30:48.627534"
     },
     {
+      "id": "weapon_master_style_vanilla_hero",
+      "name": "Vanilla Hero",
+      "path": "resources/weapon_master_style_vanilla_hero.rpg",
+      "updated_at": "2026-05-22T14:56:29.521586"
+    },
+    {
       "id": "tug_item_sages_signet__serpent_",
       "name": "Sage's Signet (Serpent)",
       "path": "resources/item_sage_s_signet_serpent_bmt.rpg",
@@ -20572,7 +20902,7 @@
       "id": "95ca4820-09a6-462d-b2e3-e902490a30c8",
       "name": "Javelin",
       "path": "resources/weapon_javelin_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.980625"
+      "updated_at": "2026-05-22T14:56:29.526356"
     },
     {
       "id": "tug_item_torpor",
@@ -20614,13 +20944,13 @@
       "id": "efb19bf8-81b5-4803-8e58-856aa97f6fe3",
       "name": "Battleaxe",
       "path": "resources/weapon_battleaxe_phb.rpg",
-      "updated_at": "2026-05-22T14:24:27.998219"
+      "updated_at": "2026-05-22T14:56:29.535359"
     },
     {
       "id": "9fc0feeb-8da7-41bd-9ea3-45dc09a67d3a",
       "name": "Lightbringer",
       "path": "resources/weapon_lightbringer_pabtso.rpg",
-      "updated_at": "2026-05-22T14:24:27.999426"
+      "updated_at": "2026-05-22T14:56:29.535972"
     },
     {
       "id": "tug_item_staff_of_healing",
@@ -20722,7 +21052,7 @@
       "id": "a42c08f1-e614-46e7-9cbe-6f70a0066d01",
       "name": "Longbow",
       "path": "resources/weapon_longbow_phb.rpg",
-      "updated_at": "2026-05-22T14:24:28.029374"
+      "updated_at": "2026-05-22T14:56:29.553285"
     },
     {
       "id": "tug_item_+3_fate_dealers_deck",
@@ -20740,7 +21070,7 @@
       "id": "8a89d630-d0b5-471a-9fbf-8f4386d85f9d",
       "name": "Embody",
       "path": "resources/skill_tree_node_embody.rpg",
-      "updated_at": "2026-05-22T14:24:28.032840"
+      "updated_at": "2026-05-22T14:56:29.555347"
     },
     {
       "id": "tug_monster_giant_frog",
@@ -20794,7 +21124,7 @@
       "id": "8ce16577-43f7-4656-a17e-bec3b69f617b",
       "name": "Staff of Healing",
       "path": "resources/weapon_staff_of_healing_dmg.rpg",
-      "updated_at": "2026-05-22T14:24:28.051075"
+      "updated_at": "2026-05-22T14:56:29.606318"
     },
     {
       "id": "tug_monster_hierophant_medusa__bmt_",
@@ -20830,7 +21160,7 @@
       "id": "377f32ec-5fa5-4b46-8a25-0c4e857ce1ba",
       "name": "+5 HP",
       "path": "resources/skill_tree_node_+5_h_p.rpg",
-      "updated_at": "2026-05-22T14:24:28.066627"
+      "updated_at": "2026-05-22T14:56:29.616649"
     },
     {
       "id": "tug_spell_enhance_ability",
@@ -20866,7 +21196,7 @@
       "id": "2eed11c8-3369-470e-b482-7ed09a8b7115",
       "name": "Limitless",
       "path": "resources/pact_entry_limitless.rpg",
-      "updated_at": "2026-05-22T14:24:28.076982"
+      "updated_at": "2026-05-22T14:56:29.622020"
     },
     {
       "id": "tug_monster_abyssal_chicken",
@@ -20884,7 +21214,7 @@
       "id": "dbeacd3e-8b8d-4d68-823d-eefce23e95b9",
       "name": "+2 Stamina",
       "path": "resources/skill_tree_node_+2_stamina.rpg",
-      "updated_at": "2026-05-22T14:24:28.086966"
+      "updated_at": "2026-05-22T14:56:29.627281"
     },
     {
       "id": "tug_item_yew_wand",
@@ -21028,7 +21358,7 @@
       "id": "bedfb3c2-c759-426b-b0e8-a509617bb09c",
       "name": "Pariah's Shield",
       "path": "resources/armor_pariah_s_shield_ggr.rpg",
-      "updated_at": "2026-05-22T14:24:28.142583"
+      "updated_at": "2026-05-22T14:56:29.653653"
     },
     {
       "id": "tug_item_silver",

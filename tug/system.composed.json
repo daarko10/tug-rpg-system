@@ -3955,6 +3955,368 @@
       }
     },
     {
+      "id": "pools",
+      "view": {
+        "type": "section",
+        "id": "pools_section",
+        "show_divider": true,
+        "content_item_min_width": 130,
+        "collapsible": true,
+        "is_visible": {
+          "type": "or",
+          "components": {
+            "type": "list",
+            "components": [
+              {
+                "type": "greaterThan",
+                "components": {
+                  "type": "list",
+                  "components": [
+                    {
+                      "type": "stat",
+                      "stat": "max_stamina"
+                    },
+                    {
+                      "type": "constant",
+                      "value": 0,
+                      "value_type": "integer"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "greaterThan",
+                "components": {
+                  "type": "list",
+                  "components": [
+                    {
+                      "type": "stat",
+                      "stat": "max_adrenaline"
+                    },
+                    {
+                      "type": "constant",
+                      "value": 0,
+                      "value_type": "integer"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "greaterThan",
+                "components": {
+                  "type": "list",
+                  "components": [
+                    {
+                      "type": "stat",
+                      "stat": "max_spell_points"
+                    },
+                    {
+                      "type": "constant",
+                      "value": 0,
+                      "value_type": "integer"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "constant",
+                "value": true,
+                "value_type": "bool"
+              }
+            ]
+          }
+        },
+        "header": [
+          {
+            "type": "icon",
+            "id": "pools_section_icon",
+            "name": "ic_local_drink",
+            "color": "accent",
+            "size": "medium",
+            "margin_top": 8,
+            "margin_right": 8,
+            "margin_left": 16
+          },
+          {
+            "type": "text",
+            "id": "pools_section_title",
+            "margin_right": 16,
+            "margin_left": 16,
+            "text": {
+              "type": "constant",
+              "value": "Pools",
+              "value_type": "string"
+            },
+            "style": "title"
+          }
+        ],
+        "content": [
+          {
+            "type": "ticker",
+            "id": "pools_stamina_ticker",
+            "stat": "current_stamina",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "min_value_allowed": 0,
+            "label": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "/ ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_stamina"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " Stamina",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Stamina",
+              "value_type": "string"
+            },
+            "is_visible": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "max_stamina"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "ticker",
+            "id": "pools_adrenaline_ticker",
+            "stat": "current_adrenaline",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "min_value_allowed": 0,
+            "label": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "/ ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_adrenaline"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " Adrenaline",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Adrenaline",
+              "value_type": "string"
+            },
+            "is_visible": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "max_adrenaline"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "ticker",
+            "id": "pools_spell_points_ticker",
+            "stat": "current_spell_points",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "min_value_allowed": 0,
+            "label": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "/ ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_spell_points"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " SP",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Spell Points",
+              "value_type": "string"
+            },
+            "is_visible": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "max_spell_points"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "type": "ticker",
+            "id": "pools_inspiration_ticker",
+            "stat": "inspiration",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "min_value_allowed": 0,
+            "label": {
+              "type": "constant",
+              "value": "Inspiration",
+              "value_type": "string"
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Inspiration",
+              "value_type": "string"
+            }
+          },
+          {
+            "type": "ticker",
+            "id": "pools_perfect_form_uses_ticker",
+            "stat": "perfect_form_uses_remaining",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "min_value_allowed": 0,
+            "max_value_allowed": 1,
+            "label": {
+              "type": "constant",
+              "value": "/ 1 Perfect Form",
+              "value_type": "string"
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Perfect Form uses (resets on long rest)",
+              "value_type": "string"
+            },
+            "is_visible": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "length",
+                    "components": {
+                      "type": "filter",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$character.purchased_combat_nodes"
+                      },
+                      "filter_value_key": "$n",
+                      "filter": {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "defaultIfNull",
+                              "components": {
+                                "type": "stat",
+                                "stat": "$n.name"
+                              },
+                              "default_components": {
+                                "type": "constant",
+                                "value": "",
+                                "value_type": "string"
+                              }
+                            },
+                            {
+                              "type": "constant",
+                              "value": "Perfect Form",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
       "id": "abilities",
       "view": {
         "type": "section",
@@ -5975,29 +6337,6 @@
                       {
                         "type": "stat",
                         "stat": "combat_tree_sp_bonus"
-                      },
-                      {
-                        "type": "constant",
-                        "value": " (Spell Points: ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "current_spell_points"
-                      },
-                      {
-                        "type": "constant",
-                        "value": " / ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "max_spell_points"
-                      },
-                      {
-                        "type": "constant",
-                        "value": ")",
-                        "value_type": "string"
                       }
                     ]
                   }
@@ -6005,75 +6344,24 @@
                 "style": "text",
                 "margin_left": 16,
                 "margin_right": 16,
-                "margin_top": 4
-              },
-              {
-                "type": "text",
-                "id": "combat_tree_stats_stamina",
-                "text": {
-                  "type": "concat",
+                "margin_top": 4,
+                "is_visible": {
+                  "type": "greaterThan",
                   "components": {
                     "type": "list",
                     "components": [
                       {
-                        "type": "constant",
-                        "value": "Stamina: ",
-                        "value_type": "string"
-                      },
-                      {
                         "type": "stat",
-                        "stat": "current_stamina"
+                        "stat": "combat_tree_sp_bonus"
                       },
                       {
                         "type": "constant",
-                        "value": " / ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "max_stamina"
+                        "value": 0,
+                        "value_type": "integer"
                       }
                     ]
                   }
-                },
-                "style": "text",
-                "margin_left": 16,
-                "margin_right": 16,
-                "margin_top": 4
-              },
-              {
-                "type": "text",
-                "id": "combat_tree_stats_adrenaline",
-                "text": {
-                  "type": "concat",
-                  "components": {
-                    "type": "list",
-                    "components": [
-                      {
-                        "type": "constant",
-                        "value": "Adrenaline: ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "current_adrenaline"
-                      },
-                      {
-                        "type": "constant",
-                        "value": " / ",
-                        "value_type": "string"
-                      },
-                      {
-                        "type": "stat",
-                        "stat": "max_adrenaline"
-                      }
-                    ]
-                  }
-                },
-                "style": "text",
-                "margin_left": 16,
-                "margin_right": 16,
-                "margin_top": 4
+                }
               }
             ]
           },
@@ -8886,46 +9174,6 @@
         ],
         "content": [
           {
-            "type": "ticker",
-            "id": "current_spell_points_ticker",
-            "stat": "current_spell_points",
-            "style": "title",
-            "button_location": "right",
-            "button_look": "plusMinus",
-            "should_auto_save": true,
-            "change_amount": 1,
-            "min_value_allowed": 0,
-            "label": {
-              "type": "concat",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "constant",
-                    "value": "/ ",
-                    "value_type": "string"
-                  },
-                  {
-                    "type": "stat",
-                    "stat": "max_spell_points"
-                  },
-                  {
-                    "type": "constant",
-                    "value": " SP",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "label_alignment": "right",
-            "edit_bottom_sheet_title": {
-              "type": "constant",
-              "value": "Current Spell Points",
-              "value_type": "string"
-            },
-            "margin_left": 16
-          },
-          {
             "type": "stat",
             "id": "max_spell_points_stat",
             "stat": "base_max_spell_points",
@@ -8940,6 +9188,65 @@
               "type": "constant",
               "value": "Maximum Spell Points (set based on level and class features). Combat-tree '+2 Mana' nodes are added automatically on top.",
               "value_type": "string"
+            },
+            "is_visible": {
+              "type": "stat",
+              "stat": "$edit_mode"
+            }
+          },
+          {
+            "type": "text",
+            "id": "spell_points_total_summary",
+            "text": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Total Max SP: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_spell_points"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "  (base ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "base_max_spell_points"
+                  },
+                  {
+                    "type": "constant",
+                    "value": " + combat tree +",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "combat_tree_sp_bonus"
+                  },
+                  {
+                    "type": "constant",
+                    "value": ")",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "style": "text",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "not",
+              "components": {
+                "type": "stat",
+                "stat": "$edit_mode"
+              }
             }
           },
           {
@@ -11276,6 +11583,222 @@
       "name": "Rage AC bonus"
     },
     {
+      "id": "inspiration",
+      "type": "base",
+      "value_type": "integer",
+      "default_value": 0,
+      "name": "Inspiration"
+    },
+    {
+      "id": "is_in_perfect_form",
+      "type": "base",
+      "value_type": "bool",
+      "default_value": false,
+      "name": "Is in Perfect Form"
+    },
+    {
+      "id": "perfect_form_uses_remaining",
+      "type": "base",
+      "value_type": "integer",
+      "default_value": 1,
+      "name": "Perfect Form uses remaining"
+    },
+    {
+      "id": "sneak_attack_dice_count",
+      "type": "calculated",
+      "value_type": "integer",
+      "components": {
+        "type": "min",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "length",
+              "components": {
+                "type": "filter",
+                "components": {
+                  "type": "stat",
+                  "stat": "purchased_combat_nodes"
+                },
+                "filter_value_key": "$n",
+                "filter": {
+                  "type": "equals",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "defaultIfNull",
+                        "components": {
+                          "type": "stat",
+                          "stat": "$n.name"
+                        },
+                        "default_components": {
+                          "type": "constant",
+                          "value": "",
+                          "value_type": "string"
+                        }
+                      },
+                      {
+                        "type": "constant",
+                        "value": "+1d4 Sneak Attack",
+                        "value_type": "string"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "type": "stat",
+              "stat": "level"
+            }
+          ]
+        }
+      },
+      "name": "Sneak Attack dice"
+    },
+    {
+      "id": "sneak_attack_damage_formula",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "greaterThan",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "sneak_attack_dice_count"
+                  },
+                  {
+                    "type": "constant",
+                    "value": 0,
+                    "value_type": "integer"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "sneak_attack_dice_count"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "d4 sneak attack",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": "",
+              "value_type": "string"
+            }
+          }
+        ]
+      },
+      "name": "Sneak Attack formula"
+    },
+    {
+      "id": "combat_tree_expert_skills",
+      "type": "calculated",
+      "value_type": "array",
+      "components": {
+        "type": "map",
+        "components": {
+          "type": "filter",
+          "components": {
+            "type": "stat",
+            "stat": "purchased_combat_nodes"
+          },
+          "filter_value_key": "$n",
+          "filter": {
+            "type": "and",
+            "components": {
+              "type": "list",
+              "components": [
+                {
+                  "type": "equals",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "defaultIfNull",
+                        "components": {
+                          "type": "stat",
+                          "stat": "$n.name"
+                        },
+                        "default_components": {
+                          "type": "constant",
+                          "value": "",
+                          "value_type": "string"
+                        }
+                      },
+                      {
+                        "type": "constant",
+                        "value": "+1 Specialise",
+                        "value_type": "string"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "not",
+                  "components": {
+                    "type": "isEmpty",
+                    "components": {
+                      "type": "defaultIfNull",
+                      "components": {
+                        "type": "stat",
+                        "stat": "$n.chosen_specialise_skill"
+                      },
+                      "default_components": {
+                        "type": "constant",
+                        "value": "",
+                        "value_type": "string"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "map_value_key": "$n",
+        "mapper": {
+          "type": "defaultIfNull",
+          "components": {
+            "type": "stat",
+            "stat": "$n.chosen_specialise_skill"
+          },
+          "default_components": {
+            "type": "constant",
+            "value": "",
+            "value_type": "string"
+          }
+        }
+      },
+      "sub_value_type": "string",
+      "name": "Combat-tree expert skills"
+    },
+    {
       "id": "combat_tree_walking_bonus",
       "type": "calculated",
       "value_type": "integer",
@@ -13091,6 +13614,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "acrobatics_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "acrobatics",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -13399,6 +13978,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "animal_handling_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "animal_handling",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -13711,6 +14346,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "arcana_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "arcana",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -14019,6 +14710,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "athletics_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "athletics",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -14331,6 +15078,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "deception_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "deception",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -14639,6 +15442,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "history_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "history",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -14951,6 +15810,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "insight_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "insight",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -15259,6 +16174,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "intimidation_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "intimidation",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -15571,6 +16542,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "investigation_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "investigation",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -15879,6 +16906,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "medicine_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "medicine",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -16191,6 +17274,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "nature_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "nature",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -16494,6 +17633,50 @@
             "condition": {
               "type": "stat",
               "stat": "limitless_active"
+            },
+            "components": {
+              "type": "constant",
+              "value": "expert",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "and",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "equals",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "stat",
+                          "stat": "perception_proficiency"
+                        },
+                        {
+                          "type": "constant",
+                          "value": "proficient",
+                          "value_type": "string"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "contains",
+                    "haystack": {
+                      "type": "stat",
+                      "stat": "combat_tree_expert_skills"
+                    },
+                    "needle": {
+                      "type": "constant",
+                      "value": "perception",
+                      "value_type": "string"
+                    }
+                  }
+                ]
+              }
             },
             "components": {
               "type": "constant",
@@ -16844,6 +18027,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "performance_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "performance",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -17152,6 +18391,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "persuasion_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "persuasion",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -17464,6 +18759,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "religion_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "religion",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -17772,6 +19123,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "sleight_of_hand_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "sleight_of_hand",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -18084,6 +19491,62 @@
               "clauses": [
                 {
                   "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "stealth_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "stealth",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "condition": {
                     "type": "equals",
                     "components": {
                       "type": "list",
@@ -18392,6 +19855,62 @@
             {
               "type": "when",
               "clauses": [
+                {
+                  "condition": {
+                    "type": "and",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "survival_proficiency"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "proficient",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "contains",
+                          "haystack": {
+                            "type": "stat",
+                            "stat": "combat_tree_expert_skills"
+                          },
+                          "needle": {
+                            "type": "constant",
+                            "value": "survival",
+                            "value_type": "string"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "components": {
+                    "type": "multiply",
+                    "components": {
+                      "type": "list",
+                      "components": [
+                        {
+                          "type": "constant",
+                          "value": 2,
+                          "value_type": "integer"
+                        },
+                        {
+                          "type": "stat",
+                          "stat": "proficiency_bonus"
+                        }
+                      ]
+                    }
+                  }
+                },
                 {
                   "condition": {
                     "type": "equals",
@@ -25917,6 +27436,869 @@
                         },
                         {
                           "condition": {
+                            "type": "equals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "stat",
+                                  "stat": "$uname"
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "+1 Flourish",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "components": {
+                            "type": "when",
+                            "clauses": [
+                              {
+                                "condition": {
+                                  "type": "isEmpty",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "flatMap",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "combat_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "map",
+                                          "components": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.chosen_flourishes"
+                                            },
+                                            "default_components": {
+                                              "type": "list",
+                                              "components": []
+                                            }
+                                          },
+                                          "map_value_key": "$f",
+                                          "mapper": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$f.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  }
+                                },
+                                "components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              },
+                              {
+                                "condition": {
+                                  "type": "constant",
+                                  "value_type": "bool",
+                                  "value": true
+                                },
+                                "components": {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": " (",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "joinToString",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "flatAppend",
+                                            "components": [
+                                              {
+                                                "type": "flatMap",
+                                                "components": {
+                                                  "type": "filter",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "combat_tree_nodes"
+                                                  },
+                                                  "filter_value_key": "$n",
+                                                  "filter": {
+                                                    "type": "equals",
+                                                    "components": {
+                                                      "type": "list",
+                                                      "components": [
+                                                        {
+                                                          "type": "defaultIfNull",
+                                                          "components": {
+                                                            "type": "stat",
+                                                            "stat": "$n.name"
+                                                          },
+                                                          "default_components": {
+                                                            "type": "constant",
+                                                            "value": "",
+                                                            "value_type": "string"
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "stat",
+                                                          "stat": "$uname"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "map_value_key": "$n",
+                                                "mapper": {
+                                                  "type": "map",
+                                                  "components": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$n.chosen_flourishes"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "list",
+                                                      "components": []
+                                                    }
+                                                  },
+                                                  "map_value_key": "$f",
+                                                  "mapper": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$f.name"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "constant",
+                                                      "value": "",
+                                                      "value_type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "treat_as_set": true
+                                          },
+                                          "filter_value_key": "$s",
+                                          "filter": {
+                                            "type": "not",
+                                            "components": {
+                                              "type": "isEmpty",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$s"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "separator": ", "
+                                      },
+                                      {
+                                        "type": "constant",
+                                        "value": ")",
+                                        "value_type": "string"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "equals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "stat",
+                                  "stat": "$uname"
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "+1 Trick",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "components": {
+                            "type": "when",
+                            "clauses": [
+                              {
+                                "condition": {
+                                  "type": "isEmpty",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "flatMap",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "combat_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "map",
+                                          "components": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.chosen_tricks"
+                                            },
+                                            "default_components": {
+                                              "type": "list",
+                                              "components": []
+                                            }
+                                          },
+                                          "map_value_key": "$t",
+                                          "mapper": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$t.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  }
+                                },
+                                "components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              },
+                              {
+                                "condition": {
+                                  "type": "constant",
+                                  "value_type": "bool",
+                                  "value": true
+                                },
+                                "components": {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": " (",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "joinToString",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "flatAppend",
+                                            "components": [
+                                              {
+                                                "type": "flatMap",
+                                                "components": {
+                                                  "type": "filter",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "combat_tree_nodes"
+                                                  },
+                                                  "filter_value_key": "$n",
+                                                  "filter": {
+                                                    "type": "equals",
+                                                    "components": {
+                                                      "type": "list",
+                                                      "components": [
+                                                        {
+                                                          "type": "defaultIfNull",
+                                                          "components": {
+                                                            "type": "stat",
+                                                            "stat": "$n.name"
+                                                          },
+                                                          "default_components": {
+                                                            "type": "constant",
+                                                            "value": "",
+                                                            "value_type": "string"
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "stat",
+                                                          "stat": "$uname"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "map_value_key": "$n",
+                                                "mapper": {
+                                                  "type": "map",
+                                                  "components": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$n.chosen_tricks"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "list",
+                                                      "components": []
+                                                    }
+                                                  },
+                                                  "map_value_key": "$t",
+                                                  "mapper": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$t.name"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "constant",
+                                                      "value": "",
+                                                      "value_type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "treat_as_set": true
+                                          },
+                                          "filter_value_key": "$s",
+                                          "filter": {
+                                            "type": "not",
+                                            "components": {
+                                              "type": "isEmpty",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$s"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "separator": ", "
+                                      },
+                                      {
+                                        "type": "constant",
+                                        "value": ")",
+                                        "value_type": "string"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "equals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "stat",
+                                  "stat": "$uname"
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "+1 Weapon Master",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "components": {
+                            "type": "when",
+                            "clauses": [
+                              {
+                                "condition": {
+                                  "type": "isEmpty",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "flatMap",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "combat_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "map",
+                                          "components": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.chosen_weapon_master_styles"
+                                            },
+                                            "default_components": {
+                                              "type": "list",
+                                              "components": []
+                                            }
+                                          },
+                                          "map_value_key": "$w",
+                                          "mapper": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$w.name"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  }
+                                },
+                                "components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              },
+                              {
+                                "condition": {
+                                  "type": "constant",
+                                  "value_type": "bool",
+                                  "value": true
+                                },
+                                "components": {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": " (",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "joinToString",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "flatAppend",
+                                            "components": [
+                                              {
+                                                "type": "flatMap",
+                                                "components": {
+                                                  "type": "filter",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "combat_tree_nodes"
+                                                  },
+                                                  "filter_value_key": "$n",
+                                                  "filter": {
+                                                    "type": "equals",
+                                                    "components": {
+                                                      "type": "list",
+                                                      "components": [
+                                                        {
+                                                          "type": "defaultIfNull",
+                                                          "components": {
+                                                            "type": "stat",
+                                                            "stat": "$n.name"
+                                                          },
+                                                          "default_components": {
+                                                            "type": "constant",
+                                                            "value": "",
+                                                            "value_type": "string"
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "stat",
+                                                          "stat": "$uname"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "map_value_key": "$n",
+                                                "mapper": {
+                                                  "type": "map",
+                                                  "components": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$n.chosen_weapon_master_styles"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "list",
+                                                      "components": []
+                                                    }
+                                                  },
+                                                  "map_value_key": "$w",
+                                                  "mapper": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$w.name"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "constant",
+                                                      "value": "",
+                                                      "value_type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "treat_as_set": true
+                                          },
+                                          "filter_value_key": "$s",
+                                          "filter": {
+                                            "type": "not",
+                                            "components": {
+                                              "type": "isEmpty",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$s"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "separator": ", "
+                                      },
+                                      {
+                                        "type": "constant",
+                                        "value": ")",
+                                        "value_type": "string"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "equals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "stat",
+                                  "stat": "$uname"
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "+1 Specialise",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "components": {
+                            "type": "when",
+                            "clauses": [
+                              {
+                                "condition": {
+                                  "type": "isEmpty",
+                                  "components": {
+                                    "type": "filter",
+                                    "components": {
+                                      "type": "flatAppend",
+                                      "components": [
+                                        {
+                                          "type": "map",
+                                          "components": {
+                                            "type": "filter",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "combat_tree_nodes"
+                                            },
+                                            "filter_value_key": "$n",
+                                            "filter": {
+                                              "type": "equals",
+                                              "components": {
+                                                "type": "list",
+                                                "components": [
+                                                  {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$n.name"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "constant",
+                                                      "value": "",
+                                                      "value_type": "string"
+                                                    }
+                                                  },
+                                                  {
+                                                    "type": "stat",
+                                                    "stat": "$uname"
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          },
+                                          "map_value_key": "$n",
+                                          "mapper": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "stat",
+                                              "stat": "$n.chosen_specialise_skill"
+                                            },
+                                            "default_components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          }
+                                        }
+                                      ],
+                                      "treat_as_set": true
+                                    },
+                                    "filter_value_key": "$s",
+                                    "filter": {
+                                      "type": "not",
+                                      "components": {
+                                        "type": "isEmpty",
+                                        "components": {
+                                          "type": "stat",
+                                          "stat": "$s"
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "components": {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              },
+                              {
+                                "condition": {
+                                  "type": "constant",
+                                  "value_type": "bool",
+                                  "value": true
+                                },
+                                "components": {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": " (",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "joinToString",
+                                        "components": {
+                                          "type": "map",
+                                          "components": {
+                                            "type": "filter",
+                                            "components": {
+                                              "type": "flatAppend",
+                                              "components": [
+                                                {
+                                                  "type": "map",
+                                                  "components": {
+                                                    "type": "filter",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "combat_tree_nodes"
+                                                    },
+                                                    "filter_value_key": "$n",
+                                                    "filter": {
+                                                      "type": "equals",
+                                                      "components": {
+                                                        "type": "list",
+                                                        "components": [
+                                                          {
+                                                            "type": "defaultIfNull",
+                                                            "components": {
+                                                              "type": "stat",
+                                                              "stat": "$n.name"
+                                                            },
+                                                            "default_components": {
+                                                              "type": "constant",
+                                                              "value": "",
+                                                              "value_type": "string"
+                                                            }
+                                                          },
+                                                          {
+                                                            "type": "stat",
+                                                            "stat": "$uname"
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  },
+                                                  "map_value_key": "$n",
+                                                  "mapper": {
+                                                    "type": "defaultIfNull",
+                                                    "components": {
+                                                      "type": "stat",
+                                                      "stat": "$n.chosen_specialise_skill"
+                                                    },
+                                                    "default_components": {
+                                                      "type": "constant",
+                                                      "value": "",
+                                                      "value_type": "string"
+                                                    }
+                                                  }
+                                                }
+                                              ],
+                                              "treat_as_set": true
+                                            },
+                                            "filter_value_key": "$s",
+                                            "filter": {
+                                              "type": "not",
+                                              "components": {
+                                                "type": "isEmpty",
+                                                "components": {
+                                                  "type": "stat",
+                                                  "stat": "$s"
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "map_value_key": "$s",
+                                          "mapper": {
+                                            "type": "defaultIfNull",
+                                            "components": {
+                                              "type": "enumeratedName",
+                                              "enumerated_type": "skill_types",
+                                              "id": {
+                                                "type": "stat",
+                                                "stat": "$s"
+                                              }
+                                            },
+                                            "default_components": {
+                                              "type": "stat",
+                                              "stat": "$s"
+                                            }
+                                          }
+                                        },
+                                        "separator": ", "
+                                      },
+                                      {
+                                        "type": "constant",
+                                        "value": ")",
+                                        "value_type": "string"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": {
                             "type": "constant",
                             "value_type": "bool",
                             "value": true
@@ -26870,6 +29252,242 @@
                                         "type": "constant",
                                         "value": ")",
                                         "value_type": "string"
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "condition": {
+                            "type": "equals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "stat",
+                                  "stat": "$uname"
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "Perfect Form",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "components": {
+                            "type": "when",
+                            "clauses": [
+                              {
+                                "condition": {
+                                  "type": "isEmpty",
+                                  "components": {
+                                    "type": "flatAppend",
+                                    "components": [
+                                      {
+                                        "type": "map",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "combat_tree_nodes"
+                                          },
+                                          "filter_value_key": "$n",
+                                          "filter": {
+                                            "type": "equals",
+                                            "components": {
+                                              "type": "list",
+                                              "components": [
+                                                {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                },
+                                                {
+                                                  "type": "stat",
+                                                  "stat": "$uname"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        "map_value_key": "$n",
+                                        "mapper": {
+                                          "type": "defaultIfNull",
+                                          "components": {
+                                            "type": "stat",
+                                            "stat": "$n.chosen_perfect_form?.name"
+                                          },
+                                          "default_components": {
+                                            "type": "constant",
+                                            "value": "",
+                                            "value_type": "string"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "treat_as_set": true
+                                  }
+                                },
+                                "components": {
+                                  "type": "when",
+                                  "clauses": [
+                                    {
+                                      "condition": {
+                                        "type": "stat",
+                                        "stat": "is_in_perfect_form"
+                                      },
+                                      "components": {
+                                        "type": "constant",
+                                        "value": " [ACTIVE]",
+                                        "value_type": "string"
+                                      }
+                                    },
+                                    {
+                                      "condition": {
+                                        "type": "constant",
+                                        "value_type": "bool",
+                                        "value": true
+                                      },
+                                      "components": {
+                                        "type": "constant",
+                                        "value": "",
+                                        "value_type": "string"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "condition": {
+                                  "type": "constant",
+                                  "value_type": "bool",
+                                  "value": true
+                                },
+                                "components": {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": " (",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "joinToString",
+                                        "components": {
+                                          "type": "filter",
+                                          "components": {
+                                            "type": "flatAppend",
+                                            "components": [
+                                              {
+                                                "type": "map",
+                                                "components": {
+                                                  "type": "filter",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "combat_tree_nodes"
+                                                  },
+                                                  "filter_value_key": "$n",
+                                                  "filter": {
+                                                    "type": "equals",
+                                                    "components": {
+                                                      "type": "list",
+                                                      "components": [
+                                                        {
+                                                          "type": "defaultIfNull",
+                                                          "components": {
+                                                            "type": "stat",
+                                                            "stat": "$n.name"
+                                                          },
+                                                          "default_components": {
+                                                            "type": "constant",
+                                                            "value": "",
+                                                            "value_type": "string"
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "stat",
+                                                          "stat": "$uname"
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                "map_value_key": "$n",
+                                                "mapper": {
+                                                  "type": "defaultIfNull",
+                                                  "components": {
+                                                    "type": "stat",
+                                                    "stat": "$n.chosen_perfect_form?.name"
+                                                  },
+                                                  "default_components": {
+                                                    "type": "constant",
+                                                    "value": "",
+                                                    "value_type": "string"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "treat_as_set": true
+                                          },
+                                          "filter_value_key": "$s",
+                                          "filter": {
+                                            "type": "not",
+                                            "components": {
+                                              "type": "isEmpty",
+                                              "components": {
+                                                "type": "stat",
+                                                "stat": "$s"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "separator": ", "
+                                      },
+                                      {
+                                        "type": "constant",
+                                        "value": ")",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "when",
+                                        "clauses": [
+                                          {
+                                            "condition": {
+                                              "type": "stat",
+                                              "stat": "is_in_perfect_form"
+                                            },
+                                            "components": {
+                                              "type": "constant",
+                                              "value": " [ACTIVE]",
+                                              "value_type": "string"
+                                            }
+                                          },
+                                          {
+                                            "condition": {
+                                              "type": "constant",
+                                              "value_type": "bool",
+                                              "value": true
+                                            },
+                                            "components": {
+                                              "type": "constant",
+                                              "value": "",
+                                              "value_type": "string"
+                                            }
+                                          }
+                                        ]
                                       }
                                     ]
                                   }
@@ -38771,6 +41389,26 @@
                   }
                 ]
               }
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "is_in_perfect_form",
+            "new_value": {
+              "type": "constant",
+              "value": false,
+              "value_type": "bool"
+            },
+            "aggregation_type": "set"
+          },
+          {
+            "type": "setStat",
+            "stat": "perfect_form_uses_remaining",
+            "new_value": {
+              "type": "constant",
+              "value": 1,
+              "value_type": "integer"
             },
             "aggregation_type": "set"
           },
@@ -62582,8 +65220,74 @@
           }
         ]
       },
+      "edit_view": {
+        "id": "flourish_pick_edit",
+        "type": "list",
+        "padding": 16,
+        "subviews": [
+          {
+            "type": "text",
+            "id": "flourish_pick_edit_name",
+            "edit_stat": "name",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Name",
+              "value_type": "string"
+            }
+          },
+          {
+            "type": "text",
+            "id": "flourish_pick_edit_description",
+            "edit_stat": "description",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Description",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          },
+          {
+            "type": "text",
+            "id": "flourish_pick_edit_stamina_cost",
+            "edit_stat": "stamina_cost",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Stamina cost",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          },
+          {
+            "type": "text",
+            "id": "flourish_pick_edit_melee_or_ranged",
+            "edit_stat": "melee_or_ranged",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Melee/ranged/any",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          }
+        ]
+      },
       "list_view": {
         "id": "flourish_pick_list",
+        "type": "listItem",
+        "title": {
+          "type": "stat",
+          "stat": "name"
+        },
+        "subtitle": {
+          "type": "stat",
+          "stat": "description"
+        }
+      },
+      "search_item_view": {
+        "id": "flourish_pick_search_item",
         "type": "listItem",
         "title": {
           "type": "stat",
@@ -75844,8 +78548,50 @@
           }
         ]
       },
+      "edit_view": {
+        "id": "perfect_form_pick_edit",
+        "type": "list",
+        "padding": 16,
+        "subviews": [
+          {
+            "type": "text",
+            "id": "perfect_form_pick_edit_name",
+            "edit_stat": "name",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Name",
+              "value_type": "string"
+            }
+          },
+          {
+            "type": "text",
+            "id": "perfect_form_pick_edit_description",
+            "edit_stat": "description",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Description",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          }
+        ]
+      },
       "list_view": {
         "id": "perfect_form_pick_list",
+        "type": "listItem",
+        "title": {
+          "type": "stat",
+          "stat": "name"
+        },
+        "subtitle": {
+          "type": "stat",
+          "stat": "description"
+        }
+      },
+      "search_item_view": {
+        "id": "perfect_form_pick_search_item",
         "type": "listItem",
         "title": {
           "type": "stat",
@@ -82642,6 +85388,219 @@
                 "should_save_on_selection": true
               }
             ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_display_flourish_comp",
+            "margin_top": 12,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Flourish",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_display_flourish_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Flourishes: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_display_flourish_select",
+                "stat": "chosen_flourishes",
+                "resource_id": "flourish_pick",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_display_trick_comp",
+            "margin_top": 12,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Trick",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_display_trick_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Tricks: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_display_trick_select",
+                "stat": "chosen_tricks",
+                "resource_id": "trick_pick",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_display_weapon_master_comp",
+            "margin_top": 12,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Weapon Master",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_display_weapon_master_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Weapon master styles: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_display_weapon_master_select",
+                "stat": "chosen_weapon_master_styles",
+                "resource_id": "weapon_master_style",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_display_specialise_comp",
+            "margin_top": 12,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Specialise",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_display_specialise_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Specialise in: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "select",
+                "id": "skill_tree_node_display_specialise_select",
+                "stat": "chosen_specialise_skill",
+                "options": "skill_types",
+                "should_auto_save": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_display_perfect_form_comp",
+            "margin_top": 12,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "Perfect Form",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_display_perfect_form_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Perfect Form: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_display_perfect_form_select",
+                "stat": "chosen_perfect_form",
+                "resource_id": "perfect_form_pick",
+                "should_save_on_selection": true
+              }
+            ]
           }
         ]
       },
@@ -84038,6 +86997,357 @@
                 "should_save_on_selection": true
               }
             ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_list_flourish_comp",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Flourish",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_list_flourish_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Flourishes: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_list_flourish_select",
+                "stat": "chosen_flourishes",
+                "resource_id": "flourish_pick",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_list_trick_comp",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Trick",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_list_trick_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Tricks: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_list_trick_select",
+                "stat": "chosen_tricks",
+                "resource_id": "trick_pick",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_list_weapon_master_comp",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Weapon Master",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_list_weapon_master_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Weapon master styles: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_list_weapon_master_select",
+                "stat": "chosen_weapon_master_styles",
+                "resource_id": "weapon_master_style",
+                "should_append": true,
+                "should_save_on_selection": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_list_specialise_comp",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "+1 Specialise",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_list_specialise_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Specialise in: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "select",
+                "id": "skill_tree_node_list_specialise_select",
+                "stat": "chosen_specialise_skill",
+                "options": "skill_types",
+                "should_auto_save": true
+              }
+            ]
+          },
+          {
+            "type": "composite",
+            "id": "skill_tree_node_list_perfect_form_comp",
+            "margin_left": 16,
+            "margin_right": 16,
+            "margin_top": 4,
+            "alignment": "end",
+            "is_visible": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "name"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "Perfect Form",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "subviews": [
+              {
+                "type": "text",
+                "id": "skill_tree_node_list_perfect_form_label",
+                "text": {
+                  "type": "constant",
+                  "value": "Perfect Form: ",
+                  "value_type": "string"
+                },
+                "style": "text",
+                "bold": true
+              },
+              {
+                "type": "selectResources",
+                "id": "skill_tree_node_list_perfect_form_select",
+                "stat": "chosen_perfect_form",
+                "resource_id": "perfect_form_pick",
+                "should_save_on_selection": true
+              },
+              {
+                "type": "button",
+                "id": "skill_tree_node_list_perfect_form_use_button",
+                "text": {
+                  "type": "constant",
+                  "value": "USE",
+                  "value_type": "string"
+                },
+                "is_visible": {
+                  "type": "and",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "name"
+                            },
+                            {
+                              "type": "constant",
+                              "value": "Perfect Form",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "notEquals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "defaultIfNull",
+                              "components": {
+                                "type": "stat",
+                                "stat": "chosen_perfect_form?.id"
+                              },
+                              "default_components": {
+                                "type": "constant",
+                                "value": "",
+                                "value_type": "string"
+                              }
+                            },
+                            {
+                              "type": "constant",
+                              "value": "",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "not",
+                        "components": {
+                          "type": "stat",
+                          "stat": "$character.is_in_perfect_form"
+                        }
+                      },
+                      {
+                        "type": "greaterThan",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "$character.perfect_form_uses_remaining"
+                            },
+                            {
+                              "type": "constant",
+                              "value": 0,
+                              "value_type": "integer"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "event": {
+                  "name": "seed_and_enter_perfect_form"
+                }
+              },
+              {
+                "type": "button",
+                "id": "skill_tree_node_list_perfect_form_revert_button",
+                "text": {
+                  "type": "constant",
+                  "value": "REVERT",
+                  "value_type": "string"
+                },
+                "is_visible": {
+                  "type": "and",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "name"
+                            },
+                            {
+                              "type": "constant",
+                              "value": "Perfect Form",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "stat",
+                        "stat": "$character.is_in_perfect_form"
+                      }
+                    ]
+                  }
+                },
+                "event": {
+                  "name": "seed_and_revert_perfect_form"
+                }
+              }
+            ]
           }
         ]
       },
@@ -84500,6 +87810,153 @@
             ]
           },
           "event_names": "combat_node_increment"
+        },
+        {
+          "id": "seed_and_enter_perfect_form",
+          "effects": {
+            "type": "when",
+            "clauses": [
+              {
+                "condition": {
+                  "type": "and",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "name"
+                            },
+                            {
+                              "type": "constant",
+                              "value": "Perfect Form",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "notEquals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "defaultIfNull",
+                              "components": {
+                                "type": "stat",
+                                "stat": "chosen_perfect_form?.id"
+                              },
+                              "default_components": {
+                                "type": "constant",
+                                "value": "",
+                                "value_type": "string"
+                              }
+                            },
+                            {
+                              "type": "constant",
+                              "value": "",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "not",
+                        "components": {
+                          "type": "stat",
+                          "stat": "$character.is_in_perfect_form"
+                        }
+                      },
+                      {
+                        "type": "greaterThan",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "$character.perfect_form_uses_remaining"
+                            },
+                            {
+                              "type": "constant",
+                              "value": 0,
+                              "value_type": "integer"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                "effect": {
+                  "type": "sequence",
+                  "effects": [
+                    {
+                      "type": "setStat",
+                      "stat": "$character.perfect_form_uses_remaining",
+                      "new_value": {
+                        "type": "subtract",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "$character.perfect_form_uses_remaining"
+                            },
+                            {
+                              "type": "constant",
+                              "value": 1,
+                              "value_type": "integer"
+                            }
+                          ]
+                        }
+                      },
+                      "aggregation_type": "set"
+                    },
+                    {
+                      "type": "setStat",
+                      "stat": "$character.is_in_perfect_form",
+                      "new_value": {
+                        "type": "constant",
+                        "value": true,
+                        "value_type": "bool"
+                      },
+                      "aggregation_type": "set"
+                    },
+                    {
+                      "type": "fireEvent",
+                      "event_names": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "concat",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "constant",
+                                  "value": "enter_perfect_form_",
+                                  "value_type": "string"
+                                },
+                                {
+                                  "type": "stat",
+                                  "stat": "chosen_perfect_form.id"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "event_names": "seed_and_enter_perfect_form"
         },
         {
           "id": "seed_and_enter_rage",
@@ -85027,6 +88484,118 @@
             ]
           },
           "event_names": "seed_and_enter_rage"
+        },
+        {
+          "id": "seed_and_revert_perfect_form",
+          "effects": {
+            "type": "when",
+            "clauses": [
+              {
+                "condition": {
+                  "type": "and",
+                  "components": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "equals",
+                        "components": {
+                          "type": "list",
+                          "components": [
+                            {
+                              "type": "stat",
+                              "stat": "name"
+                            },
+                            {
+                              "type": "constant",
+                              "value": "Perfect Form",
+                              "value_type": "string"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "type": "stat",
+                        "stat": "$character.is_in_perfect_form"
+                      }
+                    ]
+                  }
+                },
+                "effect": {
+                  "type": "sequence",
+                  "effects": [
+                    {
+                      "type": "setStat",
+                      "stat": "$character.is_in_perfect_form",
+                      "new_value": {
+                        "type": "constant",
+                        "value": false,
+                        "value_type": "bool"
+                      },
+                      "aggregation_type": "set"
+                    },
+                    {
+                      "type": "when",
+                      "clauses": [
+                        {
+                          "condition": {
+                            "type": "notEquals",
+                            "components": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "defaultIfNull",
+                                  "components": {
+                                    "type": "stat",
+                                    "stat": "chosen_perfect_form?.id"
+                                  },
+                                  "default_components": {
+                                    "type": "constant",
+                                    "value": "",
+                                    "value_type": "string"
+                                  }
+                                },
+                                {
+                                  "type": "constant",
+                                  "value": "",
+                                  "value_type": "string"
+                                }
+                              ]
+                            }
+                          },
+                          "effect": {
+                            "type": "fireEvent",
+                            "event_names": {
+                              "type": "list",
+                              "components": [
+                                {
+                                  "type": "concat",
+                                  "components": {
+                                    "type": "list",
+                                    "components": [
+                                      {
+                                        "type": "constant",
+                                        "value": "exit_perfect_form_",
+                                        "value_type": "string"
+                                      },
+                                      {
+                                        "type": "stat",
+                                        "stat": "chosen_perfect_form.id"
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "event_names": "seed_and_revert_perfect_form"
         },
         {
           "id": "seed_and_revert_rage",
@@ -90818,8 +94387,62 @@
           }
         ]
       },
+      "edit_view": {
+        "id": "trick_pick_edit",
+        "type": "list",
+        "padding": 16,
+        "subviews": [
+          {
+            "type": "text",
+            "id": "trick_pick_edit_name",
+            "edit_stat": "name",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Name",
+              "value_type": "string"
+            }
+          },
+          {
+            "type": "text",
+            "id": "trick_pick_edit_description",
+            "edit_stat": "description",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Description",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          },
+          {
+            "type": "text",
+            "id": "trick_pick_edit_stamina_cost",
+            "edit_stat": "stamina_cost",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Stamina cost",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          }
+        ]
+      },
       "list_view": {
         "id": "trick_pick_list",
+        "type": "listItem",
+        "title": {
+          "type": "stat",
+          "stat": "name"
+        },
+        "subtitle": {
+          "type": "stat",
+          "stat": "description"
+        }
+      },
+      "search_item_view": {
+        "id": "trick_pick_search_item",
         "type": "listItem",
         "title": {
           "type": "stat",
@@ -95741,8 +99364,74 @@
           }
         ]
       },
+      "edit_view": {
+        "id": "weapon_master_style_edit",
+        "type": "list",
+        "padding": 16,
+        "subviews": [
+          {
+            "type": "text",
+            "id": "weapon_master_style_edit_name",
+            "edit_stat": "name",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Name",
+              "value_type": "string"
+            }
+          },
+          {
+            "type": "text",
+            "id": "weapon_master_style_edit_description",
+            "edit_stat": "description",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Description",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          },
+          {
+            "type": "text",
+            "id": "weapon_master_style_edit_weapon_constraint",
+            "edit_stat": "weapon_constraint",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Weapon constraint",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          },
+          {
+            "type": "text",
+            "id": "weapon_master_style_edit_perfected_technique",
+            "edit_stat": "perfected_technique",
+            "style": "text",
+            "label": {
+              "type": "constant",
+              "value": "Perfected technique (level 5+)",
+              "value_type": "string"
+            },
+            "margin_top": 8
+          }
+        ]
+      },
       "list_view": {
         "id": "weapon_master_style_list",
+        "type": "listItem",
+        "title": {
+          "type": "stat",
+          "stat": "name"
+        },
+        "subtitle": {
+          "type": "stat",
+          "stat": "description"
+        }
+      },
+      "search_item_view": {
+        "id": "weapon_master_style_search_item",
         "type": "listItem",
         "title": {
           "type": "stat",
