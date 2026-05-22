@@ -73842,7 +73842,61 @@
                       },
                       {
                         "type": "constant",
-                        "value": " PP)",
+                        "value": " ",
+                        "value_type": "string"
+                      },
+                      {
+                        "type": "when",
+                        "clauses": [
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "defaultIfNull",
+                                    "components": {
+                                      "type": "stat",
+                                      "stat": "node?.tree?"
+                                    },
+                                    "default_components": {
+                                      "type": "constant",
+                                      "value": "",
+                                      "value_type": "string"
+                                    }
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "combat",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": "LP",
+                              "value_type": "string"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "constant",
+                              "value_type": "bool",
+                              "value": true
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": "PP",
+                              "value_type": "string"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "constant",
+                        "value": ")",
                         "value_type": "string"
                       }
                     ]
@@ -82166,8 +82220,49 @@
                       },
                       {
                         "type": "constant",
-                        "value": " PP",
+                        "value": " ",
                         "value_type": "string"
+                      },
+                      {
+                        "type": "when",
+                        "clauses": [
+                          {
+                            "condition": {
+                              "type": "equals",
+                              "components": {
+                                "type": "list",
+                                "components": [
+                                  {
+                                    "type": "stat",
+                                    "stat": "tree"
+                                  },
+                                  {
+                                    "type": "constant",
+                                    "value": "combat",
+                                    "value_type": "string"
+                                  }
+                                ]
+                              }
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": "LP",
+                              "value_type": "string"
+                            }
+                          },
+                          {
+                            "condition": {
+                              "type": "constant",
+                              "value_type": "bool",
+                              "value": true
+                            },
+                            "components": {
+                              "type": "constant",
+                              "value": "PP",
+                              "value_type": "string"
+                            }
+                          }
+                        ]
                       }
                     ]
                   }
@@ -82680,7 +82775,53 @@
                   },
                   {
                     "type": "constant",
-                    "value": " PP)",
+                    "value": " ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "when",
+                    "clauses": [
+                      {
+                        "condition": {
+                          "type": "equals",
+                          "components": {
+                            "type": "list",
+                            "components": [
+                              {
+                                "type": "stat",
+                                "stat": "tree"
+                              },
+                              {
+                                "type": "constant",
+                                "value": "combat",
+                                "value_type": "string"
+                              }
+                            ]
+                          }
+                        },
+                        "components": {
+                          "type": "constant",
+                          "value": "LP",
+                          "value_type": "string"
+                        }
+                      },
+                      {
+                        "condition": {
+                          "type": "constant",
+                          "value_type": "bool",
+                          "value": true
+                        },
+                        "components": {
+                          "type": "constant",
+                          "value": "PP",
+                          "value_type": "string"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "constant",
+                    "value": ")",
                     "value_type": "string"
                   }
                 ]
@@ -85044,8 +85185,49 @@
               },
               {
                 "type": "constant",
-                "value": " PP",
+                "value": " ",
                 "value_type": "string"
+              },
+              {
+                "type": "when",
+                "clauses": [
+                  {
+                    "condition": {
+                      "type": "equals",
+                      "components": {
+                        "type": "list",
+                        "components": [
+                          {
+                            "type": "stat",
+                            "stat": "tree"
+                          },
+                          {
+                            "type": "constant",
+                            "value": "combat",
+                            "value_type": "string"
+                          }
+                        ]
+                      }
+                    },
+                    "components": {
+                      "type": "constant",
+                      "value": "LP",
+                      "value_type": "string"
+                    }
+                  },
+                  {
+                    "condition": {
+                      "type": "constant",
+                      "value_type": "bool",
+                      "value": true
+                    },
+                    "components": {
+                      "type": "constant",
+                      "value": "PP",
+                      "value_type": "string"
+                    }
+                  }
+                ]
               }
             ]
           }
