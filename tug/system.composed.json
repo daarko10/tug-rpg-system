@@ -33373,7 +33373,7 @@
                                                   "type": "defaultIfNull",
                                                   "components": {
                                                     "type": "enumeratedName",
-                                                    "enumerated_type": "damage_types",
+                                                    "enumerated_type": "rage_resist_damage_groups",
                                                     "id": {
                                                       "type": "stat",
                                                       "stat": "$d"
@@ -35247,7 +35247,7 @@
                                                   "type": "defaultIfNull",
                                                   "components": {
                                                     "type": "enumeratedName",
-                                                    "enumerated_type": "damage_types",
+                                                    "enumerated_type": "rage_resist_damage_groups",
                                                     "id": {
                                                       "type": "stat",
                                                       "stat": "$d"
@@ -51179,6 +51179,45 @@
       ]
     },
     {
+      "id": "fortify_condition_groups",
+      "name": "Fortify condition group",
+      "plural": "Fortify condition groups",
+      "types": [
+        {
+          "id": "charmed_frightened_sleep",
+          "name": "Charmed & Frightened & Put to Sleep"
+        },
+        {
+          "id": "deafened_blinded",
+          "name": "Deafened & Blinded"
+        },
+        {
+          "id": "poisoned",
+          "name": "Poisoned & Poison Damage"
+        },
+        {
+          "id": "grappled_restrained",
+          "name": "Grappled & Restrained"
+        },
+        {
+          "id": "prone_forced_move",
+          "name": "Prone & Being Moved Against Your Will"
+        },
+        {
+          "id": "stunned",
+          "name": "Stunned"
+        },
+        {
+          "id": "paralysed",
+          "name": "Paralysed"
+        },
+        {
+          "id": "petrified",
+          "name": "Petrified"
+        }
+      ]
+    },
+    {
       "id": "hair_colors",
       "name": "Hair colors",
       "types": [
@@ -51973,6 +52012,33 @@
       ]
     },
     {
+      "id": "natural_defence_abilities",
+      "name": "Natural Defence ability",
+      "plural": "Natural Defence abilities",
+      "types": [
+        {
+          "id": "constitution",
+          "name": "Constitution (enduring attacks)",
+          "abbreviation": "CON"
+        },
+        {
+          "id": "dexterity",
+          "name": "Dexterity (quickly dodging attacks)",
+          "abbreviation": "DEX"
+        },
+        {
+          "id": "intelligence",
+          "name": "Intelligence (calculating incoming attacks)",
+          "abbreviation": "INT"
+        },
+        {
+          "id": "wisdom",
+          "name": "Wisdom (reading enemies movements)",
+          "abbreviation": "WIS"
+        }
+      ]
+    },
+    {
       "id": "outfits",
       "name": "Outfits",
       "types": [
@@ -52087,6 +52153,41 @@
         {
           "id": "poison",
           "name": "Poison"
+        }
+      ]
+    },
+    {
+      "id": "rage_resist_damage_groups",
+      "name": "Rage Resist damage group",
+      "plural": "Rage Resist damage groups",
+      "types": [
+        {
+          "id": "physical_nonmagical",
+          "name": "Slashing, Piercing & Bludgeoning (Non-Magical)"
+        },
+        {
+          "id": "acid_poison",
+          "name": "Acid & Poison"
+        },
+        {
+          "id": "fire_cold",
+          "name": "Fire & Cold"
+        },
+        {
+          "id": "thunder_lightning",
+          "name": "Thunder & Lightning"
+        },
+        {
+          "id": "necrotic",
+          "name": "Necrotic"
+        },
+        {
+          "id": "psychic",
+          "name": "Psychic"
+        },
+        {
+          "id": "radiant",
+          "name": "Radiant"
         }
       ]
     },
@@ -99130,7 +99231,7 @@
                 "type": "select",
                 "id": "skill_tree_node_display_rage_resist_select",
                 "stat": "chosen_rage_resists",
-                "options": "damage_types",
+                "options": "rage_resist_damage_groups",
                 "multi_select": true,
                 "should_auto_save": true
               }
@@ -100308,7 +100409,7 @@
                 "type": "select",
                 "id": "skill_tree_node_display_natural_defence_select",
                 "stat": "chosen_natural_defence_ability",
-                "options": "ability",
+                "options": "natural_defence_abilities",
                 "should_auto_save": true
               }
             ]
@@ -100392,7 +100493,7 @@
                 "type": "select",
                 "id": "skill_tree_node_display_fortify_select",
                 "stat": "chosen_fortify_condition",
-                "options": "conditions",
+                "options": "fortify_condition_groups",
                 "should_auto_save": true
               }
             ]
@@ -102282,7 +102383,7 @@
                 "type": "select",
                 "id": "skill_tree_node_list_rage_resist_select",
                 "stat": "chosen_rage_resists",
-                "options": "damage_types",
+                "options": "rage_resist_damage_groups",
                 "multi_select": true,
                 "should_auto_save": true
               }
@@ -103712,7 +103813,7 @@
                 "type": "select",
                 "id": "skill_tree_node_list_natural_defence_select",
                 "stat": "chosen_natural_defence_ability",
-                "options": "ability",
+                "options": "natural_defence_abilities",
                 "should_auto_save": true
               }
             ]
@@ -103800,7 +103901,7 @@
                 "type": "select",
                 "id": "skill_tree_node_list_fortify_select",
                 "stat": "chosen_fortify_condition",
-                "options": "conditions",
+                "options": "fortify_condition_groups",
                 "should_auto_save": true
               }
             ]
