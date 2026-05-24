@@ -14006,9 +14006,21 @@
               }
             },
             {
-              "type": "constant",
-              "value": 5,
-              "value_type": "integer"
+              "type": "add",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": 5,
+                    "value_type": "integer"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "constitution_modifier"
+                  }
+                ]
+              }
             }
           ]
         }
