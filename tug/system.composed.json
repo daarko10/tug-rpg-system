@@ -27421,51 +27421,8 @@
       "type": "calculated",
       "value_type": "array",
       "components": {
-        "type": "flatAppend",
-        "components": [
-          {
-            "type": "map",
-            "components": {
-              "type": "filter",
-              "components": {
-                "type": "stat",
-                "stat": "combat_tree_nodes"
-              },
-              "filter_value_key": "$n",
-              "filter": {
-                "type": "notEquals",
-                "components": {
-                  "type": "list",
-                  "components": [
-                    {
-                      "type": "defaultIfNull",
-                      "components": {
-                        "type": "stat",
-                        "stat": "$n.auto_weapon?.id"
-                      },
-                      "default_components": {
-                        "type": "constant",
-                        "value": "",
-                        "value_type": "string"
-                      }
-                    },
-                    {
-                      "type": "constant",
-                      "value": "",
-                      "value_type": "string"
-                    }
-                  ]
-                }
-              }
-            },
-            "map_value_key": "$n",
-            "mapper": {
-              "type": "stat",
-              "stat": "$n.auto_weapon"
-            }
-          }
-        ],
-        "treat_as_set": true
+        "type": "list",
+        "components": []
       },
       "sub_value_type": "resource",
       "resource_type": "weapon",
@@ -27492,10 +27449,6 @@
           {
             "type": "stat",
             "stat": "weapons"
-          },
-          {
-            "type": "stat",
-            "stat": "auto_provided_weapons"
           }
         ],
         "treat_as_set": true
