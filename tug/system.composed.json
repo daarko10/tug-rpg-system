@@ -6881,17 +6881,14 @@
             "margin_bottom": 8
           },
           {
-            "type": "text",
-            "id": "combat_summary_title",
-            "text": {
+            "type": "collapsible",
+            "id": "combat_investments_collapsible",
+            "title": {
               "type": "constant",
               "value": "Investments",
               "value_type": "string"
             },
-            "style": "subhead",
-            "bold": true,
-            "margin_top": 12,
-            "margin_left": 16,
+            "start_expanded": false,
             "is_visible": {
               "type": "not",
               "components": {
@@ -6901,29 +6898,21 @@
                   "stat": "unique_combat_node_names"
                 }
               }
-            }
-          },
-          {
-            "type": "text",
-            "id": "combat_summary_body",
-            "text": {
-              "type": "stat",
-              "stat": "combat_summary_text"
             },
-            "style": "text",
-            "margin_left": 16,
-            "margin_right": 16,
-            "margin_top": 8,
-            "is_visible": {
-              "type": "not",
-              "components": {
-                "type": "isEmpty",
-                "components": {
+            "subviews": [
+              {
+                "type": "text",
+                "id": "combat_summary_body",
+                "text": {
                   "type": "stat",
-                  "stat": "unique_combat_node_names"
-                }
+                  "stat": "combat_summary_text"
+                },
+                "style": "text",
+                "margin_left": 16,
+                "margin_right": 16,
+                "margin_top": 8
               }
-            }
+            ]
           },
           {
             "type": "collapsible",
@@ -16072,6 +16061,173 @@
         }
       },
       "name": "Committed Arcane Bond school id"
+    },
+    {
+      "id": "committed_arcane_bond_school_filter_id",
+      "type": "calculated",
+      "value_type": "string",
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_black",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "black",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_blue",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "blue",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_green",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "green",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_red",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "red",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_white",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "white",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "committed_arcane_bond_school_id"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "arcane_bond_school_void",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "constant",
+              "value": "void",
+              "value_type": "string"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": "",
+              "value_type": "string"
+            }
+          }
+        ]
+      },
+      "name": "Committed Arcane Bond school filter id"
     },
     {
       "id": "extra_attack_count",
@@ -50432,6 +50588,37 @@
       ]
     },
     {
+      "id": "arcane_bond_school_ids",
+      "name": "Arcane Bond school id",
+      "plural": "Arcane Bond school ids",
+      "types": [
+        {
+          "id": "black",
+          "name": "Black"
+        },
+        {
+          "id": "blue",
+          "name": "Blue"
+        },
+        {
+          "id": "green",
+          "name": "Green"
+        },
+        {
+          "id": "red",
+          "name": "Red"
+        },
+        {
+          "id": "white",
+          "name": "White"
+        },
+        {
+          "id": "void",
+          "name": "Void"
+        }
+      ]
+    },
+    {
       "id": "armor_types",
       "name": "Armor types",
       "types": [
@@ -60352,6 +60539,13 @@
       "indexed_stats": [
         "name",
         "school_id"
+      ],
+      "search_filters": [
+        {
+          "name": "School",
+          "stat": "school_id",
+          "options": "arcane_bond_school_ids"
+        }
       ],
       "sort_options": [
         {
@@ -100046,6 +100240,17 @@
                 "id": "skill_tree_node_display_arcane_bond_ability_select",
                 "stat": "chosen_arcane_bond_ability",
                 "resource_id": "arcane_bond_ability",
+                "filters": {
+                  "school_id": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "$character.committed_arcane_bond_school_filter_id"
+                      }
+                    ]
+                  }
+                },
                 "should_save_on_selection": true
               }
             ]
@@ -103480,6 +103685,17 @@
                 "id": "skill_tree_node_list_arcane_bond_ability_select",
                 "stat": "chosen_arcane_bond_ability",
                 "resource_id": "arcane_bond_ability",
+                "filters": {
+                  "school_id": {
+                    "type": "list",
+                    "components": [
+                      {
+                        "type": "stat",
+                        "stat": "$character.committed_arcane_bond_school_filter_id"
+                      }
+                    ]
+                  }
+                },
                 "should_save_on_selection": true
               }
             ]
