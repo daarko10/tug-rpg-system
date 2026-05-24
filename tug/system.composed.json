@@ -3649,6 +3649,49 @@
             }
           },
           {
+            "type": "ticker",
+            "id": "status_max_hp_bonus",
+            "margin_left": 16,
+            "stat": "max_hp_bonus",
+            "style": "title",
+            "button_location": "right",
+            "button_look": "plusMinus",
+            "should_auto_save": true,
+            "change_amount": 1,
+            "label": {
+              "type": "concat",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "constant",
+                    "value": "Max HP adj. (max: ",
+                    "value_type": "string"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_hp"
+                  },
+                  {
+                    "type": "constant",
+                    "value": ")",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "label_alignment": "right",
+            "edit_bottom_sheet_title": {
+              "type": "constant",
+              "value": "Max HP adjustment (stacks with derived max)",
+              "value_type": "string"
+            },
+            "is_visible": {
+              "type": "stat",
+              "stat": "$edit_mode"
+            }
+          },
+          {
             "type": "menuButton",
             "id": "rest_menu_button",
             "icon_name": "ic_daytime",
@@ -13868,6 +13911,13 @@
       "name": "Domain max HP debt"
     },
     {
+      "id": "max_hp_bonus",
+      "type": "base",
+      "value_type": "integer",
+      "default_value": 0,
+      "name": "Max HP bonus"
+    },
+    {
       "id": "combat_tree_hp_bonus",
       "type": "calculated",
       "value_type": "integer",
@@ -13955,6 +14005,10 @@
                   {
                     "type": "stat",
                     "stat": "combat_tree_hp_bonus"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_hp_bonus"
                   }
                 ]
               }
@@ -54464,6 +54518,10 @@
                   {
                     "type": "stat",
                     "stat": "combat_tree_hp_bonus"
+                  },
+                  {
+                    "type": "stat",
+                    "stat": "max_hp_bonus"
                   }
                 ]
               }
