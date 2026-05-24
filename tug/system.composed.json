@@ -1128,44 +1128,10 @@
                 },
                 "effect": {
                   "type": "setStat",
-                  "stat": "base_hp",
-                  "new_value": {
-                    "type": "add",
-                    "components": {
-                      "type": "list",
-                      "components": [
-                        {
-                          "type": "constant",
-                          "value": 5,
-                          "value_type": "integer"
-                        },
-                        {
-                          "type": "stat",
-                          "stat": "constitution_modifier"
-                        }
-                      ]
-                    }
-                  },
-                  "aggregation_type": "set"
-                }
-              }
-            ]
-          },
-          {
-            "type": "when",
-            "clauses": [
-              {
-                "condition": {
-                  "type": "stat",
-                  "stat": "$is_new"
-                },
-                "effect": {
-                  "type": "setStat",
                   "stat": "current_d8_hit_dice",
                   "new_value": {
-                    "type": "constant",
-                    "value": 1,
-                    "value_type": "integer"
+                    "type": "stat",
+                    "stat": "level"
                   },
                   "aggregation_type": "set"
                 }
@@ -3700,50 +3666,6 @@
                 "type": "stat",
                 "stat": "$edit_mode"
               }
-            }
-          },
-          {
-            "type": "ticker",
-            "id": "status_max_hp",
-            "margin_left": 16,
-            "stat": "base_hp",
-            "style": "title",
-            "button_location": "right",
-            "button_look": "plusMinus",
-            "should_auto_save": true,
-            "change_amount": 1,
-            "min_value_allowed": 1,
-            "label": {
-              "type": "concat",
-              "components": {
-                "type": "list",
-                "components": [
-                  {
-                    "type": "constant",
-                    "value": "Base HP (max: ",
-                    "value_type": "string"
-                  },
-                  {
-                    "type": "stat",
-                    "stat": "max_hp"
-                  },
-                  {
-                    "type": "constant",
-                    "value": ")",
-                    "value_type": "string"
-                  }
-                ]
-              }
-            },
-            "label_alignment": "right",
-            "edit_bottom_sheet_title": {
-              "type": "constant",
-              "value": "Max hit points",
-              "value_type": "string"
-            },
-            "is_visible": {
-              "type": "stat",
-              "stat": "$edit_mode"
             }
           },
           {
@@ -13934,9 +13856,25 @@
     },
     {
       "id": "base_hp",
-      "type": "base",
+      "type": "calculated",
       "value_type": "integer",
-      "default_value": 8,
+      "components": {
+        "type": "add",
+        "components": {
+          "type": "list",
+          "components": [
+            {
+              "type": "constant",
+              "value": 5,
+              "value_type": "integer"
+            },
+            {
+              "type": "stat",
+              "stat": "constitution_modifier"
+            }
+          ]
+        }
+      },
       "name": "Base HP"
     },
     {
@@ -14074,9 +14012,48 @@
     },
     {
       "id": "max_d6_hit_dice",
-      "type": "base",
+      "type": "calculated",
       "value_type": "integer",
-      "default_value": 0,
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hit_die_type"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "d6",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "stat",
+              "stat": "level"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
       "name": "Max d6 hit dice"
     },
     {
@@ -14088,9 +14065,48 @@
     },
     {
       "id": "max_d8_hit_dice",
-      "type": "base",
+      "type": "calculated",
       "value_type": "integer",
-      "default_value": 0,
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hit_die_type"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "d8",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "stat",
+              "stat": "level"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
       "name": "Max d8 hit dice"
     },
     {
@@ -14102,9 +14118,48 @@
     },
     {
       "id": "max_d10_hit_dice",
-      "type": "base",
+      "type": "calculated",
       "value_type": "integer",
-      "default_value": 0,
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hit_die_type"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "d10",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "stat",
+              "stat": "level"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
       "name": "Max d10 hit dice"
     },
     {
@@ -14116,9 +14171,48 @@
     },
     {
       "id": "max_d12_hit_dice",
-      "type": "base",
+      "type": "calculated",
       "value_type": "integer",
-      "default_value": 0,
+      "components": {
+        "type": "when",
+        "clauses": [
+          {
+            "condition": {
+              "type": "equals",
+              "components": {
+                "type": "list",
+                "components": [
+                  {
+                    "type": "stat",
+                    "stat": "hit_die_type"
+                  },
+                  {
+                    "type": "constant",
+                    "value": "d12",
+                    "value_type": "string"
+                  }
+                ]
+              }
+            },
+            "components": {
+              "type": "stat",
+              "stat": "level"
+            }
+          },
+          {
+            "condition": {
+              "type": "constant",
+              "value_type": "bool",
+              "value": true
+            },
+            "components": {
+              "type": "constant",
+              "value": 0,
+              "value_type": "integer"
+            }
+          }
+        ]
+      },
       "name": "Max d12 hit dice"
     },
     {
@@ -14155,7 +14249,7 @@
             },
             "components": {
               "type": "stat",
-              "stat": "current_d6_hit_dice"
+              "stat": "max_d6_hit_dice"
             }
           },
           {
@@ -14178,7 +14272,7 @@
             },
             "components": {
               "type": "stat",
-              "stat": "current_d10_hit_dice"
+              "stat": "max_d10_hit_dice"
             }
           },
           {
@@ -14201,7 +14295,7 @@
             },
             "components": {
               "type": "stat",
-              "stat": "current_d12_hit_dice"
+              "stat": "max_d12_hit_dice"
             }
           },
           {
@@ -14212,7 +14306,7 @@
             },
             "components": {
               "type": "stat",
-              "stat": "current_d8_hit_dice"
+              "stat": "max_d8_hit_dice"
             }
           }
         ]
